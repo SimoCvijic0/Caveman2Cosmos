@@ -37,6 +37,10 @@
 					<Directory>Bad_Karma</Directory>
 					<bLoad>1</bLoad>
 				</Module>
+				<Module> <!-- Only Locust swarms and building meltdown are usable in this -->
+					<Directory>Custom_Civilizations</Directory>
+					<bLoad>1</bLoad>
+				</Module>
 				<Module> <!-- This module contains unfinished/early stage work, and things meant to be templates -->
 					<Directory>zWIP</Directory>
 					<bLoad>0</bLoad>

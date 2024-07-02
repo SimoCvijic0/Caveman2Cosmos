@@ -71,7 +71,7 @@
 			<UnitCombatProdModifiers>
 				<UnitCombatProdModifier>
 					<UnitCombatProd>UNITCOMBAT_MOUNTED</UnitCombatProd>
-					<iUnitCombatProdModifier>20</iUnitCombatProdModifier>
+					<iUnitCombatProdModifier>10</iUnitCombatProdModifier>
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<FreeTraitTypes>
@@ -112,7 +112,7 @@
 			<UnitCombatProdModifiers>
 				<UnitCombatProdModifier>
 					<UnitCombatProd>UNITCOMBAT_ARCHER</UnitCombatProd>
-					<iUnitCombatProdModifier>20</iUnitCombatProdModifier>
+					<iUnitCombatProdModifier>10</iUnitCombatProdModifier>
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<FreeTraitTypes>
@@ -153,7 +153,7 @@
 			<UnitCombatProdModifiers>
 				<UnitCombatProdModifier>
 					<UnitCombatProd>UNITCOMBAT_LAW_ENFORCEMENT</UnitCombatProd>
-					<iUnitCombatProdModifier>20</iUnitCombatProdModifier>
+					<iUnitCombatProdModifier>10</iUnitCombatProdModifier>
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<FreeTraitTypes>
@@ -193,7 +193,7 @@
 			<UnitCombatProdModifiers>
 				<UnitCombatProdModifier>
 					<UnitCombatProd>UNITCOMBAT_HEALTH_CARE</UnitCombatProd>
-					<iUnitCombatProdModifier>20</iUnitCombatProdModifier>
+					<iUnitCombatProdModifier>10</iUnitCombatProdModifier>
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<FreeTraitTypes>
@@ -234,15 +234,15 @@
 			<UnitCombatProdModifiers>
 				<UnitCombatProdModifier>
 					<UnitCombatProd>UNITCOMBAT_CRIMINAL</UnitCombatProd>
-					<iUnitCombatProdModifier>20</iUnitCombatProdModifier>
+					<iUnitCombatProdModifier>10</iUnitCombatProdModifier>
 				</UnitCombatProdModifier>
 				<UnitCombatProdModifier>
 					<UnitCombatProd>UNITCOMBAT_RUFFIAN</UnitCombatProd>
-					<iUnitCombatProdModifier>20</iUnitCombatProdModifier>
+					<iUnitCombatProdModifier>10</iUnitCombatProdModifier>
 				</UnitCombatProdModifier>
 				<UnitCombatProdModifier>
 					<UnitCombatProd>UNITCOMBAT_STRIKE_TEAM</UnitCombatProd>
-					<iUnitCombatProdModifier>20</iUnitCombatProdModifier>
+					<iUnitCombatProdModifier>10</iUnitCombatProdModifier>
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<FreeTraitTypes>
@@ -283,7 +283,7 @@
 			<UnitCombatProdModifiers>
 				<UnitCombatProdModifier>
 					<UnitCombatProd>UNITCOMBAT_MELEE</UnitCombatProd>
-					<iUnitCombatProdModifier>20</iUnitCombatProdModifier>
+					<iUnitCombatProdModifier>10</iUnitCombatProdModifier>
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<FreeTraitTypes>
@@ -326,7 +326,7 @@
 			<UnitCombatProdModifiers>
 				<UnitCombatProdModifier>
 					<UnitCombatProd>UNITCOMBAT_NAVAL_COMBATANT</UnitCombatProd>
-					<iUnitCombatProdModifier>20</iUnitCombatProdModifier>
+					<iUnitCombatProdModifier>10</iUnitCombatProdModifier>
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<FreeTraitTypes>
@@ -367,7 +367,7 @@
 			<UnitCombatProdModifiers>
 				<UnitCombatProdModifier>
 					<UnitCombatProd>UNITCOMBAT_EXPLORER</UnitCombatProd>
-					<iUnitCombatProdModifier>20</iUnitCombatProdModifier>
+					<iUnitCombatProdModifier>10</iUnitCombatProdModifier>
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<FreeTraitTypes>
@@ -408,7 +408,7 @@
 			<UnitCombatProdModifiers>
 				<UnitCombatProdModifier>
 					<UnitCombatProd>UNITCOMBAT_THROWING</UnitCombatProd>
-					<iUnitCombatProdModifier>20</iUnitCombatProdModifier>
+					<iUnitCombatProdModifier>10</iUnitCombatProdModifier>
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<FreeTraitTypes>
@@ -451,7 +451,7 @@
 			<UnitCombatProdModifiers>
 				<UnitCombatProdModifier>
 					<UnitCombatProd>UNITCOMBAT_CANINE</UnitCombatProd>
-					<iUnitCombatProdModifier>20</iUnitCombatProdModifier>
+					<iUnitCombatProdModifier>10</iUnitCombatProdModifier>
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<FreeTraitTypes>
@@ -496,13 +496,13 @@
 				</PrereqFeature>
 			</PrereqOrFeature>
 			<ObsoleteTech>TECH_SEDENTARY_LIFESTYLE</ObsoleteTech>
-			<iCost>40</iCost>
+			<iCost>50</iCost>
 			<YieldChanges>
-				<iYield>3</iYield>
-				<iYield>3</iYield>
+				<iYield>7</iYield>
+				<iYield>1</iYield>
 			</YieldChanges>
 			<CommerceChanges>
-				<iCommerce>3</iCommerce>
+				<iCommerce>1</iCommerce>
 			</CommerceChanges>
 			<PropertyManipulators>
 				<PropertySource>
@@ -540,7 +540,7 @@
 			<UnitCombatProdModifiers>
 				<UnitCombatProdModifier>
 					<UnitCombatProd>UNITCOMBAT_WOODEN_SHIPS</UnitCombatProd>
-					<iUnitCombatProdModifier>20</iUnitCombatProdModifier>
+					<iUnitCombatProdModifier>10</iUnitCombatProdModifier>
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<iAnarchyModifier>-25</iAnarchyModifier>
@@ -589,7 +589,7 @@
 			<UnitCombatProdModifiers>
 				<UnitCombatProdModifier>
 					<UnitCombatProd>UNITCOMBAT_LAW_ENFORCEMENT</UnitCombatProd>
-					<iUnitCombatProdModifier>20</iUnitCombatProdModifier>
+					<iUnitCombatProdModifier>10</iUnitCombatProdModifier>
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<FreeTraitTypes>
@@ -638,7 +638,7 @@
 			<UnitCombatProdModifiers>
 				<UnitCombatProdModifier>
 					<UnitCombatProd>UNITCOMBAT_HEALS_AS_PEOPLE</UnitCombatProd>
-					<iUnitCombatProdModifier>20</iUnitCombatProdModifier>
+					<iUnitCombatProdModifier>10</iUnitCombatProdModifier>
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<FreeTraitTypes>
@@ -691,7 +691,7 @@
 			<UnitCombatProdModifiers>
 				<UnitCombatProdModifier>
 					<UnitCombatProd>UNITCOMBAT_WOODEN_SHIPS</UnitCombatProd>
-					<iUnitCombatProdModifier>20</iUnitCombatProdModifier>
+					<iUnitCombatProdModifier>10</iUnitCombatProdModifier>
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<FreeTraitTypes>
@@ -743,7 +743,7 @@
 			<UnitCombatProdModifiers>
 				<UnitCombatProdModifier>
 					<UnitCombatProd>UNITCOMBAT_SIEGE</UnitCombatProd>
-					<iUnitCombatProdModifier>20</iUnitCombatProdModifier>
+					<iUnitCombatProdModifier>10</iUnitCombatProdModifier>
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<FreeTraitTypes>
@@ -795,7 +795,7 @@
 			<UnitCombatProdModifiers>
 				<UnitCombatProdModifier>
 					<UnitCombatProd>UNITCOMBAT_MELEE</UnitCombatProd>
-					<iUnitCombatProdModifier>20</iUnitCombatProdModifier>
+					<iUnitCombatProdModifier>10</iUnitCombatProdModifier>
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<FreeTraitTypes>
@@ -844,11 +844,11 @@
 			<UnitCombatProdModifiers>
 				<UnitCombatProdModifier>
 					<UnitCombatProd>UNITCOMBAT_ARCHER</UnitCombatProd>
-					<iUnitCombatProdModifier>20</iUnitCombatProdModifier>
+					<iUnitCombatProdModifier>10</iUnitCombatProdModifier>
 				</UnitCombatProdModifier>
 				<UnitCombatProdModifier>
 					<UnitCombatProd>UNITCOMBAT_THROWING</UnitCombatProd>
-					<iUnitCombatProdModifier>20</iUnitCombatProdModifier>
+					<iUnitCombatProdModifier>10</iUnitCombatProdModifier>
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<FreeTraitTypes>
@@ -897,7 +897,7 @@
 			<UnitCombatProdModifiers>
 				<UnitCombatProdModifier>
 					<UnitCombatProd>UNITCOMBAT_MOUNTED</UnitCombatProd>
-					<iUnitCombatProdModifier>20</iUnitCombatProdModifier>
+					<iUnitCombatProdModifier>10</iUnitCombatProdModifier>
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<FreeTraitTypes>
@@ -950,7 +950,7 @@
 			<UnitCombatProdModifiers>
 				<UnitCombatProdModifier>
 					<UnitCombatProd>UNITCOMBAT_MOUNTED</UnitCombatProd>
-					<iUnitCombatProdModifier>20</iUnitCombatProdModifier>
+					<iUnitCombatProdModifier>10</iUnitCombatProdModifier>
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<FreeTraitTypes>
@@ -1001,7 +1001,7 @@
 			<UnitCombatProdModifiers>
 				<UnitCombatProdModifier>
 					<UnitCombatProd>UNITCOMBAT_LAW_ENFORCEMENT</UnitCombatProd>
-					<iUnitCombatProdModifier>20</iUnitCombatProdModifier>
+					<iUnitCombatProdModifier>10</iUnitCombatProdModifier>
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<FreeTraitTypes>
@@ -1055,11 +1055,11 @@
 			<UnitCombatProdModifiers>
 				<UnitCombatProdModifier>
 					<UnitCombatProd>UNITCOMBAT_ARCHER</UnitCombatProd>
-					<iUnitCombatProdModifier>20</iUnitCombatProdModifier>
+					<iUnitCombatProdModifier>10</iUnitCombatProdModifier>
 				</UnitCombatProdModifier>
 				<UnitCombatProdModifier>
 					<UnitCombatProd>UNITCOMBAT_THROWING</UnitCombatProd>
-					<iUnitCombatProdModifier>20</iUnitCombatProdModifier>
+					<iUnitCombatProdModifier>10</iUnitCombatProdModifier>
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<FreeTraitTypes>
@@ -1110,7 +1110,7 @@
 			<UnitCombatProdModifiers>
 				<UnitCombatProdModifier>
 					<UnitCombatProd>UNITCOMBAT_SIEGE</UnitCombatProd>
-					<iUnitCombatProdModifier>20</iUnitCombatProdModifier>
+					<iUnitCombatProdModifier>10</iUnitCombatProdModifier>
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<FreeTraitTypes>
@@ -1145,7 +1145,7 @@
 			<Civilopedia>TXT_KEY_BUILDING_LL_BLACKWATER_DRAW_PEDIA</Civilopedia>
 			<PrereqTech>TECH_BONE_WORKING</PrereqTech>
 			<ObsoleteTech>TECH_SEDENTARY_LIFESTYLE</ObsoleteTech>
-			<iCost>180</iCost>
+			<iCost>190</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<YieldChanges>
@@ -1159,6 +1159,13 @@
 			<iConquestProb>100</iConquestProb>
 			<bCenterInCity>1</bCenterInCity>
 			<fVisibilityPriority>1</fVisibilityPriority>
+			<PropertyManipulators>
+				<PropertySource>
+					<PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>
+					<PropertyType>PROPERTY_TOURISM</PropertyType>
+					<iAmountPerTurn>5</iAmountPerTurn>
+				</PropertySource>
+			</PropertyManipulators>
 			<ArtDefineTag>ART_DEF_BUILDING_LL_BLACKWATER_DRAW</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_BLACKWATER_DRAW</MovieDefineTag>
 		</BuildingInfo>
@@ -1185,13 +1192,13 @@
 				</PrereqFeature>
 			</PrereqOrFeature>
 			<ObsoleteTech>TECH_SEDENTARY_LIFESTYLE</ObsoleteTech>
-			<iCost>40</iCost>
+			<iCost>50</iCost>
 			<YieldChanges>
-				<iYield>3</iYield>
-				<iYield>3</iYield>
+				<iYield>7</iYield>
+				<iYield>1</iYield>
 			</YieldChanges>
 			<CommerceChanges>
-				<iCommerce>3</iCommerce>
+				<iCommerce>1</iCommerce>
 			</CommerceChanges>
 			<PropertyManipulators>
 				<PropertySource>
@@ -1244,13 +1251,13 @@
 				</PrereqFeature>
 			</PrereqOrFeature>
 			<ObsoleteTech>TECH_SEDENTARY_LIFESTYLE</ObsoleteTech>
-			<iCost>40</iCost>
+			<iCost>50</iCost>
 			<YieldChanges>
-				<iYield>3</iYield>
-				<iYield>3</iYield>
+				<iYield>7</iYield>
+				<iYield>1</iYield>
 			</YieldChanges>
 			<CommerceChanges>
-				<iCommerce>3</iCommerce>
+				<iCommerce>1</iCommerce>
 			</CommerceChanges>
 			<PropertyManipulators>
 				<PropertySource>
@@ -1279,7 +1286,7 @@
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_AXE_MAKING</PrereqTech>
 			<ObsoleteTech>TECH_POTTERY</ObsoleteTech>
-			<iCost>224</iCost>
+			<iCost>234</iCost>
 			<YieldChanges>
 				<iYield>2</iYield>
 				<iYield>5</iYield>
@@ -1290,6 +1297,13 @@
 			<iAsset>10</iAsset>
 			<iConquestProb>100</iConquestProb>
 			<iHurryCostModifier>100</iHurryCostModifier>
+			<PropertyManipulators>
+				<PropertySource>
+					<PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>
+					<PropertyType>PROPERTY_TOURISM</PropertyType>
+					<iAmountPerTurn>5</iAmountPerTurn>
+				</PropertySource>
+			</PropertyManipulators>
 		</BuildingInfo>
 		<BuildingInfo>
 			<Type>BUILDING_DW_CHAMPAGNE</Type>
@@ -1362,13 +1376,13 @@
 				</PrereqFeature>
 			</PrereqOrFeature>
 			<ObsoleteTech>TECH_SEDENTARY_LIFESTYLE</ObsoleteTech>
-			<iCost>40</iCost>
+			<iCost>50</iCost>
 			<YieldChanges>
-				<iYield>3</iYield>
-				<iYield>3</iYield>
+				<iYield>7</iYield>
+				<iYield>1</iYield>
 			</YieldChanges>
 			<CommerceChanges>
-				<iCommerce>3</iCommerce>
+				<iCommerce>1</iCommerce>
 			</CommerceChanges>
 			<PropertyManipulators>
 				<PropertySource>
@@ -1785,7 +1799,7 @@
 			<PrereqTech>TECH_SKINNING</PrereqTech>
 			<bWater>1</bWater>
 			<ObsoleteTech>TECH_SEDENTARY_LIFESTYLE</ObsoleteTech>
-			<iCost>160</iCost>
+			<iCost>170</iCost>
 			<YieldChanges>
 				<iYield>2</iYield>
 				<iYield>5</iYield>
@@ -1796,6 +1810,13 @@
 			<iAsset>10</iAsset>
 			<iConquestProb>100</iConquestProb>
 			<iHurryCostModifier>100</iHurryCostModifier>
+			<PropertyManipulators>
+				<PropertySource>
+					<PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>
+					<PropertyType>PROPERTY_TOURISM</PropertyType>
+					<iAmountPerTurn>5</iAmountPerTurn>
+				</PropertySource>
+			</PropertyManipulators>
 		</BuildingInfo>
 		<BuildingInfo>
 			<Type>BUILDING_PC_KLASIES_RIVER_CAVES</Type>
@@ -1820,13 +1841,13 @@
 				</PrereqFeature>
 			</PrereqOrFeature>
 			<ObsoleteTech>TECH_SEDENTARY_LIFESTYLE</ObsoleteTech>
-			<iCost>40</iCost>
+			<iCost>50</iCost>
 			<YieldChanges>
-				<iYield>3</iYield>
-				<iYield>3</iYield>
+				<iYield>7</iYield>
+				<iYield>1</iYield>
 			</YieldChanges>
 			<CommerceChanges>
-				<iCommerce>3</iCommerce>
+				<iCommerce>1</iCommerce>
 			</CommerceChanges>
 			<PropertyManipulators>
 				<PropertySource>
@@ -1856,7 +1877,7 @@
 			<PrereqTech>TECH_SKINNING</PrereqTech>
 			<bWater>1</bWater>
 			<ObsoleteTech>TECH_SEDENTARY_LIFESTYLE</ObsoleteTech>
-			<iCost>160</iCost>
+			<iCost>170</iCost>
 			<YieldChanges>
 				<iYield>3</iYield>
 				<iYield>3</iYield>
@@ -1867,6 +1888,13 @@
 			<iAsset>10</iAsset>
 			<iConquestProb>100</iConquestProb>
 			<iHurryCostModifier>100</iHurryCostModifier>
+			<PropertyManipulators>
+				<PropertySource>
+					<PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>
+					<PropertyType>PROPERTY_TOURISM</PropertyType>
+					<iAmountPerTurn>5</iAmountPerTurn>
+				</PropertySource>
+			</PropertyManipulators>
 		</BuildingInfo>
 		<BuildingInfo>
 			<Type>BUILDING_LL_MEADOWCROFT_ROCKSHELTER</Type>
@@ -1884,7 +1912,7 @@
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_STONE_BUILDING</PrereqTech>
 			<ObsoleteTech>TECH_MINING</ObsoleteTech>
-			<iCost>248</iCost>
+			<iCost>258</iCost>
 			<YieldChanges>
 				<iYield>3</iYield>
 				<iYield>3</iYield>
@@ -1901,7 +1929,7 @@
 				<PropertySource>
 					<PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>
 					<PropertyType>PROPERTY_TOURISM</PropertyType>
-					<iAmountPerTurn>3</iAmountPerTurn>
+					<iAmountPerTurn>5</iAmountPerTurn>
 				</PropertySource>
 			</PropertyManipulators>
 		</BuildingInfo>
@@ -1921,7 +1949,7 @@
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_TRIBALISM</PrereqTech>
 			<ObsoleteTech>TECH_COPPER_WORKING</ObsoleteTech>
-			<iCost>296</iCost>
+			<iCost>306</iCost>
 			<YieldChanges>
 				<iYield>2</iYield>
 				<iYield>2</iYield>
@@ -1932,6 +1960,13 @@
 			<iAsset>10</iAsset>
 			<iConquestProb>100</iConquestProb>
 			<iHurryCostModifier>100</iHurryCostModifier>
+			<PropertyManipulators>
+				<PropertySource>
+					<PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>
+					<PropertyType>PROPERTY_TOURISM</PropertyType>
+					<iAmountPerTurn>5</iAmountPerTurn>
+				</PropertySource>
+			</PropertyManipulators>
 		</BuildingInfo>
 		<BuildingInfo>
 			<Type>BUILDING_EU_MONTPELLIER_UNIVERSITY</Type>
@@ -2187,13 +2222,13 @@
 				</PrereqFeature>
 			</PrereqOrFeature>
 			<ObsoleteTech>TECH_SEDENTARY_LIFESTYLE</ObsoleteTech>
-			<iCost>40</iCost>
+			<iCost>50</iCost>
 			<YieldChanges>
-				<iYield>3</iYield>
-				<iYield>3</iYield>
+				<iYield>7</iYield>
+				<iYield>1</iYield>
 			</YieldChanges>
 			<CommerceChanges>
-				<iCommerce>3</iCommerce>
+				<iCommerce>1</iCommerce>
 			</CommerceChanges>
 			<PropertyManipulators>
 				<PropertySource>
@@ -2276,7 +2311,7 @@
 			<bWater>1</bWater>
 			<iMinAreaSize>10</iMinAreaSize>
 			<ObsoleteTech>TECH_COPPER_WORKING</ObsoleteTech>
-			<iCost>296</iCost>
+			<iCost>306</iCost>
 			<YieldChanges>
 				<iYield>2</iYield>
 				<iYield>5</iYield>
@@ -2287,6 +2322,13 @@
 			<iAsset>10</iAsset>
 			<iConquestProb>100</iConquestProb>
 			<iHurryCostModifier>100</iHurryCostModifier>
+			<PropertyManipulators>
+				<PropertySource>
+					<PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>
+					<PropertyType>PROPERTY_TOURISM</PropertyType>
+					<iAmountPerTurn>5</iAmountPerTurn>
+				</PropertySource>
+			</PropertyManipulators>
 		</BuildingInfo>
 		<BuildingInfo>
 			<Type>BUILDING_MA_ROYAL_AIR_FORCE_ACADEMY</Type>

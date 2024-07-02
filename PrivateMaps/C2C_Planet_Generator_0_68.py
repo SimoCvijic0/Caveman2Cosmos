@@ -3359,7 +3359,7 @@ def afterGeneration():
 
 def minStartingDistanceModifier():
 	"Returns a percent modification	for	the	minimum	distance between players (return 50	would mean +50%)"
-	return 0
+	return -75
 
 def assignStartingPlots():
 	"Can assign	as many	starting locations as desired"

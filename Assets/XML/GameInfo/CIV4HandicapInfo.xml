@@ -441,18 +441,18 @@
 			<Description>TXT_KEY_HANDICAP_NOBLE</Description>
 			<Help>TXT_KEY_HANDICAP_NOBLE_HELP</Help>
 			<iAdvancedStartPointsMod>100</iAdvancedStartPointsMod>
-			<iGold>20</iGold>
+			<iGold>40</iGold>
 			<iUnitUpkeepPercent>100</iUnitUpkeepPercent>
 			<iMaxColonyMaintenance>200</iMaxColonyMaintenance>
-			<iDistanceMaintenancePercent>100</iDistanceMaintenancePercent>
-			<iNumCitiesMaintenancePercent>100</iNumCitiesMaintenancePercent>
-			<iColonyMaintenancePercent>100</iColonyMaintenancePercent>
-			<iCorporationMaintenancePercent>100</iCorporationMaintenancePercent>
-			<iCivicUpkeepPercent>100</iCivicUpkeepPercent>
-			<iInflationPercent>100</iInflationPercent>
+			<iDistanceMaintenancePercent>400</iDistanceMaintenancePercent>
+			<iNumCitiesMaintenancePercent>250</iNumCitiesMaintenancePercent>
+			<iColonyMaintenancePercent>200</iColonyMaintenancePercent>
+			<iCorporationMaintenancePercent>200</iCorporationMaintenancePercent>
+			<iCivicUpkeepPercent>200</iCivicUpkeepPercent>
+			<iInflationPercent>150</iInflationPercent>
 			<iRevolutionIndexPercent>100</iRevolutionIndexPercent>
-			<iHealthBonus>5</iHealthBonus>
-			<iHappyBonus>5</iHappyBonus>
+			<iHealthBonus>0</iHealthBonus>
+			<iHappyBonus>0</iHappyBonus>
 			<PropertyManipulators>
 				<PropertySource>
 					<PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>
@@ -463,9 +463,9 @@
 						<Div>
 							<Mult>
 								<AttributeType>ATTRIBUTE_POPULATION</AttributeType>
-								<Constant>5</Constant>
+								<Constant>6</Constant>
 							</Mult>
-							<Constant>2</Constant>
+							<Constant>5</Constant>
 						</Div>
 					</iAmountPerTurn>
 				</PropertySource>
@@ -478,16 +478,16 @@
 						<Div>
 							<Mult>
 								<AttributeType>ATTRIBUTE_POPULATION</AttributeType>
-								<Constant>3</Constant>
+								<Constant>-6</Constant>
 							</Mult>
-							<Constant>-2</Constant>
+							<Constant>-5</Constant>
 						</Div>
 					</iAmountPerTurn>
 				</PropertySource>
 			</PropertyManipulators>
 			<!-- These are game difficulty modifers, not player difficulty modifers and they all affect AI, not human players  -->
 			<iAnimalAttackProb>55</iAnimalAttackProb>
-			<iFreeWinsVsBarbs>5</iFreeWinsVsBarbs>
+			<iFreeWinsVsBarbs>1</iFreeWinsVsBarbs>
 			<iUnownedWaterTilesPerBarbarianUnit>135</iUnownedWaterTilesPerBarbarianUnit>
 			<iUnownedTilesPerBarbarianCity>45</iUnownedTilesPerBarbarianCity>
 			<iBarbarianCityCreationTurnsElapsed>37</iBarbarianCityCreationTurnsElapsed>
@@ -511,24 +511,6 @@
 			<iAIAdvancedStartPercent>100</iAIAdvancedStartPercent>
 			<Goodies>
 				<!-- Weak Barbs -->
-				<GoodyType>GOODY_BARBARIANS_WEAK</GoodyType>
-				<GoodyType>GOODY_BARBARIANS_ANCIENT_WEAK</GoodyType>
-				<GoodyType>GOODY_BARBARIANS_CLASSICAL_WEAK</GoodyType>
-				<GoodyType>GOODY_BARBARIANS_MEDIEVAL_WEAK</GoodyType>
-				<GoodyType>GOODY_BARBARIANS_RENAISSANCE_WEAK</GoodyType>
-				<GoodyType>GOODY_BARBARIANS_INDUSTRIAL_WEAK</GoodyType>
-				<GoodyType>GOODY_BARBARIANS_MODERN_WEAK</GoodyType>
-				<GoodyType>GOODY_BARBARIANS_INFORMATION_WEAK</GoodyType>
-				<GoodyType>GOODY_BARBARIANS_NANOTECH_WEAK</GoodyType>
-				<GoodyType>GOODY_NAVAL_BARBARIANS_WEAK</GoodyType>
-				<GoodyType>GOODY_NAVAL_BARBARIANS_ANCIENT_WEAK</GoodyType>
-				<GoodyType>GOODY_NAVAL_BARBARIANS_CLASSICAL_WEAK</GoodyType>
-				<GoodyType>GOODY_NAVAL_BARBARIANS_MEDIEVAL_WEAK</GoodyType>
-				<GoodyType>GOODY_NAVAL_BARBARIANS_RENAISSANCE_WEAK</GoodyType>
-				<GoodyType>GOODY_NAVAL_BARBARIANS_INDUSTRIAL_WEAK</GoodyType>
-				<GoodyType>GOODY_NAVAL_BARBARIANS_MODERN_WEAK</GoodyType>
-				<GoodyType>GOODY_NAVAL_BARBARIANS_NANOTECH_WEAK</GoodyType>
-				<GoodyType>GOODY_NAVAL_BARBARIANS_INFORMATION_WEAK</GoodyType>
 				<GoodyType>GOODY_BARBARIANS_WEAK</GoodyType>
 				<GoodyType>GOODY_BARBARIANS_ANCIENT_WEAK</GoodyType>
 				<GoodyType>GOODY_BARBARIANS_CLASSICAL_WEAK</GoodyType>
@@ -583,12 +565,10 @@
 				<GoodyType>GOODY_WISE_WOMAN</GoodyType>
 				<!-- Experience -->
 				<GoodyType>GOODY_EXPERIENCE</GoodyType>
-				<GoodyType>GOODY_EXPERIENCE</GoodyType>
 				<!-- Warrior -->
 				<GoodyType>GOODY_WARRIOR</GoodyType>
 				<GoodyType>GOODY_WARRIOR</GoodyType>
 				<!-- Low Gold -->
-				<GoodyType>GOODY_LOW_GOLD</GoodyType>
 				<GoodyType>GOODY_LOW_GOLD</GoodyType>
 				<GoodyType>GOODY_LOW_GOLD</GoodyType>
 				<GoodyType>GOODY_LOW_GOLD</GoodyType>
@@ -604,7 +584,6 @@
 				<GoodyType>GOODY_LOW_RESEARCH</GoodyType>
 				<GoodyType>GOODY_LOW_RESEARCH</GoodyType>
 				<GoodyType>GOODY_LOW_RESEARCH</GoodyType>
-				<GoodyType>GOODY_LOW_RESEARCH</GoodyType>
 				<!-- Worker -->
 				<GoodyType>GOODY_GATHERER</GoodyType>
 				<!-- High Research -->
@@ -612,6 +591,7 @@
 				<GoodyType>GOODY_HIGH_RESEARCH</GoodyType>
 				<GoodyType>GOODY_HIGH_RESEARCH</GoodyType>
 				<!-- Tech -->
+				<GoodyType>GOODY_TECH</GoodyType>
 				<GoodyType>GOODY_TECH</GoodyType>
 				<GoodyType>GOODY_TECH</GoodyType>
 			</Goodies>

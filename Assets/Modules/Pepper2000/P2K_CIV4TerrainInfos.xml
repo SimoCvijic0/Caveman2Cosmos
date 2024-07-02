@@ -962,7 +962,7 @@
 			<Civilopedia>TXT_KEY_TERRAIN_LUNAR_MARE_PEDIA</Civilopedia>
 			<ArtDefineTag>ART_DEF_TERRAIN_LUNAR_MARE</ArtDefineTag>
 			<bFound>1</bFound>
-			<iDefense>25</iDefense>
+			<iDefense>5</iDefense>
 			<iHealthPercent>-15</iHealthPercent>
 			<iCultureDistance>3</iCultureDistance>
 			<iMovement>1</iMovement>

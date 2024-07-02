@@ -1291,9 +1291,9 @@
 			</YieldModifiers>
 			<CapitalYieldModifiers/>
 			<TradeYieldModifiers>
-			<iYield>3</iYield>
-			<iYield>3</iYield>
-			<iYield>3</iYield>
+				<iYield>3</iYield>
+				<iYield>3</iYield>
+				<iYield>3</iYield>
 			</TradeYieldModifiers>
 			<CommerceModifiers>
 				<iCommerce>5</iCommerce>
@@ -11006,6 +11006,12 @@
 			<BuildingHappinessChanges/>
 			<BuildingHealthChanges/>
 			<FeatureHappinessChanges/>
+			<Hurrys>
+				<Hurry>
+					<HurryType>HURRY_GOLD</HurryType>
+					<bHurry>1</bHurry>
+				</Hurry>
+			</Hurrys>
 			<ImprovementYieldChanges>
 				<ImprovementYieldChange>
 					<ImprovementType>IMPROVEMENT_COTTAGE</ImprovementType>
@@ -11142,6 +11148,12 @@
 			<iStateReligionUnitProductionModifier>0</iStateReligionUnitProductionModifier>
 			<iStateReligionBuildingProductionModifier>0</iStateReligionBuildingProductionModifier>
 			<iStateReligionFreeExperience>0</iStateReligionFreeExperience>
+			<Hurrys>
+				<Hurry>
+					<HurryType>HURRY_GOLD</HurryType>
+					<bHurry>1</bHurry>
+				</Hurry>
+			</Hurrys>
 			<YieldModifiers>
 				<iYield>2</iYield>
 				<iYield>1</iYield>
@@ -11226,6 +11238,12 @@
 			<iStateReligionUnitProductionModifier>0</iStateReligionUnitProductionModifier>
 			<iStateReligionBuildingProductionModifier>0</iStateReligionBuildingProductionModifier>
 			<iStateReligionFreeExperience>0</iStateReligionFreeExperience>
+			<Hurrys>
+				<Hurry>
+					<HurryType>HURRY_GOLD</HurryType>
+					<bHurry>1</bHurry>
+				</Hurry>
+			</Hurrys>
 			<YieldModifiers>
 				<iYield>3</iYield>
 				<iYield>3</iYield>
@@ -11311,6 +11329,12 @@
 			<iStateReligionUnitProductionModifier>0</iStateReligionUnitProductionModifier>
 			<iStateReligionBuildingProductionModifier>0</iStateReligionBuildingProductionModifier>
 			<iStateReligionFreeExperience>0</iStateReligionFreeExperience>
+			<Hurrys>
+				<Hurry>
+					<HurryType>HURRY_GOLD</HurryType>
+					<bHurry>1</bHurry>
+				</Hurry>
+			</Hurrys>
 			<YieldModifiers>
 				<iYield>4</iYield>
 				<iYield>2</iYield>
@@ -13868,7 +13892,7 @@
 					<BuildingType>BUILDING_RETIREMENT_HOME</BuildingType>
 					<iHappinessChange>1</iHappinessChange>
 				</BuildingHappinessChange>
-					<BuildingHappinessChange>
+				<BuildingHappinessChange>
 					<BuildingType>BUILDING_HIGH_TECH_CULTURAL_ENRICHMENT</BuildingType>
 					<iHappinessChange>1</iHappinessChange>
 				</BuildingHappinessChange>
@@ -13942,7 +13966,7 @@
 					<BuildingType>BUILDING_HIGH_TECH_CULTURAL_ENRICHMENT</BuildingType>
 					<iHealthChange>1</iHealthChange>
 				</BuildingHealthChange>
-					<BuildingHealthChange>
+				<BuildingHealthChange>
 					<BuildingType>BUILDING_HEALTHCARE_MEGACOMPLEX</BuildingType>
 					<iHealthChange>1</iHealthChange>
 				</BuildingHealthChange>

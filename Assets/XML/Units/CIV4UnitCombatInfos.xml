@@ -3074,22 +3074,6 @@
 			<Button>Art/Interface/Buttons/units/sparth/categories/wields_distance.dds</Button>
 		</UnitCombatInfo>
 		<UnitCombatInfo>
-			<Type>UNITCOMBAT_WEAPON_DIST_SLING</Type>
-			<Description>TXT_KEY_UNITCOMBAT_WEAPON_DIST_SLING</Description>
-			<Categories>
-				<Category>CATEGORY_UNITCOMBAT_GROUP_WEAPONS_DISTANCE</Category>
-			</Categories>
-			<Button>Art/Interface/Buttons/units/sparth/categories/wields_distance.dds</Button>
-		</UnitCombatInfo>
-		<UnitCombatInfo>
-			<Type>UNITCOMBAT_WEAPON_DIST_JAVELIN</Type>
-			<Description>TXT_KEY_UNITCOMBAT_WEAPON_DIST_JAVELIN</Description>
-			<Categories>
-				<Category>CATEGORY_UNITCOMBAT_GROUP_WEAPONS_DISTANCE</Category>
-			</Categories>
-			<Button>Art/Interface/Buttons/units/sparth/categories/wields_distance.dds</Button>
-		</UnitCombatInfo>
-		<UnitCombatInfo>
 			<Type>UNITCOMBAT_WEAPON_DIST_BOOMERANG</Type>
 			<Description>TXT_KEY_UNITCOMBAT_WEAPON_DIST_BOOMERANG</Description>
 			<Categories>
@@ -3190,6 +3174,32 @@
 			<iRBombardDamageBase>20</iRBombardDamageBase>
 			<iRBombardDamageLimitBase>15</iRBombardDamageLimitBase>
 			<iRBombardDamageMaxUnitsBase>2</iRBombardDamageMaxUnitsBase>
+			<Button>Art/Interface/Buttons/units/sparth/categories/wields_distance.dds</Button>
+		</UnitCombatInfo>
+		<UnitCombatInfo>
+			<Type>UNITCOMBAT_WEAPON_DIST_SLING</Type>
+			<Description>TXT_KEY_UNITCOMBAT_WEAPON_DIST_SLING</Description>
+			<Categories>
+				<Category>CATEGORY_UNITCOMBAT_GROUP_WEAPONS_DISTANCE</Category>
+			</Categories>
+			<iDCMBombRangeBase>1</iDCMBombRangeBase>
+			<iDCMBombAccuracyBase>10</iDCMBombAccuracyBase>
+			<iRBombardDamageBase>10</iRBombardDamageBase>
+			<iRBombardDamageLimitBase>5</iRBombardDamageLimitBase>
+			<iRBombardDamageMaxUnitsBase>2</iRBombardDamageMaxUnitsBase>
+			<Button>Art/Interface/Buttons/units/sparth/categories/wields_distance.dds</Button>
+		</UnitCombatInfo>
+		<UnitCombatInfo>
+			<Type>UNITCOMBAT_WEAPON_DIST_JAVELIN</Type>
+			<Description>TXT_KEY_UNITCOMBAT_WEAPON_DIST_JAVELIN</Description>
+			<Categories>
+				<Category>CATEGORY_UNITCOMBAT_GROUP_WEAPONS_DISTANCE</Category>
+			</Categories>
+			<iDCMBombRangeBase>1</iDCMBombRangeBase>
+			<iDCMBombAccuracyBase>15</iDCMBombAccuracyBase>
+			<iRBombardDamageBase>40</iRBombardDamageBase>
+			<iRBombardDamageLimitBase>20</iRBombardDamageLimitBase>
+			<iRBombardDamageMaxUnitsBase>1</iRBombardDamageMaxUnitsBase>
 			<Button>Art/Interface/Buttons/units/sparth/categories/wields_distance.dds</Button>
 		</UnitCombatInfo>
 		<UnitCombatInfo>

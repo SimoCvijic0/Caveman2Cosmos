@@ -31,23 +31,23 @@
 	<!-- Dexy - Surround and Destroy -->
 	<Define>
 		<DefineName>SAD_FACTOR_1</DefineName>
-		<iDefineIntVal>6</iDefineIntVal>
+		<iDefineIntVal>5</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>SAD_FACTOR_2</DefineName>
-		<iDefineIntVal>10</iDefineIntVal>
+		<iDefineIntVal>8</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>SAD_FACTOR_3</DefineName>
-		<iDefineIntVal>15</iDefineIntVal>
+		<iDefineIntVal>12</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>SAD_FACTOR_4</DefineName>
-		<iDefineIntVal>20</iDefineIntVal>
+		<iDefineIntVal>16</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>SAD_MAX_MODIFIER</DefineName>
-		<iDefineIntVal>60</iDefineIntVal>
+		<iDefineIntVal>55</iDefineIntVal>
 	</Define>
 	<!-- \Dexy - Surround and Destroy -->
 	<Define>
@@ -58,7 +58,7 @@
 	<Define>
 		<!-- Afforess: The divisor (or denominator) for the disbanded units gold. 1 will yield the full production cost. Has no effect if the above setting is disabled. -->
 		<DefineName>UNIT_GOLD_DISBAND_DIVISOR</DefineName>
-		<iDefineIntVal>4</iDefineIntVal>
+		<iDefineIntVal>2</iDefineIntVal>
 	</Define>
 	<Define>
 		<!-- Afforess: The number of turns that the Cut Loser's Game Option Checks -->
@@ -78,7 +78,7 @@
 	<Define>
 		<!-- Afforess: How much Golden Ages lower the food requirement for city growth -->
 		<DefineName>GOlDEN_AGE_PERCENT_LESS_FOOD_FOR_GROWTH</DefineName>
-		<iDefineIntVal>-25</iDefineIntVal>
+		<iDefineIntVal>-50</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>TEST_GAMEFONTS</DefineName>
@@ -111,7 +111,7 @@
 	</Define>
 	<Define>
 		<DefineName>PEAK_EXTRA_DEFENSE</DefineName>
-		<iDefineIntVal>75</iDefineIntVal>
+		<iDefineIntVal>50</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>PEAK_EXTRA_MOVEMENT</DefineName>
@@ -227,7 +227,7 @@
 	</Define>
 	<Define>
 		<DefineName>NEANDERTHAL_SPAWN_MODIFIER</DefineName>
-		<iDefineIntVal>50</iDefineIntVal>
+		<iDefineIntVal>30</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>BARBARIAN_SPAWN_MODIFIER</DefineName>

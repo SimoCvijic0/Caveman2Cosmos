@@ -15,16 +15,16 @@ Good luck! -->
 			<iAdvancedStartPoints>500</iAdvancedStartPoints>
 			<iStartingUnitMultiplier>1</iStartingUnitMultiplier>
 			<iStartingExploreUnits>1</iStartingExploreUnits>
-			<iStartingGold>10</iStartingGold>
-			<iGrowthPercent>150</iGrowthPercent>
+			<iStartingGold>120</iStartingGold>
+			<iGrowthPercent>100</iGrowthPercent>
 			<iTrainPercent>100</iTrainPercent>
 			<iConstructPercent>100</iConstructPercent>
 			<iCreatePercent>100</iCreatePercent>
 			<iResearchPercent>100</iResearchPercent>
 			<iBeelineStingsTechCostModifier>100</iBeelineStingsTechCostModifier>
-			<iBuildPercent>140</iBuildPercent>
+			<iBuildPercent>100</iBuildPercent>
 			<iImprovementPercent>100</iImprovementPercent>
-			<iGreatPeoplePercent>230</iGreatPeoplePercent>
+			<iGreatPeoplePercent>100</iGreatPeoplePercent>
 			<iAnarchyPercent>40</iAnarchyPercent>
 			<iEventChancePerTurn>7</iEventChancePerTurn>
 			<bFirstSoundtrackFirst>1</bFirstSoundtrackFirst>
@@ -68,15 +68,15 @@ Good luck! -->
 			<iStartingExploreUnits>1</iStartingExploreUnits>
 			<iStartingGold>40</iStartingGold>
 			<iStartPercent>10</iStartPercent>
-			<iGrowthPercent>140</iGrowthPercent>
+			<iGrowthPercent>100</iGrowthPercent>
 			<iTrainPercent>100</iTrainPercent>
 			<iConstructPercent>100</iConstructPercent>
 			<iCreatePercent>100</iCreatePercent>
-			<iResearchPercent>150</iResearchPercent>
+			<iResearchPercent>100</iResearchPercent>
 			<iBeelineStingsTechCostModifier>90</iBeelineStingsTechCostModifier>
-			<iBuildPercent>130</iBuildPercent>
+			<iBuildPercent>100</iBuildPercent>
 			<iImprovementPercent>100</iImprovementPercent>
-			<iGreatPeoplePercent>220</iGreatPeoplePercent>
+			<iGreatPeoplePercent>100</iGreatPeoplePercent>
 			<iAnarchyPercent>80</iAnarchyPercent>
 			<iEventChancePerTurn>7</iEventChancePerTurn>
 			<bFirstSoundtrackFirst>1</bFirstSoundtrackFirst>
@@ -137,15 +137,15 @@ Good luck! -->
 			<iStartingExploreUnits>1</iStartingExploreUnits>
 			<iStartingGold>100</iStartingGold>
 			<iStartPercent>19</iStartPercent>
-			<iGrowthPercent>130</iGrowthPercent>
+			<iGrowthPercent>100</iGrowthPercent>
 			<iTrainPercent>100</iTrainPercent>
 			<iConstructPercent>100</iConstructPercent>
 			<iCreatePercent>100</iCreatePercent>
-			<iResearchPercent>200</iResearchPercent>
+			<iResearchPercent>100</iResearchPercent>
 			<iBeelineStingsTechCostModifier>80</iBeelineStingsTechCostModifier>
-			<iBuildPercent>120</iBuildPercent>
+			<iBuildPercent>100</iBuildPercent>
 			<iImprovementPercent>100</iImprovementPercent>
-			<iGreatPeoplePercent>210</iGreatPeoplePercent>
+			<iGreatPeoplePercent>100</iGreatPeoplePercent>
 			<iAnarchyPercent>80</iAnarchyPercent>
 			<iEventChancePerTurn>8</iEventChancePerTurn>
 			<iSoundtrackSpace>400</iSoundtrackSpace>

@@ -298,6 +298,318 @@
 			<BackgroundKFM/>
 		</LeaderheadArtInfo>
 		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_MATOPE</Type>
+			<Button>art/Static/Leaders/matope_small.dds</Button>
+			<NIF>art/Static/Leaders/matope.dds</NIF>
+			<KFM />
+			<NoShaderNIF />
+			<BackgroundKFM />
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_TRUNG</Type>
+			<Button>art/Static/Leaders/Trung_small.dds</Button>
+			<NIF>art/Static/Leaders/Trung.dds</NIF>
+			<KFM />
+			<NoShaderNIF />
+			<BackgroundKFM />
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_HO_CHI_MINH</Type>
+			<Button>art/Static/Leaders/HoChiMinh_small.dds</Button>
+			<NIF>art/Static/Leaders/HoChiMinh.dds</NIF>
+			<KFM />
+			<NoShaderNIF />
+			<BackgroundKFM />
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_MIKHEIL</Type>
+			<Button>art/Static/Leaders/Mikheil_small.dds</Button>
+			<NIF>art/Static/Leaders/Mikheil.dds</NIF>
+			<KFM></KFM>
+			<NoShaderNIF></NoShaderNIF>
+			<BackgroundKFM></BackgroundKFM>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_TIGRANES</Type>
+			<Button>art/Static/Leaders/Tigranes_small.dds</Button>
+			<NIF>art/Static/Leaders/Tigranes.dds</NIF>
+			<KFM></KFM>
+			<NoShaderNIF></NoShaderNIF>
+			<BackgroundKFM></BackgroundKFM>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_ANDRANIK</Type>
+			<Button>art/Static/Leaders/Andranik_small.dds</Button>
+			<NIF>art/Static/Leaders/Andranik.dds</NIF>
+			<KFM></KFM>
+			<NoShaderNIF></NoShaderNIF>
+			<BackgroundKFM></BackgroundKFM>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_MAXIMILIAN</Type>
+			<Button>art/Static/Leaders/Maximilian_small.dds</Button>
+			<NIF>art/Static/Leaders/Maximilian.dds</NIF>
+			<KFM></KFM>
+			<NoShaderNIF></NoShaderNIF>
+			<BackgroundKFM></BackgroundKFM>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_FRANZ</Type>
+			<Button>art/Static/Leaders/Franz_small.dds</Button>
+			<NIF>art/Static/Leaders/Franz.dds</NIF>
+			<KFM></KFM>
+			<NoShaderNIF></NoShaderNIF>
+			<BackgroundKFM></BackgroundKFM>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_MARIA</Type>
+			<Button>art/Static/Leaders/Maria_small.dds</Button>
+			<NIF>art/Static/Leaders/Maria.dds</NIF>
+			<KFM></KFM>
+			<NoShaderNIF></NoShaderNIF>
+			<BackgroundKFM></BackgroundKFM>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_MASSINISSA</Type>
+			<Button>>art/Static/Leaders/massinissa_small.dds</Button>
+			<NIF>art/Static/Leaders/massinissa.dds</NIF>
+			<KFM/>
+			<NoShaderNIF/>
+			<BackgroundKFM/>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_VERCINGETORIX</Type>
+			<Button>>art/Static/Leaders/Vercingetorix_small.dds</Button>
+			<NIF>art/Static/Leaders/Vercingetorix.dds</NIF>
+			<KFM></KFM>
+			<NoShaderNIF></NoShaderNIF>
+			<BackgroundKFM></BackgroundKFM>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_LEONIDAS</Type>
+			<Button>art/Static/Leaders/leonidas_small.dds</Button>
+			<NIF>art/Static/Leaders/leonidas.dds</NIF>
+			<KFM></KFM>
+			<NoShaderNIF></NoShaderNIF>
+			<BackgroundKFM></BackgroundKFM>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_SVIATOSLAV</Type>
+			<Button>art/Static/Leaders/Sviatoslav_small.dds</Button>
+			<NIF>art/Static/Leaders/Sviatoslav.dds</NIF>
+			<KFM></KFM>
+			<NoShaderNIF></NoShaderNIF>
+			<BackgroundKFM></BackgroundKFM>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_POPEFRANCIS</Type>
+			<Button>art/Static/Leaders/Popefrancis_small.dds</Button>
+			<NIF>art/Static/Leaders/Popefrancis.dds</NIF>
+			<KFM></KFM>
+			<NoShaderNIF></NoShaderNIF>
+			<BackgroundKFM></BackgroundKFM>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_POPEALEXANDER</Type>
+			<Button>art/Static/Leaders/Popealexander_small.dds</Button>
+			<NIF>art/Static/Leaders/Popealexander.dds</NIF>
+			<KFM></KFM>
+			<NoShaderNIF></NoShaderNIF>
+			<BackgroundKFM></BackgroundKFM>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_MODU</Type>
+			<Button>art/Static/Leaders/Modu_small.dds</Button>
+			<NIF>art/Static/Leaders/Modu.dds</NIF>
+			<KFM></KFM>
+			<NoShaderNIF></NoShaderNIF>
+			<BackgroundKFM></BackgroundKFM>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_SULAYHI</Type>
+			<Button>art/Static/Leaders/Sulayhi_small.dds</Button>
+			<NIF>art/Static/Leaders/Sulayhi.dds</NIF>
+			<KFM></KFM>
+			<NoShaderNIF></NoShaderNIF>
+			<BackgroundKFM></BackgroundKFM>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_BENDJEDID</Type>
+			<Button>art/Static/Leaders/Bendjedid_small.dds</Button>
+			<NIF>art/Static/Leaders/Bendjedid.dds</NIF>
+			<KFM></KFM>
+			<NoShaderNIF></NoShaderNIF>
+			<BackgroundKFM></BackgroundKFM>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_DIODOTUS</Type>
+			<Button>art/Static/Leaders/Diodotus_small.dds</Button>
+			<NIF>art/Static/Leaders/Diodotus.dds</NIF>
+			<KFM></KFM>
+			<NoShaderNIF></NoShaderNIF>
+			<BackgroundKFM></BackgroundKFM>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_ALARIC</Type>
+			<Button>art/Static/Leaders/Alaric_small.dds</Button>
+			<NIF>art/Static/Leaders/Alaric.dds</NIF>
+			<KFM></KFM>
+			<NoShaderNIF></NoShaderNIF>
+			<BackgroundKFM></BackgroundKFM>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_ARPAD</Type>
+			<Button>art/Static/Leaders/arpad_small.dds</Button>
+			<NIF>art/Static/Leaders/arpad.dds</NIF>
+			<KFM></KFM>
+			<NoShaderNIF></NoShaderNIF>
+			<BackgroundKFM></BackgroundKFM>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_MATTHIAS</Type>
+			<Button>art/Static/Leaders/Matthias_small.dds</Button>
+			<NIF>art/Static/Leaders/Matthias.dds</NIF>
+			<KFM></KFM>
+			<NoShaderNIF></NoShaderNIF>
+			<BackgroundKFM></BackgroundKFM>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_HUNGARY_KOSSUTH</Type>
+			<Button>art/Static/Leaders/Kossuth_small.dds</Button>
+			<NIF>art/Static/Leaders/Kossuth.dds</NIF>
+			<KFM></KFM>
+			<NoShaderNIF></NoShaderNIF>
+			<BackgroundKFM></BackgroundKFM>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_PO_NGBE</Type>
+			<Button>art/Static/Leaders/Po_Ngbe_small.dds</Button>
+			<NIF>art/Static/Leaders/Po_Ngbe.dds</NIF>
+			<KFM></KFM>
+			<NoShaderNIF></NoShaderNIF>
+			<BackgroundKFM></BackgroundKFM>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_WALESA</Type>
+			<Button>art/Static/Leaders/Walesa_small.dds</Button>
+			<NIF>art/Static/Leaders/Walesa.dds</NIF>
+			<KFM></KFM>
+			<NoShaderNIF></NoShaderNIF>
+			<BackgroundKFM></BackgroundKFM>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_CASIMIR</Type>
+			<Button>art/Static/Leaders/Casimir_small.dds</Button>
+			<NIF>art/Static/Leaders/casimir.dds</NIF>
+			<KFM />
+			<NoShaderNIF />
+			<BackgroundKFM />
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_SOBIESKI</Type>
+			<Button>art/Static/Leaders/Sobieski_small.dds</Button>
+			<NIF>art/Static/Leaders/Sobieski.dds</NIF>
+			<KFM></KFM>
+			<NoShaderNIF></NoShaderNIF>
+			<BackgroundKFM></BackgroundKFM>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_WENCESLAUS</Type>
+			<Button>art/Static/Leaders/Wenceslaus_small.dds</Button>
+			<NIF>art/Static/Leaders/Wenceslaus.dds</NIF>
+			<KFM></KFM>
+			<NoShaderNIF></NoShaderNIF>
+			<BackgroundKFM></BackgroundKFM>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_MASARYK</Type>
+			<Button>art/Static/Leaders/masaryk_small.dds</Button>
+			<NIF>art/Static/Leaders/masaryk.dds</NIF>
+			<KFM></KFM>
+			<NoShaderNIF></NoShaderNIF>
+			<BackgroundKFM></BackgroundKFM>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_ASPARUH</Type>
+			<Button>art/Static/Leaders/asparuh_small.dds</Button>
+			<NIF>art/Static/Leaders/asparuh.dds</NIF>
+			<KFM></KFM>
+			<NoShaderNIF></NoShaderNIF>
+			<BackgroundKFM></BackgroundKFM>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_NOCONA</Type>
+			<Button>Modules/Custom_civilizations/Comanche/leaders/Nocona_small.dds</Button>
+			<NIF>Modules/Custom_civilizations/Comanche/leaders/Nocona.dds</NIF>
+			<KFM />
+			<NoShaderNIF />
+			<BackgroundKFM />
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_MOBUTU</Type>
+			<Button>Modules/Custom_civilizations/Congo/leaders/Mobutu_small.dds</Button>
+			<NIF>Modules/Custom_civilizations/Congo/leaders/Mobutu.dds</NIF>
+			<KFM />
+			<NoShaderNIF />
+			<BackgroundKFM />
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_NIMI</Type>
+			<Button>art/Static/Leaders/Nimi_small.dds</Button>
+			<NIF>art/Static/Leaders/Nimi.dds</NIF>
+			<KFM />
+			<NoShaderNIF />
+			<BackgroundKFM />
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_TOMISLAV</Type>
+			<Button>art/Static/Leaders/Tomislav_small.dds</Button>
+			<NIF>art/Static/Leaders/Tomislav.dds</NIF>
+			<KFM></KFM>
+			<NoShaderNIF></NoShaderNIF>
+			<BackgroundKFM></BackgroundKFM>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_ATTILA</Type>
+			<Button>art/Static/Leaders/Attila_small.dds</Button>
+			<NIF>art/Static/Leaders/Attila.dds</NIF>
+			<KFM />
+			<NoShaderNIF />
+			<BackgroundKFM />
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_TEUTA</Type>
+			<Button>art/Static/Leaders/teuta_small.dds</Button>
+			<NIF>art/Static/Leaders/teuta.dds</NIF>
+			<KFM></KFM>
+			<NoShaderNIF></NoShaderNIF>
+			<BackgroundKFM></BackgroundKFM>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_ABLAY</Type>
+			<Button>art/Static/Leaders/Ablay_small.dds</Button>
+			<NIF>art/Static/Leaders/Ablay.dds</NIF>
+			<KFM />
+			<NoShaderNIF />
+			<BackgroundKFM />
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_BABUR</Type>
+			<Button>art/Static/Leaders/Babur_small.dds</Button>
+			<NIF>art/Static/Leaders/Babur.dds</NIF>
+			<KFM></KFM>
+			<NoShaderNIF></NoShaderNIF>
+			<BackgroundKFM></BackgroundKFM>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_AKBAR</Type>
+			<Button>art/Static/Leaders/Akbar_small.dds</Button>
+			<NIF>art/Static/Leaders/Akbar.dds</NIF>
+			<KFM></KFM>
+			<NoShaderNIF></NoShaderNIF>
+			<BackgroundKFM></BackgroundKFM>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
 			<Type>ART_DEF_LEADER_WANGKON</Type>
 			<Button>art/Static/Leaders/WangSmall.dds</Button>
 			<NIF>art/Static/Leaders/Wang.dds</NIF>

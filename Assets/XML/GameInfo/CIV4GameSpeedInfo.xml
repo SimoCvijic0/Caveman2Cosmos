@@ -189,19 +189,19 @@ Also you will need to change the STANDARD_GAMESPEED in GlobalDefines.xml if you 
 			<Type>GAMESPEED_SNAIL</Type>
 			<Description>TXT_KEY_GAMESPEED_SNAIL</Description>
 			<Help>TXT_KEY_GAMESPEED_SNAIL_HELP</Help>
-			<iSpeedPercent>600</iSpeedPercent>
+			<iSpeedPercent>450</iSpeedPercent>
 			<Percents>
 				<Percent>
 					<ID>ADAPT_DEFAULT</ID>
-					<iValue>600</iValue>
+					<iValue>420</iValue>
 				</Percent>
 				<Percent>
 					<ID>ADAPT_UNIT_YIELD</ID>
-					<iValue>1225</iValue>
+					<iValue>950</iValue>
 				</Percent>
 				<Percent>
 					<ID>ADAPT_BUILDING_AND_UNIT_COSTS</ID>
-					<iValue>600</iValue>
+					<iValue>420</iValue>
 				</Percent>
 			</Percents>
 			<GameTurnInfos>

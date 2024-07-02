@@ -218,11 +218,11 @@
 		<WorldInfo>
 			<Type>WORLDSIZE_GIGANTIC</Type>
 			<Description>TXT_KEY_WORLD_GIGANTIC</Description>
-			<iDefaultPlayers>16</iDefaultPlayers>
+			<iDefaultPlayers>100</iDefaultPlayers>
 			<iUnitNameModifier>0</iUnitNameModifier>
-			<iTargetNumCities>18</iTargetNumCities>
+			<iTargetNumCities>3</iTargetNumCities>
 			<iNumFreeBuildingBonuses>10</iNumFreeBuildingBonuses>
-			<iBuildingPrereqModifier>160</iBuildingPrereqModifier>
+			<iBuildingPrereqModifier>100</iBuildingPrereqModifier>
 			<iMaxConscriptModifier>100</iMaxConscriptModifier>
 			<iWarWearinessModifier>-40</iWarWearinessModifier>
 			<iGridWidth>36</iGridWidth>
@@ -231,9 +231,9 @@
 			<iTerrainGrainChange>2</iTerrainGrainChange>
 			<iFeatureGrainChange>2</iFeatureGrainChange>
 			<iTradeProfitPercent>20</iTradeProfitPercent>
-			<iDistanceMaintenancePercent>78</iDistanceMaintenancePercent>
-			<iColonyMaintenancePercent>80</iColonyMaintenancePercent>
-			<iCorporationMaintenancePercent>20</iCorporationMaintenancePercent>
+			<iDistanceMaintenancePercent>100</iDistanceMaintenancePercent>
+			<iColonyMaintenancePercent>100</iColonyMaintenancePercent>
+			<iCorporationMaintenancePercent>100</iCorporationMaintenancePercent>
 			<iNumCitiesAnarchyPercent>5</iNumCitiesAnarchyPercent> <!-- 1 more anarchy turn per 20 cities -->
 			<iAdvancedStartPointsMod>250</iAdvancedStartPointsMod>
 			<Percents>
