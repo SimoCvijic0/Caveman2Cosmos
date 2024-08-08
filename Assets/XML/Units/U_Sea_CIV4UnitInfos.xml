@@ -7027,7 +7027,7 @@
 		</UnitInfo>
 		<UnitInfo>
 			<Type>UNIT_DRAGON_SHIP_PIRATE</Type>
-			<iInstanceCostModifier>15</iInstanceCostModifier>
+<!--			<iInstanceCostModifier>15</iInstanceCostModifier>-->
 			<Combat>UNITCOMBAT_WOODEN_SHIPS</Combat>
 			<SubCombatTypes>
 				<SubCombatType>UNITCOMBAT_PIRATE</SubCombatType>
