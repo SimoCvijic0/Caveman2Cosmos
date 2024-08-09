@@ -11,7 +11,7 @@
 	<Define>
 		<!-- Tech Diffusion: Power of research rate increase based on number of teams you know who already know the tech you're researching. -->
 		<DefineName>TECH_DIFFUSION_KNOWN_TEAM_MODIFIER</DefineName>
-		<iDefineIntVal>3</iDefineIntVal>
+		<iDefineIntVal>4</iDefineIntVal>
 	</Define>
 	<Define>
 		<!-- Tech Diffusion: Threshold percentage of top known tech score at which extra tech welfare help begins. -->
@@ -21,6 +21,6 @@
 	<Define>
 		<!-- Tech Diffusion: Power of tech welfare assitance. BBAI default: 30, for plain BTS: 0 -->
 		<DefineName>TECH_DIFFUSION_WELFARE_MODIFIER</DefineName>
-		<iDefineIntVal>60</iDefineIntVal>
+		<iDefineIntVal>50</iDefineIntVal>
 	</Define>
 </Civ4Defines>

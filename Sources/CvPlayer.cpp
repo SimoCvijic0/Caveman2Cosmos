@@ -29501,7 +29501,7 @@ uint64_t CvPlayer::getLeaderLevelupNextCultureTotal() const
 	if (GC.getGame().isOption(GAMEOPTION_LEADER_START_NO_POSITIVE_TRAITS))
 	{
 		iX = 10;
-		iY = 8 * GC.getNEXT_TRAIT_CULTURE_REQ_PERCENT() / 100;
+		iY = 16 * GC.getNEXT_TRAIT_CULTURE_REQ_PERCENT() / 100;
 	}
 	const int iIteratorA = getLeaderHeadLevel() + 1;
 	for (int x = 0; x < iIteratorA; x++)
