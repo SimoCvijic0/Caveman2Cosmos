@@ -539,16 +539,16 @@
 		</LeaderheadArtInfo>
 		<LeaderheadArtInfo>
 			<Type>ART_DEF_LEADER_NOCONA</Type>
-			<Button>Modules/Custom_civilizations/Comanche/leaders/Nocona_small.dds</Button>
-			<NIF>Modules/Custom_civilizations/Comanche/leaders/Nocona.dds</NIF>
+			<Button>art/Static/Leaders/Nocona_small.dds</Button>
+			<NIF>art/Static/Leaders/Nocona.dds</NIF>
 			<KFM />
 			<NoShaderNIF />
 			<BackgroundKFM />
 		</LeaderheadArtInfo>
 		<LeaderheadArtInfo>
 			<Type>ART_DEF_LEADER_MOBUTU</Type>
-			<Button>Modules/Custom_civilizations/Congo/leaders/Mobutu_small.dds</Button>
-			<NIF>Modules/Custom_civilizations/Congo/leaders/Mobutu.dds</NIF>
+			<Button>art/Static/Leaders/Mobutu_small.dds</Button>
+			<NIF>art/Static/Leaders/Mobutu.dds</NIF>
 			<KFM />
 			<NoShaderNIF />
 			<BackgroundKFM />
