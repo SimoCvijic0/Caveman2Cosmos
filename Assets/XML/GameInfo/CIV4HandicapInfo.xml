@@ -523,14 +523,6 @@
 				<GoodyType>GOODY_NAVAL_BARBARIANS_MODERN_WEAK</GoodyType>
 				<GoodyType>GOODY_NAVAL_BARBARIANS_NANOTECH_WEAK</GoodyType>
 				<GoodyType>GOODY_NAVAL_BARBARIANS_INFORMATION_WEAK</GoodyType>
-				<!-- Criminals -->
-				<GoodyType>GOODY_CRIMINAL</GoodyType>
-				<GoodyType>GOODY_ANCIENT_CRIMINAL</GoodyType>
-				<GoodyType>GOODY_CLASSICAL_CRIMINAL</GoodyType>
-				<GoodyType>GOODY_MEDIEVAL_CRIMINAL</GoodyType>
-				<GoodyType>GOODY_RENAISSANCE_CRIMINAL</GoodyType>
-				<GoodyType>GOODY_INDUSTRIAL_CRIMINAL</GoodyType>
-				<GoodyType>GOODY_MODERN_CRIMINAL</GoodyType>
 				<!-- Strong Barbs -->
 				<GoodyType>GOODY_BARBARIANS_STRONG</GoodyType>
 				<GoodyType>GOODY_BARBARIANS_ANCIENT_STRONG</GoodyType>
