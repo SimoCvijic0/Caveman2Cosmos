@@ -376,7 +376,7 @@
 		<CivilizationArtInfo>
 			<Type>ART_DEF_CIVILIZATION_COMANCHE</Type>
 			<Button>Art/Interface/TeamColor/comanche_small.dds</Button>
-			<Path>Art/Interface/TeamColor/comanche.dds</Path>
+			<Path>Art/Interface/TeamColor/comanche_flagDecal.dds</Path>
 			<bWhiteFlag>1</bWhiteFlag>
 		</CivilizationArtInfo>
 		<CivilizationArtInfo>

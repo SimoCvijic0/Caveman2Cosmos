@@ -441,11 +441,11 @@
 			<Description>TXT_KEY_HANDICAP_NOBLE</Description>
 			<Help>TXT_KEY_HANDICAP_NOBLE_HELP</Help>
 			<iAdvancedStartPointsMod>100</iAdvancedStartPointsMod>
-			<iGold>40</iGold>
+			<iGold>50</iGold>
 			<iUnitUpkeepPercent>100</iUnitUpkeepPercent>
 			<iMaxColonyMaintenance>200</iMaxColonyMaintenance>
-			<iDistanceMaintenancePercent>400</iDistanceMaintenancePercent>
-			<iNumCitiesMaintenancePercent>250</iNumCitiesMaintenancePercent>
+			<iDistanceMaintenancePercent>450</iDistanceMaintenancePercent>
+			<iNumCitiesMaintenancePercent>300</iNumCitiesMaintenancePercent>
 			<iColonyMaintenancePercent>200</iColonyMaintenancePercent>
 			<iCorporationMaintenancePercent>200</iCorporationMaintenancePercent>
 			<iCivicUpkeepPercent>200</iCivicUpkeepPercent>
@@ -460,13 +460,10 @@
 					<GameObjectType>GAMEOBJECT_CITY</GameObjectType>
 					<RelationType>RELATION_ASSOCIATED</RelationType>
 					<iAmountPerTurn>
-						<Div>
-							<Mult>
-								<AttributeType>ATTRIBUTE_POPULATION</AttributeType>
-								<Constant>6</Constant>
-							</Mult>
-							<Constant>5</Constant>
-						</Div>
+						<Mult>
+							<AttributeType>ATTRIBUTE_POPULATION</AttributeType>
+							<Constant>7</Constant>
+						</Mult>
 					</iAmountPerTurn>
 				</PropertySource>
 				<PropertySource>
@@ -475,13 +472,10 @@
 					<GameObjectType>GAMEOBJECT_CITY</GameObjectType>
 					<RelationType>RELATION_ASSOCIATED</RelationType>
 					<iAmountPerTurn>
-						<Div>
-							<Mult>
-								<AttributeType>ATTRIBUTE_POPULATION</AttributeType>
-								<Constant>-6</Constant>
-							</Mult>
-							<Constant>-5</Constant>
-						</Div>
+						<Mult>
+							<AttributeType>ATTRIBUTE_POPULATION</AttributeType>
+							<Constant>-7</Constant>
+						</Mult>
 					</iAmountPerTurn>
 				</PropertySource>
 			</PropertyManipulators>

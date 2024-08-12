@@ -1626,7 +1626,7 @@
                     <bFreePromotion>1</bFreePromotion>
                 </FreePromotion>
             </FreePromotions>
-            <iCost>10</iCost>
+            <iCost>13</iCost>
             <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iCombat>1</iCombat>
@@ -1759,7 +1759,7 @@
             <SupersedingUnits>
                 <UnitType>UNIT_NEANDERTHAL_GATHERER</UnitType>
             </SupersedingUnits>
-            <iCost>25</iCost>
+            <iCost>28</iCost>
             <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iCombat>2</iCombat>
@@ -1879,7 +1879,7 @@
                 </UnitAI>
             </NotUnitAIs>
             <PrereqTech>TECH_HUNTING</PrereqTech>
-            <iCost>40</iCost>
+            <iCost>43</iCost>
             <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <UnitUpgrades>
@@ -45731,7 +45731,7 @@
             </UnitUpgrades>
             <ObsoleteTech>TECH_TRACKING</ObsoleteTech>
             <iCost>-1</iCost>
-            <iBaseUpkeep>1</iBaseUpkeep>
+            <iBaseUpkeep>3</iBaseUpkeep>
             <iMoves>3</iMoves>
             <iCombat>2</iCombat>
             <iXPValueAttack>1</iXPValueAttack>
@@ -45843,7 +45843,7 @@
                 <UnitType>UNIT_MASTER_HUNTER</UnitType>
             </UnitUpgrades>
             <iCost>-1</iCost>
-            <iBaseUpkeep>1</iBaseUpkeep>
+            <iBaseUpkeep>4</iBaseUpkeep>
             <iMoves>3</iMoves>
             <iCombat>4</iCombat>
             <iXPValueAttack>1</iXPValueAttack>
@@ -45950,7 +45950,7 @@
             </UnitAIs>
             <PrereqTech>TECH_HUNTING</PrereqTech>
             <iCost>-1</iCost>
-            <iBaseUpkeep>1</iBaseUpkeep>
+            <iBaseUpkeep>5</iBaseUpkeep>
             <iMoves>3</iMoves>
             <UnitUpgrades>
                 <UnitType>UNIT_MASTER_RANGER</UnitType>
