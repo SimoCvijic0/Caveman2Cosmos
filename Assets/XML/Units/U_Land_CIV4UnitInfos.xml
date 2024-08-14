@@ -87,6 +87,7 @@
                 <SubCombatType>UNITCOMBAT_SIZE_MEDIUM</SubCombatType>
                 <SubCombatType>UNITCOMBAT_HEALS_AS_PEOPLE</SubCombatType>
             </SubCombatTypes>
+            <iCost>50</iCost>
             <Domain>DOMAIN_LAND</Domain>
             <MapCategoryTypes>
                 <MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>

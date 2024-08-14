@@ -40,9 +40,9 @@ Using both <iGlobalTurns> and <iTurns> will not yield predictable results:
 			<Type>SPAWN_ANIMAL_JAGUAR_NATIVE</Type>
 			<UnitType>UNIT_ANIMAL_JAGUAR</UnitType>
 			<PlayerType>PREDATOR_PLAYER</PlayerType>
-			<iTurns>300</iTurns>
-			<iMinAreaPlotsPerPlayerUnit>6</iMinAreaPlotsPerPlayerUnit>
-			<iMinAreaPlotsPerUnitType>20</iMinAreaPlotsPerUnitType>
+			<iTurns>320</iTurns>
+			<iMinAreaPlotsPerPlayerUnit>7</iMinAreaPlotsPerPlayerUnit>
+			<iMinAreaPlotsPerUnitType>22</iMinAreaPlotsPerUnitType>
 			<iMaxLocalDensity>2</iMaxLocalDensity>
 			<iStartDate>-200000</iStartDate>
 			<rateOverrideDefineName>ANIMAL_SPAWN_MODIFIER</rateOverrideDefineName>

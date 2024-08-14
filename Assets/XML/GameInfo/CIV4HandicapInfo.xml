@@ -462,7 +462,7 @@
 					<iAmountPerTurn>
 						<Mult>
 							<AttributeType>ATTRIBUTE_POPULATION</AttributeType>
-							<Constant>7</Constant>
+							<Constant>6</Constant>
 						</Mult>
 					</iAmountPerTurn>
 				</PropertySource>
@@ -474,7 +474,7 @@
 					<iAmountPerTurn>
 						<Mult>
 							<AttributeType>ATTRIBUTE_POPULATION</AttributeType>
-							<Constant>-7</Constant>
+							<Constant>-6</Constant>
 						</Mult>
 					</iAmountPerTurn>
 				</PropertySource>

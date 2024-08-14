@@ -7744,8 +7744,9 @@
 			<Type>PROMOTION_MOUNTAINEER</Type>
 			<Description>TXT_KEY_PROMOTION_MOUNTAINEER</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
-			<PromotionPrereq>PROMOTION_COMBAT3</PromotionPrereq>
-			<PromotionPrereqOr1>PROMOTION_GUERILLA3</PromotionPrereqOr1>
+			<PromotionPrereq>PROMOTION_COMBAT2</PromotionPrereq>
+			<PromotionPrereqOr1>PROMOTION_GUERILLA2</PromotionPrereqOr1>
+			<PromotionPrereqOr1>PROMOTION_HUNTER1</PromotionPrereqOr1>
 			<bCanMovePeaks>1</bCanMovePeaks>
 			<UnitCombats>
 				<UnitCombat>
