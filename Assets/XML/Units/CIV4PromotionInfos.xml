@@ -10570,23 +10570,23 @@
 			<FeatureAttacks>
 				<FeatureAttack>
 					<FeatureType>FEATURE_JUNGLE</FeatureType>
-					<iFeatureAttack>1010</iFeatureAttack>
+					<iFeatureAttack>10</iFeatureAttack>
 				</FeatureAttack>
 				<FeatureAttack>
 					<FeatureType>FEATURE_FOREST</FeatureType>
-					<iFeatureAttack>1010</iFeatureAttack>
+					<iFeatureAttack>10</iFeatureAttack>
 				</FeatureAttack>
 				<FeatureAttack>
 					<FeatureType>FEATURE_BAMBOO</FeatureType>
-					<iFeatureAttack>1010</iFeatureAttack>
+					<iFeatureAttack>10</iFeatureAttack>
 				</FeatureAttack>
 				<FeatureAttack>
 					<FeatureType>FEATURE_FOREST_YOUNG</FeatureType>
-					<iFeatureAttack>1010</iFeatureAttack>
+					<iFeatureAttack>10</iFeatureAttack>
 				</FeatureAttack>
 				<FeatureAttack>
 					<FeatureType>FEATURE_FOREST_BURNT</FeatureType>
-					<iFeatureAttack>1010</iFeatureAttack>
+					<iFeatureAttack>10</iFeatureAttack>
 				</FeatureAttack>
 				<FeatureAttack>
 					<FeatureType>FEATURE_FOREST_ANCIENT</FeatureType>

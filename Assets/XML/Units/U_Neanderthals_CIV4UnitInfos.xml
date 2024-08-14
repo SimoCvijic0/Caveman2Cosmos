@@ -78,7 +78,7 @@
 		</UnitInfo>
 		<UnitInfo>
 			<Type>UNIT_NEANDERTHAL_WARRIOR</Type>
-			<iInstanceCostModifier>10</iInstanceCostModifier>
+<!--			<iInstanceCostModifier>10</iInstanceCostModifier>-->
 			<EnabledCivilizationTypes>
 				<EnabledCivilizationType>
 					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
@@ -2014,7 +2014,7 @@
 		</UnitInfo>
 		<UnitInfo>
 			<Type>UNIT_NEANDERTHAL_LOG_RAM</Type>
-			<iInstanceCostModifier>5</iInstanceCostModifier>
+<!--			<iInstanceCostModifier>5</iInstanceCostModifier>-->
 			<Capture>UNIT_LOG_RAM</Capture>
 			<EnabledCivilizationTypes>
 				<EnabledCivilizationType>
@@ -3074,7 +3074,7 @@
 		</UnitInfo>
 		<UnitInfo>
 			<Type>UNIT_NEANDERTHAL_HUNTER</Type>
-			<iInstanceCostModifier>10</iInstanceCostModifier>
+<!--			<iInstanceCostModifier>10</iInstanceCostModifier>-->
 			<EnabledCivilizationTypes>
 				<EnabledCivilizationType>
 					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
@@ -3191,7 +3191,7 @@
 		</UnitInfo>
 		<UnitInfo>
 			<Type>UNIT_NEANDERTHAL_TRACKER</Type>
-			<iInstanceCostModifier>10</iInstanceCostModifier>
+<!--			<iInstanceCostModifier>10</iInstanceCostModifier>-->
 			<EnabledCivilizationTypes>
 				<EnabledCivilizationType>
 					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
@@ -3310,7 +3310,7 @@
 		</UnitInfo>
 		<UnitInfo>
 			<Type>UNIT_NEANDERTHAL_CHASER</Type>
-			<iInstanceCostModifier>10</iInstanceCostModifier>
+<!--			<iInstanceCostModifier>10</iInstanceCostModifier>-->
 			<EnabledCivilizationTypes>
 				<EnabledCivilizationType>
 					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
