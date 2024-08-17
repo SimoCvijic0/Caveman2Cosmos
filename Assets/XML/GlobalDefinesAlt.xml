@@ -330,11 +330,11 @@
 	<!-- Production Popup Unit Training -->
 	<Define>
 		<DefineName>BUG_PRODUCTION_POPUP_TRAIN_CIVILIAN_UNITS_FOREVER</DefineName>
-		<iDefineIntVal>0</iDefineIntVal>
+		<iDefineIntVal>1</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>BUG_PRODUCTION_POPUP_TRAIN_MILITARY_UNITS_FOREVER</DefineName>
-		<iDefineIntVal>0</iDefineIntVal>
+		<iDefineIntVal>1</iDefineIntVal>
 	</Define>
 	<!-- Actions -->
 	<!-- Ask Declare War -->
@@ -380,7 +380,7 @@
 	</Define>
 	<Define>
 		<DefineName>ACO_IGNORE_BARB_FREE_WINS</DefineName>
-		<iDefineIntVal>0</iDefineIntVal>
+		<iDefineIntVal>1</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>ACO_SWAP_VIEWS</DefineName>
@@ -392,7 +392,7 @@
 	</Define>
 	<Define>
 		<DefineName>ACO_SHOW_MODIFIER_LABELS</DefineName>
-		<iDefineIntVal>0</iDefineIntVal>
+		<iDefineIntVal>1</iDefineIntVal>
 	</Define>
 	<!-- The following use 0 for hidden, 1 for view A, 2 for view B, and 3 for both views -->
 	<Define>
@@ -503,7 +503,7 @@
 	</Define>
 	<Define>
 		<DefineName>DYNAMIC_CIV_NAMES</DefineName>
-		<iDefineIntVal>0</iDefineIntVal>
+		<iDefineIntVal>1</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>MIN_POP_CONSIDER_INQUISITORS</DefineName>

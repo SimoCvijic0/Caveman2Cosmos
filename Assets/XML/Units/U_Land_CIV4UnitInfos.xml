@@ -323,7 +323,7 @@
             </UnitAIs>
             <PrereqTech>TECH_COOPERATION</PrereqTech>
             <ObsoleteTech>TECH_SEDENTARY_LIFESTYLE</ObsoleteTech>
-            <iBaseUpkeep>2</iBaseUpkeep>
+            <iBaseUpkeep>5</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iAsset>1</iAsset>
             <UnitMeshGroups>
@@ -604,7 +604,7 @@
                 </UnitAI>
             </UnitAIs>
             <PrereqTech>TECH_SEDENTARY_LIFESTYLE</PrereqTech>
-            <iBaseUpkeep>4</iBaseUpkeep>
+            <iBaseUpkeep>10</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iAsset>1</iAsset>
             <UnitMeshGroups>
@@ -6162,7 +6162,7 @@
             <SupersedingUnits>
                 <UnitType>UNIT_NEANDERTHAL_BRUTE</UnitType>
             </SupersedingUnits>
-            <iCost>4</iCost>
+            <iCost>3</iCost>
             <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iCombat>1</iCombat>
@@ -6257,7 +6257,7 @@
             <UnitCombatMods>
                 <UnitCombatMod>
                     <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <iUnitCombatMod>25</iUnitCombatMod>
+                    <iUnitCombatMod>10</iUnitCombatMod>
                 </UnitCombatMod>
             </UnitCombatMods>
             <BonusProductionModifiers>
@@ -26983,7 +26983,7 @@
                 </VisibilityIntensityType>
             </VisibilityIntensityTypes>
             <iCost>18</iCost>
-            <iBaseUpkeep>2</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iCombat>2</iCombat>
             <iEnclose>2</iEnclose>
@@ -27113,7 +27113,7 @@
                 </UnitCombatDefender>
             </UnitCombatDefenders>
             <iCost>40</iCost>
-            <iBaseUpkeep>3</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iCombat>3</iCombat>
             <iStealthCombatModifier>5</iStealthCombatModifier>
@@ -29250,7 +29250,7 @@
                 <UnitType>UNIT_NEANDERTHAL_GATHERER</UnitType>
             </SupersedingUnits>
             <iCost>43</iCost>
-            <iBaseUpkeep>2</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <Invisible>INVISIBLE_CAMOUFLAGE</Invisible>
             <SeeInvisible>INVISIBLE_CAMOUFLAGE</SeeInvisible>
@@ -29443,7 +29443,7 @@
             </SupersedingUnits>
             <ObsoleteTech>TECH_MATCHLOCK</ObsoleteTech>
             <iCost>68</iCost>
-            <iBaseUpkeep>3</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <Invisible>INVISIBLE_CAMOUFLAGE</Invisible>
             <SeeInvisible>INVISIBLE_CAMOUFLAGE</SeeInvisible>
@@ -32772,7 +32772,7 @@
                 <UnitType>UNIT_NEANDERTHAL_GATHERER</UnitType>
             </SupersedingUnits>
             <iCost>92</iCost>
-            <iBaseUpkeep>2</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <Invisible>INVISIBLE_CAMOUFLAGE</Invisible>
             <SeeInvisible>INVISIBLE_CAMOUFLAGE</SeeInvisible>
@@ -35216,7 +35216,7 @@
                 <BonusType>BONUS_BRONZE_WARES</BonusType>
             </PrereqBonuses>
             <iCost>-1</iCost>
-            <iBaseUpkeep>1</iBaseUpkeep>
+            <iBaseUpkeep>5</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iAsset>1</iAsset>
             <UnitMeshGroups>
@@ -38412,7 +38412,7 @@
                 </Flavor>
             </Flavors>
             <iCost>-1</iCost>
-            <iBaseUpkeep>1</iBaseUpkeep>
+            <iBaseUpkeep>5</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iAsset>25</iAsset>
             <UnitMeshGroups>
@@ -39083,7 +39083,7 @@
             </PrereqBonuses>
             <iCost>65</iCost>
             <iHurryCostModifier>25</iHurryCostModifier>
-            <iBaseUpkeep>2</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iCombat>2</iCombat>
             <iXPValueDefense>2</iXPValueDefense>
@@ -41401,7 +41401,7 @@
             <iCost>18</iCost>
             <iHurryCostModifier>25</iHurryCostModifier>
             <iXPValueDefense>2</iXPValueDefense>
-            <iBaseUpkeep>2</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iCombat>1</iCombat>
             <iNumHealSupport>3</iNumHealSupport>
@@ -41511,7 +41511,7 @@
             </SupersedingUnits>
             <iCost>45</iCost>
             <iHurryCostModifier>25</iHurryCostModifier>
-            <iBaseUpkeep>3</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iCombat>2</iCombat>
             <iXPValueDefense>2</iXPValueDefense>
@@ -44229,7 +44229,7 @@
             </UnitUpgrades>
             <iCost>16</iCost>
             <Advisor>ADVISOR_CULTURE</Advisor>
-            <iBaseUpkeep>2</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <Buildings>
                 <BuildingType>BUILDING_RAIN_DANCE</BuildingType>

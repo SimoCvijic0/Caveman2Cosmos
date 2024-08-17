@@ -3031,6 +3031,11 @@
 			<Categories>
 				<Category>CATEGORY_UNITCOMBAT_GROUP_WEAPONS_DISTANCE</Category>
 			</Categories>
+			<iDCMBombRangeBase>1</iDCMBombRangeBase>
+			<iDCMBombAccuracyBase>5</iDCMBombAccuracyBase>
+			<iRBombardDamageBase>5</iRBombardDamageBase>
+			<iRBombardDamageLimitBase>3</iRBombardDamageLimitBase>
+			<iRBombardDamageMaxUnitsBase>1</iRBombardDamageMaxUnitsBase>
 			<Button>Art/Interface/Buttons/units/sparth/categories/wields_distance.dds</Button>
 		</UnitCombatInfo>
 		<UnitCombatInfo>

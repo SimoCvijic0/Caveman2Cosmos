@@ -577,7 +577,7 @@ Using both <iGlobalTurns> and <iTurns> will not yield predictable results:
 			<iTurns>150</iTurns>
 			<iMinAreaPlotsPerPlayerUnit>2</iMinAreaPlotsPerPlayerUnit>
 			<iMinAreaPlotsPerUnitType>5</iMinAreaPlotsPerUnitType>
-			<iMaxLocalDensity>12</iMaxLocalDensity>
+			<iMaxLocalDensity>10</iMaxLocalDensity>
 			<iStartDate>-200000</iStartDate>
 			<rateOverrideDefineName>ANIMAL_SPAWN_MODIFIER</rateOverrideDefineName>
 			<bLatitudeAbs>0</bLatitudeAbs>

@@ -2721,7 +2721,7 @@
 				<FeatureType>FEATURE_JUNGLE</FeatureType>
 				<FeatureType>FEATURE_SWAMP</FeatureType>
 			</FeatureImpassableTypes>
-			<iCombat>3</iCombat>
+			<iCombat>4</iCombat>
 			<iAggression>3</iAggression>
 			<bBlendIntoCity>1</bBlendIntoCity>
 			<iXPValueAttack>7</iXPValueAttack>
@@ -7502,7 +7502,7 @@
 					<PassableTech>NONE</PassableTech>
 				</FeaturePassableTech>
 			</FeaturePassableTechs>
-			<iCombat>5</iCombat>
+			<iCombat>6</iCombat>
 			<iAggression>2</iAggression>
 			<bBlendIntoCity>1</bBlendIntoCity>
 			<iXPValueAttack>9</iXPValueAttack>
@@ -7656,7 +7656,7 @@
 				<FeatureType>FEATURE_MANGROVE</FeatureType>
 				<FeatureType>FEATURE_SWAMP</FeatureType>
 			</FeatureImpassableTypes>
-			<iCombat>5</iCombat>
+			<iCombat>6</iCombat>
 			<iAggression>1</iAggression>
 			<bBlendIntoCity>1</bBlendIntoCity>
 			<iXPValueAttack>8</iXPValueAttack>
@@ -11369,7 +11369,7 @@
 					<PassableTech>NONE</PassableTech>
 				</FeaturePassableTech>
 			</FeaturePassableTechs>
-			<iCombat>4</iCombat>
+			<iCombat>5</iCombat>
 			<iAggression>5</iAggression>
 			<bBlendIntoCity>1</bBlendIntoCity>
 			<iXPValueAttack>10</iXPValueAttack>
@@ -11924,7 +11924,7 @@
 			<bRenderBelowWater>1</bRenderBelowWater>
 			<iCost>-1</iCost>
 			<iMoves>3</iMoves>
-			<iCombat>6</iCombat>
+			<iCombat>7</iCombat>
 			<iAggression>0</iAggression>
 			<bBlendIntoCity>1</bBlendIntoCity>
 			<iXPValueAttack>10</iXPValueAttack>
@@ -15162,7 +15162,7 @@
 			<bRenderBelowWater>1</bRenderBelowWater>
 			<iCost>-1</iCost>
 			<iMoves>3</iMoves>
-			<iCombat>6</iCombat>
+			<iCombat>7</iCombat>
 			<iAggression>0</iAggression>
 			<bBlendIntoCity>1</bBlendIntoCity>
 			<iXPValueAttack>8</iXPValueAttack>
@@ -15315,7 +15315,7 @@
 				<FeatureType>FEATURE_BAMBOO</FeatureType>
 				<FeatureType>FEATURE_FOREST_ANCIENT</FeatureType>
 			</FeatureImpassableTypes>
-			<iCombat>4</iCombat>
+			<iCombat>5</iCombat>
 			<iAggression>1</iAggression>
 			<bBlendIntoCity>1</bBlendIntoCity>
 			<iXPValueAttack>3</iXPValueAttack>
@@ -16724,7 +16724,7 @@
 			<bNoDefensiveBonus>1</bNoDefensiveBonus>
 			<iCost>-1</iCost>
 			<iMoves>3</iMoves>
-			<iCombat>6</iCombat>
+			<iCombat>7</iCombat>
 			<iAggression>1</iAggression>
 			<bBlendIntoCity>1</bBlendIntoCity>
 			<iXPValueAttack>10</iXPValueAttack>
@@ -20347,7 +20347,7 @@
 				<FeatureType>FEATURE_FOREST_ANCIENT</FeatureType>
 				<FeatureType>FEATURE_JUNGLE</FeatureType>
 			</FeatureImpassableTypes>
-			<iCombat>3</iCombat>
+			<iCombat>4</iCombat>
 			<iAggression>4</iAggression>
 			<bBlendIntoCity>1</bBlendIntoCity>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -20481,7 +20481,7 @@
 				<FeatureType>FEATURE_MANGROVE</FeatureType>
 				<FeatureType>FEATURE_SWAMP</FeatureType>
 			</FeatureImpassableTypes>
-			<iCombat>4</iCombat>
+			<iCombat>5</iCombat>
 			<iAggression>2</iAggression>
 			<bBlendIntoCity>1</bBlendIntoCity>
 			<iXPValueAttack>7</iXPValueAttack>
@@ -26293,7 +26293,7 @@
 				<TerrainType>TERRAIN_OCEAN_POLAR</TerrainType>
 				<TerrainType>TERRAIN_TRENCH_POLAR</TerrainType>
 			</TerrainImpassableTypes>
-			<iCombat>3</iCombat>
+			<iCombat>6</iCombat>
 			<iAggression>0</iAggression>
 			<bBlendIntoCity>1</bBlendIntoCity>
 			<iXPValueAttack>7</iXPValueAttack>
