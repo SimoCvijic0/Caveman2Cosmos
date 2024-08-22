@@ -3032,7 +3032,7 @@
 				<Category>CATEGORY_UNITCOMBAT_GROUP_WEAPONS_DISTANCE</Category>
 			</Categories>
 			<iDCMBombRangeBase>1</iDCMBombRangeBase>
-			<iDCMBombAccuracyBase>5</iDCMBombAccuracyBase>
+			<iDCMBombAccuracyBase>10</iDCMBombAccuracyBase>
 			<iRBombardDamageBase>5</iRBombardDamageBase>
 			<iRBombardDamageLimitBase>3</iRBombardDamageLimitBase>
 			<iRBombardDamageMaxUnitsBase>1</iRBombardDamageMaxUnitsBase>
@@ -3188,7 +3188,7 @@
 				<Category>CATEGORY_UNITCOMBAT_GROUP_WEAPONS_DISTANCE</Category>
 			</Categories>
 			<iDCMBombRangeBase>1</iDCMBombRangeBase>
-			<iDCMBombAccuracyBase>10</iDCMBombAccuracyBase>
+			<iDCMBombAccuracyBase>15</iDCMBombAccuracyBase>
 			<iRBombardDamageBase>10</iRBombardDamageBase>
 			<iRBombardDamageLimitBase>5</iRBombardDamageLimitBase>
 			<iRBombardDamageMaxUnitsBase>2</iRBombardDamageMaxUnitsBase>
@@ -3201,7 +3201,7 @@
 				<Category>CATEGORY_UNITCOMBAT_GROUP_WEAPONS_DISTANCE</Category>
 			</Categories>
 			<iDCMBombRangeBase>1</iDCMBombRangeBase>
-			<iDCMBombAccuracyBase>15</iDCMBombAccuracyBase>
+			<iDCMBombAccuracyBase>20</iDCMBombAccuracyBase>
 			<iRBombardDamageBase>40</iRBombardDamageBase>
 			<iRBombardDamageLimitBase>20</iRBombardDamageLimitBase>
 			<iRBombardDamageMaxUnitsBase>1</iRBombardDamageMaxUnitsBase>
