@@ -7096,18 +7096,16 @@
 			<Description>TXT_KEY_UNIT_CARIB_BLOWGUNNER</Description>
 			<Civilopedia>TXT_KEY_UNIT_CARIB_BLOWGUNNER_PEDIA</Civilopedia>
 			<Advisor>ADVISOR_MILITARY</Advisor>
-			<VisibilityIntensityTypes>
-				<VisibilityIntensityType>
-					<InvisibleType>INVISIBLE_CAMOUFLAGE</InvisibleType>
-					<iIntensity>1</iIntensity>
-				</VisibilityIntensityType>
-			</VisibilityIntensityTypes>
-			<InvisibilityIntensityTypes>
-				<InvisibilityIntensityType>
-					<InvisibleType>INVISIBLE_CAMOUFLAGE</InvisibleType>
-					<iIntensity>1</iIntensity>
-				</InvisibilityIntensityType>
-			</InvisibilityIntensityTypes>
+            <BonusProductionModifiers>
+                <BonusProductionModifier>
+                    <BonusType>BONUS_FLINT</BonusType>
+                    <iProductonModifier>5</iProductonModifier>
+                </BonusProductionModifier>
+                <BonusProductionModifier>
+                    <BonusType>BONUS_PRIME_TIMBER</BonusType>
+                    <iProductonModifier>5</iProductonModifier>
+                </BonusProductionModifier>
+            </BonusProductionModifiers>
 			<bMilitaryHappiness>1</bMilitaryHappiness>
 			<bMilitarySupport>1</bMilitarySupport>
 			<bMilitaryProduction>1</bMilitaryProduction>
@@ -7159,6 +7157,18 @@
 			<iConscription>4</iConscription>
 			<iAsset>2</iAsset>
 			<iPower>8</iPower>
+            <VisibilityIntensityTypes>
+                <VisibilityIntensityType>
+                    <InvisibleType>INVISIBLE_CAMOUFLAGE</InvisibleType>
+                    <iIntensity>1</iIntensity>
+                </VisibilityIntensityType>
+            </VisibilityIntensityTypes>
+            <InvisibilityIntensityTypes>
+                <InvisibilityIntensityType>
+                    <InvisibleType>INVISIBLE_CAMOUFLAGE</InvisibleType>
+                    <iIntensity>1</iIntensity>
+                </InvisibilityIntensityType>
+            </InvisibilityIntensityTypes>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
 				<fMaxSpeed>1.75</fMaxSpeed>
@@ -10750,7 +10760,7 @@
 			<PrereqTech>TECH_TRACKING</PrereqTech>
 			<ObsoleteTech>TECH_FLINTLOCK</ObsoleteTech>
 			<BonusType>BONUS_AKA</BonusType>
-			<iCost>34</iCost>
+			<iCost>30</iCost>
 			<iBaseUpkeep>1</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iCombat>3</iCombat>
@@ -10759,19 +10769,19 @@
 			<FeatureAttacks>
 				<FeatureAttack>
 					<FeatureType>FEATURE_JUNGLE</FeatureType>
-					<iFeatureAttack>25</iFeatureAttack>
+					<iFeatureAttack>20</iFeatureAttack>
 				</FeatureAttack>
 			</FeatureAttacks>
 			<FeatureDefenses>
 				<FeatureDefense>
 					<FeatureType>FEATURE_JUNGLE</FeatureType>
-					<iFeatureDefense>25</iFeatureDefense>
+					<iFeatureDefense>20</iFeatureDefense>
 				</FeatureDefense>
 			</FeatureDefenses>
 			<UnitCombatMods>
 				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-					<iUnitCombatMod>25</iUnitCombatMod>
+					<iUnitCombatMod>20</iUnitCombatMod>
 				</UnitCombatMod>
 			</UnitCombatMods>
 			<iAsset>2</iAsset>
