@@ -898,7 +898,7 @@
             <UnitUpgrades>
                 <UnitType>UNIT_SCOUT</UnitType>
                 <UnitType>UNIT_CHASER</UnitType>
-                <UnitType>UNIT_NEANDERTHAL_WANDERER</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL_WANDERER</UnitType>-->
             </UnitUpgrades>
             <UnitAIs>
                 <UnitAI>
@@ -919,7 +919,7 @@
                 </UnitAI>
             </UnitAIs>
             <PrereqTech>TECH_NOMADISM</PrereqTech>
-            <iCost>8</iCost>
+            <iCost>7</iCost>
             <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iCombat>1</iCombat>
@@ -944,7 +944,7 @@
             <FormationType>FORMATION_TYPE_DEFAULT</FormationType>
             <ObsoleteTech>TECH_PERSISTENCE_HUNTING</ObsoleteTech>
             <SupersedingUnits>
-                <UnitType>UNIT_NEANDERTHAL_WANDERER</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL_WANDERER</UnitType>-->
             </SupersedingUnits>
         </UnitInfo>
         <UnitInfo>
@@ -982,7 +982,7 @@
             <bUpgradeAnywhere>1</bUpgradeAnywhere>
             <UnitUpgrades>
                 <UnitType>UNIT_GUIDE</UnitType>
-                <UnitType>UNIT_NEANDERTHAL_SCOUT</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL_SCOUT</UnitType>-->
             </UnitUpgrades>
             <UnitAIs>
                 <UnitAI>
@@ -1030,7 +1030,7 @@
             <FormationType>FORMATION_TYPE_DEFAULT</FormationType>
             <ObsoleteTech>TECH_WRITING</ObsoleteTech>
             <SupersedingUnits>
-                <UnitType>UNIT_NEANDERTHAL_SCOUT</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL_SCOUT</UnitType>-->
             </SupersedingUnits>
         </UnitInfo>
         <UnitInfo>
@@ -1614,11 +1614,11 @@
             <PrereqTech>TECH_PERSISTENCE_HUNTING</PrereqTech>
             <UnitUpgrades>
                 <UnitType>UNIT_TRACKER</UnitType>
-                <UnitType>UNIT_NEANDERTHAL_CHASER</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL_CHASER</UnitType>-->
             </UnitUpgrades>
             <ObsoleteTech>TECH_TRACKING</ObsoleteTech>
             <SupersedingUnits>
-                <UnitType>UNIT_NEANDERTHAL_GATHERER</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL_GATHERER</UnitType>-->
             </SupersedingUnits>
             <FreePromotions>
                 <FreePromotion>
@@ -1705,7 +1705,6 @@
                 <SubCombatType>UNITCOMBAT_WEAPON_STYLE_DIST_SINGLE_HAND_ONLY</SubCombatType>
                 <SubCombatType>UNITCOMBAT_WEAPON_H2H_KNIFE</SubCombatType>
                 <SubCombatType>UNITCOMBAT_WEAPON_SIDEARM_KNIFE</SubCombatType>
-                <SubCombatType>UNITCOMBAT_WEAPON_DIST_SLING</SubCombatType>
                 <SubCombatType>UNITCOMBAT_ARMOR_LIGHT</SubCombatType>
                 <SubCombatType>UNITCOMBAT_SPEED_FAST</SubCombatType>
                 <SubCombatType>UNITCOMBAT_MOTILITY_FOOT</SubCombatType>
@@ -1753,11 +1752,11 @@
             <PrereqTech>TECH_TRACKING</PrereqTech>
             <UnitUpgrades>
                 <UnitType>UNIT_HUNTER</UnitType>
-                <UnitType>UNIT_NEANDERTHAL_TRACKER</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL_TRACKER</UnitType>-->
             </UnitUpgrades>
             <ObsoleteTech>TECH_HUNTING</ObsoleteTech>
             <SupersedingUnits>
-                <UnitType>UNIT_NEANDERTHAL_GATHERER</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL_GATHERER</UnitType>-->
             </SupersedingUnits>
             <iCost>28</iCost>
             <iBaseUpkeep>1</iBaseUpkeep>
@@ -1767,7 +1766,7 @@
             <iXPValueDefense>1</iXPValueDefense>
             <iCityAttack>-75</iCityAttack>
             <iPursuit>20</iPursuit>
-            <iAnimalCombat>125</iAnimalCombat>
+            <iAnimalCombat>80</iAnimalCombat>
             <UnitCombatMods>
                 <UnitCombatMod>
                     <UnitCombatType>UNITCOMBAT_ANIMAL_COMBAT_FLEEING</UnitCombatType>
@@ -1826,7 +1825,6 @@
                 <SubCombatType>UNITCOMBAT_WEAPON_STYLE_DIST_SINGLE_HAND_ONLY</SubCombatType>
                 <SubCombatType>UNITCOMBAT_WEAPON_H2H_KNIFE</SubCombatType>
                 <SubCombatType>UNITCOMBAT_WEAPON_SIDEARM_KNIFE</SubCombatType>
-                <SubCombatType>UNITCOMBAT_WEAPON_DIST_JAVELIN</SubCombatType>
                 <SubCombatType>UNITCOMBAT_ARMOR_LIGHT</SubCombatType>
                 <SubCombatType>UNITCOMBAT_SPEED_FAST</SubCombatType>
                 <SubCombatType>UNITCOMBAT_MOTILITY_FOOT</SubCombatType>
@@ -1884,14 +1882,14 @@
             <iMoves>2</iMoves>
             <UnitUpgrades>
                 <UnitType>UNIT_RANGER</UnitType>
-                <UnitType>UNIT_NEANDERTHAL_HUNTER</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL_HUNTER</UnitType>-->
             </UnitUpgrades>
             <iCombat>3</iCombat>
             <iXPValueAttack>2</iXPValueAttack>
             <iXPValueDefense>1</iXPValueDefense>
             <iCityAttack>-75</iCityAttack>
             <iPursuit>30</iPursuit>
-            <iAnimalCombat>125</iAnimalCombat>
+            <iAnimalCombat>100</iAnimalCombat>
             <UnitCombatMods>
                 <UnitCombatMod>
                     <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
@@ -1936,7 +1934,7 @@
             </FreePromotions>
             <ObsoleteTech>TECH_BRONZE_WORKING</ObsoleteTech>
             <SupersedingUnits>
-                <UnitType>UNIT_NEANDERTHAL_GATHERER</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL_GATHERER</UnitType>-->
             </SupersedingUnits>
         </UnitInfo>
         <UnitInfo>
@@ -6156,11 +6154,11 @@
             </MapCategoryTypes>
             <UnitUpgrades>
                 <UnitType>UNIT_CLUBMAN</UnitType>
-                <UnitType>UNIT_NEANDERTHAL_BRUTE</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL_BRUTE</UnitType>-->
             </UnitUpgrades>
             <ObsoleteTech>TECH_FLINTLOCK</ObsoleteTech>
             <SupersedingUnits>
-                <UnitType>UNIT_NEANDERTHAL_BRUTE</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL_BRUTE</UnitType>-->
             </SupersedingUnits>
             <iCost>3</iCost>
             <iBaseUpkeep>1</iBaseUpkeep>
@@ -6242,10 +6240,10 @@
             <UnitUpgrades>
                 <UnitType>UNIT_SPIKED_CLUBMAN</UnitType>
                 <UnitType>UNIT_WOODEN_SPEARMAN</UnitType>
-                <UnitType>UNIT_NEANDERTHAL</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL</UnitType>-->
             </UnitUpgrades>
             <SupersedingUnits>
-                <UnitType>UNIT_NEANDERTHAL</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL</UnitType>-->
             </SupersedingUnits>
             <ObsoleteTech>TECH_FLINTLOCK</ObsoleteTech>
             <iCost>19</iCost>
@@ -6338,10 +6336,10 @@
             <UnitUpgrades>
                 <UnitType>UNIT_STONE_AXEMAN</UnitType>
                 <UnitType>UNIT_STONE_MACEMAN</UnitType>
-                <UnitType>UNIT_NEANDERTHAL_WARRIOR</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL_WARRIOR</UnitType>-->
             </UnitUpgrades>
             <SupersedingUnits>
-                <UnitType>UNIT_NEANDERTHAL_WARRIOR</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL_WARRIOR</UnitType>-->
             </SupersedingUnits>
             <ObsoleteTech>TECH_FLINTLOCK</ObsoleteTech>
             <iCost>31</iCost>
@@ -6434,7 +6432,7 @@
             <UnitUpgrades>
                 <UnitType>UNIT_OBSIDIAN_MACEMAN</UnitType>
                 <UnitType>UNIT_OBSIDIAN_SWORDSMAN</UnitType>
-                <UnitType>UNIT_NEANDERTHAL_STONE_MACEMAN</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL_STONE_MACEMAN</UnitType>-->
             </UnitUpgrades>
             <ObsoleteTech>TECH_FLINTLOCK</ObsoleteTech>
             <!--			<SupersedingUnits>-->
@@ -6446,13 +6444,9 @@
             <iCombat>4</iCombat>
             <iXPValueAttack>3</iXPValueAttack>
             <iXPValueDefense>1</iXPValueDefense>
-            <iCityAttack>10</iCityAttack>
-            <UnitCombatMods>
-                <UnitCombatMod>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <iUnitCombatMod>20</iUnitCombatMod>
-                </UnitCombatMod>
-            </UnitCombatMods>
+            <iCityAttack>15</iCityAttack>
+            <iCityDefense>5</iCityDefense>
+            <iAttackCombatModifier>5</iAttackCombatModifier>
             <BonusProductionModifiers>
                 <BonusProductionModifier>
                     <BonusType>BONUS_STONE</BonusType>
@@ -6532,21 +6526,23 @@
             </MapCategoryTypes>
             <UnitUpgrades>
                 <UnitType>UNIT_EARLY_MACEMAN</UnitType>
-                <UnitType>UNIT_NEANDERTHAL_OBSIDIAN_MACEMAN</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL_OBSIDIAN_MACEMAN</UnitType>-->
             </UnitUpgrades>
             <PrereqTech>TECH_OBSIDIAN_WEAPONS</PrereqTech>
             <BonusType>BONUS_OBSIDIAN</BonusType>
-            <iCost>56</iCost>
+            <iCost>58</iCost>
             <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iCombat>5</iCombat>
             <iXPValueAttack>3</iXPValueAttack>
             <iXPValueDefense>1</iXPValueDefense>
-            <iCityAttack>10</iCityAttack>
+            <iCityAttack>15</iCityAttack>
+            <iCityDefense>5</iCityDefense>
+            <iAttackCombatModifier>5</iAttackCombatModifier>
             <UnitCombatMods>
                 <UnitCombatMod>
                     <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <iUnitCombatMod>20</iUnitCombatMod>
+                    <iUnitCombatMod>10</iUnitCombatMod>
                 </UnitCombatMod>
             </UnitCombatMods>
             <BonusProductionModifiers>
@@ -6574,7 +6570,7 @@
             </UnitMeshGroups>
             <FormationType>FORMATION_TYPE_NO_SIEGE</FormationType>
             <SupersedingUnits>
-                <UnitType>UNIT_NEANDERTHAL_OBSIDIAN_MACEMAN</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL_OBSIDIAN_MACEMAN</UnitType>-->
             </SupersedingUnits>
         </UnitInfo>
         <UnitInfo>
@@ -6824,7 +6820,7 @@
             <PrereqTech>TECH_AXE_MAKING</PrereqTech>
             <UnitUpgrades>
                 <!--				<UnitType>UNIT_OBSIDIAN_AXEMAN</UnitType>-->
-                <UnitType>UNIT_NEANDERTHAL_STONE_AGE_AXEMAN</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL_STONE_AGE_AXEMAN</UnitType>-->
             </UnitUpgrades>
             <ObsoleteTech>TECH_FLINTLOCK</ObsoleteTech>
             <!--			<SupersedingUnits>-->
@@ -6839,7 +6835,7 @@
             <UnitCombatMods>
                 <UnitCombatMod>
                     <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <iUnitCombatMod>40</iUnitCombatMod>
+                    <iUnitCombatMod>30</iUnitCombatMod>
                 </UnitCombatMod>
             </UnitCombatMods>
             <BonusProductionModifiers>
@@ -6928,9 +6924,9 @@
             <BonusType>BONUS_OBSIDIAN</BonusType>
             <UnitUpgrades>
                 <!--				<UnitType>UNIT_AXEMAN</UnitType>-->
-                <UnitType>UNIT_NEANDERTHAL_OBSIDIAN_AXEMAN</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL_OBSIDIAN_AXEMAN</UnitType>-->
             </UnitUpgrades>
-            <iCost>56</iCost>
+            <iCost>58</iCost>
             <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iCombat>5</iCombat>
@@ -6939,7 +6935,7 @@
             <UnitCombatMods>
                 <UnitCombatMod>
                     <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <iUnitCombatMod>40</iUnitCombatMod>
+                    <iUnitCombatMod>30</iUnitCombatMod>
                 </UnitCombatMod>
             </UnitCombatMods>
             <BonusProductionModifiers>
@@ -6968,7 +6964,7 @@
             </UnitMeshGroups>
             <FormationType>FORMATION_TYPE_DEFAULT</FormationType>
             <SupersedingUnits>
-                <UnitType>UNIT_NEANDERTHAL_OBSIDIAN_AXEMAN</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL_OBSIDIAN_AXEMAN</UnitType>-->
             </SupersedingUnits>
         </UnitInfo>
         <UnitInfo>
@@ -7223,20 +7219,20 @@
             <BonusType>BONUS_OBSIDIAN</BonusType>
             <UnitUpgrades>
                 <UnitType>UNIT_LIGHT_SWORDSMAN</UnitType>
-                <UnitType>UNIT_NEANDERTHAL_OBSIDIAN_SWORDSMAN</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL_OBSIDIAN_SWORDSMAN</UnitType>-->
             </UnitUpgrades>
-            <iCost>56</iCost>
+            <iCost>58</iCost>
             <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iCombat>5</iCombat>
             <UnitCombatMods>
                 <UnitCombatMod>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <iUnitCombatMod>20</iUnitCombatMod>
+                    <iUnitCombatMod>15</iUnitCombatMod>
                 </UnitCombatMod>
                 <UnitCombatMod>
                     <UnitCombatType>UNITCOMBAT_THROWING</UnitCombatType>
-                    <iUnitCombatMod>20</iUnitCombatMod>
+                    <iUnitCombatMod>15</iUnitCombatMod>
                 </UnitCombatMod>
             </UnitCombatMods>
             <iXPValueAttack>3</iXPValueAttack>
@@ -7267,7 +7263,7 @@
             </UnitMeshGroups>
             <FormationType>FORMATION_TYPE_DEFAULT</FormationType>
             <SupersedingUnits>
-                <UnitType>UNIT_NEANDERTHAL_OBSIDIAN_SWORDSMAN</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL_OBSIDIAN_SWORDSMAN</UnitType>-->
             </SupersedingUnits>
         </UnitInfo>
         <UnitInfo>
@@ -7728,7 +7724,7 @@
             <bPillage>1</bPillage>
             <UnitUpgrades>
                 <UnitType>UNIT_STONE_SPEARMAN</UnitType>
-                <UnitType>UNIT_NEANDERTHAL_WOODEN_SPEARMAN</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL_WOODEN_SPEARMAN</UnitType>-->
             </UnitUpgrades>
             <UnitAIs>
                 <UnitAI>
@@ -7755,19 +7751,21 @@
             <PrereqTech>TECH_SIMPLE_WOOD_WORKING</PrereqTech>
             <ObsoleteTech>TECH_FLINTLOCK</ObsoleteTech>
             <SupersedingUnits>
-                <UnitType>UNIT_NEANDERTHAL_WOODEN_SPEARMAN</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL_WOODEN_SPEARMAN</UnitType>-->
             </SupersedingUnits>
-            <iCost>38</iCost>
+            <iCost>37</iCost>
             <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iCombat>3</iCombat>
+            <iChanceFirstStrikes>1</iChanceFirstStrikes>
+            <iDefenseCombatModifier>10</iDefenseCombatModifier>
             <iXPValueAttack>2</iXPValueAttack>
             <iXPValueDefense>2</iXPValueDefense>
-            <iAnimalCombat>25</iAnimalCombat>
+            <iAnimalCombat>20</iAnimalCombat>
             <UnitCombatMods>
                 <UnitCombatMod>
                     <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <iUnitCombatMod>25</iUnitCombatMod>
+                    <iUnitCombatMod>20</iUnitCombatMod>
                 </UnitCombatMod>
             </UnitCombatMods>
             <BonusProductionModifiers>
@@ -7827,7 +7825,7 @@
             <bPillage>1</bPillage>
             <UnitUpgrades>
                 <!--				<UnitType>UNIT_OBSIDIAN_SPEARMAN</UnitType>-->
-                <UnitType>UNIT_NEANDERTHAL_STONE_AGE_SPEARMAN</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL_STONE_AGE_SPEARMAN</UnitType>-->
             </UnitUpgrades>
             <UnitAIs>
                 <UnitAI>
@@ -7849,20 +7847,22 @@
             </UnitAIs>
             <PrereqTech>TECH_SPEAR_MAKING</PrereqTech>
             <ObsoleteTech>TECH_FLINTLOCK</ObsoleteTech>
-            <SupersedingUnits>
-                <UnitType>UNIT_NEANDERTHAL_STONE_AGE_SPEARMAN</UnitType>
-            </SupersedingUnits>
-            <iCost>43</iCost>
+<!--            <SupersedingUnits>-->
+<!--                <UnitType>UNIT_NEANDERTHAL_STONE_AGE_SPEARMAN</UnitType>-->
+<!--            </SupersedingUnits>-->
+            <iCost>42</iCost>
             <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iCombat>4</iCombat>
             <iXPValueAttack>2</iXPValueAttack>
             <iXPValueDefense>2</iXPValueDefense>
-            <iAnimalCombat>50</iAnimalCombat>
+            <iChanceFirstStrikes>1</iChanceFirstStrikes>
+            <iDefenseCombatModifier>10</iDefenseCombatModifier>
+            <iAnimalCombat>30</iAnimalCombat>
             <UnitCombatMods>
                 <UnitCombatMod>
                     <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <iUnitCombatMod>40</iUnitCombatMod>
+                    <iUnitCombatMod>30</iUnitCombatMod>
                 </UnitCombatMod>
             </UnitCombatMods>
             <BonusProductionModifiers>
@@ -7930,7 +7930,7 @@
             <bPillage>1</bPillage>
             <UnitUpgrades>
                 <!--				<UnitType>UNIT_SPEARMAN</UnitType>-->
-                <UnitType>UNIT_NEANDERTHAL_OBSIDIAN_SPEARMAN</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL_OBSIDIAN_SPEARMAN</UnitType>-->
             </UnitUpgrades>
             <UnitAIs>
                 <UnitAI>
@@ -7962,9 +7962,11 @@
             <UnitCombatMods>
                 <UnitCombatMod>
                     <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <iUnitCombatMod>40</iUnitCombatMod>
+                    <iUnitCombatMod>30</iUnitCombatMod>
                 </UnitCombatMod>
             </UnitCombatMods>
+            <iChanceFirstStrikes>1</iChanceFirstStrikes>
+            <iDefenseCombatModifier>10</iDefenseCombatModifier>
             <BonusProductionModifiers>
                 <BonusProductionModifier>
                     <BonusType>BONUS_STONE</BonusType>
@@ -8984,11 +8986,11 @@
             <bPillage>1</bPillage>
             <UnitUpgrades>
                 <UnitType>UNIT_SLINGER</UnitType>
-                <UnitType>UNIT_NEANDERTHAL_STONE_THROWER</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL_STONE_THROWER</UnitType>-->
             </UnitUpgrades>
             <ObsoleteTech>TECH_BINDING</ObsoleteTech>
             <SupersedingUnits>
-                <UnitType>UNIT_NEANDERTHAL_STONE_THROWER</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL_STONE_THROWER</UnitType>-->
             </SupersedingUnits>
             <iCost>4</iCost>
             <iBaseUpkeep>1</iBaseUpkeep>
@@ -9007,15 +9009,15 @@
             <UnitCombatMods>
                 <UnitCombatMod>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <iUnitCombatMod>20</iUnitCombatMod>
+                    <iUnitCombatMod>10</iUnitCombatMod>
                 </UnitCombatMod>
                 <UnitCombatMod>
                     <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <iUnitCombatMod>20</iUnitCombatMod>
+                    <iUnitCombatMod>10</iUnitCombatMod>
                 </UnitCombatMod>
                 <UnitCombatMod>
                     <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-                    <iUnitCombatMod>20</iUnitCombatMod>
+                    <iUnitCombatMod>10</iUnitCombatMod>
                 </UnitCombatMod>
             </UnitCombatMods>
             <iConscription>2</iConscription>
@@ -9084,13 +9086,13 @@
             <PrereqTech>TECH_BINDING</PrereqTech>
             <UnitUpgrades>
                 <UnitType>UNIT_ARCHER</UnitType>
-                <UnitType>UNIT_NEANDERTHAL_SLINGER</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL_SLINGER</UnitType>-->
             </UnitUpgrades>
             <SupersedingUnits>
-                <UnitType>UNIT_NEANDERTHAL_SLINGER</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL_SLINGER</UnitType>-->
             </SupersedingUnits>
             <ObsoleteTech>TECH_FLINTLOCK</ObsoleteTech>
-            <iCost>23</iCost>
+            <iCost>26</iCost>
             <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iCombat>2</iCombat>
@@ -9099,9 +9101,6 @@
             <iChanceFirstStrikes>2</iChanceFirstStrikes>
             <iWithdrawalProb>7</iWithdrawalProb>
             <iEarlyWithdraw>70</iEarlyWithdraw>
-            <iCollateralDamage>2</iCollateralDamage>
-            <iCollateralDamageLimit>7</iCollateralDamageLimit>
-            <iCollateralDamageMaxUnits>1</iCollateralDamageMaxUnits>
             <iCityDefense>20</iCityDefense>
             <iHillsDefense>20</iHillsDefense>
             <BonusProductionModifiers>
@@ -9117,15 +9116,15 @@
             <UnitCombatMods>
                 <UnitCombatMod>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <iUnitCombatMod>20</iUnitCombatMod>
+                    <iUnitCombatMod>10</iUnitCombatMod>
                 </UnitCombatMod>
                 <UnitCombatMod>
                     <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <iUnitCombatMod>20</iUnitCombatMod>
+                    <iUnitCombatMod>10</iUnitCombatMod>
                 </UnitCombatMod>
                 <UnitCombatMod>
                     <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-                    <iUnitCombatMod>20</iUnitCombatMod>
+                    <iUnitCombatMod>10</iUnitCombatMod>
                 </UnitCombatMod>
             </UnitCombatMods>
             <iConscription>3</iConscription>
@@ -9203,7 +9202,7 @@
             <PrereqTech>TECH_ATLATL_MAKING</PrereqTech>
             <ObsoleteTech>TECH_FLINTLOCK</ObsoleteTech>
             <SupersedingUnits>
-                <UnitType>UNIT_NEANDERTHAL_GATHERER</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL_GATHERER</UnitType>-->
             </SupersedingUnits>
             <iCost>52</iCost>
             <iBaseUpkeep>1</iBaseUpkeep>
@@ -9212,25 +9211,22 @@
             <iXPValueAttack>2</iXPValueAttack>
             <iXPValueDefense>2</iXPValueDefense>
             <iChanceFirstStrikes>2</iChanceFirstStrikes>
-            <iWithdrawalProb>10</iWithdrawalProb>
+            <iWithdrawalProb>20</iWithdrawalProb>
             <iEarlyWithdraw>60</iEarlyWithdraw>
             <iCollateralDamage>5</iCollateralDamage>
             <iCollateralDamageLimit>60</iCollateralDamageLimit>
             <iCollateralDamageMaxUnits>1</iCollateralDamageMaxUnits>
             <iCityAttack>5</iCityAttack>
             <iCityDefense>15</iCityDefense>
+            <iAttackCombatModifier>-10</iAttackCombatModifier>
             <UnitCombatMods>
                 <UnitCombatMod>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <iUnitCombatMod>20</iUnitCombatMod>
-                </UnitCombatMod>
-                <UnitCombatMod>
                     <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <iUnitCombatMod>20</iUnitCombatMod>
+                    <iUnitCombatMod>10</iUnitCombatMod>
                 </UnitCombatMod>
                 <UnitCombatMod>
                     <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-                    <iUnitCombatMod>20</iUnitCombatMod>
+                    <iUnitCombatMod>10</iUnitCombatMod>
                 </UnitCombatMod>
             </UnitCombatMods>
             <BonusProductionModifiers>
@@ -12715,7 +12711,7 @@
                 <PrereqTech>TECH_EQUINE_DOMESTICATION</PrereqTech>
             </TechTypes>
             <BonusType>BONUS_HORSE</BonusType>
-            <iCost>100</iCost>
+            <iCost>105</iCost>
             <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iCombat>6</iCombat>
@@ -14952,7 +14948,7 @@
             <bNoDefensiveBonus>1</bNoDefensiveBonus>
             <UnitUpgrades>
                 <UnitType>UNIT_WAR_ELEPHANT</UnitType>
-                <UnitType>UNIT_NEANDERTHAL_ELEPHANT_RIDER</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL_ELEPHANT_RIDER</UnitType>-->
             </UnitUpgrades>
             <UnitAIs>
                 <UnitAI>
@@ -14978,13 +14974,13 @@
                 <PrereqTech>TECH_ELEPHANT_DOMESTICATION</PrereqTech>
             </TechTypes>
             <BonusType>BONUS_ELEPHANTS</BonusType>
-            <iCost>110</iCost>
+            <iCost>120</iCost>
             <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iCombat>8</iCombat>
             <iXPValueAttack>3</iXPValueAttack>
             <iXPValueDefense>1</iXPValueDefense>
-            <iCityAttack>25</iCityAttack>
+            <iCityAttack>20</iCityAttack>
             <FeatureAttacks>
                 <FeatureAttack>
                     <FeatureType>FEATURE_FOREST</FeatureType>
@@ -14998,11 +14994,11 @@
             <UnitCombatMods>
                 <UnitCombatMod>
                     <UnitCombatType>UNITCOMBAT_SIEGE_WOODEN</UnitCombatType>
-                    <iUnitCombatMod>50</iUnitCombatMod>
+                    <iUnitCombatMod>30</iUnitCombatMod>
                 </UnitCombatMod>
                 <UnitCombatMod>
                     <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <iUnitCombatMod>50</iUnitCombatMod>
+                    <iUnitCombatMod>30</iUnitCombatMod>
                 </UnitCombatMod>
             </UnitCombatMods>
             <iAsset>2</iAsset>
@@ -15026,7 +15022,7 @@
                 </FreePromotion>
             </FreePromotions>
             <SupersedingUnits>
-                <UnitType>UNIT_NEANDERTHAL_ELEPHANT_RIDER</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL_ELEPHANT_RIDER</UnitType>-->
             </SupersedingUnits>
         </UnitInfo>
         <UnitInfo>
@@ -15611,7 +15607,7 @@
                 <PrereqTech>TECH_CAMELID_DOMESTICATION</PrereqTech>
             </TechTypes>
             <BonusType>BONUS_CAMEL</BonusType>
-            <iCost>90</iCost>
+            <iCost>95</iCost>
             <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iCombat>6</iCombat>
@@ -15624,21 +15620,21 @@
             <FeatureAttacks>
                 <FeatureAttack>
                     <FeatureType>FEATURE_JUNGLE</FeatureType>
-                    <iFeatureAttack>-50</iFeatureAttack>
+                    <iFeatureAttack>-25</iFeatureAttack>
                 </FeatureAttack>
                 <FeatureAttack>
                     <FeatureType>FEATURE_FOREST</FeatureType>
-                    <iFeatureAttack>-20</iFeatureAttack>
+                    <iFeatureAttack>-15</iFeatureAttack>
                 </FeatureAttack>
             </FeatureAttacks>
             <UnitCombatMods>
                 <UnitCombatMod>
                     <UnitCombatType>UNITCOMBAT_SIEGE_WOODEN</UnitCombatType>
-                    <iUnitCombatMod>50</iUnitCombatMod>
+                    <iUnitCombatMod>20</iUnitCombatMod>
                 </UnitCombatMod>
                 <UnitCombatMod>
                     <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <iUnitCombatMod>50</iUnitCombatMod>
+                    <iUnitCombatMod>20</iUnitCombatMod>
                 </UnitCombatMod>
             </UnitCombatMods>
             <iAsset>2</iAsset>
@@ -18451,7 +18447,7 @@
             <bMilitaryTrade>1</bMilitaryTrade>
             <UnitUpgrades>
                 <UnitType>UNIT_BATTERING_RAM</UnitType>
-                <UnitType>UNIT_NEANDERTHAL_LOG_RAM</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL_LOG_RAM</UnitType>-->
             </UnitUpgrades>
             <UnitAIs>
                 <UnitAI>
@@ -18511,7 +18507,7 @@
             </UnitMeshGroups>
             <FormationType>FORMATION_TYPE_MACHINE</FormationType>
             <SupersedingUnits>
-                <UnitType>UNIT_NEANDERTHAL_LOG_RAM</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL_LOG_RAM</UnitType>-->
             </SupersedingUnits>
         </UnitInfo>
         <UnitInfo>
@@ -25897,7 +25893,7 @@
             </PrereqOrBuildings>
             <UnitUpgrades>
                 <UnitType>UNIT_WARDOG</UnitType>
-                <UnitType>UNIT_NEANDERTHAL_TRAINED_DOG</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL_TRAINED_DOG</UnitType>-->
             </UnitUpgrades>
             <iCost>70</iCost>
             <iBaseUpkeep>1</iBaseUpkeep>
@@ -25934,7 +25930,7 @@
             </UnitMeshGroups>
             <FormationType>FORMATION_TYPE_ANIMAL</FormationType>
             <SupersedingUnits>
-                <UnitType>UNIT_NEANDERTHAL_TRAINED_DOG</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL_TRAINED_DOG</UnitType>-->
             </SupersedingUnits>
         </UnitInfo>
         <UnitInfo>
@@ -26874,7 +26870,7 @@
             <bMilitaryProduction>1</bMilitaryProduction>
             <UnitUpgrades>
                 <UnitType>UNIT_ENFORCERS</UnitType>
-                <UnitType>UNIT_NEANDERTHAL_TRIBAL_GUARDIAN</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL_TRIBAL_GUARDIAN</UnitType>-->
             </UnitUpgrades>
             <iCost>-1</iCost>
             <iBaseUpkeep>1</iBaseUpkeep>
@@ -26951,10 +26947,10 @@
             </PrereqOrBuildings>
             <UnitUpgrades>
                 <UnitType>UNIT_ENFORCERS</UnitType>
-                <UnitType>UNIT_NEANDERTHAL_WATCHER</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL_WATCHER</UnitType>-->
             </UnitUpgrades>
             <SupersedingUnits>
-                <UnitType>UNIT_NEANDERTHAL_WATCHER</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL_WATCHER</UnitType>-->
             </SupersedingUnits>
             <bNoCapture>1</bNoCapture>
             <bMilitaryHappiness>1</bMilitaryHappiness>
@@ -27081,10 +27077,10 @@
             </PrereqOrBuildings>
             <UnitUpgrades>
                 <UnitType>UNIT_TOWN_WATCHMEN</UnitType>
-                <UnitType>UNIT_NEANDERTHAL_ENFORCER</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL_ENFORCER</UnitType>-->
             </UnitUpgrades>
             <SupersedingUnits>
-                <UnitType>UNIT_NEANDERTHAL_ENFORCER</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL_ENFORCER</UnitType>-->
             </SupersedingUnits>
             <VisibilityIntensityTypes>
                 <VisibilityIntensityType>
@@ -29063,7 +29059,7 @@
                 <UnitType>UNIT_THIEF</UnitType>
             </UnitUpgrades>
             <SupersedingUnits>
-                <UnitType>UNIT_NEANDERTHAL_GATHERER</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL_GATHERER</UnitType>-->
             </SupersedingUnits>
             <ObsoleteTech>TECH_SEDENTARY_LIFESTYLE</ObsoleteTech>
             <Invisible>INVISIBLE_CAMOUFLAGE</Invisible>
@@ -29247,7 +29243,7 @@
                 <UnitType>UNIT_ROGUE</UnitType>
             </UnitUpgrades>
             <SupersedingUnits>
-                <UnitType>UNIT_NEANDERTHAL_GATHERER</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL_GATHERER</UnitType>-->
             </SupersedingUnits>
             <iCost>43</iCost>
             <iBaseUpkeep>1</iBaseUpkeep>
@@ -29439,7 +29435,7 @@
                 <UnitType>UNIT_BURGLAR</UnitType>
             </UnitUpgrades>
             <SupersedingUnits>
-                <UnitType>UNIT_NEANDERTHAL_GATHERER</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL_GATHERER</UnitType>-->
             </SupersedingUnits>
             <ObsoleteTech>TECH_MATCHLOCK</ObsoleteTech>
             <iCost>68</iCost>
@@ -32769,7 +32765,7 @@
                 <UnitType>UNIT_STALKERS</UnitType>
             </UnitUpgrades>
             <SupersedingUnits>
-                <UnitType>UNIT_NEANDERTHAL_GATHERER</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL_GATHERER</UnitType>-->
             </SupersedingUnits>
             <iCost>92</iCost>
             <iBaseUpkeep>1</iBaseUpkeep>
@@ -32803,7 +32799,7 @@
             </UnitCombatMods>
             <iFirstStrikes>1</iFirstStrikes>
             <iStealthStrikes>1</iStealthStrikes>
-            <iStealthCombatModifier>10</iStealthCombatModifier>
+            <iStealthCombatModifier>20</iStealthCombatModifier>
             <iWithdrawalProb>15</iWithdrawalProb>
             <iEarlyWithdraw>75</iEarlyWithdraw>
             <iPursuit>10</iPursuit>
@@ -39050,7 +39046,7 @@
             </HealUnitCombatTypes>
             <UnitUpgrades>
                 <UnitType>UNIT_VET</UnitType>
-                <UnitType>UNIT_NEANDERTHAL_SHEPHERD</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL_SHEPHERD</UnitType>-->
             </UnitUpgrades>
             <UnitAIs>
                 <UnitAI>
@@ -39118,7 +39114,7 @@
                 </PropertySource>
             </PropertyManipulators>
             <SupersedingUnits>
-                <UnitType>UNIT_NEANDERTHAL_SHEPHERD</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL_SHEPHERD</UnitType>-->
             </SupersedingUnits>
         </UnitInfo>
         <UnitInfo>
@@ -41396,7 +41392,7 @@
             <UnitUpgrades>
                 <UnitType>UNIT_HEALER</UnitType>
                 <UnitType>UNIT_SHEPHERD</UnitType>
-                <UnitType>UNIT_NEANDERTHAL_WISE_WOMAN</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL_WISE_WOMAN</UnitType>-->
             </UnitUpgrades>
             <iCost>18</iCost>
             <iHurryCostModifier>25</iHurryCostModifier>
@@ -41448,7 +41444,7 @@
                 </PropertySource>
             </PropertyManipulators>
             <SupersedingUnits>
-                <UnitType>UNIT_NEANDERTHAL_WISE_WOMAN</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL_WISE_WOMAN</UnitType>-->
                 <UnitType>UNIT_HEALER</UnitType>
             </SupersedingUnits>
         </UnitInfo>
@@ -41504,10 +41500,10 @@
             </PrereqOrBuildings>
             <UnitUpgrades>
                 <UnitType>UNIT_MEDICINE_MAN</UnitType>
-                <UnitType>UNIT_NEANDERTHAL_HEALER</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL_HEALER</UnitType>-->
             </UnitUpgrades>
             <SupersedingUnits>
-                <UnitType>UNIT_NEANDERTHAL_HEALER</UnitType>
+<!--                <UnitType>UNIT_NEANDERTHAL_HEALER</UnitType>-->
             </SupersedingUnits>
             <iCost>45</iCost>
             <iHurryCostModifier>25</iHurryCostModifier>

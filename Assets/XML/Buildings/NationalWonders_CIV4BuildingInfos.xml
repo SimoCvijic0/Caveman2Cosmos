@@ -543,7 +543,7 @@
 			</BonusProductionModifiers>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<ConstructSound>AS2D_BUILD_WALLS</ConstructSound>
-			<iHealth>1</iHealth>
+			<iHealth>-1</iHealth>
 			<iHappiness>1</iHappiness>
 			<CommerceChanges>
 				<iCommerce>0</iCommerce>

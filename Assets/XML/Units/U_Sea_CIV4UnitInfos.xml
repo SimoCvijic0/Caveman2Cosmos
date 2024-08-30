@@ -60,9 +60,9 @@
 				</UnitAI>
 			</UnitAIs>
 			<ObsoleteTech>TECH_OPTICS</ObsoleteTech>
-			<SupersedingUnits>
-				<UnitType>UNIT_NEANDERTHAL_RAFT</UnitType>
-			</SupersedingUnits>
+<!--			<SupersedingUnits>-->
+<!--				<UnitType>UNIT_NEANDERTHAL_RAFT</UnitType>-->
+<!--			</SupersedingUnits>-->
 			<PrereqTech>TECH_RAFT_BUILDING</PrereqTech>
 			<PrereqBonuses>
 				<BonusType>BONUS_PRIME_TIMBER</BonusType>
@@ -97,6 +97,10 @@
 				<BonusProductionModifier>
 					<BonusType>BONUS_PRIME_TIMBER</BonusType>
 					<iProductonModifier>20</iProductonModifier>
+				</BonusProductionModifier>
+				<BonusProductionModifier>
+					<BonusType>BONUS_ROPE</BonusType>
+					<iProductonModifier>10</iProductonModifier>
 				</BonusProductionModifier>
 			</BonusProductionModifiers>
 			<DomainCargo>DOMAIN_LAND</DomainCargo>
@@ -3950,7 +3954,7 @@
 				<BonusType>BONUS_BAMBOO</BonusType>
 				<BonusType>BONUS_WOOD</BonusType>
 			</PrereqBonuses>
-			<iCost>81</iCost>
+			<iCost>75</iCost>
 			<iMinAreaSize>5</iMinAreaSize>
 			<iBaseUpkeep>1</iBaseUpkeep>
 			<iMoves>1</iMoves>

@@ -2011,7 +2011,7 @@
 				<BuildType>BUILD_BEACON_GREAT_BARRIER_REEF</BuildType>
 			</Builds>
 			<PrereqTech>TECH_FISHING</PrereqTech>
-			<iCost>61</iCost>
+			<iCost>55</iCost>
 			<iBaseUpkeep>1</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iWorkRate>100</iWorkRate>
