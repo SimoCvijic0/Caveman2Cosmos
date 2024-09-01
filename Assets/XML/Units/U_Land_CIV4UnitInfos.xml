@@ -1240,6 +1240,7 @@
             <bBarbCoExist>1</bBarbCoExist>
             <bNoBadGoodies>1</bNoBadGoodies>
             <bPassage>1</bPassage>
+            <bMilitaryTrade>1</bMilitaryTrade>
             <bUpgradeAnywhere>1</bUpgradeAnywhere>
             <UnitUpgrades>
                 <UnitType>UNIT_ADVENTURER</UnitType>
@@ -2504,7 +2505,7 @@
         </UnitInfo>
         <UnitInfo>
             <Type>UNIT_SPECIAL_AGENT</Type>
-            <iMaxPlayerInstances>5</iMaxPlayerInstances>
+<!--            <iMaxPlayerInstances>5</iMaxPlayerInstances>-->
 <!--            <iInstanceCostModifier>20</iInstanceCostModifier>-->
             <Special>SPECIALUNIT_PEOPLE</Special>
             <Combat>UNITCOMBAT_SPY</Combat>
@@ -2787,7 +2788,7 @@
         </UnitInfo>
         <UnitInfo>
             <Type>UNIT_SLEEPER</Type>
-            <iMaxPlayerInstances>5</iMaxPlayerInstances>
+<!--            <iMaxPlayerInstances>5</iMaxPlayerInstances>-->
 <!--            <iInstanceCostModifier>20</iInstanceCostModifier>-->
             <Domain>DOMAIN_LAND</Domain>
             <DefaultUnitAI>UNITAI_SPY</DefaultUnitAI>
@@ -5805,7 +5806,7 @@
         </UnitInfo>
         <UnitInfo>
             <Type>UNIT_RA_FIST</Type>
-            <iMaxPlayerInstances>1</iMaxPlayerInstances>
+<!--            <iMaxPlayerInstances>1</iMaxPlayerInstances>-->
             <bUnlimitedException>1</bUnlimitedException>
             <Combat>UNITCOMBAT_MELEE</Combat>
             <SubCombatTypes>
@@ -5920,7 +5921,7 @@
         </UnitInfo>
         <UnitInfo>
             <Type>UNIT_RA_KNIGHT</Type>
-            <iMaxPlayerInstances>1</iMaxPlayerInstances>
+<!--            <iMaxPlayerInstances>1</iMaxPlayerInstances>-->
             <bUnlimitedException>1</bUnlimitedException>
             <Combat>UNITCOMBAT_MOUNTED</Combat>
             <SubCombatTypes>
@@ -6149,6 +6150,7 @@
             <bMilitaryProduction>1</bMilitaryProduction>
             <bMilitarySupport>1</bMilitarySupport>
             <bPillage>1</bPillage>
+            <bMilitaryTrade>1</bMilitaryTrade>
             <MapCategoryTypes>
                 <MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
             </MapCategoryTypes>
@@ -6233,6 +6235,7 @@
             <bMilitaryProduction>1</bMilitaryProduction>
             <bMilitarySupport>1</bMilitarySupport>
             <bPillage>1</bPillage>
+            <bMilitaryTrade>1</bMilitaryTrade>
             <MapCategoryTypes>
                 <MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
             </MapCategoryTypes>
@@ -6329,6 +6332,7 @@
             <bMilitaryProduction>1</bMilitaryProduction>
             <bMilitarySupport>1</bMilitarySupport>
             <bPillage>1</bPillage>
+            <bMilitaryTrade>1</bMilitaryTrade>
             <MapCategoryTypes>
                 <MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
             </MapCategoryTypes>
@@ -6425,6 +6429,7 @@
             <bMilitaryProduction>1</bMilitaryProduction>
             <bMilitarySupport>1</bMilitarySupport>
             <bPillage>1</bPillage>
+            <bMilitaryTrade>1</bMilitaryTrade>
             <MapCategoryTypes>
                 <MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
             </MapCategoryTypes>
@@ -6814,6 +6819,7 @@
             <bMilitaryProduction>1</bMilitaryProduction>
             <bMilitarySupport>1</bMilitarySupport>
             <bPillage>1</bPillage>
+            <bMilitaryTrade>1</bMilitaryTrade>
             <MapCategoryTypes>
                 <MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
             </MapCategoryTypes>
@@ -7722,6 +7728,7 @@
             <bMilitaryProduction>1</bMilitaryProduction>
             <bMilitarySupport>1</bMilitarySupport>
             <bPillage>1</bPillage>
+            <bMilitaryTrade>1</bMilitaryTrade>
             <UnitUpgrades>
                 <UnitType>UNIT_STONE_SPEARMAN</UnitType>
 <!--                <UnitType>UNIT_NEANDERTHAL_WOODEN_SPEARMAN</UnitType>-->
@@ -7823,6 +7830,7 @@
             <bMilitaryProduction>1</bMilitaryProduction>
             <bMilitarySupport>1</bMilitarySupport>
             <bPillage>1</bPillage>
+            <bMilitaryTrade>1</bMilitaryTrade>
             <UnitUpgrades>
                 <!--				<UnitType>UNIT_OBSIDIAN_SPEARMAN</UnitType>-->
 <!--                <UnitType>UNIT_NEANDERTHAL_STONE_AGE_SPEARMAN</UnitType>-->
@@ -8969,6 +8977,7 @@
                     <bUnitAI>1</bUnitAI>
                 </UnitAI>
             </UnitAIs>
+            <bMilitaryTrade>1</bMilitaryTrade>
             <BonusProductionModifiers>
                 <BonusProductionModifier>
                     <BonusType>BONUS_STONE</BonusType>
@@ -9069,6 +9078,7 @@
             <bMilitaryProduction>1</bMilitaryProduction>
             <bMilitarySupport>1</bMilitarySupport>
             <bPillage>1</bPillage>
+            <bMilitaryTrade>1</bMilitaryTrade>
             <UnitAIs>
                 <UnitAI>
                     <UnitAIType>UNITAI_ATTACK</UnitAIType>
@@ -9174,6 +9184,7 @@
             <bMilitaryProduction>1</bMilitaryProduction>
             <bMilitarySupport>1</bMilitarySupport>
             <bPillage>1</bPillage>
+            <bMilitaryTrade>1</bMilitaryTrade>
             <UnitUpgrades>
                 <UnitType>UNIT_JAVELINEER</UnitType>
             </UnitUpgrades>
@@ -12678,6 +12689,7 @@
             <bMilitarySupport>1</bMilitarySupport>
             <bMilitaryProduction>1</bMilitaryProduction>
             <bPillage>1</bPillage>
+            <bMilitaryTrade>1</bMilitaryTrade>
             <bFirstStrikeImmune>1</bFirstStrikeImmune>
             <bNoDefensiveBonus>1</bNoDefensiveBonus>
             <UnitUpgrades>
@@ -12686,11 +12698,11 @@
             <FlankingStrikes>
                 <FlankingStrike>
                     <UnitType>UNIT_CATAPULT</UnitType>
-                    <iFlankingStrength>50</iFlankingStrength>
+                    <iFlankingStrength>30</iFlankingStrength>
                 </FlankingStrike>
                 <FlankingStrike>
                     <UnitType>UNIT_TREBUCHET</UnitType>
-                    <iFlankingStrength>50</iFlankingStrength>
+                    <iFlankingStrength>30</iFlankingStrength>
                 </FlankingStrike>
             </FlankingStrikes>
             <UnitAIs>
@@ -12753,11 +12765,11 @@
             <UnitCombatMods>
                 <UnitCombatMod>
                     <UnitCombatType>UNITCOMBAT_SIEGE_WOODEN</UnitCombatType>
-                    <iUnitCombatMod>25</iUnitCombatMod>
+                    <iUnitCombatMod>20</iUnitCombatMod>
                 </UnitCombatMod>
                 <UnitCombatMod>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <iUnitCombatMod>25</iUnitCombatMod>
+                    <iUnitCombatMod>20</iUnitCombatMod>
                 </UnitCombatMod>
             </UnitCombatMods>
             <iAsset>2</iAsset>
@@ -14945,6 +14957,7 @@
             <bMilitarySupport>1</bMilitarySupport>
             <bMilitaryProduction>1</bMilitaryProduction>
             <bPillage>1</bPillage>
+            <bMilitaryTrade>1</bMilitaryTrade>
             <bNoDefensiveBonus>1</bNoDefensiveBonus>
             <UnitUpgrades>
                 <UnitType>UNIT_WAR_ELEPHANT</UnitType>
@@ -15579,6 +15592,7 @@
             <bMilitarySupport>1</bMilitarySupport>
             <bMilitaryProduction>1</bMilitaryProduction>
             <bPillage>1</bPillage>
+            <bMilitaryTrade>1</bMilitaryTrade>
             <bNoDefensiveBonus>1</bNoDefensiveBonus>
             <UnitUpgrades>
                 <UnitType>UNIT_CAMEL_KNIGHT</UnitType>
@@ -25885,6 +25899,7 @@
             <bNoCapture>1</bNoCapture>
             <bNoDefensiveBonus>1</bNoDefensiveBonus>
             <bPassage>1</bPassage>
+            <bMilitaryTrade>1</bMilitaryTrade>
             <PrereqTech>TECH_CANINE_DOMESTICATION</PrereqTech>
             <BonusType>BONUS_DOG</BonusType>
             <PrereqOrBuildings>
@@ -26420,7 +26435,7 @@
         </UnitInfo>
         <UnitInfo>
             <Type>UNIT_EARLY_IMP_GUARD</Type>
-            <iMaxPlayerInstances>1</iMaxPlayerInstances>
+<!--            <iMaxPlayerInstances>1</iMaxPlayerInstances>-->
             <bUnlimitedException>1</bUnlimitedException>
             <Combat>UNITCOMBAT_LAW_ENFORCEMENT</Combat>
             <SubCombatTypes>
@@ -26519,7 +26534,7 @@
         </UnitInfo>
         <UnitInfo>
             <Type>UNIT_REN_IMP_GUARD</Type>
-            <iMaxPlayerInstances>1</iMaxPlayerInstances>
+<!--            <iMaxPlayerInstances>1</iMaxPlayerInstances>-->
             <bUnlimitedException>1</bUnlimitedException>
             <Combat>UNITCOMBAT_LAW_ENFORCEMENT</Combat>
             <SubCombatTypes>
@@ -26628,7 +26643,7 @@
         </UnitInfo>
         <UnitInfo>
             <Type>UNIT_MODERN_IMP_GUARD</Type>
-            <iMaxPlayerInstances>1</iMaxPlayerInstances>
+<!--            <iMaxPlayerInstances>1</iMaxPlayerInstances>-->
             <bUnlimitedException>1</bUnlimitedException>
             <Combat>UNITCOMBAT_LAW_ENFORCEMENT</Combat>
             <SubCombatTypes>
@@ -26731,7 +26746,7 @@
         </UnitInfo>
         <UnitInfo>
             <Type>UNIT_ROBOT_IMP_GUARD</Type>
-            <iMaxPlayerInstances>1</iMaxPlayerInstances>
+<!--            <iMaxPlayerInstances>1</iMaxPlayerInstances>-->
             <bUnlimitedException>1</bUnlimitedException>
             <Combat>UNITCOMBAT_ROBOT</Combat>
             <SubCombatTypes>
@@ -26869,7 +26884,7 @@
             <bMilitarySupport>1</bMilitarySupport>
             <bMilitaryProduction>1</bMilitaryProduction>
             <UnitUpgrades>
-                <UnitType>UNIT_ENFORCERS</UnitType>
+<!--                <UnitType>UNIT_ENFORCERS</UnitType>-->
 <!--                <UnitType>UNIT_NEANDERTHAL_TRIBAL_GUARDIAN</UnitType>-->
             </UnitUpgrades>
             <iCost>-1</iCost>
@@ -26878,7 +26893,7 @@
             <iCombat>2</iCombat>
             <iXPValueAttack>1</iXPValueAttack>
             <iXPValueDefense>2</iXPValueDefense>
-            <iCityDefense>200</iCityDefense>
+            <iCityDefense>250</iCityDefense>
             <iAsset>1</iAsset>
             <iPower>3</iPower>
             <UnitMeshGroups>
@@ -34256,7 +34271,7 @@
         </UnitInfo>
         <UnitInfo>
             <Type>UNIT_LAWYER</Type>
-            <iMaxPlayerInstances>2</iMaxPlayerInstances>
+<!--            <iMaxPlayerInstances>2</iMaxPlayerInstances>-->
 <!--            <iInstanceCostModifier>50</iInstanceCostModifier>-->
             <Special>SPECIALUNIT_PEOPLE</Special>
             <Combat>UNITCOMBAT_ADMINISTRATOR</Combat>
@@ -34389,7 +34404,7 @@
         </UnitInfo>
         <UnitInfo>
             <Type>UNIT_JUDGE</Type>
-            <iMaxPlayerInstances>5</iMaxPlayerInstances>
+<!--            <iMaxPlayerInstances>5</iMaxPlayerInstances>-->
 <!--            <iInstanceCostModifier>20</iInstanceCostModifier>-->
             <Combat>UNITCOMBAT_ADMINISTRATOR</Combat>
             <SubCombatTypes>
@@ -34597,7 +34612,7 @@
             <iHurryCostModifier>25</iHurryCostModifier>
             <iBaseUpkeep>3</iBaseUpkeep>
             <iMoves>1</iMoves>
-            <iWorkRate>300</iWorkRate>
+            <iWorkRate>150</iWorkRate>
             <iCombat>10</iCombat>
             <iFirstStrikes>1</iFirstStrikes>
             <iAsset>6</iAsset>
@@ -34720,7 +34735,7 @@
             <iHurryCostModifier>25</iHurryCostModifier>
             <iBaseUpkeep>5</iBaseUpkeep>
             <iMoves>1</iMoves>
-            <iWorkRate>350</iWorkRate>
+            <iWorkRate>175</iWorkRate>
             <iCombat>15</iCombat>
             <iAsset>12</iAsset>
             <iPower>12</iPower>
@@ -34962,7 +34977,7 @@
         </UnitInfo>
         <UnitInfo>
             <Type>UNIT_NOBLE</Type>
-            <iMaxPlayerInstances>1</iMaxPlayerInstances>
+<!--            <iMaxPlayerInstances>1</iMaxPlayerInstances>-->
             <bUnlimitedException>1</bUnlimitedException>
             <Special>SPECIALUNIT_PEOPLE</Special>
             <Combat>UNITCOMBAT_CAPTAIN</Combat>
@@ -35015,7 +35030,7 @@
         </UnitInfo>
         <UnitInfo>
             <Type>UNIT_LORD</Type>
-            <iMaxPlayerInstances>1</iMaxPlayerInstances>
+<!--            <iMaxPlayerInstances>1</iMaxPlayerInstances>-->
             <bUnlimitedException>1</bUnlimitedException>
             <Special>SPECIALUNIT_PEOPLE</Special>
             <Combat>UNITCOMBAT_CAPTAIN</Combat>
@@ -35068,7 +35083,7 @@
         </UnitInfo>
         <UnitInfo>
             <Type>UNIT_WARLORD_VASSAL</Type>
-            <iMaxPlayerInstances>1</iMaxPlayerInstances>
+<!--            <iMaxPlayerInstances>1</iMaxPlayerInstances>-->
             <bUnlimitedException>1</bUnlimitedException>
             <Special>SPECIALUNIT_PEOPLE</Special>
             <Combat>UNITCOMBAT_CAPTAIN</Combat>
@@ -35121,7 +35136,7 @@
         </UnitInfo>
         <UnitInfo>
             <Type>UNIT_VICEROY</Type>
-            <iMaxPlayerInstances>1</iMaxPlayerInstances>
+<!--            <iMaxPlayerInstances>1</iMaxPlayerInstances>-->
             <bUnlimitedException>1</bUnlimitedException>
             <Special>SPECIALUNIT_PEOPLE</Special>
             <Combat>UNITCOMBAT_CAPTAIN</Combat>
@@ -35493,7 +35508,7 @@
         </UnitInfo>
         <UnitInfo>
             <Type>UNIT_WARLORDI</Type>
-            <iMaxPlayerInstances>1</iMaxPlayerInstances>
+<!--            <iMaxPlayerInstances>1</iMaxPlayerInstances>-->
             <bUnlimitedException>1</bUnlimitedException>
             <Capture>UNIT_WARLORDIS</Capture>
             <Combat>UNITCOMBAT_MELEE</Combat>
@@ -35546,7 +35561,7 @@
             <iCost>215</iCost>
             <iBaseUpkeep>2</iBaseUpkeep>
             <iMoves>1</iMoves>
-            <iWorkRate>100</iWorkRate>
+            <iWorkRate>50</iWorkRate>
             <iCombat>10</iCombat>
             <iXPValueAttack>1</iXPValueAttack>
             <iXPValueDefense>1</iXPValueDefense>
@@ -35613,7 +35628,7 @@
         </UnitInfo>
         <UnitInfo>
             <Type>UNIT_WARLORDII</Type>
-            <iMaxPlayerInstances>2</iMaxPlayerInstances>
+<!--            <iMaxPlayerInstances>2</iMaxPlayerInstances>-->
             <bUnlimitedException>1</bUnlimitedException>
 <!--            <iInstanceCostModifier>25</iInstanceCostModifier>-->
             <Capture>UNIT_WARLORDIIS</Capture>
@@ -35669,7 +35684,7 @@
             <iCost>335</iCost>
             <iBaseUpkeep>4</iBaseUpkeep>
             <iMoves>1</iMoves>
-            <iWorkRate>125</iWorkRate>
+            <iWorkRate>62</iWorkRate>
             <iCombat>15</iCombat>
             <iXPValueAttack>1</iXPValueAttack>
             <iXPValueDefense>1</iXPValueDefense>
@@ -35738,7 +35753,7 @@
         </UnitInfo>
         <UnitInfo>
             <Type>UNIT_WARLORDIII</Type>
-            <iMaxPlayerInstances>3</iMaxPlayerInstances>
+<!--            <iMaxPlayerInstances>3</iMaxPlayerInstances>-->
             <bUnlimitedException>1</bUnlimitedException>
 <!--            <iInstanceCostModifier>25</iInstanceCostModifier>-->
             <Capture>UNIT_WARLORDIIIS</Capture>
@@ -35796,7 +35811,7 @@
             <iCost>425</iCost>
             <iBaseUpkeep>7</iBaseUpkeep>
             <iMoves>1</iMoves>
-            <iWorkRate>150</iWorkRate>
+            <iWorkRate>75</iWorkRate>
             <iCombat>25</iCombat>
             <iXPValueAttack>1</iXPValueAttack>
             <iXPValueDefense>1</iXPValueDefense>
@@ -35877,7 +35892,7 @@
         </UnitInfo>
         <UnitInfo>
             <Type>UNIT_WARLORDIV</Type>
-            <iMaxPlayerInstances>4</iMaxPlayerInstances>
+<!--            <iMaxPlayerInstances>4</iMaxPlayerInstances>-->
             <bUnlimitedException>1</bUnlimitedException>
 <!--            <iInstanceCostModifier>25</iInstanceCostModifier>-->
             <Capture>UNIT_WARLORDIVS</Capture>
@@ -35931,7 +35946,7 @@
             <iCost>630</iCost>
             <iBaseUpkeep>11</iBaseUpkeep>
             <iMoves>1</iMoves>
-            <iWorkRate>175</iWorkRate>
+            <iWorkRate>85</iWorkRate>
             <iCombat>40</iCombat>
             <iXPValueAttack>1</iXPValueAttack>
             <iXPValueDefense>1</iXPValueDefense>
@@ -36012,7 +36027,7 @@
         </UnitInfo>
         <UnitInfo>
             <Type>UNIT_WARLORDV</Type>
-            <iMaxPlayerInstances>5</iMaxPlayerInstances>
+<!--            <iMaxPlayerInstances>5</iMaxPlayerInstances>-->
             <bUnlimitedException>1</bUnlimitedException>
 <!--            <iInstanceCostModifier>25</iInstanceCostModifier>-->
             <Capture>UNIT_WARLORDVS</Capture>
@@ -36313,7 +36328,7 @@
         </UnitInfo>
         <UnitInfo>
             <Type>UNIT_WARLORDVI</Type>
-            <iMaxPlayerInstances>6</iMaxPlayerInstances>
+<!--            <iMaxPlayerInstances>6</iMaxPlayerInstances>-->
             <bUnlimitedException>1</bUnlimitedException>
 <!--            <iInstanceCostModifier>25</iInstanceCostModifier>-->
             <Capture>UNIT_WARLORDVIS</Capture>
@@ -36431,7 +36446,7 @@
         </UnitInfo>
         <UnitInfo>
             <Type>UNIT_WARLORDVII</Type>
-            <iMaxPlayerInstances>7</iMaxPlayerInstances>
+<!--            <iMaxPlayerInstances>7</iMaxPlayerInstances>-->
             <bUnlimitedException>1</bUnlimitedException>
 <!--            <iInstanceCostModifier>25</iInstanceCostModifier>-->
             <Capture>UNIT_WARLORDVIIS</Capture>
@@ -36549,7 +36564,7 @@
         </UnitInfo>
         <UnitInfo>
             <Type>UNIT_WARLORDVIII</Type>
-            <iMaxPlayerInstances>8</iMaxPlayerInstances>
+<!--            <iMaxPlayerInstances>8</iMaxPlayerInstances>-->
             <bUnlimitedException>1</bUnlimitedException>
 <!--            <iInstanceCostModifier>25</iInstanceCostModifier>-->
             <Capture>UNIT_WARLORDVIIIS</Capture>
@@ -45677,7 +45692,7 @@
         </UnitInfo>
         <UnitInfo>
             <Type>UNIT_MASTER_CHASER</Type>
-            <iMaxPlayerInstances>1</iMaxPlayerInstances>
+<!--            <iMaxPlayerInstances>1</iMaxPlayerInstances>-->
             <MapCategoryTypes>
                 <MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
             </MapCategoryTypes>
@@ -45793,7 +45808,7 @@
         </UnitInfo>
         <UnitInfo>
             <Type>UNIT_MASTER_TRACKER</Type>
-            <iMaxPlayerInstances>1</iMaxPlayerInstances>
+<!--            <iMaxPlayerInstances>1</iMaxPlayerInstances>-->
             <Special>SPECIALUNIT_PEOPLE</Special>
             <Combat>UNITCOMBAT_HUNTER</Combat>
             <SubCombatTypes>
@@ -45903,7 +45918,7 @@
         </UnitInfo>
         <UnitInfo>
             <Type>UNIT_MASTER_HUNTER</Type>
-            <iMaxPlayerInstances>1</iMaxPlayerInstances>
+<!--            <iMaxPlayerInstances>1</iMaxPlayerInstances>-->
             <Special>SPECIALUNIT_PEOPLE</Special>
             <Combat>UNITCOMBAT_HUNTER</Combat>
             <SubCombatTypes>
@@ -46009,7 +46024,7 @@
         </UnitInfo>
         <UnitInfo>
             <Type>UNIT_MASTER_RANGER</Type>
-            <iMaxPlayerInstances>1</iMaxPlayerInstances>
+<!--            <iMaxPlayerInstances>1</iMaxPlayerInstances>-->
             <Special>SPECIALUNIT_PEOPLE</Special>
             <Combat>UNITCOMBAT_HUNTER</Combat>
             <SubCombatTypes>
@@ -46122,7 +46137,7 @@
         </UnitInfo>
         <UnitInfo>
             <Type>UNIT_MASTER_WARDEN</Type>
-            <iMaxPlayerInstances>1</iMaxPlayerInstances>
+<!--            <iMaxPlayerInstances>1</iMaxPlayerInstances>-->
             <Special>SPECIALUNIT_PEOPLE</Special>
             <Combat>UNITCOMBAT_HUNTER</Combat>
             <SubCombatTypes>
@@ -46238,7 +46253,7 @@
         </UnitInfo>
         <UnitInfo>
             <Type>UNIT_MASTER_GAME_HUNTER</Type>
-            <iMaxPlayerInstances>1</iMaxPlayerInstances>
+<!--            <iMaxPlayerInstances>1</iMaxPlayerInstances>-->
             <Special>SPECIALUNIT_PEOPLE</Special>
             <Combat>UNITCOMBAT_HUNTER</Combat>
             <SubCombatTypes>
@@ -46354,7 +46369,7 @@
         </UnitInfo>
         <UnitInfo>
             <Type>UNIT_MASTER_BIG_GAME_HUNTER</Type>
-            <iMaxPlayerInstances>1</iMaxPlayerInstances>
+<!--            <iMaxPlayerInstances>1</iMaxPlayerInstances>-->
             <Special>SPECIALUNIT_PEOPLE</Special>
             <Combat>UNITCOMBAT_HUNTER</Combat>
             <SubCombatTypes>
@@ -47596,7 +47611,7 @@
             <iCost>-1</iCost>
             <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
-            <iWorkRate>90</iWorkRate>
+            <iWorkRate>45</iWorkRate>
             <iAsset>1</iAsset>
             <UnitMeshGroups>
                 <iGroupSize>1</iGroupSize>
@@ -47621,7 +47636,7 @@
                                 <iYield>
                                     <Adapt>
                                         <ID>ADAPT_DEFAULT</ID>
-                                        <Constant>25</Constant>
+                                        <Constant>100</Constant>
                                     </Adapt>
                                 </iYield>
                             </Yields>
@@ -47632,7 +47647,7 @@
         </UnitInfo>
         <UnitInfo>
             <Type>UNIT_HASHISHIN</Type>
-            <iMaxPlayerInstances>3</iMaxPlayerInstances>
+<!--            <iMaxPlayerInstances>3</iMaxPlayerInstances>-->
 <!--            <iInstanceCostModifier>30</iInstanceCostModifier>-->
             <Special>SPECIALUNIT_PEOPLE</Special>
             <Combat>UNITCOMBAT_STRIKE_TEAM</Combat>

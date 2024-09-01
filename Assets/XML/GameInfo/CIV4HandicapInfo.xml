@@ -441,7 +441,7 @@
 			<Description>TXT_KEY_HANDICAP_NOBLE</Description>
 			<Help>TXT_KEY_HANDICAP_NOBLE_HELP</Help>
 			<iAdvancedStartPointsMod>100</iAdvancedStartPointsMod>
-			<iGold>50</iGold>
+			<iGold>60</iGold>
 			<iUnitUpkeepPercent>100</iUnitUpkeepPercent>
 			<iMaxColonyMaintenance>200</iMaxColonyMaintenance>
 			<iDistanceMaintenancePercent>450</iDistanceMaintenancePercent>
@@ -481,12 +481,14 @@
 			</PropertyManipulators>
 			<!-- These are game difficulty modifers, not player difficulty modifers and they all affect AI, not human players  -->
 			<iAnimalAttackProb>55</iAnimalAttackProb>
-			<iFreeWinsVsBarbs>1</iFreeWinsVsBarbs>
-			<iUnownedWaterTilesPerBarbarianUnit>135</iUnownedWaterTilesPerBarbarianUnit>
-			<iUnownedTilesPerBarbarianCity>45</iUnownedTilesPerBarbarianCity>
+			<iFreeWinsVsBarbs>0</iFreeWinsVsBarbs>
+			<iUnownedWaterTilesPerBarbarianUnit>145</iUnownedWaterTilesPerBarbarianUnit>
+			<iUnownedTilesPerBarbarianCity>55</iUnownedTilesPerBarbarianCity>
 			<iBarbarianCityCreationTurnsElapsed>37</iBarbarianCityCreationTurnsElapsed>
 			<iBarbarianCityCreationProb>10</iBarbarianCityCreationProb>
-			<iBarbarianDefenders>3</iBarbarianDefenders>
+			<iBarbarianDefenders>15</iBarbarianDefenders>
+			<iStartingDefenseUnits>0</iStartingDefenseUnits>
+			<iStartingExploreUnits>0</iStartingExploreUnits>
 			<iAIDeclareWarProb>65</iAIDeclareWarProb>
 			<iAIGrowthPercent>100</iAIGrowthPercent>
 			<iAITrainPercent>100</iAITrainPercent>

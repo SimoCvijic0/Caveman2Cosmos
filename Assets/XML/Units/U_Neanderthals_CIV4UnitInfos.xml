@@ -896,7 +896,7 @@
 			<iCost>18</iCost>
 			<iBaseUpkeep>1</iBaseUpkeep>
 			<iMoves>1</iMoves>
-			<iWorkRate>125</iWorkRate>
+			<iWorkRate>62</iWorkRate>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -1966,7 +1966,7 @@
 			<iCost>96</iCost>
 			<iBaseUpkeep>1</iBaseUpkeep>
 			<iMoves>1</iMoves>
-			<iWorkRate>200</iWorkRate>
+			<iWorkRate>100</iWorkRate>
 			<Builds>
 				<!-- BUILDS REQUIRING: C2C_ERA_PREHISTORIC -->
 				<!-- Obsolete in: C2C_ERA_MEDIEVAL -->

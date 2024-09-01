@@ -13,9 +13,9 @@ Good luck! -->
 			<Description>TXT_KEY_ERA_PREHISTORIC</Description>
 			<Strategy>TXT_KEY_ERA_PREHISTORIC_STRATEGY</Strategy>
 			<iAdvancedStartPoints>500</iAdvancedStartPoints>
-			<iStartingUnitMultiplier>1</iStartingUnitMultiplier>
-			<iStartingExploreUnits>1</iStartingExploreUnits>
-			<iStartingGold>120</iStartingGold>
+			<iStartingUnitMultiplier>0</iStartingUnitMultiplier>
+			<iStartingExploreUnits>0</iStartingExploreUnits>
+			<iStartingGold>100</iStartingGold>
 			<iGrowthPercent>100</iGrowthPercent>
 			<iTrainPercent>100</iTrainPercent>
 			<iConstructPercent>100</iConstructPercent>
@@ -25,7 +25,7 @@ Good luck! -->
 			<iBuildPercent>100</iBuildPercent>
 			<iImprovementPercent>100</iImprovementPercent>
 			<iGreatPeoplePercent>100</iGreatPeoplePercent>
-			<iAnarchyPercent>40</iAnarchyPercent>
+			<iAnarchyPercent>100</iAnarchyPercent>
 			<iEventChancePerTurn>7</iEventChancePerTurn>
 			<bFirstSoundtrackFirst>1</bFirstSoundtrackFirst>
 			<EraInfoSoundtracks>
@@ -77,7 +77,7 @@ Good luck! -->
 			<iBuildPercent>100</iBuildPercent>
 			<iImprovementPercent>100</iImprovementPercent>
 			<iGreatPeoplePercent>100</iGreatPeoplePercent>
-			<iAnarchyPercent>80</iAnarchyPercent>
+			<iAnarchyPercent>100</iAnarchyPercent>
 			<iEventChancePerTurn>7</iEventChancePerTurn>
 			<bFirstSoundtrackFirst>1</bFirstSoundtrackFirst>
 			<EraInfoSoundtracks>
@@ -142,11 +142,11 @@ Good luck! -->
 			<iConstructPercent>100</iConstructPercent>
 			<iCreatePercent>100</iCreatePercent>
 			<iResearchPercent>100</iResearchPercent>
-			<iBeelineStingsTechCostModifier>80</iBeelineStingsTechCostModifier>
+			<iBeelineStingsTechCostModifier>100</iBeelineStingsTechCostModifier>
 			<iBuildPercent>100</iBuildPercent>
 			<iImprovementPercent>100</iImprovementPercent>
 			<iGreatPeoplePercent>100</iGreatPeoplePercent>
-			<iAnarchyPercent>80</iAnarchyPercent>
+			<iAnarchyPercent>100</iAnarchyPercent>
 			<iEventChancePerTurn>8</iEventChancePerTurn>
 			<iSoundtrackSpace>400</iSoundtrackSpace>
 			<EraInfoSoundtracks>
@@ -197,16 +197,16 @@ Good luck! -->
 			<iStartingExploreUnits>1</iStartingExploreUnits>
 			<iStartingGold>1000</iStartingGold>
 			<iStartPercent>25</iStartPercent>
-			<iGrowthPercent>120</iGrowthPercent>
+			<iGrowthPercent>100</iGrowthPercent>
 			<iTrainPercent>100</iTrainPercent>
 			<iConstructPercent>100</iConstructPercent>
 			<iCreatePercent>100</iCreatePercent>
-			<iResearchPercent>250</iResearchPercent>
-			<iBeelineStingsTechCostModifier>70</iBeelineStingsTechCostModifier>
-			<iBuildPercent>110</iBuildPercent>
+			<iResearchPercent>100</iResearchPercent>
+			<iBeelineStingsTechCostModifier>100</iBeelineStingsTechCostModifier>
+			<iBuildPercent>100</iBuildPercent>
 			<iImprovementPercent>100</iImprovementPercent>
-			<iGreatPeoplePercent>200</iGreatPeoplePercent>
-			<iAnarchyPercent>80</iAnarchyPercent>
+			<iGreatPeoplePercent>100</iGreatPeoplePercent>
+			<iAnarchyPercent>100</iAnarchyPercent>
 			<iEventChancePerTurn>8</iEventChancePerTurn>
 			<iSoundtrackSpace>200</iSoundtrackSpace>
 			<EraInfoSoundtracks>
@@ -274,16 +274,16 @@ Good luck! -->
 			<iStartingGold>4000</iStartingGold>
 			<iFreePopulation>1</iFreePopulation>
 			<iStartPercent>31</iStartPercent>
-			<iGrowthPercent>110</iGrowthPercent>
+			<iGrowthPercent>100</iGrowthPercent>
 			<iTrainPercent>100</iTrainPercent>
 			<iConstructPercent>100</iConstructPercent>
 			<iCreatePercent>100</iCreatePercent>
-			<iResearchPercent>300</iResearchPercent>
-			<iBeelineStingsTechCostModifier>60</iBeelineStingsTechCostModifier>
+			<iResearchPercent>100</iResearchPercent>
+			<iBeelineStingsTechCostModifier>100</iBeelineStingsTechCostModifier>
 			<iBuildPercent>100</iBuildPercent>
 			<iImprovementPercent>100</iImprovementPercent>
-			<iGreatPeoplePercent>190</iGreatPeoplePercent>
-			<iAnarchyPercent>80</iAnarchyPercent>
+			<iGreatPeoplePercent>100</iGreatPeoplePercent>
+			<iAnarchyPercent>100</iAnarchyPercent>
 			<iEventChancePerTurn>9</iEventChancePerTurn>
 			<iSoundtrackSpace>160</iSoundtrackSpace>
 			<EraInfoSoundtracks>
@@ -341,12 +341,12 @@ Good luck! -->
 			<iTrainPercent>100</iTrainPercent>
 			<iConstructPercent>100</iConstructPercent>
 			<iCreatePercent>100</iCreatePercent>
-			<iResearchPercent>350</iResearchPercent>
-			<iBeelineStingsTechCostModifier>50</iBeelineStingsTechCostModifier>
+			<iResearchPercent>100</iResearchPercent>
+			<iBeelineStingsTechCostModifier>100</iBeelineStingsTechCostModifier>
 			<iBuildPercent>100</iBuildPercent>
 			<iImprovementPercent>100</iImprovementPercent>
-			<iGreatPeoplePercent>180</iGreatPeoplePercent>
-			<iAnarchyPercent>80</iAnarchyPercent>
+			<iGreatPeoplePercent>100</iGreatPeoplePercent>
+			<iAnarchyPercent>100</iAnarchyPercent>
 			<iEventChancePerTurn>9</iEventChancePerTurn>
 			<iSoundtrackSpace>120</iSoundtrackSpace>
 			<bFirstSoundtrackFirst>1</bFirstSoundtrackFirst>
@@ -402,12 +402,12 @@ Good luck! -->
 			<iTrainPercent>100</iTrainPercent>
 			<iConstructPercent>100</iConstructPercent>
 			<iCreatePercent>100</iCreatePercent>
-			<iResearchPercent>400</iResearchPercent>
+			<iResearchPercent>100</iResearchPercent>
 			<iBeelineStingsTechCostModifier>40</iBeelineStingsTechCostModifier>
 			<iBuildPercent>100</iBuildPercent>
 			<iImprovementPercent>100</iImprovementPercent>
-			<iGreatPeoplePercent>170</iGreatPeoplePercent>
-			<iAnarchyPercent>80</iAnarchyPercent>
+			<iGreatPeoplePercent>100</iGreatPeoplePercent>
+			<iAnarchyPercent>100</iAnarchyPercent>
 			<iEventChancePerTurn>10</iEventChancePerTurn>
 			<iSoundtrackSpace>80</iSoundtrackSpace>
 			<bFirstSoundtrackFirst>1</bFirstSoundtrackFirst>
@@ -461,12 +461,12 @@ Good luck! -->
 			<iTrainPercent>100</iTrainPercent>
 			<iConstructPercent>100</iConstructPercent>
 			<iCreatePercent>100</iCreatePercent>
-			<iResearchPercent>450</iResearchPercent>
+			<iResearchPercent>100</iResearchPercent>
 			<iBeelineStingsTechCostModifier>30</iBeelineStingsTechCostModifier>
 			<iBuildPercent>100</iBuildPercent>
 			<iImprovementPercent>100</iImprovementPercent>
-			<iGreatPeoplePercent>160</iGreatPeoplePercent>
-			<iAnarchyPercent>80</iAnarchyPercent>
+			<iGreatPeoplePercent>100</iGreatPeoplePercent>
+			<iAnarchyPercent>100</iAnarchyPercent>
 			<iEventChancePerTurn>10</iEventChancePerTurn>
 			<iSoundtrackSpace>80</iSoundtrackSpace>
 			<bFirstSoundtrackFirst>1</bFirstSoundtrackFirst>

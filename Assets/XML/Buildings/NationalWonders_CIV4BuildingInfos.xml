@@ -2306,6 +2306,12 @@
 			</PrereqOrBuildings>
 			<ObsoleteTech>TECH_FIREFIGHTING</ObsoleteTech>
 			<iCost>112</iCost>
+			<Properties>
+				<Property>
+					<PropertyType>PROPERTY_FLAMMABILITY</PropertyType>
+					<iPropertyValue>5</iPropertyValue>
+				</Property>
+			</Properties>
 			<iCostSizeModifier>1</iCostSizeModifier>
 			<iCostCountModifier>0</iCostCountModifier>
 			<iCostMaterialsModifier>0</iCostMaterialsModifier>

@@ -14870,7 +14870,7 @@
 			<iCost>78</iCost>
 			<iBaseUpkeep>1</iBaseUpkeep>
 			<iMoves>2</iMoves>
-			<iWorkRate>200</iWorkRate>
+			<iWorkRate>100</iWorkRate>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -17101,7 +17101,7 @@
 			<iCost>665</iCost>
 			<iBaseUpkeep>1</iBaseUpkeep>
 			<iMoves>2</iMoves>
-			<iWorkRate>300</iWorkRate>
+			<iWorkRate>150</iWorkRate>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -22121,7 +22121,7 @@
 			<iCost>140</iCost>
 			<iBaseUpkeep>1</iBaseUpkeep>
 			<iMoves>2</iMoves>
-			<iWorkRate>240</iWorkRate>
+			<iWorkRate>120</iWorkRate>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -23984,7 +23984,7 @@
 			<iCost>140</iCost>
 			<iBaseUpkeep>1</iBaseUpkeep>
 			<iMoves>2</iMoves>
-			<iWorkRate>240</iWorkRate>
+			<iWorkRate>120</iWorkRate>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -34845,7 +34845,7 @@
 			<iHurryCostModifier>25</iHurryCostModifier>
 			<iBaseUpkeep>3</iBaseUpkeep>
 			<iMoves>2</iMoves>
-			<iWorkRate>300</iWorkRate>
+			<iWorkRate>150</iWorkRate>
 			<iCombat>10</iCombat>
 			<iFirstStrikes>1</iFirstStrikes>
 			<iAsset>6</iAsset>
