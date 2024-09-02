@@ -6371,6 +6371,44 @@
 			<bPrereqPower>1</bPrereqPower>
 		</BuildingInfo>
 		<BuildingInfo>
+			<Type>BUILDING_LEADER</Type>
+			<iMaxPlayerInstances>1</iMaxPlayerInstances>
+			<iExtraPlayerInstances>1</iExtraPlayerInstances>
+			<bNoLimit>1</bNoLimit>
+			<MapCategoryTypes>
+				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
+			</MapCategoryTypes>
+			<Description>TXT_KEY_BUILDING_LEADER</Description>
+			<Civilopedia>TXT_KEY_BUILDING_LEADER_PEDIA</Civilopedia>
+			<iCost>1</iCost>
+			<iCostSizeModifier>0</iCostSizeModifier>
+			<iCostCountModifier>0</iCostCountModifier>
+			<iCostMaterialsModifier>0</iCostMaterialsModifier>
+			<iCostComplexityModifier>1</iCostComplexityModifier>
+			<iHurryCostModifier>100</iHurryCostModifier>
+			<Advisor>ADVISOR_ECONOMY</Advisor>
+<!--			<bCapital>1</bCapital>-->
+<!--			<bGovernmentCenter>1</bGovernmentCenter>-->
+			<iHappiness>1</iHappiness>
+			<iHealth>1</iHealth>
+			<YieldChanges>
+				<iYield>2</iYield>
+				<iYield>2</iYield>
+				<iYield>0</iYield>
+			</YieldChanges>
+			<CommerceModifiers>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+			</CommerceModifiers>
+			<bNeverCapture>1</bNeverCapture>
+			<bNukeImmune>1</bNukeImmune>
+			<fVisibilityPriority>10000</fVisibilityPriority>
+			<ArtDefineTag>ART_DEF_BUILDING_LEADER</ArtDefineTag>
+			<MovieDefineTag>ART_DEF_MOVIE_PALACE</MovieDefineTag>
+		</BuildingInfo>
+		<BuildingInfo>
 			<Type>BUILDING_PALACE</Type>
 			<iMaxPlayerInstances>1</iMaxPlayerInstances>
 			<iExtraPlayerInstances>1</iExtraPlayerInstances>
