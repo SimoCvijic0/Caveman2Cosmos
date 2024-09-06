@@ -1101,6 +1101,86 @@
             <KFM/>
             <Button>Art/Interface/Buttons/Buildings/leader_icon.dds</Button>
         </BuildingArtInfo>
+        <BuildingArtInfo>
+            <Type>ART_DEF_BUILDING_LEADER_TOOL_SHELTER</Type>
+            <LSystem/>
+            <bAnimated>0</bAnimated>
+            <fScale>0</fScale>
+            <fInterfaceScale>0</fInterfaceScale>
+            <NIF/>
+            <KFM/>
+            <Button>Art/Interface/Buttons/Buildings/leader_tool_shelter_icon_.dds</Button>
+        </BuildingArtInfo>
+        <BuildingArtInfo>
+            <Type>ART_DEF_BUILDING_LEADER_FOOD_SHELTER</Type>
+            <LSystem/>
+            <bAnimated>0</bAnimated>
+            <fScale>0</fScale>
+            <fInterfaceScale>0</fInterfaceScale>
+            <NIF/>
+            <KFM/>
+            <Button>Art/Interface/Buttons/Buildings/food.dds</Button>
+        </BuildingArtInfo>
+        <BuildingArtInfo>
+            <Type>ART_DEF_BUILDING_LEADER_SAGE_SHELTER</Type>
+            <LSystem/>
+            <bAnimated>0</bAnimated>
+            <fScale>0</fScale>
+            <fInterfaceScale>0</fInterfaceScale>
+            <NIF/>
+            <KFM/>
+            <Button>Art/Interface/Buttons/Buildings/sage.dds</Button>
+        </BuildingArtInfo>
+        <BuildingArtInfo>
+            <Type>ART_DEF_BUILDING_LEADER_STORAGE_SHELTER</Type>
+            <LSystem/>
+            <bAnimated>0</bAnimated>
+            <fScale>0</fScale>
+            <fInterfaceScale>0</fInterfaceScale>
+            <NIF/>
+            <KFM/>
+            <Button>Art/Interface/Buttons/Buildings/storage.dds</Button>
+        </BuildingArtInfo>
+        <BuildingArtInfo>
+            <Type>ART_DEF_BUILDING_LEADER_TROPHY_SHELTER</Type>
+            <LSystem/>
+            <bAnimated>0</bAnimated>
+            <fScale>0</fScale>
+            <fInterfaceScale>0</fInterfaceScale>
+            <NIF/>
+            <KFM/>
+            <Button>Art/Interface/Buttons/Buildings/trophies.dds</Button>
+        </BuildingArtInfo>
+        <BuildingArtInfo>
+            <Type>ART_DEF_BUILDING_LEADER_GROUP_SHELTER</Type>
+            <LSystem/>
+            <bAnimated>0</bAnimated>
+            <fScale>0</fScale>
+            <fInterfaceScale>0</fInterfaceScale>
+            <NIF/>
+            <KFM/>
+            <Button>Art/Interface/Buttons/Buildings/group.dds</Button>
+        </BuildingArtInfo>
+        <BuildingArtInfo>
+            <Type>ART_DEF_BUILDING_LEADER_SECRET_SHELTER</Type>
+            <LSystem/>
+            <bAnimated>0</bAnimated>
+            <fScale>0</fScale>
+            <fInterfaceScale>0</fInterfaceScale>
+            <NIF/>
+            <KFM/>
+            <Button>Art/Interface/Buttons/Buildings/secret.dds</Button>
+        </BuildingArtInfo>
+        <BuildingArtInfo>
+            <Type>ART_DEF_BUILDING_LEADER_WANDERER_SHELTER</Type>
+            <LSystem/>
+            <bAnimated>0</bAnimated>
+            <fScale>0</fScale>
+            <fInterfaceScale>0</fInterfaceScale>
+            <NIF/>
+            <KFM/>
+            <Button>Art/Interface/Buttons/Buildings/wanderer.dds</Button>
+        </BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_ALPHA_ASSEMBLER</Type>
 			<LSystem>LSYSTEM_1x1</LSystem>
@@ -6102,6 +6182,36 @@
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/EarthBurial.dds</Button>
 		</BuildingArtInfo>
+        <BuildingArtInfo>
+            <Type>ART_DEF_OUTPOST</Type>
+            <LSystem/>
+            <bAnimated>0</bAnimated>
+            <fScale>0</fScale>
+            <fInterfaceScale>0</fInterfaceScale>
+            <NIF/>
+            <KFM/>
+            <Button>Art/Interface/Buttons/Buildings/camp_icon.dds</Button>
+        </BuildingArtInfo>
+        <BuildingArtInfo>
+            <Type>ART_DEF_MILITARY_CAMP</Type>
+            <LSystem/>
+            <bAnimated>0</bAnimated>
+            <fScale>0</fScale>
+            <fInterfaceScale>0</fInterfaceScale>
+            <NIF/>
+            <KFM/>
+            <Button>Art/Interface/Buttons/Buildings/camp_icon.dds</Button>
+        </BuildingArtInfo>
+        <BuildingArtInfo>
+            <Type>ART_DEF_LARGE_MILITARY_CAMP</Type>
+            <LSystem/>
+            <bAnimated>0</bAnimated>
+            <fScale>0</fScale>
+            <fInterfaceScale>0</fInterfaceScale>
+            <NIF/>
+            <KFM/>
+            <Button>Art/Interface/Buttons/Buildings/camp_icon.dds</Button>
+        </BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BURIAL_TRADITION_FIRE</Type>
 			<LSystem/>

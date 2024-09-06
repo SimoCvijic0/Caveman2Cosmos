@@ -277,7 +277,7 @@
 				<BonusType>BONUS_PETROLEUM_PRODUCTS</BonusType>
 			</PrereqBonuses>
 			<iCost>930</iCost>
-			<iBaseUpkeep>2</iBaseUpkeep>
+			<iBaseUpkeep>1</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iAirRange>6</iAirRange>
 			<iAirUnitCap>1</iAirUnitCap>
@@ -368,7 +368,7 @@
 				</And>
 			</TrainCondition>
 			<iCost>1150</iCost>
-			<iBaseUpkeep>3</iBaseUpkeep>
+			<iBaseUpkeep>1</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iAirRange>8</iAirRange>
 			<iAirUnitCap>1</iAirUnitCap>
@@ -465,7 +465,7 @@
 				</And>
 			</TrainCondition>
 			<iCost>1060</iCost>
-			<iBaseUpkeep>4</iBaseUpkeep>
+			<iBaseUpkeep>1</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iAirRange>12</iAirRange>
 			<iAirUnitCap>1</iAirUnitCap>
@@ -569,7 +569,7 @@
 				</And>
 			</TrainCondition>
 			<iCost>1500</iCost>
-			<iBaseUpkeep>5</iBaseUpkeep>
+			<iBaseUpkeep>1</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iAirRange>14</iAirRange>
 			<iAirUnitCap>1</iAirUnitCap>
@@ -670,7 +670,7 @@
 				</And>
 			</TrainCondition>
 			<iCost>1650</iCost>
-			<iBaseUpkeep>11</iBaseUpkeep>
+			<iBaseUpkeep>1</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iAirRange>16</iAirRange>
 			<iAirUnitCap>1</iAirUnitCap>
@@ -785,7 +785,7 @@
 				</And>
 			</TrainCondition>
 			<iCost>3000</iCost>
-			<iBaseUpkeep>16</iBaseUpkeep>
+			<iBaseUpkeep>1</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iAirRange>20</iAirRange>
 			<iAirUnitCap>1</iAirUnitCap>
@@ -896,7 +896,7 @@
 				</And>
 			</TrainCondition>
 			<iCost>4000</iCost>
-			<iBaseUpkeep>21</iBaseUpkeep>
+			<iBaseUpkeep>1</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iAirRange>30</iAirRange>
 			<iAirUnitCap>1</iAirUnitCap>
@@ -1072,7 +1072,7 @@
 				</And>
 			</TrainCondition>
 			<iCost>1410</iCost>
-			<iBaseUpkeep>4</iBaseUpkeep>
+			<iBaseUpkeep>1</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iAirRange>24</iAirRange>
 			<iAirUnitCap>1</iAirUnitCap>
@@ -1175,7 +1175,7 @@
 				</And>
 			</TrainCondition>
 			<iCost>1850</iCost>
-			<iBaseUpkeep>7</iBaseUpkeep>
+			<iBaseUpkeep>1</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iAirRange>26</iAirRange>
 			<iAirUnitCap>1</iAirUnitCap>
@@ -1283,7 +1283,7 @@
 				</And>
 			</TrainCondition>
 			<iCost>2120</iCost>
-			<iBaseUpkeep>9</iBaseUpkeep>
+			<iBaseUpkeep>1</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iAirRange>18</iAirRange>
 			<iAirUnitCap>1</iAirUnitCap>
@@ -1389,7 +1389,7 @@
 				</And>
 			</TrainCondition>
 			<iCost>2406</iCost>
-			<iBaseUpkeep>6</iBaseUpkeep>
+			<iBaseUpkeep>1</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iAirRange>28</iAirRange>
 			<iAirUnitCap>1</iAirUnitCap>
@@ -1500,7 +1500,7 @@
 				</And>
 			</TrainCondition>
 			<iCost>4900</iCost>
-			<iBaseUpkeep>16</iBaseUpkeep>
+			<iBaseUpkeep>1</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iAirRange>50</iAirRange>
 			<iAirUnitCap>1</iAirUnitCap>
@@ -1717,7 +1717,7 @@
 				</And>
 			</TrainCondition>
 			<iCost>1700</iCost>
-			<iBaseUpkeep>5</iBaseUpkeep>
+			<iBaseUpkeep>1</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iAirRange>12</iAirRange>
 			<iAirUnitCap>1</iAirUnitCap>
@@ -1822,7 +1822,7 @@
 				</And>
 			</TrainCondition>
 			<iCost>1925</iCost>
-			<iBaseUpkeep>11</iBaseUpkeep>
+			<iBaseUpkeep>1</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iAirRange>14</iAirRange>
 			<iAirUnitCap>1</iAirUnitCap>
@@ -2048,7 +2048,7 @@
 				</And>
 			</TrainCondition>
 			<iCost>1110</iCost>
-			<iBaseUpkeep>2</iBaseUpkeep>
+			<iBaseUpkeep>1</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iAirRange>6</iAirRange>
 			<iAirUnitCap>1</iAirUnitCap>
@@ -2171,7 +2171,7 @@
 				</And>
 			</TrainCondition>
 			<iCost>1150</iCost>
-			<iBaseUpkeep>3</iBaseUpkeep>
+			<iBaseUpkeep>1</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iAirRange>9</iAirRange>
 			<iAirUnitCap>1</iAirUnitCap>
@@ -2294,7 +2294,7 @@
 				</And>
 			</TrainCondition>
 			<iCost>1500</iCost>
-			<iBaseUpkeep>3</iBaseUpkeep>
+			<iBaseUpkeep>1</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iAirRange>12</iAirRange>
 			<iAirUnitCap>1</iAirUnitCap>
@@ -2411,7 +2411,7 @@
 				</And>
 			</TrainCondition>
 			<iCost>1700</iCost>
-			<iBaseUpkeep>4</iBaseUpkeep>
+			<iBaseUpkeep>1</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iAirRange>12</iAirRange>
 			<iAirUnitCap>1</iAirUnitCap>
@@ -2531,7 +2531,7 @@
 				</And>
 			</TrainCondition>
 			<iCost>1150</iCost>
-			<iBaseUpkeep>4</iBaseUpkeep>
+			<iBaseUpkeep>1</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iAirRange>14</iAirRange>
 			<iAirUnitCap>1</iAirUnitCap>
@@ -2633,7 +2633,7 @@
 				</And>
 			</TrainCondition>
 			<iCost>1600</iCost>
-			<iBaseUpkeep>5</iBaseUpkeep>
+			<iBaseUpkeep>1</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iAirRange>16</iAirRange>
 			<iAirUnitCap>1</iAirUnitCap>
@@ -2732,7 +2732,7 @@
 				</And>
 			</TrainCondition>
 			<iCost>1894</iCost>
-			<iBaseUpkeep>11</iBaseUpkeep>
+			<iBaseUpkeep>1</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iAirRange>16</iAirRange>
 			<iAirUnitCap>1</iAirUnitCap>
@@ -2822,7 +2822,7 @@
 				</And>
 			</TrainCondition>
 			<iCost>1150</iCost>
-			<iBaseUpkeep>3</iBaseUpkeep>
+			<iBaseUpkeep>1</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iAirRange>12</iAirRange>
 			<iAirUnitCap>1</iAirUnitCap>
@@ -2916,7 +2916,7 @@
 				</And>
 			</TrainCondition>
 			<iCost>1140</iCost>
-			<iBaseUpkeep>6</iBaseUpkeep>
+			<iBaseUpkeep>1</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iAirRange>30</iAirRange>
 			<iAirUnitCap>1</iAirUnitCap>
@@ -3007,7 +3007,7 @@
 				</And>
 			</TrainCondition>
 			<iCost>1635</iCost>
-			<iBaseUpkeep>11</iBaseUpkeep>
+			<iBaseUpkeep>1</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iAirRange>50</iAirRange>
 			<iAirUnitCap>1</iAirUnitCap>

@@ -58,7 +58,7 @@
 	<Define>
 		<!-- Afforess: The divisor (or denominator) for the disbanded units gold. 1 will yield the full production cost. Has no effect if the above setting is disabled. -->
 		<DefineName>UNIT_GOLD_DISBAND_DIVISOR</DefineName>
-		<iDefineIntVal>3</iDefineIntVal>
+		<iDefineIntVal>10</iDefineIntVal>
 	</Define>
 	<Define>
 		<!-- Afforess: The number of turns that the Cut Loser's Game Option Checks -->

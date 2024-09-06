@@ -449,7 +449,7 @@
 			<iColonyMaintenancePercent>200</iColonyMaintenancePercent>
 			<iCorporationMaintenancePercent>200</iCorporationMaintenancePercent>
 			<iCivicUpkeepPercent>200</iCivicUpkeepPercent>
-			<iInflationPercent>150</iInflationPercent>
+			<iInflationPercent>100</iInflationPercent>
 			<iRevolutionIndexPercent>100</iRevolutionIndexPercent>
 			<iHealthBonus>0</iHealthBonus>
 			<iHappyBonus>0</iHappyBonus>
@@ -482,7 +482,7 @@
 			<!-- These are game difficulty modifers, not player difficulty modifers and they all affect AI, not human players  -->
 			<iAnimalAttackProb>55</iAnimalAttackProb>
 			<iFreeWinsVsBarbs>0</iFreeWinsVsBarbs>
-			<iUnownedWaterTilesPerBarbarianUnit>145</iUnownedWaterTilesPerBarbarianUnit>
+			<iUnownedWaterTilesPerBarbarianUnit>155</iUnownedWaterTilesPerBarbarianUnit>
 			<iUnownedTilesPerBarbarianCity>55</iUnownedTilesPerBarbarianCity>
 			<iBarbarianCityCreationTurnsElapsed>37</iBarbarianCityCreationTurnsElapsed>
 			<iBarbarianCityCreationProb>10</iBarbarianCityCreationProb>

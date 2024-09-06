@@ -557,7 +557,7 @@
 			</UnitUpgrades>
 			<ObsoleteTech>TECH_SEDENTARY_LIFESTYLE</ObsoleteTech>
 			<iCost>25</iCost>
-			<iBaseUpkeep>2</iBaseUpkeep>
+			<iBaseUpkeep>1</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iCombat>3</iCombat>
 			<iEnclose>2</iEnclose>
@@ -693,7 +693,7 @@
 			</UnitUpgrades>
 			<ObsoleteTech>TECH_SEDENTARY_LIFESTYLE</ObsoleteTech>
 			<iCost>62</iCost>
-			<iBaseUpkeep>3</iBaseUpkeep>
+			<iBaseUpkeep>1</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iCombat>4</iCombat>
 			<iStealthCombatModifier>5</iStealthCombatModifier>
@@ -978,7 +978,7 @@
 			<iCost>25</iCost>
 			<iHurryCostModifier>25</iHurryCostModifier>
 			<iXPValueDefense>2</iXPValueDefense>
-			<iBaseUpkeep>2</iBaseUpkeep>
+			<iBaseUpkeep>1</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iCombat>2</iCombat>
 			<iNumHealSupport>3</iNumHealSupport>
@@ -1090,7 +1090,7 @@
 			<ObsoleteTech>TECH_SEDENTARY_LIFESTYLE</ObsoleteTech>
 			<iCost>62</iCost>
 			<iHurryCostModifier>25</iHurryCostModifier>
-			<iBaseUpkeep>3</iBaseUpkeep>
+			<iBaseUpkeep>1</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iCombat>3</iCombat>
 			<iNumHealSupport>4</iNumHealSupport>
@@ -1212,7 +1212,7 @@
 			<ObsoleteTech>TECH_SEDENTARY_LIFESTYLE</ObsoleteTech>
 			<iCost>107</iCost>
 			<iHurryCostModifier>25</iHurryCostModifier>
-			<iBaseUpkeep>2</iBaseUpkeep>
+			<iBaseUpkeep>1</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iCombat>3</iCombat>
 			<iNumHealSupport>4</iNumHealSupport>

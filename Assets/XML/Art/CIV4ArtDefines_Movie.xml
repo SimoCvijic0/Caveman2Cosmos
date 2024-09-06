@@ -2814,6 +2814,42 @@
 			<Path>Art/Movies/national_wonders/PALACE.dds</Path>
 		</MovieArtInfo>
 		<MovieArtInfo>
+			<Type>ART_DEF_MOVIE_TOOL</Type>
+			<Path>Art/Movies/national_wonders/tool.dds</Path>
+		</MovieArtInfo>
+		<MovieArtInfo>
+			<Type>ART_DEF_MOVIE_FOOD</Type>
+			<Path>Art/Movies/national_wonders/food.dds</Path>
+		</MovieArtInfo>
+		<MovieArtInfo>
+			<Type>ART_DEF_MOVIE_GROUP</Type>
+			<Path>Art/Movies/national_wonders/group.dds</Path>
+		</MovieArtInfo>
+		<MovieArtInfo>
+			<Type>ART_DEF_MOVIE_SAGE</Type>
+			<Path>Art/Movies/national_wonders/sage.dds</Path>
+		</MovieArtInfo>
+		<MovieArtInfo>
+			<Type>ART_DEF_MOVIE_SECRET</Type>
+			<Path>Art/Movies/national_wonders/secret.dds</Path>
+		</MovieArtInfo>
+		<MovieArtInfo>
+			<Type>ART_DEF_MOVIE_STORAGE</Type>
+			<Path>Art/Movies/national_wonders/storage.dds</Path>
+		</MovieArtInfo>
+		<MovieArtInfo>
+			<Type>ART_DEF_MOVIE_WANDERER</Type>
+			<Path>Art/Movies/national_wonders/wanderer.dds</Path>
+		</MovieArtInfo>
+		<MovieArtInfo>
+			<Type>ART_DEF_MOVIE_TROPHY</Type>
+			<Path>Art/Movies/national_wonders/trophy.dds</Path>
+		</MovieArtInfo>
+		<MovieArtInfo>
+			<Type>ART_DEF_MOVIE_LEADER</Type>
+			<Path>Art/Movies/national_wonders/caveman_leader.dds</Path>
+		</MovieArtInfo>
+		<MovieArtInfo>
 			<Type>ART_DEF_MOVIE_POLICE_ACADEMY</Type>
 			<Path>Art/Movies/national_wonders/POLICE_ACADEMY.dds</Path>
 		</MovieArtInfo>

@@ -323,7 +323,7 @@
             </UnitAIs>
             <PrereqTech>TECH_COOPERATION</PrereqTech>
             <ObsoleteTech>TECH_SEDENTARY_LIFESTYLE</ObsoleteTech>
-            <iBaseUpkeep>5</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iAsset>1</iAsset>
             <UnitMeshGroups>
@@ -604,7 +604,7 @@
                 </UnitAI>
             </UnitAIs>
             <PrereqTech>TECH_SEDENTARY_LIFESTYLE</PrereqTech>
-            <iBaseUpkeep>10</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iAsset>1</iAsset>
             <UnitMeshGroups>
@@ -679,7 +679,7 @@
                 </UnitAI>
             </UnitAIs>
             <PrereqTech>TECH_COLONIALISM</PrereqTech>
-            <iBaseUpkeep>6</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <bIgnoreTerrainCost>1</bIgnoreTerrainCost>
             <iAsset>1</iAsset>
@@ -755,7 +755,7 @@
                 </UnitAI>
             </UnitAIs>
             <PrereqTech>TECH_STEAM_POWER</PrereqTech>
-            <iBaseUpkeep>8</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <bIgnoreTerrainCost>1</bIgnoreTerrainCost>
             <iAsset>1</iAsset>
@@ -845,7 +845,7 @@
                     </Has>
                 </And>
             </TrainCondition>
-            <iBaseUpkeep>10</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>24</iMoves>
             <iAsset>1</iAsset>
             <UnitMeshGroups>
@@ -2410,7 +2410,7 @@
                 </Flavor>
             </Flavors>
             <iCost>133</iCost>
-            <iBaseUpkeep>10</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iAsset>1</iAsset>
             <UnitMeshGroups>
@@ -4198,7 +4198,7 @@
                 <BuildingType>BUILDING_JEWISH_MONASTERY</BuildingType>
             </PrereqAndBuildings>
             <iCost>110</iCost>
-            <iBaseUpkeep>2</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iAsset>1</iAsset>
             <UnitMeshGroups>
@@ -4254,7 +4254,7 @@
                 <BuildingType>BUILDING_CHRISTIAN_MONASTERY</BuildingType>
             </PrereqAndBuildings>
             <iCost>110</iCost>
-            <iBaseUpkeep>2</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iAsset>1</iAsset>
             <UnitMeshGroups>
@@ -4310,7 +4310,7 @@
                 <BuildingType>BUILDING_ISLAMIC_MONASTERY</BuildingType>
             </PrereqAndBuildings>
             <iCost>110</iCost>
-            <iBaseUpkeep>2</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iAsset>1</iAsset>
             <UnitMeshGroups>
@@ -4366,7 +4366,7 @@
                 <BuildingType>BUILDING_HINDU_MONASTERY</BuildingType>
             </PrereqAndBuildings>
             <iCost>110</iCost>
-            <iBaseUpkeep>2</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iAsset>1</iAsset>
             <UnitMeshGroups>
@@ -4422,7 +4422,7 @@
                 <BuildingType>BUILDING_BUDDHIST_MONASTERY</BuildingType>
             </PrereqAndBuildings>
             <iCost>110</iCost>
-            <iBaseUpkeep>2</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iAsset>1</iAsset>
             <UnitMeshGroups>
@@ -4478,7 +4478,7 @@
                 <BuildingType>BUILDING_CONFUCIAN_MONASTERY</BuildingType>
             </PrereqAndBuildings>
             <iCost>110</iCost>
-            <iBaseUpkeep>2</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iAsset>1</iAsset>
             <UnitMeshGroups>
@@ -4534,7 +4534,7 @@
                 <BuildingType>BUILDING_TAOIST_MONASTERY</BuildingType>
             </PrereqAndBuildings>
             <iCost>110</iCost>
-            <iBaseUpkeep>2</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iAsset>1</iAsset>
             <UnitMeshGroups>
@@ -4590,7 +4590,7 @@
                 <BuildingType>BUILDING_HELLENIC_GYMNASIA</BuildingType>
             </PrereqAndBuildings>
             <iCost>110</iCost>
-            <iBaseUpkeep>2</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iAsset>1</iAsset>
             <UnitMeshGroups>
@@ -4646,7 +4646,7 @@
                 <BuildingType>BUILDING_ZOROASTRIAN_SHRINE</BuildingType>
             </PrereqAndBuildings>
             <iCost>110</iCost>
-            <iBaseUpkeep>2</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iAsset>1</iAsset>
             <UnitMeshGroups>
@@ -4717,7 +4717,7 @@
                 <BuildingType>BUILDING_TEMPLE_OF_CHONS</BuildingType>
             </PrereqAndBuildings>
             <iCost>110</iCost>
-            <iBaseUpkeep>2</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iAsset>1</iAsset>
             <UnitMeshGroups>
@@ -4773,7 +4773,7 @@
                 <BuildingType>BUILDING_CALMACEC</BuildingType>
             </PrereqAndBuildings>
             <iCost>110</iCost>
-            <iBaseUpkeep>2</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iAsset>1</iAsset>
             <UnitMeshGroups>
@@ -8945,6 +8945,7 @@
                 <SubCombatType>UNITCOMBAT_HEALS_AS_PEOPLE</SubCombatType>
             </SubCombatTypes>
             <Domain>DOMAIN_LAND</Domain>
+            <PrereqTech>TECH_TOOL_MAKING</PrereqTech>
             <Description>TXT_KEY_UNIT_STONE_THROWER</Description>
             <Civilopedia>TXT_KEY_UNIT_STONE_THROWER_PEDIA</Civilopedia>
             <MapCategoryTypes>
@@ -11250,7 +11251,7 @@
                 </And>
             </TrainCondition>
             <iCost>2865</iCost>
-            <iBaseUpkeep>2</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iCombat>90</iCombat>
             <iXPValueAttack>1</iXPValueAttack>
@@ -11351,7 +11352,7 @@
             </PrereqBonuses>
             <iCost>4000</iCost>
             <iAdvancedStartCost>80</iAdvancedStartCost>
-            <iBaseUpkeep>4</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iCombat>120</iCombat>
             <iXPValueAttack>1</iXPValueAttack>
@@ -11624,7 +11625,7 @@
                 <BonusType>BONUS_NEUROIMPLANTS</BonusType>
             </PrereqBonuses>
             <iCost>5250</iCost>
-            <iBaseUpkeep>11</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>4</iMoves>
             <iCombat>220</iCombat>
             <iXPValueAttack>3</iXPValueAttack>
@@ -11912,7 +11913,7 @@
                 </And>
             </TrainCondition>
             <iCost>2745</iCost>
-            <iBaseUpkeep>4</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iCombat>90</iCombat>
             <iXPValueAttack>3</iXPValueAttack>
@@ -16144,7 +16145,7 @@
                 <BonusType>BONUS_BIOFUEL</BonusType>
             </PrereqBonuses>
             <iCost>1000</iCost>
-            <iBaseUpkeep>2</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iCombat>36</iCombat>
             <iXPValueAttack>3</iXPValueAttack>
@@ -16231,7 +16232,7 @@
                 <BonusType>BONUS_BIOFUEL</BonusType>
             </PrereqBonuses>
             <iCost>1100</iCost>
-            <iBaseUpkeep>2</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>4</iMoves>
             <iCombat>40</iCombat>
             <iXPValueAttack>3</iXPValueAttack>
@@ -16335,7 +16336,7 @@
                 <BonusType>BONUS_BIOFUEL</BonusType>
             </PrereqBonuses>
             <iCost>1200</iCost>
-            <iBaseUpkeep>3</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>3</iMoves>
             <iCombat>50</iCombat>
             <iXPValueAttack>3</iXPValueAttack>
@@ -16438,7 +16439,7 @@
                 <BonusType>BONUS_BIOFUEL</BonusType>
             </PrereqBonuses>
             <iCost>1300</iCost>
-            <iBaseUpkeep>3</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iCombat>60</iCombat>
             <iXPValueAttack>3</iXPValueAttack>
@@ -16550,7 +16551,7 @@
                 </And>
             </TrainCondition>
             <iCost>1345</iCost>
-            <iBaseUpkeep>3</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iCombat>72</iCombat>
             <iXPValueAttack>3</iXPValueAttack>
@@ -16679,7 +16680,7 @@
                 </And>
             </TrainCondition>
             <iCost>1700</iCost>
-            <iBaseUpkeep>3</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iCombat>105</iCombat>
             <iXPValueAttack>3</iXPValueAttack>
@@ -16805,7 +16806,7 @@
                 </And>
             </TrainCondition>
             <iCost>2505</iCost>
-            <iBaseUpkeep>11</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iCombat>140</iCombat>
             <iXPValueAttack>3</iXPValueAttack>
@@ -16906,7 +16907,7 @@
                 </And>
             </TrainCondition>
             <iCost>2008</iCost>
-            <iBaseUpkeep>3</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iCombat>120</iCombat>
             <iXPValueAttack>3</iXPValueAttack>
@@ -17040,7 +17041,7 @@
                 </And>
             </TrainCondition>
             <iCost>3800</iCost>
-            <iBaseUpkeep>3</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>3</iMoves>
             <iCombat>140</iCombat>
             <iXPValueAttack>3</iXPValueAttack>
@@ -17152,7 +17153,7 @@
                 </And>
             </TrainCondition>
             <iCost>4500</iCost>
-            <iBaseUpkeep>4</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>3</iMoves>
             <iCombat>150</iCombat>
             <iXPValueAttack>3</iXPValueAttack>
@@ -17288,7 +17289,7 @@
             </PrereqBonuses>
             <iCost>4300</iCost>
             <iAdvancedStartCost>500</iAdvancedStartCost>
-            <iBaseUpkeep>11</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iCombat>140</iCombat>
             <iXPValueAttack>3</iXPValueAttack>
@@ -17394,7 +17395,7 @@
                 </And>
             </TrainCondition>
             <iCost>2865</iCost>
-            <iBaseUpkeep>4</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>3</iMoves>
             <iCombat>170</iCombat>
             <iXPValueAttack>3</iXPValueAttack>
@@ -17634,7 +17635,7 @@
                 <BonusType>BONUS_BIOFUEL</BonusType>
             </PrereqBonuses>
             <iCost>1025</iCost>
-            <iBaseUpkeep>2</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iCombat>36</iCombat>
             <iXPValueAttack>2</iXPValueAttack>
@@ -17780,7 +17781,7 @@
                 <BonusType>BONUS_BIOFUEL</BonusType>
             </PrereqBonuses>
             <iCost>1100</iCost>
-            <iBaseUpkeep>2</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>3</iMoves>
             <iCombat>38</iCombat>
             <iXPValueAttack>2</iXPValueAttack>
@@ -17894,7 +17895,7 @@
                 <BonusType>BONUS_BIOFUEL</BonusType>
             </PrereqBonuses>
             <iCost>1180</iCost>
-            <iBaseUpkeep>2</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iCombat>50</iCombat>
             <iXPValueAttack>2</iXPValueAttack>
@@ -18043,7 +18044,7 @@
                 <BonusType>BONUS_BIOFUEL</BonusType>
             </PrereqBonuses>
             <iCost>1700</iCost>
-            <iBaseUpkeep>2</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>3</iMoves>
             <iCombat>55</iCombat>
             <iXPValueAttack>2</iXPValueAttack>
@@ -18149,7 +18150,7 @@
             </UnitAIs>
             <PrereqTech>TECH_ROBOTICS</PrereqTech>
             <iCost>1605</iCost>
-            <iBaseUpkeep>3</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iCombat>70</iCombat>
             <iXPValueAttack>1</iXPValueAttack>
@@ -18277,7 +18278,7 @@
                 <BonusType>BONUS_BIOFUEL</BonusType>
             </PrereqBonuses>
             <iCost>2865</iCost>
-            <iBaseUpkeep>4</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>3</iMoves>
             <iCombat>80</iCombat>
             <iXPValueAttack>3</iXPValueAttack>
@@ -18375,7 +18376,7 @@
                 <BonusType>BONUS_BIOFUEL</BonusType>
             </PrereqBonuses>
             <iCost>2865</iCost>
-            <iBaseUpkeep>4</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>3</iMoves>
             <iCombat>100</iCombat>
             <iXPValueAttack>3</iXPValueAttack>
@@ -21179,7 +21180,7 @@
             <PrereqTech>TECH_SEMICONDUCTORS</PrereqTech>
             <BonusType>BONUS_PETROLEUM_PRODUCTS</BonusType>
             <iCost>1180</iCost>
-            <iBaseUpkeep>2</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iCombat>48</iCombat>
             <iCombatLimit>85</iCombatLimit>
@@ -21287,7 +21288,7 @@
             <PrereqTech>TECH_COMPOSITES</PrereqTech>
             <BonusType>BONUS_PETROLEUM_PRODUCTS</BonusType>
             <iCost>1700</iCost>
-            <iBaseUpkeep>2</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iCombat>65</iCombat>
             <iCombatLimit>90</iCombatLimit>
@@ -21393,7 +21394,7 @@
             <PrereqTech>TECH_MICROMECHANICS</PrereqTech>
             <BonusType>BONUS_PETROLEUM_PRODUCTS</BonusType>
             <iCost>3294</iCost>
-            <iBaseUpkeep>6</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>3</iMoves>
             <iCombat>90</iCombat>
             <iCombatLimit>90</iCombatLimit>
@@ -21507,7 +21508,7 @@
                 </And>
             </TrainCondition>
             <iCost>3250</iCost>
-            <iBaseUpkeep>6</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>4</iMoves>
             <iCombat>95</iCombat>
             <iCombatLimit>90</iCombatLimit>
@@ -21605,7 +21606,7 @@
             <PrereqTech>TECH_LEVITATION</PrereqTech>
             <BonusType>BONUS_TITANIUM_WARES</BonusType>
             <iCost>4500</iCost>
-            <iBaseUpkeep>11</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>5</iMoves>
             <iCombat>170</iCombat>
             <iCombatLimit>90</iCombatLimit>
@@ -21707,7 +21708,7 @@
                 <BonusType>BONUS_NANOTUBES</BonusType>
             </PrereqBonuses>
             <iCost>5000</iCost>
-            <iBaseUpkeep>11</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>3</iMoves>
             <iCombat>160</iCombat>
             <iCombatLimit>90</iCombatLimit>
@@ -21825,7 +21826,7 @@
             </PrereqOrBuildings>
             <PrereqTech>TECH_AUTOMATIC_WEAPONS</PrereqTech>
             <iCost>1030</iCost>
-            <iBaseUpkeep>2</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iAirRange>1</iAirRange>
             <iCombat>35</iCombat>
@@ -21925,7 +21926,7 @@
                 <BonusType>BONUS_BIOFUEL</BonusType>
             </PrereqBonuses>
             <iCost>1030</iCost>
-            <iBaseUpkeep>2</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iAirRange>1</iAirRange>
             <iCombat>40</iCombat>
@@ -22024,7 +22025,7 @@
                 <BonusType>BONUS_BIOFUEL</BonusType>
             </PrereqBonuses>
             <iCost>1365</iCost>
-            <iBaseUpkeep>2</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iAirRange>1</iAirRange>
             <iCombat>70</iCombat>
@@ -22153,7 +22154,7 @@
                 <BonusType>BONUS_BIOFUEL</BonusType>
             </PrereqBonuses>
             <iCost>2580</iCost>
-            <iBaseUpkeep>4</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>3</iMoves>
             <iAirRange>2</iAirRange>
             <iCombat>100</iCombat>
@@ -23029,7 +23030,7 @@
             <PrereqTech>TECH_ALCHEMY</PrereqTech>
             <BonusType>BONUS_TAR</BonusType>
             <iCost>290</iCost>
-            <iBaseUpkeep>3</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iCombat>12</iCombat>
             <iXPValueAttack>3</iXPValueAttack>
@@ -23495,7 +23496,7 @@
             <BonusType>BONUS_MECHS</BonusType>
             <iCost>3250</iCost>
             <iAdvancedStartCost>450</iAdvancedStartCost>
-            <iBaseUpkeep>6</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iAirRange>1</iAirRange>
             <iCombat>120</iCombat>
@@ -23609,7 +23610,7 @@
             <BonusType>BONUS_MECHS</BonusType>
             <iCost>5200</iCost>
             <iHurryCostModifier>50</iHurryCostModifier>
-            <iBaseUpkeep>16</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>3</iMoves>
             <iCombat>190</iCombat>
             <iXPValueAttack>6</iXPValueAttack>
@@ -23766,7 +23767,7 @@
             <BonusType>BONUS_MECHS</BonusType>
             <iCost>4800</iCost>
             <iAdvancedStartCost>450</iAdvancedStartCost>
-            <iBaseUpkeep>11</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>3</iMoves>
             <iCombat>150</iCombat>
             <iXPValueAttack>3</iXPValueAttack>
@@ -23875,7 +23876,7 @@
             <BonusType>BONUS_MECHS</BonusType>
             <iCost>7700</iCost>
             <iAdvancedStartCost>450</iAdvancedStartCost>
-            <iBaseUpkeep>16</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iAirRange>2</iAirRange>
             <iCombat>220</iCombat>
@@ -23999,7 +24000,7 @@
             </TrainCondition>
             <iCost>3200</iCost>
             <iAdvancedStartCost>550</iAdvancedStartCost>
-            <iBaseUpkeep>11</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>3</iMoves>
             <iCombat>110</iCombat>
             <iXPValueAttack>3</iXPValueAttack>
@@ -24118,7 +24119,7 @@
             </TrainCondition>
             <iCost>3600</iCost>
             <iAdvancedStartCost>550</iAdvancedStartCost>
-            <iBaseUpkeep>11</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>3</iMoves>
             <iCombat>120</iCombat>
             <iXPValueAttack>3</iXPValueAttack>
@@ -24237,7 +24238,7 @@
             </TrainCondition>
             <iCost>3700</iCost>
             <iAdvancedStartCost>550</iAdvancedStartCost>
-            <iBaseUpkeep>11</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>3</iMoves>
             <iCombat>130</iCombat>
             <iXPValueAttack>3</iXPValueAttack>
@@ -24357,7 +24358,7 @@
             </TrainCondition>
             <iCost>3900</iCost>
             <iAdvancedStartCost>800</iAdvancedStartCost>
-            <iBaseUpkeep>11</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>3</iMoves>
             <iCombat>140</iCombat>
             <iXPValueAttack>3</iXPValueAttack>
@@ -24476,7 +24477,7 @@
             </TrainCondition>
             <iCost>4700</iCost>
             <iAdvancedStartCost>550</iAdvancedStartCost>
-            <iBaseUpkeep>11</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>3</iMoves>
             <iCombat>220</iCombat>
             <iXPValueAttack>3</iXPValueAttack>
@@ -24595,7 +24596,7 @@
             </TrainCondition>
             <iCost>5500</iCost>
             <iAdvancedStartCost>1200</iAdvancedStartCost>
-            <iBaseUpkeep>11</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>3</iMoves>
             <iCombat>230</iCombat>
             <iXPValueAttack>3</iXPValueAttack>
@@ -24693,7 +24694,7 @@
             </PrereqBonuses>
             <iCost>2985</iCost>
             <iAdvancedStartCost>450</iAdvancedStartCost>
-            <iBaseUpkeep>6</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>5</iMoves>
             <iCombat>90</iCombat>
             <iXPValueAttack>3</iXPValueAttack>
@@ -24796,7 +24797,7 @@
             </PrereqBonuses>
             <iCost>2406</iCost>
             <iAdvancedStartCost>450</iAdvancedStartCost>
-            <iBaseUpkeep>11</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>3</iMoves>
             <iCombat>85</iCombat>
             <iXPValueAttack>3</iXPValueAttack>
@@ -24894,7 +24895,7 @@
             </PrereqBonuses>
             <iCost>4800</iCost>
             <iAdvancedStartCost>500</iAdvancedStartCost>
-            <iBaseUpkeep>11</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iCombat>130</iCombat>
             <iXPValueAttack>3</iXPValueAttack>
@@ -24992,7 +24993,7 @@
             </PrereqBonuses>
             <iCost>5000</iCost>
             <iAdvancedStartCost>500</iAdvancedStartCost>
-            <iBaseUpkeep>16</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iCombat>195</iCombat>
             <iXPValueAttack>3</iXPValueAttack>
@@ -25082,7 +25083,7 @@
                 <BonusType>BONUS_NANOTUBES</BonusType>
             </PrereqBonuses>
             <iCost>8300</iCost>
-            <iBaseUpkeep>21</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>4</iMoves>
             <iAirRange>3</iAirRange>
             <iAirUnitCap>4</iAirUnitCap>
@@ -25360,7 +25361,7 @@
                 </And>
             </TrainCondition>
             <iCost>1100</iCost>
-            <iBaseUpkeep>4</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>4</iMoves>
             <TerrainImpassableTypes>
                 <TerrainType>TERRAIN_SEA_TROPICAL</TerrainType>
@@ -25493,7 +25494,7 @@
                 </And>
             </TrainCondition>
             <iCost>1475</iCost>
-            <iBaseUpkeep>5</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>4</iMoves>
             <iCombat>75</iCombat>
             <iXPValueAttack>3</iXPValueAttack>
@@ -25614,7 +25615,7 @@
                 </And>
             </TrainCondition>
             <iCost>4300</iCost>
-            <iBaseUpkeep>6</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>4</iMoves>
             <iCombat>100</iCombat>
             <iXPValueAttack>3</iXPValueAttack>
@@ -26237,7 +26238,7 @@
                 <UnitType>UNIT_CANIS_SUPERIOR</UnitType>
             </UnitUpgrades>
             <iCost>601</iCost>
-            <iBaseUpkeep>3</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <SeeInvisible>INVISIBLE_CAMOUFLAGE</SeeInvisible>
             <VisibilityIntensityTypes>
@@ -26371,7 +26372,7 @@
                 <BuildingType>BUILDING_REPET</BuildingType>
             </PrereqAndBuildings>
             <iCost>3942</iCost>
-            <iBaseUpkeep>5</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>3</iMoves>
             <SeeInvisible>INVISIBLE_CAMOUFLAGE</SeeInvisible>
             <VisibilityIntensityTypes>
@@ -26435,7 +26436,7 @@
         </UnitInfo>
         <UnitInfo>
             <Type>UNIT_EARLY_IMP_GUARD</Type>
-<!--            <iMaxPlayerInstances>1</iMaxPlayerInstances>-->
+            <iMaxPlayerInstances>1</iMaxPlayerInstances>
             <bUnlimitedException>1</bUnlimitedException>
             <Combat>UNITCOMBAT_LAW_ENFORCEMENT</Combat>
             <SubCombatTypes>
@@ -26534,7 +26535,7 @@
         </UnitInfo>
         <UnitInfo>
             <Type>UNIT_REN_IMP_GUARD</Type>
-<!--            <iMaxPlayerInstances>1</iMaxPlayerInstances>-->
+            <iMaxPlayerInstances>1</iMaxPlayerInstances>
             <bUnlimitedException>1</bUnlimitedException>
             <Combat>UNITCOMBAT_LAW_ENFORCEMENT</Combat>
             <SubCombatTypes>
@@ -26643,7 +26644,7 @@
         </UnitInfo>
         <UnitInfo>
             <Type>UNIT_MODERN_IMP_GUARD</Type>
-<!--            <iMaxPlayerInstances>1</iMaxPlayerInstances>-->
+            <iMaxPlayerInstances>1</iMaxPlayerInstances>
             <bUnlimitedException>1</bUnlimitedException>
             <Combat>UNITCOMBAT_LAW_ENFORCEMENT</Combat>
             <SubCombatTypes>
@@ -26746,7 +26747,7 @@
         </UnitInfo>
         <UnitInfo>
             <Type>UNIT_ROBOT_IMP_GUARD</Type>
-<!--            <iMaxPlayerInstances>1</iMaxPlayerInstances>-->
+            <iMaxPlayerInstances>1</iMaxPlayerInstances>
             <bUnlimitedException>1</bUnlimitedException>
             <Combat>UNITCOMBAT_ROBOT</Combat>
             <SubCombatTypes>
@@ -26851,10 +26852,14 @@
         </UnitInfo>
         <UnitInfo>
             <Type>UNIT_TRIBAL_GUARDIAN</Type>
+            <iMaxPlayerInstances>1</iMaxPlayerInstances>
+            <bUnlimitedException>1</bUnlimitedException>
+            <Special>SPECIALUNIT_PEOPLE</Special>
             <Description>TXT_KEY_UNIT_TRIBAL_GUARDIAN</Description>
             <Civilopedia>TXT_KEY_UNIT_TRIBAL_GUARDIAN_PEDIA</Civilopedia>
             <Advisor>ADVISOR_MILITARY</Advisor>
             <Combat>UNITCOMBAT_LAW_ENFORCEMENT</Combat>
+            <PrereqTech>TECH_HARD_HAMMER_PERCUSSION</PrereqTech>
             <SubCombatTypes>
                 <SubCombatType>UNITCOMBAT_MELEE</SubCombatType>
                 <SubCombatType>UNITCOMBAT_COMBATANT</SubCombatType>
@@ -26871,7 +26876,10 @@
                 <SubCombatType>UNITCOMBAT_SIZE_MEDIUM</SubCombatType>
                 <SubCombatType>UNITCOMBAT_HEALS_AS_PEOPLE</SubCombatType>
             </SubCombatTypes>
-            <Domain>DOMAIN_IMMOBILE</Domain>
+            <Domain>DOMAIN_LAND</Domain>
+            <MapCategoryTypes>
+                <MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
+            </MapCategoryTypes>
             <DefaultUnitAI>UNITAI_PROPERTY_CONTROL</DefaultUnitAI>
             <UnitAIs>
                 <UnitAI>
@@ -26884,10 +26892,9 @@
             <bMilitarySupport>1</bMilitarySupport>
             <bMilitaryProduction>1</bMilitaryProduction>
             <UnitUpgrades>
-<!--                <UnitType>UNIT_ENFORCERS</UnitType>-->
-<!--                <UnitType>UNIT_NEANDERTHAL_TRIBAL_GUARDIAN</UnitType>-->
+                <UnitType>UNIT_PALACE_GUARDS</UnitType>
             </UnitUpgrades>
-            <iCost>-1</iCost>
+            <iCost>60</iCost>
             <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iCombat>2</iCombat>
@@ -26896,6 +26903,9 @@
             <iCityDefense>250</iCityDefense>
             <iAsset>1</iAsset>
             <iPower>3</iPower>
+            <PrereqAndBuildings>
+                <BuildingType>BUILDING_PALACE</BuildingType>
+            </PrereqAndBuildings>
             <UnitMeshGroups>
                 <iGroupSize>3</iGroupSize>
                 <fMaxSpeed>1.75</fMaxSpeed>
@@ -26905,6 +26915,144 @@
                 <UnitMeshGroup>
                     <iRequired>2</iRequired>
                     <EarlyArtDefineTag>ART_DEF_UNIT_TRIBAL_GUARDIAN</EarlyArtDefineTag>
+                </UnitMeshGroup>
+            </UnitMeshGroups>
+            <FormationType>FORMATION_TYPE_DEFAULT</FormationType>
+        </UnitInfo>
+        <UnitInfo>
+            <Type>UNIT_PALACE_GUARDS</Type>
+            <iMaxPlayerInstances>1</iMaxPlayerInstances>
+            <bUnlimitedException>1</bUnlimitedException>
+            <Special>SPECIALUNIT_PEOPLE</Special>
+            <Description>TXT_KEY_UNIT_PALACE_GUARD</Description>
+            <Civilopedia>TXT_KEY_UNIT_PALACE_GUARD_PEDIA</Civilopedia>
+            <Advisor>ADVISOR_MILITARY</Advisor>
+            <Combat>UNITCOMBAT_LAW_ENFORCEMENT</Combat>
+            <PrereqTech>TECH_SEDENTARY_LIFESTYLE</PrereqTech>
+            <SubCombatTypes>
+                <SubCombatType>UNITCOMBAT_MELEE</SubCombatType>
+                <SubCombatType>UNITCOMBAT_COMBATANT</SubCombatType>
+                <SubCombatType>UNITCOMBAT_SPECIES_HUMAN</SubCombatType>
+                <SubCombatType>UNITCOMBAT_WEAPON_METHOD_HAND_TO_HAND_ONLY</SubCombatType>
+                <SubCombatType>UNITCOMBAT_WEAPON_STYLE_H2H_TWO_HANDED</SubCombatType>
+                <SubCombatType>UNITCOMBAT_WEAPON_STYLE_SIDEARM_PRIMARY_PLUS_SECONDARY</SubCombatType>
+                <SubCombatType>UNITCOMBAT_WEAPON_H2H_CLUB</SubCombatType>
+                <SubCombatType>UNITCOMBAT_WEAPON_SIDEARM_FIST</SubCombatType>
+                <SubCombatType>UNITCOMBAT_ARMOR_LIGHT</SubCombatType>
+                <SubCombatType>UNITCOMBAT_MOTILITY_FOOT</SubCombatType>
+                <SubCombatType>UNITCOMBAT_QUALITY_EXCEPTIONAL</SubCombatType>
+                <SubCombatType>UNITCOMBAT_GROUP_SQUAD</SubCombatType>
+                <SubCombatType>UNITCOMBAT_SIZE_MEDIUM</SubCombatType>
+                <SubCombatType>UNITCOMBAT_HEALS_AS_PEOPLE</SubCombatType>
+            </SubCombatTypes>
+            <Domain>DOMAIN_LAND</Domain>
+            <UnitUpgrades>
+                <UnitType>UNIT_EMPEROR_GUARD</UnitType>
+            </UnitUpgrades>
+            <MapCategoryTypes>
+                <MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
+            </MapCategoryTypes>
+            <DefaultUnitAI>UNITAI_PROPERTY_CONTROL</DefaultUnitAI>
+            <UnitAIs>
+                <UnitAI>
+                    <UnitAIType>UNITAI_PROPERTY_CONTROL</UnitAIType>
+                    <bUnitAI>1</bUnitAI>
+                </UnitAI>
+            </UnitAIs>
+            <bOnlyDefensive>1</bOnlyDefensive>
+            <bMilitaryHappiness>1</bMilitaryHappiness>
+            <bMilitarySupport>1</bMilitarySupport>
+            <bMilitaryProduction>1</bMilitaryProduction>
+            <iCost>120</iCost>
+            <iBaseUpkeep>1</iBaseUpkeep>
+            <iMoves>1</iMoves>
+            <iCombat>3</iCombat>
+            <iXPValueAttack>1</iXPValueAttack>
+            <iXPValueDefense>2</iXPValueDefense>
+            <iCityDefense>250</iCityDefense>
+            <iAsset>1</iAsset>
+            <iPower>3</iPower>
+            <PrereqAndBuildings>
+                <BuildingType>BUILDING_PALACE</BuildingType>
+            </PrereqAndBuildings>
+            <UnitMeshGroups>
+                <iGroupSize>3</iGroupSize>
+                <fMaxSpeed>1.75</fMaxSpeed>
+                <fPadTime>1</fPadTime>
+                <iMeleeWaveSize>3</iMeleeWaveSize>
+                <iRangedWaveSize>0</iRangedWaveSize>
+                <UnitMeshGroup>
+                    <iRequired>2</iRequired>
+                    <EarlyArtDefineTag>ART_DEF_UNIT_TRIBAL_GUARDIAN</EarlyArtDefineTag>
+                </UnitMeshGroup>
+            </UnitMeshGroups>
+            <FormationType>FORMATION_TYPE_DEFAULT</FormationType>
+        </UnitInfo>
+        <UnitInfo>
+            <Type>UNIT_EMPEROR_GUARD</Type>
+            <iMaxPlayerInstances>1</iMaxPlayerInstances>
+            <bUnlimitedException>1</bUnlimitedException>
+            <Special>SPECIALUNIT_PEOPLE</Special>
+            <Description>TXT_KEY_UNIT_EMPEROR_GUARD</Description>
+            <Civilopedia>TXT_KEY_UNIT_EMPEROR_GUARD_PEDIA</Civilopedia>
+            <Advisor>ADVISOR_MILITARY</Advisor>
+            <Combat>UNITCOMBAT_LAW_ENFORCEMENT</Combat>
+            <PrereqTech>TECH_CLASSICAL_LIFESTYLE</PrereqTech>
+            <SubCombatTypes>
+                <SubCombatType>UNITCOMBAT_MELEE</SubCombatType>
+                <SubCombatType>UNITCOMBAT_COMBATANT</SubCombatType>
+                <SubCombatType>UNITCOMBAT_SPECIES_HUMAN</SubCombatType>
+                <SubCombatType>UNITCOMBAT_WEAPON_METHOD_HAND_TO_HAND_ONLY</SubCombatType>
+                <SubCombatType>UNITCOMBAT_WEAPON_STYLE_H2H_TWO_HANDED</SubCombatType>
+                <SubCombatType>UNITCOMBAT_WEAPON_STYLE_SIDEARM_PRIMARY_PLUS_SECONDARY</SubCombatType>
+                <SubCombatType>UNITCOMBAT_WEAPON_H2H_CLUB</SubCombatType>
+                <SubCombatType>UNITCOMBAT_WEAPON_SIDEARM_FIST</SubCombatType>
+                <SubCombatType>UNITCOMBAT_ARMOR_LIGHT</SubCombatType>
+                <SubCombatType>UNITCOMBAT_MOTILITY_FOOT</SubCombatType>
+                <SubCombatType>UNITCOMBAT_QUALITY_EXCEPTIONAL</SubCombatType>
+                <SubCombatType>UNITCOMBAT_GROUP_SQUAD</SubCombatType>
+                <SubCombatType>UNITCOMBAT_SIZE_MEDIUM</SubCombatType>
+                <SubCombatType>UNITCOMBAT_HEALS_AS_PEOPLE</SubCombatType>
+            </SubCombatTypes>
+            <Domain>DOMAIN_LAND</Domain>
+            <UnitUpgrades>
+                <UnitType>UNIT_EARLY_IMP_GUARD</UnitType>
+            </UnitUpgrades>
+            <MapCategoryTypes>
+                <MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
+            </MapCategoryTypes>
+            <DefaultUnitAI>UNITAI_PROPERTY_CONTROL</DefaultUnitAI>
+            <UnitAIs>
+                <UnitAI>
+                    <UnitAIType>UNITAI_PROPERTY_CONTROL</UnitAIType>
+                    <bUnitAI>1</bUnitAI>
+                </UnitAI>
+            </UnitAIs>
+            <bOnlyDefensive>1</bOnlyDefensive>
+            <bMilitaryHappiness>1</bMilitaryHappiness>
+            <bMilitarySupport>1</bMilitarySupport>
+            <bMilitaryProduction>1</bMilitaryProduction>
+            <iCost>420</iCost>
+            <iBaseUpkeep>1</iBaseUpkeep>
+            <iMoves>1</iMoves>
+            <iCombat>5</iCombat>
+            <iXPValueAttack>1</iXPValueAttack>
+            <iXPValueDefense>2</iXPValueDefense>
+            <iCityDefense>250</iCityDefense>
+            <iAsset>1</iAsset>
+            <iPower>3</iPower>
+            <PrereqAndBuildings>
+                <BuildingType>BUILDING_PALACE</BuildingType>
+            </PrereqAndBuildings>
+            <UnitMeshGroups>
+                <iGroupSize>3</iGroupSize>
+                <fMaxSpeed>1.75</fMaxSpeed>
+                <fPadTime>1</fPadTime>
+                <iMeleeWaveSize>3</iMeleeWaveSize>
+                <iRangedWaveSize>0</iRangedWaveSize>
+                <UnitMeshGroup>
+                    <iRequired>2</iRequired>
+                    <EarlyArtDefineTag>ART_DEF_UNIT_ROME_PRAETORIAN</EarlyArtDefineTag>
                 </UnitMeshGroup>
             </UnitMeshGroups>
             <FormationType>FORMATION_TYPE_DEFAULT</FormationType>
@@ -27258,7 +27406,7 @@
                     <iProductonModifier>15</iProductonModifier>
                 </BonusProductionModifier>
             </BonusProductionModifiers>
-            <iBaseUpkeep>4</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <VisibilityIntensityTypes>
                 <VisibilityIntensityType>
@@ -27409,7 +27557,7 @@
                 </UnitCombatDefender>
             </UnitCombatDefenders>
             <iCost>210</iCost>
-            <iBaseUpkeep>5</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iCombat>8</iCombat>
             <iStealthStrikes>1</iStealthStrikes>
@@ -27544,7 +27692,7 @@
                     <iProductonModifier>15</iProductonModifier>
                 </BonusProductionModifier>
             </BonusProductionModifiers>
-            <iBaseUpkeep>6</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <VisibilityIntensityTypes>
                 <VisibilityIntensityType>
@@ -27686,7 +27834,7 @@
                     <iProductonModifier>15</iProductonModifier>
                 </BonusProductionModifier>
             </BonusProductionModifiers>
-            <iBaseUpkeep>7</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <VisibilityIntensityTypes>
                 <VisibilityIntensityType>
@@ -27824,7 +27972,7 @@
                     <iProductonModifier>15</iProductonModifier>
                 </BonusProductionModifier>
             </BonusProductionModifiers>
-            <iBaseUpkeep>8</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <VisibilityIntensityTypes>
                 <VisibilityIntensityType>
@@ -27960,7 +28108,7 @@
                 <UnitType>UNIT_POLICE_APC</UnitType>
             </UnitUpgrades>
             <iCost>720</iCost>
-            <iBaseUpkeep>9</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <VisibilityIntensityTypes>
                 <VisibilityIntensityType>
@@ -28116,7 +28264,7 @@
                 <UnitType>UNIT_POLICE_MECH</UnitType>
             </UnitUpgrades>
             <iCost>780</iCost>
-            <iBaseUpkeep>10</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>4</iMoves>
             <VisibilityIntensityTypes>
                 <VisibilityIntensityType>
@@ -28283,7 +28431,7 @@
                 <UnitType>UNIT_SWAT_TEAM</UnitType>
             </UnitUpgrades>
             <iCost>975</iCost>
-            <iBaseUpkeep>11</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <VisibilityIntensityTypes>
                 <VisibilityIntensityType>
@@ -28447,7 +28595,7 @@
                 </UnitCombatDefender>
             </UnitCombatDefenders>
             <iCost>1150</iCost>
-            <iBaseUpkeep>12</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>4</iMoves>
             <iCombat>40</iCombat>
             <iWithdrawalProb>55</iWithdrawalProb>
@@ -28623,7 +28771,7 @@
                 </UnitCombatDefender>
             </UnitCombatDefenders>
             <iCost>1825</iCost>
-            <iBaseUpkeep>14</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>3</iMoves>
             <iCombat>100</iCombat>
             <iFirstStrikes>2</iFirstStrikes>
@@ -28748,7 +28896,7 @@
                 <BuildingType>BUILDING_POLICE_PRECINCT</BuildingType>
             </PrereqAndBuildings>
             <iCost>3580</iCost>
-            <iBaseUpkeep>15</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>4</iMoves>
             <VisibilityIntensityTypes>
                 <VisibilityIntensityType>
@@ -28942,7 +29090,7 @@
                 </UnitCombatDefender>
             </UnitCombatDefenders>
             <iCost>7000</iCost>
-            <iBaseUpkeep>16</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>5</iMoves>
             <iCombat>220</iCombat>
             <iFirstStrikes>4</iFirstStrikes>
@@ -29670,7 +29818,7 @@
                 </Flavor>
             </Flavors>
             <iCost>155</iCost>
-            <iBaseUpkeep>4</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iCombat>5</iCombat>
             <iFirstStrikes>1</iFirstStrikes>
@@ -29878,7 +30026,7 @@
                 </Flavor>
             </Flavors>
             <iCost>330</iCost>
-            <iBaseUpkeep>6</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iCombat>12</iCombat>
             <iFirstStrikes>1</iFirstStrikes>
@@ -30096,7 +30244,7 @@
                 </Flavor>
             </Flavors>
             <iCost>360</iCost>
-            <iBaseUpkeep>7</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iCombat>17</iCombat>
             <iFirstStrikes>1</iFirstStrikes>
@@ -30306,7 +30454,7 @@
                 </Flavor>
             </Flavors>
             <iCost>535</iCost>
-            <iBaseUpkeep>8</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iCombat>23</iCombat>
             <iFirstStrikes>2</iFirstStrikes>
@@ -30516,7 +30664,7 @@
                 </Flavor>
             </Flavors>
             <iCost>600</iCost>
-            <iBaseUpkeep>9</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iCombat>30</iCombat>
             <iFirstStrikes>2</iFirstStrikes>
@@ -30708,7 +30856,7 @@
                 <UnitType>UNIT_ROBBER</UnitType>
             </UnitUpgrades>
             <iCost>700</iCost>
-            <iBaseUpkeep>10</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>4</iMoves>
             <VisibilityIntensityTypes>
                 <VisibilityIntensityType>
@@ -30931,7 +31079,7 @@
                 </UnitCombatTarget>
             </UnitCombatTargets>
             <iCost>875</iCost>
-            <iBaseUpkeep>11</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>4</iMoves>
             <iCombat>50</iCombat>
             <iFirstStrikes>1</iFirstStrikes>
@@ -31135,7 +31283,7 @@
                 </UnitCombatTarget>
             </UnitCombatTargets>
             <iCost>1000</iCost>
-            <iBaseUpkeep>12</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>4</iMoves>
             <iCombat>60</iCombat>
             <iFirstStrikes>1</iFirstStrikes>
@@ -31337,7 +31485,7 @@
                 </UnitCombatTarget>
             </UnitCombatTargets>
             <iCost>1430</iCost>
-            <iBaseUpkeep>13</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>4</iMoves>
             <iCombat>70</iCombat>
             <iFirstStrikes>2</iFirstStrikes>
@@ -31524,7 +31672,7 @@
                 </UnitCombatTarget>
             </UnitCombatTargets>
             <iCost>2005</iCost>
-            <iBaseUpkeep>15</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iCombat>50</iCombat>
             <UnitCombatMods>
@@ -31725,7 +31873,7 @@
                 </UnitCombatTarget>
             </UnitCombatTargets>
             <iCost>5000</iCost>
-            <iBaseUpkeep>16</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>3</iMoves>
             <iCombat>150</iCombat>
             <UnitCombatMods>
@@ -31888,7 +32036,7 @@
                 <UnitType>UNIT_CUTTHROAT</UnitType>
             </UnitUpgrades>
             <iCost>200</iCost>
-            <iBaseUpkeep>5</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iCombat>6</iCombat>
             <iXPValueAttack>3</iXPValueAttack>
@@ -32051,7 +32199,7 @@
                 </UnitCombatTarget>
             </UnitCombatTargets>
             <iCost>540</iCost>
-            <iBaseUpkeep>7</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iCombat>24</iCombat>
             <iFirstStrikes>1</iFirstStrikes>
@@ -32205,7 +32353,7 @@
                 <UnitType>UNIT_HIGHWAYMAN</UnitType>
             </UnitUpgrades>
             <iCost>225</iCost>
-            <iBaseUpkeep>5</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>3</iMoves>
             <iCombat>8</iCombat>
             <iXPValueAttack>3</iXPValueAttack>
@@ -32382,7 +32530,7 @@
                     <iProductonModifier>15</iProductonModifier>
                 </BonusProductionModifier>
             </BonusProductionModifiers>
-            <iBaseUpkeep>7</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>3</iMoves>
             <VisibilityIntensityTypes>
                 <VisibilityIntensityType>
@@ -32586,7 +32734,7 @@
                     <iProductonModifier>15</iProductonModifier>
                 </BonusProductionModifier>
             </BonusProductionModifiers>
-            <iBaseUpkeep>8</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>3</iMoves>
             <VisibilityIntensityTypes>
                 <VisibilityIntensityType>
@@ -32952,7 +33100,7 @@
                 </UnitCombatTarget>
             </UnitCombatTargets>
             <iCost>160</iCost>
-            <iBaseUpkeep>4</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iCombat>5</iCombat>
             <UnitCombatMods>
@@ -33115,7 +33263,7 @@
                 <UnitType>UNIT_SHARPSHOOTER</UnitType>
             </UnitUpgrades>
             <iCost>260</iCost>
-            <iBaseUpkeep>5</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <Invisible>INVISIBLE_CAMOUFLAGE</Invisible>
             <SeeInvisible>INVISIBLE_CAMOUFLAGE</SeeInvisible>
@@ -33321,7 +33469,7 @@
                     <iProductonModifier>15</iProductonModifier>
                 </BonusProductionModifier>
             </BonusProductionModifiers>
-            <iBaseUpkeep>6</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <Invisible>INVISIBLE_CAMOUFLAGE</Invisible>
             <SeeInvisible>INVISIBLE_CAMOUFLAGE</SeeInvisible>
@@ -33489,7 +33637,7 @@
                     <iProductonModifier>15</iProductonModifier>
                 </BonusProductionModifier>
             </BonusProductionModifiers>
-            <iBaseUpkeep>7</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <Invisible>INVISIBLE_CAMOUFLAGE</Invisible>
             <SeeInvisible>INVISIBLE_CAMOUFLAGE</SeeInvisible>
@@ -33677,7 +33825,7 @@
                 </UnitCombatTarget>
             </UnitCombatTargets>
             <iCost>1250</iCost>
-            <iBaseUpkeep>9</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iCombat>60</iCombat>
             <UnitCombatMods>
@@ -33841,7 +33989,7 @@
                 <UnitType>UNIT_HTSNIPER</UnitType>
             </UnitUpgrades>
             <iCost>1410</iCost>
-            <iBaseUpkeep>10</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iDropRange>7</iDropRange>
             <Invisible>INVISIBLE_CAMOUFLAGE</Invisible>
@@ -34020,7 +34168,7 @@
                 <UnitType>UNIT_SPECIAL_INFANTRY</UnitType>
             </UnitUpgrades>
             <iCost>1620</iCost>
-            <iBaseUpkeep>11</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iDropRange>7</iDropRange>
             <Invisible>INVISIBLE_CAMOUFLAGE</Invisible>
@@ -34192,7 +34340,7 @@
                 <BuildingType>BUILDING_ORBITAL_TARGETS</BuildingType>
             </PrereqAndBuildings>
             <iCost>4750</iCost>
-            <iBaseUpkeep>13</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>3</iMoves>
             <iDropRange>10</iDropRange>
             <Invisible>INVISIBLE_CAMOUFLAGE</Invisible>
@@ -34610,7 +34758,7 @@
             <BonusType>BONUS_FIREARMS</BonusType>
             <iCost>545</iCost>
             <iHurryCostModifier>25</iHurryCostModifier>
-            <iBaseUpkeep>3</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iWorkRate>150</iWorkRate>
             <iCombat>10</iCombat>
@@ -34733,7 +34881,7 @@
             <BonusType>BONUS_FIREARMS</BonusType>
             <iCost>1075</iCost>
             <iHurryCostModifier>25</iHurryCostModifier>
-            <iBaseUpkeep>5</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iWorkRate>175</iWorkRate>
             <iCombat>15</iCombat>
@@ -34866,7 +35014,7 @@
                 <BonusType>BONUS_SCROLLS</BonusType>
             </PrereqBonuses>
             <iCost>270</iCost>
-            <iBaseUpkeep>3</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iCombat>9</iCombat>
             <iXPValueAttack>4</iXPValueAttack>
@@ -35227,7 +35375,7 @@
                 <BonusType>BONUS_BRONZE_WARES</BonusType>
             </PrereqBonuses>
             <iCost>-1</iCost>
-            <iBaseUpkeep>5</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iAsset>1</iAsset>
             <UnitMeshGroups>
@@ -35559,7 +35707,7 @@
                 <BonusType>BONUS_IRON_WARES</BonusType>
             </PrereqBonuses>
             <iCost>215</iCost>
-            <iBaseUpkeep>2</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iWorkRate>50</iWorkRate>
             <iCombat>10</iCombat>
@@ -35682,7 +35830,7 @@
                 <BonusType>BONUS_IRON_WARES</BonusType>
             </PrereqBonuses>
             <iCost>335</iCost>
-            <iBaseUpkeep>4</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iWorkRate>62</iWorkRate>
             <iCombat>15</iCombat>
@@ -35809,7 +35957,7 @@
                 <BonusType>BONUS_SULPHUR</BonusType>
             </PrereqBonuses>
             <iCost>425</iCost>
-            <iBaseUpkeep>7</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iWorkRate>75</iWorkRate>
             <iCombat>25</iCombat>
@@ -35944,7 +36092,7 @@
                 <BonusType>BONUS_SULPHUR</BonusType>
             </PrereqBonuses>
             <iCost>630</iCost>
-            <iBaseUpkeep>11</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iWorkRate>85</iWorkRate>
             <iCombat>40</iCombat>
@@ -36081,7 +36229,7 @@
                 <BonusType>BONUS_AMMUNITION</BonusType>
             </PrereqBonuses>
             <iCost>1150</iCost>
-            <iBaseUpkeep>16</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iCombat>60</iCombat>
             <iXPValueAttack>1</iXPValueAttack>
@@ -36377,7 +36525,7 @@
             <BonusType>BONUS_NANOTUBES</BonusType>
             <iCost>3000</iCost>
             <iAdvancedStartCost>100</iAdvancedStartCost>
-            <iBaseUpkeep>16</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>3</iMoves>
             <iCombat>90</iCombat>
             <iCombatLimit>100</iCombatLimit>
@@ -36495,7 +36643,7 @@
             <BonusType>BONUS_SUPERSTRONG_ALLOYS</BonusType>
             <iCost>5000</iCost>
             <iAdvancedStartCost>100</iAdvancedStartCost>
-            <iBaseUpkeep>16</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>3</iMoves>
             <iCombat>120</iCombat>
             <iCombatLimit>100</iCombatLimit>
@@ -36609,7 +36757,7 @@
             <PrereqTech>TECH_GALACTIC_WARFARE</PrereqTech>
             <iCost>10617</iCost>
             <iAdvancedStartCost>100</iAdvancedStartCost>
-            <iBaseUpkeep>16</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>4</iMoves>
             <iCombat>160</iCombat>
             <iCombatLimit>100</iCombatLimit>
@@ -38423,7 +38571,7 @@
                 </Flavor>
             </Flavors>
             <iCost>-1</iCost>
-            <iBaseUpkeep>5</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iAsset>25</iAsset>
             <UnitMeshGroups>
@@ -39202,7 +39350,7 @@
             </TrainCondition>
             <iCost>105</iCost>
             <iHurryCostModifier>25</iHurryCostModifier>
-            <iBaseUpkeep>2</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iCombat>2</iCombat>
             <iXPValueDefense>2</iXPValueDefense>
@@ -39289,7 +39437,7 @@
             </PrereqBonuses>
             <iCost>140</iCost>
             <iHurryCostModifier>25</iHurryCostModifier>
-            <iBaseUpkeep>3</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iCombat>4</iCombat>
             <iXPValueDefense>2</iXPValueDefense>
@@ -39378,7 +39526,7 @@
             <BonusType>BONUS_TOOLS</BonusType>
             <iCost>169</iCost>
             <iHurryCostModifier>25</iHurryCostModifier>
-            <iBaseUpkeep>3</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iCombat>4</iCombat>
             <iXPValueDefense>2</iXPValueDefense>
@@ -39472,7 +39620,7 @@
             <BonusType>BONUS_DRUGS</BonusType>
             <iCost>330</iCost>
             <iHurryCostModifier>25</iHurryCostModifier>
-            <iBaseUpkeep>4</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>3</iMoves>
             <iCombat>7</iCombat>
             <iXPValueDefense>2</iXPValueDefense>
@@ -39573,7 +39721,7 @@
             </PrereqBonuses>
             <iCost>268</iCost>
             <iHurryCostModifier>25</iHurryCostModifier>
-            <iBaseUpkeep>4</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iCombat>7</iCombat>
             <iXPValueDefense>2</iXPValueDefense>
@@ -39673,7 +39821,7 @@
             </PrereqBonuses>
             <iCost>578</iCost>
             <iHurryCostModifier>25</iHurryCostModifier>
-            <iBaseUpkeep>5</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>3</iMoves>
             <iCombat>10</iCombat>
             <iXPValueDefense>2</iXPValueDefense>
@@ -39791,7 +39939,7 @@
             </TrainCondition>
             <iCost>511</iCost>
             <iHurryCostModifier>25</iHurryCostModifier>
-            <iBaseUpkeep>5</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iCombat>10</iCombat>
             <iXPValueDefense>2</iXPValueDefense>
@@ -39885,7 +40033,7 @@
             </TrainCondition>
             <iCost>623</iCost>
             <iHurryCostModifier>25</iHurryCostModifier>
-            <iBaseUpkeep>6</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iCombat>15</iCombat>
             <iXPValueDefense>2</iXPValueDefense>
@@ -39982,7 +40130,7 @@
             </TrainCondition>
             <iCost>760</iCost>
             <iHurryCostModifier>25</iHurryCostModifier>
-            <iBaseUpkeep>6</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iCombat>10</iCombat>
             <iXPValueDefense>2</iXPValueDefense>
@@ -40088,7 +40236,7 @@
             </TrainCondition>
             <iCost>811</iCost>
             <iHurryCostModifier>25</iHurryCostModifier>
-            <iBaseUpkeep>7</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>4</iMoves>
             <iCombat>25</iCombat>
             <iXPValueDefense>2</iXPValueDefense>
@@ -40187,7 +40335,7 @@
             </TrainCondition>
             <iCost>980</iCost>
             <iHurryCostModifier>25</iHurryCostModifier>
-            <iBaseUpkeep>7</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iCombat>15</iCombat>
             <iXPValueDefense>2</iXPValueDefense>
@@ -40299,7 +40447,7 @@
             </TrainCondition>
             <iCost>961</iCost>
             <iHurryCostModifier>25</iHurryCostModifier>
-            <iBaseUpkeep>8</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>4</iMoves>
             <iCombat>30</iCombat>
             <iXPValueDefense>2</iXPValueDefense>
@@ -40398,7 +40546,7 @@
             </TrainCondition>
             <iCost>1020</iCost>
             <iHurryCostModifier>25</iHurryCostModifier>
-            <iBaseUpkeep>8</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iCombat>20</iCombat>
             <iXPValueDefense>2</iXPValueDefense>
@@ -40480,7 +40628,7 @@
             </PrereqBonuses>
             <iCost>1200</iCost>
             <iHurryCostModifier>25</iHurryCostModifier>
-            <iBaseUpkeep>8</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iCombat>10</iCombat>
             <iXPValueDefense>2</iXPValueDefense>
@@ -40599,7 +40747,7 @@
             </TrainCondition>
             <iCost>1654</iCost>
             <iHurryCostModifier>25</iHurryCostModifier>
-            <iBaseUpkeep>9</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>5</iMoves>
             <iCombat>40</iCombat>
             <iXPValueDefense>2</iXPValueDefense>
@@ -40709,7 +40857,7 @@
             </TrainCondition>
             <iCost>1180</iCost>
             <iHurryCostModifier>25</iHurryCostModifier>
-            <iBaseUpkeep>9</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iCombat>25</iCombat>
             <iXPValueDefense>2</iXPValueDefense>
@@ -40804,7 +40952,7 @@
             </TrainCondition>
             <iCost>1540</iCost>
             <iHurryCostModifier>25</iHurryCostModifier>
-            <iBaseUpkeep>9</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iCombat>15</iCombat>
             <iXPValueDefense>2</iXPValueDefense>
@@ -40931,7 +41079,7 @@
             </TrainCondition>
             <iCost>4315</iCost>
             <iHurryCostModifier>25</iHurryCostModifier>
-            <iBaseUpkeep>11</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>6</iMoves>
             <iCombat>60</iCombat>
             <iXPValueDefense>2</iXPValueDefense>
@@ -41012,7 +41160,7 @@
             </PrereqBonuses>
             <iCost>3700</iCost>
             <iHurryCostModifier>25</iHurryCostModifier>
-            <iBaseUpkeep>11</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iCombat>20</iCombat>
             <iXPValueDefense>2</iXPValueDefense>
@@ -41165,7 +41313,7 @@
             </TrainCondition>
             <iCost>5750</iCost>
             <iHurryCostModifier>25</iHurryCostModifier>
-            <iBaseUpkeep>17</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>6</iMoves>
             <iCombat>140</iCombat>
             <iXPValueDefense>2</iXPValueDefense>
@@ -41320,7 +41468,7 @@
             </TrainCondition>
             <iCost>6500</iCost>
             <iHurryCostModifier>25</iHurryCostModifier>
-            <iBaseUpkeep>19</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>6</iMoves>
             <iCombat>160</iCombat>
             <iXPValueDefense>2</iXPValueDefense>
@@ -41629,7 +41777,7 @@
             </UnitUpgrades>
             <iCost>138</iCost>
             <iHurryCostModifier>25</iHurryCostModifier>
-            <iBaseUpkeep>4</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iCombat>3</iCombat>
             <iXPValueDefense>2</iXPValueDefense>
@@ -41734,7 +41882,7 @@
             </UnitUpgrades>
             <iCost>220</iCost>
             <iHurryCostModifier>25</iHurryCostModifier>
-            <iBaseUpkeep>5</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iCombat>5</iCombat>
             <iXPValueDefense>2</iXPValueDefense>
@@ -41837,7 +41985,7 @@
             </UnitUpgrades>
             <iCost>310</iCost>
             <iHurryCostModifier>25</iHurryCostModifier>
-            <iBaseUpkeep>6</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iCombat>7</iCombat>
             <iXPValueDefense>2</iXPValueDefense>
@@ -41939,7 +42087,7 @@
             </UnitUpgrades>
             <iCost>480</iCost>
             <iHurryCostModifier>25</iHurryCostModifier>
-            <iBaseUpkeep>7</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iCombat>9</iCombat>
             <iXPValueDefense>2</iXPValueDefense>
@@ -42043,7 +42191,7 @@
             </UnitUpgrades>
             <iCost>595</iCost>
             <iHurryCostModifier>25</iHurryCostModifier>
-            <iBaseUpkeep>8</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iXPValueDefense>2</iXPValueDefense>
             <iCombat>10</iCombat>
@@ -42165,7 +42313,7 @@
             <iXPValueDefense>2</iXPValueDefense>
             <bMilitaryTrade>1</bMilitaryTrade>
             <iCost>750</iCost>
-            <iBaseUpkeep>9</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>4</iMoves>
             <iCombat>15</iCombat>
             <iWithdrawalProb>15</iWithdrawalProb>
@@ -42291,7 +42439,7 @@
             <iXPValueDefense>2</iXPValueDefense>
             <bMilitaryTrade>1</bMilitaryTrade>
             <iCost>1025</iCost>
-            <iBaseUpkeep>10</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>4</iMoves>
             <iCombat>25</iCombat>
             <iWithdrawalProb>15</iWithdrawalProb>
@@ -42415,7 +42563,7 @@
             </UnitUpgrades>
             <iCost>1150</iCost>
             <iHurryCostModifier>25</iHurryCostModifier>
-            <iBaseUpkeep>11</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>4</iMoves>
             <iDropRange>7</iDropRange>
             <iCombat>40</iCombat>
@@ -42541,7 +42689,7 @@
             </UnitUpgrades>
             <iCost>1330</iCost>
             <iHurryCostModifier>25</iHurryCostModifier>
-            <iBaseUpkeep>12</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>4</iMoves>
             <iDropRange>10</iDropRange>
             <iCombat>60</iCombat>
@@ -42660,7 +42808,7 @@
             <iXPValueDefense>2</iXPValueDefense>
             <bMilitaryTrade>1</bMilitaryTrade>
             <iCost>2600</iCost>
-            <iBaseUpkeep>13</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iCombat>70</iCombat>
             <iWithdrawalProb>20</iWithdrawalProb>
@@ -42810,7 +42958,7 @@
             </TrainCondition>
             <iCost>3900</iCost>
             <iHurryCostModifier>25</iHurryCostModifier>
-            <iBaseUpkeep>15</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>6</iMoves>
             <iDropRange>20</iDropRange>
             <iCombat>90</iCombat>
@@ -43066,7 +43214,7 @@
             <PrereqTech>TECH_CONSTRUCTION</PrereqTech>
             <iCost>235</iCost>
             <iAdvancedStartCost>25</iAdvancedStartCost>
-            <iBaseUpkeep>3</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iAsset>4</iAsset>
             <UnitMeshGroups>
@@ -43183,7 +43331,7 @@
             </PrereqBonuses>
             <iCost>2700</iCost>
             <iAdvancedStartCost>80</iAdvancedStartCost>
-            <iBaseUpkeep>2</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iCombat>100</iCombat>
             <iXPValueAttack>1</iXPValueAttack>
@@ -43274,7 +43422,7 @@
             </PrereqBonuses>
             <iCost>2800</iCost>
             <iAdvancedStartCost>80</iAdvancedStartCost>
-            <iBaseUpkeep>3</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
             <iCombat>110</iCombat>
             <iXPValueAttack>1</iXPValueAttack>
@@ -43360,7 +43508,7 @@
                 <BonusType>BONUS_SHOCKWAVE_ENGINES</BonusType>
             </PrereqBonuses>
             <iCost>3600</iCost>
-            <iBaseUpkeep>5</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>3</iMoves>
             <iCombat>140</iCombat>
             <iXPValueAttack>1</iXPValueAttack>
@@ -43458,7 +43606,7 @@
                 <BonusType>BONUS_BIOFUEL</BonusType>
             </PrereqBonuses>
             <iCost>2150</iCost>
-            <iBaseUpkeep>2</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>5</iMoves>
             <iCombat>50</iCombat>
             <iXPValueAttack>4</iXPValueAttack>
@@ -44358,7 +44506,7 @@
             </UnitAIs>
             <PrereqTech>TECH_LINGUISTICS</PrereqTech>
             <iCost>151</iCost>
-            <iBaseUpkeep>3</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iAsset>3</iAsset>
             <UnitMeshGroups>
@@ -44467,7 +44615,7 @@
                 <BuildingType>BUILDING_BLOOD_DANCE</BuildingType>
             </Buildings>
             <iCost>250</iCost>
-            <iBaseUpkeep>4</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iAsset>5</iAsset>
             <UnitMeshGroups>
@@ -44574,7 +44722,7 @@
                 <BuildingType>BUILDING_BLOOD_DANCE</BuildingType>
             </Buildings>
             <iCost>886</iCost>
-            <iBaseUpkeep>6</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iAsset>8</iAsset>
             <UnitMeshGroups>
@@ -45746,7 +45894,7 @@
             </UnitUpgrades>
             <ObsoleteTech>TECH_TRACKING</ObsoleteTech>
             <iCost>-1</iCost>
-            <iBaseUpkeep>3</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>3</iMoves>
             <iCombat>2</iCombat>
             <iXPValueAttack>1</iXPValueAttack>
@@ -45858,7 +46006,7 @@
                 <UnitType>UNIT_MASTER_HUNTER</UnitType>
             </UnitUpgrades>
             <iCost>-1</iCost>
-            <iBaseUpkeep>4</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>3</iMoves>
             <iCombat>4</iCombat>
             <iXPValueAttack>1</iXPValueAttack>
@@ -45965,7 +46113,7 @@
             </UnitAIs>
             <PrereqTech>TECH_HUNTING</PrereqTech>
             <iCost>-1</iCost>
-            <iBaseUpkeep>5</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>3</iMoves>
             <UnitUpgrades>
                 <UnitType>UNIT_MASTER_RANGER</UnitType>
@@ -46558,7 +46706,7 @@
                                 <iYield>
                                     <Adapt>
                                         <ID>ADAPT_DEFAULT</ID>
-                                        <Constant>9</Constant>
+                                        <Constant>40</Constant>
                                     </Adapt>
                                 </iYield>
                             </Yields>
@@ -47792,7 +47940,7 @@
                 </Flavor>
             </Flavors>
             <iCost>387</iCost>
-            <iBaseUpkeep>6</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iCombat>12</iCombat>
             <iCityAttack>15</iCityAttack>
@@ -47973,7 +48121,7 @@
             </PrereqBonuses>
             <iCost>345</iCost>
             <iHurryCostModifier>25</iHurryCostModifier>
-            <iBaseUpkeep>4</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iCombat>12</iCombat>
             <iXPValueAttack>4</iXPValueAttack>
@@ -48128,7 +48276,7 @@
             <iXPValueAttack>8</iXPValueAttack>
             <iXPValueDefense>4</iXPValueDefense>
             <iCost>310</iCost>
-            <iBaseUpkeep>4</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iCombat>15</iCombat>
             <iAnimalCombat>25</iAnimalCombat>

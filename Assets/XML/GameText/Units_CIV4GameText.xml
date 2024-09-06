@@ -22634,9 +22634,17 @@
 		<English>In the late 19th century, Gatling guns and other externally powered types such as the Nordenfelt were often made in a variety of calibers, such as 0.5-inch and 1-inch. Due to their multiple barrels, overheating was not so much of an issue, but they were also quite heavy. When Maxim developed his recoil-powered machine gun using a single barrel, his first main design weighed a modest 26 pounds (11.8 kg) and fired a 0.45-inch rifle-caliber bullet from a 24-inch barrel. A famous photo of Maxim showed him picking it up by its 15-pound tripod (6.8 kg) with one arm. It was similar to present-day medium machine guns, but it could not be fired for extended periods due to overheating. As a result, Maxim created a water jacket cooling system to enable it to fire for extended periods. However, this added significant weight, as did the change to more powerful rifle cartridges.</English>
 		<Polish>Okopowy Karabin Maszynowy - rodzina karabin&#243;w maszynowych, kt&#243;rej pierwowzorem by&#179; ci&#234;&#191;ki karabin maszynowy Hirama Maxima skonstruowany w 1883 roku. By&#179;a to bro&#241; skomplikowana, droga w produkcji i wymagaj&#185;ca dobrze wyszkolonej obs&#179;ugi, ale przewy&#191;szaj&#185;ca pod ka&#191;dym wzgl&#234;dem u&#191;ywane wcze&#156;niej kartaczownice.</Polish>
 	</TEXT>
+		<TEXT>
+	    <Tag>TXT_KEY_UNIT_EMPEROR_GUARD</Tag>
+	    <English>Emperor Guard</English>
+	</TEXT>
+	<TEXT>
+	    <Tag>TXT_KEY_UNIT_PALACE_GUARD</Tag>
+	    <English>Palace Guard</English>
+	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_TRIBAL_GUARDIAN</Tag>
-		<English>Tribal Guardian</English>
+		<English>Tribal Guard</English>
 		<French>Gardien Tribal</French>
 		<German>
 			<Text>Stammeswächter:Stammeswächters:Stammeswächter:Stammeswächter:Stammeswächter:Stammeswächter:Stammeswächtern:Stammeswächter</Text>
@@ -22652,9 +22660,17 @@
 		<Polish>Stra&#191;nik Plemienia</Polish>
 		<Russian>Ïëåìåííîé ñòðàæ</Russian>
 	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_UNIT_EMPEROR_GUARD_PEDIA</Tag>
+		<English>The best of the best, the emperor guard are the finest warriors of the land that protect the leader.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_PALACE_GUARD_PEDIA</Tag>
+		<English>The best of the best, the palace guard are the finest warriors of the land that protect the leader.</English>
+	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_TRIBAL_GUARDIAN_PEDIA</Tag>
-		<English>The Tribal Guardian protects your capital against all intruders. It refuses to leave the palace of the ruler.</English>
+		<English>The best of the best, the tribal guard are the finest warriors of the tribe that protect the leader.</English>
 		<German>In einer Umwelt voll wilder Raubtiere und feindlicher Horden konnten die frühen Menschen ihre Lager unmöglich ohne Bewachung zurücklassen. Wenn die Männer der Sippe zur Jagd aufbrachen, mussten einige als Wächter zurückbleiben, um Frauen, Kinder, Alte und Schwache, aber auch Nahrungsvorräte und Ressourcen vor Übergriffen (auch aus den eigenen Reihen) zu schützen.</German>
 		<Italian>Il guardiano tribale protegge la tua capitale dagli intrusi; si rifiuta di abbandonare il palazzo del capo.</Italian>
 		<Spanish>El Guardián tribal protege tu capital de los intrusos. Él rehúsa abandonar el palacio del líder.</Spanish>

@@ -400,7 +400,7 @@
 	</Define>
 	<Define>
 		<DefineName>BASE_RESEARCH_RATE</DefineName>
-		<iDefineIntVal>1</iDefineIntVal>
+		<iDefineIntVal>10</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>INITIAL_CITY_POPULATION</DefineName>
@@ -588,27 +588,27 @@
 	</Define>
 	<Define>
 		<DefineName>BASE_FREE_UNITS_UPKEEP_CIVILIAN</DefineName>
-		<iDefineIntVal>30</iDefineIntVal>
+		<iDefineIntVal>0</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>BASE_FREE_UNITS_UPKEEP_MILITARY</DefineName>
-		<iDefineIntVal>30</iDefineIntVal>
+		<iDefineIntVal>0</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>BASE_FREE_UNITS_UPKEEP_CIVILIAN_PER_100_POP</DefineName>
-		<iDefineIntVal>-150</iDefineIntVal>
+		<iDefineIntVal>0</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>BASE_FREE_UNITS_UPKEEP_MILITARY_PER_100_POP</DefineName>
-		<iDefineIntVal>-50</iDefineIntVal>
+		<iDefineIntVal>0</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>INITIAL_FREE_OUTSIDE_UNITS</DefineName>
-		<iDefineIntVal>15</iDefineIntVal>
+		<iDefineIntVal>0</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>INITIAL_OUTSIDE_UNIT_GOLD_PERCENT</DefineName>
-		<iDefineIntVal>50</iDefineIntVal>
+		<iDefineIntVal>100</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>ANIMAL_MAX_XP_VALUE</DefineName>
@@ -1006,11 +1006,11 @@
 	</Define>
 	<Define>
 		<DefineName>BASE_CAPTURE_GOLD</DefineName>
-		<iDefineIntVal>20</iDefineIntVal>
+		<iDefineIntVal>50</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>CAPTURE_GOLD_PER_POPULATION</DefineName>
-		<iDefineIntVal>10</iDefineIntVal>
+		<iDefineIntVal>20</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>CAPTURE_GOLD_RAND1</DefineName>
@@ -1066,7 +1066,7 @@
 	</Define>
 	<Define>
 		<DefineName>UNIT_UPGRADE_COST_PER_PRODUCTION</DefineName>
-		<iDefineIntVal>50</iDefineIntVal>
+		<iDefineIntVal>25</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>WAR_SUCCESS_DEFENDING</DefineName>
