@@ -227,11 +227,11 @@
 	</Define>
 	<Define>
 		<DefineName>NEANDERTHAL_SPAWN_MODIFIER</DefineName>
-		<iDefineIntVal>30</iDefineIntVal>
+		<iDefineIntVal>25</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>BARBARIAN_SPAWN_MODIFIER</DefineName>
-		<iDefineIntVal>50</iDefineIntVal>
+		<iDefineIntVal>45</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>ANIMAL_SPAWN_MODIFIER</DefineName>

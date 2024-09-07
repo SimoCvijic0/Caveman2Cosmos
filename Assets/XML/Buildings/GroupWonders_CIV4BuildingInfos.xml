@@ -3051,11 +3051,16 @@
 					<FreePromotionCondition>
 						<Has>
 							<GOMType>GOM_UNITCOMBAT</GOMType>
-							<ID>UNITCOMBAT_HUNTER</ID>
+							<ID>UNITCOMBAT_RECON</ID>
 						</Has>
+					</FreePromotionCondition>
+				</FreePromoType>
+				<FreePromoType>
+					<PromotionType>PROMOTION_HUNTING_STRIKE1</PromotionType>
+					<FreePromotionCondition>
 						<Has>
 							<GOMType>GOM_UNITCOMBAT</GOMType>
-							<ID>UNITCOMBAT_RECON</ID>
+							<ID>UNITCOMBAT_HUNTER</ID>
 						</Has>
 					</FreePromotionCondition>
 				</FreePromoType>
