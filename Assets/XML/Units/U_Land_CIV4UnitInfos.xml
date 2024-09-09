@@ -6824,6 +6824,7 @@
             </MapCategoryTypes>
             <PrereqTech>TECH_AXE_MAKING</PrereqTech>
             <UnitUpgrades>
+                <UnitType>UNIT_AXEMAN</UnitType>
                 <!--				<UnitType>UNIT_OBSIDIAN_AXEMAN</UnitType>-->
 <!--                <UnitType>UNIT_NEANDERTHAL_STONE_AGE_AXEMAN</UnitType>-->
             </UnitUpgrades>
@@ -6928,7 +6929,7 @@
             <PrereqTech>TECH_OBSIDIAN_WEAPONS</PrereqTech>
             <BonusType>BONUS_OBSIDIAN</BonusType>
             <UnitUpgrades>
-                <!--				<UnitType>UNIT_AXEMAN</UnitType>-->
+             	<UnitType>UNIT_AXEMAN</UnitType>
 <!--                <UnitType>UNIT_NEANDERTHAL_OBSIDIAN_AXEMAN</UnitType>-->
             </UnitUpgrades>
             <iCost>58</iCost>
@@ -6975,6 +6976,7 @@
         <UnitInfo>
             <Type>UNIT_AXEMAN</Type>
             <Combat>UNITCOMBAT_MELEE</Combat>
+            <bMilitaryTrade>1</bMilitaryTrade>
             <SubCombatTypes>
                 <SubCombatType>UNITCOMBAT_COMBATANT</SubCombatType>
                 <SubCombatType>UNITCOMBAT_SPECIES_HUMAN</SubCombatType>
@@ -7909,6 +7911,7 @@
         <UnitInfo>
             <Type>UNIT_OBSIDIAN_SPEARMAN</Type>
             <Combat>UNITCOMBAT_MELEE</Combat>
+            <bMilitaryTrade>1</bMilitaryTrade>
             <SubCombatTypes>
                 <SubCombatType>UNITCOMBAT_COMBATANT</SubCombatType>
                 <SubCombatType>UNITCOMBAT_SPECIES_HUMAN</SubCombatType>
@@ -7936,7 +7939,7 @@
             <bMilitarySupport>1</bMilitarySupport>
             <bPillage>1</bPillage>
             <UnitUpgrades>
-                <!--				<UnitType>UNIT_SPEARMAN</UnitType>-->
+                <UnitType>UNIT_SPEARMAN</UnitType>
 <!--                <UnitType>UNIT_NEANDERTHAL_OBSIDIAN_SPEARMAN</UnitType>-->
             </UnitUpgrades>
             <UnitAIs>
@@ -8006,6 +8009,7 @@
         <UnitInfo>
             <Type>UNIT_SPEARMAN</Type>
             <Combat>UNITCOMBAT_MELEE</Combat>
+            <bMilitaryTrade>1</bMilitaryTrade>
             <SubCombatTypes>
                 <SubCombatType>UNITCOMBAT_COMBATANT</SubCombatType>
                 <SubCombatType>UNITCOMBAT_SPECIES_HUMAN</SubCombatType>
