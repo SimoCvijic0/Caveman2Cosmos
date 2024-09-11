@@ -224,6 +224,12 @@
 			<bValid>1</bValid>
 		</SpecialBuildingInfo>
 		<SpecialBuildingInfo>
+			<Type>SPECIALBUILDING_GROUP_PREHISTORIC_LEADER_HUTS</Type>
+			<Description>TXT_KEY_SPECIALBUILDING_GROUP_LEADER_HUTS</Description>
+			<iMaxPlayerInstances>1</iMaxPlayerInstances>
+			<bValid>1</bValid>
+		</SpecialBuildingInfo>
+		<SpecialBuildingInfo>
 			<Type>SPECIALBUILDING_GROUP_LEGENDARY_LANDSCAPES</Type>
 			<Description>TXT_KEY_SPECIALBUILDING_GROUP_LEGENDARY_LANDSCAPES</Description>
 			<iMaxPlayerInstances>1</iMaxPlayerInstances>

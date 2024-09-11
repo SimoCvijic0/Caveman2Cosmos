@@ -1102,6 +1102,26 @@
             <Button>Art/Interface/Buttons/Buildings/leader_icon.dds</Button>
         </BuildingArtInfo>
         <BuildingArtInfo>
+            <Type>ART_DEF_BUILDING_LEADER_ANIMAL_HUT</Type>
+            <LSystem/>
+            <bAnimated>0</bAnimated>
+            <fScale>0</fScale>
+            <fInterfaceScale>0</fInterfaceScale>
+            <NIF/>
+            <KFM/>
+            <Button>Art/Interface/Buttons/Buildings/leader_tool_shelter_icon_.dds</Button>
+        </BuildingArtInfo>
+        <BuildingArtInfo>
+            <Type>ART_DEF_BUILDING_LEADER_TRADER_HUT</Type>
+            <LSystem/>
+            <bAnimated>0</bAnimated>
+            <fScale>0</fScale>
+            <fInterfaceScale>0</fInterfaceScale>
+            <NIF/>
+            <KFM/>
+            <Button>Art/Interface/Buttons/Buildings/leader_tool_shelter_icon_.dds</Button>
+        </BuildingArtInfo>
+        <BuildingArtInfo>
             <Type>ART_DEF_BUILDING_LEADER_TOOL_SHELTER</Type>
             <LSystem/>
             <bAnimated>0</bAnimated>

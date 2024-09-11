@@ -6374,7 +6374,6 @@
 		<BuildingInfo>
 			<Type>BUILDING_LEADER</Type>
 			<iMaxPlayerInstances>1</iMaxPlayerInstances>
-<!--			<iExtraPlayerInstances>1</iExtraPlayerInstances>-->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
@@ -6387,8 +6386,6 @@
 			<iCostComplexityModifier>1</iCostComplexityModifier>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
-			<!--			<bCapital>1</bCapital>-->
-			<!--			<bGovernmentCenter>1</bGovernmentCenter>-->
 			<iHappiness>1</iHappiness>
 			<iHealth>1</iHealth>
 			<ObsoletesToBuilding>BUILDING_LEADER_TOOL_SHELTER</ObsoletesToBuilding>

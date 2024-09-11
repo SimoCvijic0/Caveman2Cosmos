@@ -444,8 +444,8 @@
 			<iGold>60</iGold>
 			<iUnitUpkeepPercent>100</iUnitUpkeepPercent>
 			<iMaxColonyMaintenance>200</iMaxColonyMaintenance>
-			<iDistanceMaintenancePercent>450</iDistanceMaintenancePercent>
-			<iNumCitiesMaintenancePercent>300</iNumCitiesMaintenancePercent>
+			<iDistanceMaintenancePercent>400</iDistanceMaintenancePercent>
+			<iNumCitiesMaintenancePercent>350</iNumCitiesMaintenancePercent>
 			<iColonyMaintenancePercent>200</iColonyMaintenancePercent>
 			<iCorporationMaintenancePercent>200</iCorporationMaintenancePercent>
 			<iCivicUpkeepPercent>200</iCivicUpkeepPercent>

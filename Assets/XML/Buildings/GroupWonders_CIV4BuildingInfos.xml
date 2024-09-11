@@ -2482,7 +2482,6 @@
 			<TechTypes>
 				<PrereqTech>TECH_TOOL_MAKING</PrereqTech>
 			</TechTypes>
-			<ObsoleteTech>TECH_CHIEFDOM</ObsoleteTech>
 			<Description>TXT_KEY_BUILDING_LEADER_TOOL_SHELTER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_LEADER_TOOL_SHELTER_PEDIA</Civilopedia>
 			<iCost>42</iCost>
@@ -2493,10 +2492,40 @@
 			<iMilitaryProductionModifier>-5</iMilitaryProductionModifier>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
-<!--			<bCapital>1</bCapital>-->
-<!--			<bGovernmentCenter>1</bGovernmentCenter>-->
 			<iHappiness>1</iHappiness>
 			<iHealth>1</iHealth>
+			<ObsoletesToBuilding>BUILDING_LEADER_ANIMAL_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_TRADER_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_HEALER_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_FISHERMAN_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_THINKER_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_CARPENTRY_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_FOOD_STORAGE_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_CULTURE_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_TAX_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_WAR_CHIEF_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_ORDER_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_SPY_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_HUNTER_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_MEGALITH_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_FORTIFIED_HUT</ObsoletesToBuilding>
+			<ReplacementBuildings>
+				<BuildingType>BUILDING_LEADER_ANIMAL_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_TRADER_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_HEALER_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_FISHERMAN_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_THINKER_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_CARPENTRY_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_FOOD_STORAGE_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_CULTURE_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_TAX_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_WAR_CHIEF_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_ORDER_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_SPY_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_HUNTER_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_MEGALITH_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_FORTIFIED_HUT</BuildingType>
+			</ReplacementBuildings>
 			<YieldChanges>
 				<iYield>2</iYield>
 				<iYield>4</iYield>
@@ -2538,7 +2567,6 @@
 			<TechTypes>
 				<PrereqTech>TECH_GATHERING</PrereqTech>
 			</TechTypes>
-			<ObsoleteTech>TECH_CHIEFDOM</ObsoleteTech>
 			<Description>TXT_KEY_BUILDING_LEADER_FOOD_SHELTER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_LEADER_FOOD_SHELTER_PEDIA</Civilopedia>
 			<iCost>42</iCost>
@@ -2548,8 +2576,38 @@
 			<iCostComplexityModifier>1</iCostComplexityModifier>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
-			<!--			<bCapital>1</bCapital>-->
-			<!--			<bGovernmentCenter>1</bGovernmentCenter>-->
+			<ObsoletesToBuilding>BUILDING_LEADER_ANIMAL_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_TRADER_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_HEALER_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_FISHERMAN_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_THINKER_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_CARPENTRY_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_FOOD_STORAGE_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_CULTURE_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_TAX_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_WAR_CHIEF_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_ORDER_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_SPY_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_HUNTER_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_MEGALITH_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_FORTIFIED_HUT</ObsoletesToBuilding>
+			<ReplacementBuildings>
+				<BuildingType>BUILDING_LEADER_ANIMAL_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_TRADER_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_HEALER_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_FISHERMAN_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_THINKER_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_CARPENTRY_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_FOOD_STORAGE_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_CULTURE_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_TAX_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_WAR_CHIEF_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_ORDER_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_SPY_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_HUNTER_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_MEGALITH_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_FORTIFIED_HUT</BuildingType>
+			</ReplacementBuildings>
 			<iHappiness>1</iHappiness>
 			<iHealth>1</iHealth>
 			<YieldChanges>
@@ -2593,7 +2651,6 @@
 			<TechTypes>
 				<PrereqTech>TECH_ORAL_TRADITION</PrereqTech>
 			</TechTypes>
-			<ObsoleteTech>TECH_CHIEFDOM</ObsoleteTech>
 			<Description>TXT_KEY_BUILDING_LEADER_SAGE_SHELTER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_LEADER_SAGE_SHELTER_PEDIA</Civilopedia>
 			<iCost>42</iCost>
@@ -2603,8 +2660,38 @@
 			<iCostComplexityModifier>1</iCostComplexityModifier>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
-			<!--			<bCapital>1</bCapital>-->
-			<!--			<bGovernmentCenter>1</bGovernmentCenter>-->
+			<ObsoletesToBuilding>BUILDING_LEADER_ANIMAL_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_TRADER_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_HEALER_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_FISHERMAN_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_THINKER_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_CARPENTRY_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_FOOD_STORAGE_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_CULTURE_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_TAX_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_WAR_CHIEF_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_ORDER_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_SPY_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_HUNTER_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_MEGALITH_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_FORTIFIED_HUT</ObsoletesToBuilding>
+			<ReplacementBuildings>
+				<BuildingType>BUILDING_LEADER_ANIMAL_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_TRADER_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_HEALER_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_FISHERMAN_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_THINKER_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_CARPENTRY_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_FOOD_STORAGE_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_CULTURE_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_TAX_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_WAR_CHIEF_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_ORDER_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_SPY_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_HUNTER_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_MEGALITH_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_FORTIFIED_HUT</BuildingType>
+			</ReplacementBuildings>
 			<iHappiness>1</iHappiness>
 			<iHealth>1</iHealth>
 			<YieldChanges>
@@ -2648,7 +2735,6 @@
 			<TechTypes>
 				<PrereqTech>TECH_BASKETRY</PrereqTech>
 			</TechTypes>
-			<ObsoleteTech>TECH_CHIEFDOM</ObsoleteTech>
 			<Description>TXT_KEY_BUILDING_LEADER_STORAGE_SHELTER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_LEADER_STORAGE_SHELTER_PEDIA</Civilopedia>
 			<iCost>42</iCost>
@@ -2658,8 +2744,38 @@
 			<iCostComplexityModifier>1</iCostComplexityModifier>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
-			<!--			<bCapital>1</bCapital>-->
-			<!--			<bGovernmentCenter>1</bGovernmentCenter>-->
+			<ObsoletesToBuilding>BUILDING_LEADER_ANIMAL_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_TRADER_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_HEALER_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_FISHERMAN_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_THINKER_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_CARPENTRY_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_FOOD_STORAGE_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_CULTURE_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_TAX_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_WAR_CHIEF_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_ORDER_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_SPY_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_HUNTER_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_MEGALITH_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_FORTIFIED_HUT</ObsoletesToBuilding>
+			<ReplacementBuildings>
+				<BuildingType>BUILDING_LEADER_ANIMAL_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_TRADER_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_HEALER_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_FISHERMAN_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_THINKER_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_CARPENTRY_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_FOOD_STORAGE_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_CULTURE_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_TAX_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_WAR_CHIEF_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_ORDER_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_SPY_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_HUNTER_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_MEGALITH_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_FORTIFIED_HUT</BuildingType>
+			</ReplacementBuildings>
 			<iHappiness>1</iHappiness>
 			<iHealth>1</iHealth>
 			<YieldChanges>
@@ -2703,7 +2819,6 @@
 			<TechTypes>
 				<PrereqTech>TECH_HARD_HAMMER_PERCUSSION</PrereqTech>
 			</TechTypes>
-			<ObsoleteTech>TECH_CHIEFDOM</ObsoleteTech>
 			<Description>TXT_KEY_BUILDING_LEADER_TROPHY_SHELTER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_LEADER_TROPHY_SHELTER_PEDIA</Civilopedia>
 			<iCost>42</iCost>
@@ -2771,8 +2886,38 @@
 			</UnitProductionModifiers>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
-			<!--			<bCapital>1</bCapital>-->
-			<!--			<bGovernmentCenter>1</bGovernmentCenter>-->
+			<ObsoletesToBuilding>BUILDING_LEADER_ANIMAL_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_TRADER_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_HEALER_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_FISHERMAN_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_THINKER_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_CARPENTRY_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_FOOD_STORAGE_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_CULTURE_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_TAX_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_WAR_CHIEF_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_ORDER_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_SPY_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_HUNTER_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_MEGALITH_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_FORTIFIED_HUT</ObsoletesToBuilding>
+			<ReplacementBuildings>
+				<BuildingType>BUILDING_LEADER_ANIMAL_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_TRADER_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_HEALER_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_FISHERMAN_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_THINKER_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_CARPENTRY_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_FOOD_STORAGE_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_CULTURE_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_TAX_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_WAR_CHIEF_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_ORDER_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_SPY_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_HUNTER_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_MEGALITH_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_FORTIFIED_HUT</BuildingType>
+			</ReplacementBuildings>
 			<iHappiness>1</iHappiness>
 			<iHealth>1</iHealth>
 			<YieldChanges>
@@ -2816,7 +2961,6 @@
 			<TechTypes>
 				<PrereqTech>TECH_COOPERATION</PrereqTech>
 			</TechTypes>
-			<ObsoleteTech>TECH_CHIEFDOM</ObsoleteTech>
 			<Description>TXT_KEY_BUILDING_LEADER_GROUP_SHELTER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_LEADER_GROUP_SHELTER_PEDIA</Civilopedia>
 			<iCost>42</iCost>
@@ -2826,8 +2970,38 @@
 			<iCostComplexityModifier>1</iCostComplexityModifier>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
-			<!--			<bCapital>1</bCapital>-->
-			<!--			<bGovernmentCenter>1</bGovernmentCenter>-->
+			<ObsoletesToBuilding>BUILDING_LEADER_ANIMAL_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_TRADER_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_HEALER_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_FISHERMAN_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_THINKER_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_CARPENTRY_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_FOOD_STORAGE_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_CULTURE_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_TAX_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_WAR_CHIEF_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_ORDER_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_SPY_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_HUNTER_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_MEGALITH_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_FORTIFIED_HUT</ObsoletesToBuilding>
+			<ReplacementBuildings>
+				<BuildingType>BUILDING_LEADER_ANIMAL_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_TRADER_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_HEALER_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_FISHERMAN_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_THINKER_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_CARPENTRY_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_FOOD_STORAGE_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_CULTURE_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_TAX_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_WAR_CHIEF_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_ORDER_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_SPY_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_HUNTER_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_MEGALITH_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_FORTIFIED_HUT</BuildingType>
+			</ReplacementBuildings>
 			<iHappiness>2</iHappiness>
 			<iHealth>2</iHealth>
 			<YieldChanges>
@@ -2841,13 +3015,13 @@
 				<iYield>0</iYield>
 			</YieldModifiers>
 			<CommerceChanges>
-				<iCommerce>0</iCommerce>
+				<iCommerce>1</iCommerce>
 				<iCommerce>1</iCommerce>
 				<iCommerce>1</iCommerce>
 				<iCommerce>0</iCommerce>
 			</CommerceChanges>
 			<CommerceModifiers>
-				<iCommerce>1</iCommerce>
+				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
@@ -2910,7 +3084,6 @@
 			<TechTypes>
 				<PrereqTech>TECH_DECEPTION</PrereqTech>
 			</TechTypes>
-			<ObsoleteTech>TECH_CHIEFDOM</ObsoleteTech>
 			<Description>TXT_KEY_BUILDING_LEADER_SECRET_SHELTER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_LEADER_SECRET_SHELTER_PEDIA</Civilopedia>
 			<iCost>42</iCost>
@@ -2920,8 +3093,38 @@
 			<iCostComplexityModifier>1</iCostComplexityModifier>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
-			<!--			<bCapital>1</bCapital>-->
-			<!--			<bGovernmentCenter>1</bGovernmentCenter>-->
+			<ObsoletesToBuilding>BUILDING_LEADER_ANIMAL_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_TRADER_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_HEALER_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_FISHERMAN_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_THINKER_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_CARPENTRY_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_FOOD_STORAGE_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_CULTURE_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_TAX_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_WAR_CHIEF_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_ORDER_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_SPY_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_HUNTER_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_MEGALITH_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_FORTIFIED_HUT</ObsoletesToBuilding>
+			<ReplacementBuildings>
+				<BuildingType>BUILDING_LEADER_ANIMAL_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_TRADER_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_HEALER_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_FISHERMAN_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_THINKER_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_CARPENTRY_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_FOOD_STORAGE_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_CULTURE_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_TAX_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_WAR_CHIEF_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_ORDER_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_SPY_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_HUNTER_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_MEGALITH_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_FORTIFIED_HUT</BuildingType>
+			</ReplacementBuildings>
 			<iHappiness>1</iHappiness>
 			<iHealth>1</iHealth>
 			<YieldChanges>
@@ -2987,7 +3190,6 @@
 			<TechTypes>
 				<PrereqTech>TECH_PERSISTENCE_HUNTING</PrereqTech>
 			</TechTypes>
-			<ObsoleteTech>TECH_CHIEFDOM</ObsoleteTech>
 			<Description>TXT_KEY_BUILDING_LEADER_WANDERER_SHELTER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_LEADER_WANDERER_SHELTER_PEDIA</Civilopedia>
 			<iCost>42</iCost>
@@ -2997,8 +3199,38 @@
 			<iCostComplexityModifier>1</iCostComplexityModifier>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
-			<!--			<bCapital>1</bCapital>-->
-			<!--			<bGovernmentCenter>1</bGovernmentCenter>-->
+			<ObsoletesToBuilding>BUILDING_LEADER_ANIMAL_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_TRADER_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_HEALER_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_FISHERMAN_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_THINKER_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_CARPENTRY_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_FOOD_STORAGE_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_CULTURE_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_TAX_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_WAR_CHIEF_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_ORDER_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_SPY_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_HUNTER_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_MEGALITH_HUT</ObsoletesToBuilding>
+			<ObsoletesToBuilding>BUILDING_LEADER_FORTIFIED_HUT</ObsoletesToBuilding>
+			<ReplacementBuildings>
+				<BuildingType>BUILDING_LEADER_ANIMAL_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_TRADER_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_HEALER_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_FISHERMAN_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_THINKER_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_CARPENTRY_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_FOOD_STORAGE_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_CULTURE_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_TAX_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_WAR_CHIEF_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_ORDER_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_SPY_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_HUNTER_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_MEGALITH_HUT</BuildingType>
+				<BuildingType>BUILDING_LEADER_FORTIFIED_HUT</BuildingType>
+			</ReplacementBuildings>
 			<iHappiness>1</iHappiness>
 			<iHealth>1</iHealth>
 			<YieldChanges>
@@ -3070,6 +3302,1039 @@
 			<fVisibilityPriority>0</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_LEADER_WANDERER_SHELTER</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_WANDERER</MovieDefineTag>
+		</BuildingInfo>
+
+		<BuildingInfo>
+			<Type>BUILDING_LEADER_ANIMAL_HUT</Type>
+			<iMaxPlayerInstances>1</iMaxPlayerInstances>
+			<iExtraPlayerInstances>1</iExtraPlayerInstances>
+			<SpecialBuildingType>SPECIALBUILDING_GROUP_PREHISTORIC_LEADER_HUTS</SpecialBuildingType>
+			<MapCategoryTypes>
+				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
+			</MapCategoryTypes>
+			<PrereqTech>TECH_CHIEFDOM</PrereqTech>
+			<TechTypes>
+				<PrereqTech>TECH_ANIMAL_HUSBANDRY</PrereqTech>
+			</TechTypes>
+			<Description>TXT_KEY_BUILDING_LEADER_ANIMAL_HUT</Description>
+			<Civilopedia>TXT_KEY_BUILDING_LEADER_ANIMAL_HUT_PEDIA</Civilopedia>
+			<iCost>142</iCost>
+			<iCostSizeModifier>1</iCostSizeModifier>
+			<iCostCountModifier>0</iCostCountModifier>
+			<iCostMaterialsModifier>1</iCostMaterialsModifier>
+			<iCostComplexityModifier>1</iCostComplexityModifier>
+			<iHurryCostModifier>100</iHurryCostModifier>
+			<Advisor>ADVISOR_MILITARY</Advisor>
+			<iHappiness>1</iHappiness>
+			<iHealth>1</iHealth>
+			<YieldChanges>
+				<iYield>2</iYield>
+				<iYield>2</iYield>
+				<iYield>0</iYield>
+			</YieldChanges>
+			<YieldModifiers>
+				<iYield>0</iYield>
+				<iYield>0</iYield>
+				<iYield>0</iYield>
+			</YieldModifiers>
+			<CommerceChanges>
+				<iCommerce>1</iCommerce>
+				<iCommerce>1</iCommerce>
+				<iCommerce>1</iCommerce>
+				<iCommerce>0</iCommerce>
+			</CommerceChanges>
+			<CommerceModifiers>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+			</CommerceModifiers>
+			<UnitProductionModifiers>
+				<UnitProductionModifier>
+					<UnitType>UNIT_TRAINEDDOG</UnitType>
+					<iProductionModifier>10</iProductionModifier>
+				</UnitProductionModifier>
+				<UnitProductionModifier>
+					<UnitType>UNIT_HORSEMAN</UnitType>
+					<iProductionModifier>5</iProductionModifier>
+				</UnitProductionModifier>
+				<UnitProductionModifier>
+					<UnitType>UNIT_CAMEL_RIDER</UnitType>
+					<iProductionModifier>5</iProductionModifier>
+				</UnitProductionModifier>
+				<UnitProductionModifier>
+					<UnitType>UNIT_ELEPHANT_RIDER</UnitType>
+					<iProductionModifier>5</iProductionModifier>
+				</UnitProductionModifier>
+				<UnitProductionModifier>
+					<UnitType>UNIT_LLAMA_RIDER</UnitType>
+					<iProductionModifier>5</iProductionModifier>
+				</UnitProductionModifier>
+			</UnitProductionModifiers>
+			<bNeverCapture>1</bNeverCapture>
+			<bNukeImmune>1</bNukeImmune>
+			<fVisibilityPriority>0</fVisibilityPriority>
+			<ArtDefineTag>ART_DEF_BUILDING_LEADER_ANIMAL_HUT</ArtDefineTag>
+			<MovieDefineTag>ART_DEF_MOVIE_TOOL</MovieDefineTag>
+		</BuildingInfo>
+
+		<BuildingInfo>
+			<Type>BUILDING_LEADER_TRADER_HUT</Type>
+			<iMaxPlayerInstances>1</iMaxPlayerInstances>
+			<iExtraPlayerInstances>1</iExtraPlayerInstances>
+			<SpecialBuildingType>SPECIALBUILDING_GROUP_PREHISTORIC_LEADER_HUTS</SpecialBuildingType>
+			<MapCategoryTypes>
+				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
+			</MapCategoryTypes>
+			<PrereqTech>TECH_CHIEFDOM</PrereqTech>
+			<TechTypes>
+				<PrereqTech>TECH_BARTER</PrereqTech>
+			</TechTypes>
+			<Description>TXT_KEY_BUILDING_LEADER_TRADER_HUT</Description>
+			<Civilopedia>TXT_KEY_BUILDING_LEADER_TRADER_HUT_PEDIA</Civilopedia>
+			<iCost>142</iCost>
+			<iCostSizeModifier>1</iCostSizeModifier>
+			<iCostCountModifier>0</iCostCountModifier>
+			<iCostMaterialsModifier>1</iCostMaterialsModifier>
+			<iCostComplexityModifier>1</iCostComplexityModifier>
+			<iHurryCostModifier>100</iHurryCostModifier>
+			<Advisor>ADVISOR_ECONOMY</Advisor>
+			<iHappiness>1</iHappiness>
+			<iHealth>1</iHealth>
+			<YieldChanges>
+				<iYield>2</iYield>
+				<iYield>2</iYield>
+				<iYield>0</iYield>
+			</YieldChanges>
+			<YieldModifiers>
+				<iYield>0</iYield>
+				<iYield>0</iYield>
+				<iYield>0</iYield>
+			</YieldModifiers>
+			<CommerceChanges>
+				<iCommerce>1</iCommerce>
+				<iCommerce>1</iCommerce>
+				<iCommerce>1</iCommerce>
+				<iCommerce>0</iCommerce>
+			</CommerceChanges>
+			<CommerceModifiers>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+			</CommerceModifiers>
+			<iTradeRoutes>1</iTradeRoutes>
+			<iTradeRouteModifier>10</iTradeRouteModifier>
+			<UnitProductionModifiers>
+				<UnitProductionModifier>
+					<UnitType>UNIT_EARLY_MERCHANT_C2C</UnitType>
+					<iProductionModifier>10</iProductionModifier>
+				</UnitProductionModifier>
+				<UnitProductionModifier>
+					<UnitType>UNIT_EARLY_FOOD_MERCHANT_C2C</UnitType>
+					<iProductionModifier>10</iProductionModifier>
+				</UnitProductionModifier>
+			</UnitProductionModifiers>
+			<bNeverCapture>1</bNeverCapture>
+			<bNukeImmune>1</bNukeImmune>
+			<fVisibilityPriority>0</fVisibilityPriority>
+			<ArtDefineTag>ART_DEF_BUILDING_LEADER_TRADER_HUT</ArtDefineTag>
+			<MovieDefineTag>ART_DEF_MOVIE_TOOL</MovieDefineTag>
+		</BuildingInfo>
+
+		<BuildingInfo>
+			<Type>BUILDING_LEADER_HEALER_HUT</Type>
+			<iMaxPlayerInstances>1</iMaxPlayerInstances>
+			<iExtraPlayerInstances>1</iExtraPlayerInstances>
+			<SpecialBuildingType>SPECIALBUILDING_GROUP_PREHISTORIC_LEADER_HUTS</SpecialBuildingType>
+			<MapCategoryTypes>
+				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
+			</MapCategoryTypes>
+			<PrereqTech>TECH_CHIEFDOM</PrereqTech>
+			<TechTypes>
+				<PrereqTech>TECH_NATUROPATHY</PrereqTech>
+			</TechTypes>
+			<Description>TXT_KEY_BUILDING_LEADER_TRADER_HUT</Description>
+			<Civilopedia>TXT_KEY_BUILDING_LEADER_TRADER_HUT_PEDIA</Civilopedia>
+			<iCost>142</iCost>
+			<iCostSizeModifier>1</iCostSizeModifier>
+			<iCostCountModifier>0</iCostCountModifier>
+			<iCostMaterialsModifier>1</iCostMaterialsModifier>
+			<iCostComplexityModifier>1</iCostComplexityModifier>
+			<iHurryCostModifier>100</iHurryCostModifier>
+			<Advisor>ADVISOR_GROWTH</Advisor>
+			<iHappiness>1</iHappiness>
+			<iHealth>3</iHealth>
+			<YieldChanges>
+				<iYield>2</iYield>
+				<iYield>2</iYield>
+				<iYield>0</iYield>
+			</YieldChanges>
+			<YieldModifiers>
+				<iYield>0</iYield>
+				<iYield>0</iYield>
+				<iYield>0</iYield>
+			</YieldModifiers>
+			<CommerceChanges>
+				<iCommerce>1</iCommerce>
+				<iCommerce>1</iCommerce>
+				<iCommerce>1</iCommerce>
+				<iCommerce>0</iCommerce>
+			</CommerceChanges>
+			<CommerceModifiers>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+			</CommerceModifiers>
+			<PropertyManipulators>
+				<PropertySource>
+					<PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>
+					<PropertyType>PROPERTY_DISEASE</PropertyType>
+					<iAmountPerTurn>-10</iAmountPerTurn>
+				</PropertySource>
+			</PropertyManipulators>
+			<UnitProductionModifiers>
+				<UnitProductionModifier>
+					<UnitType>UNIT_HEALER</UnitType>
+					<iProductionModifier>15</iProductionModifier>
+				</UnitProductionModifier>
+			</UnitProductionModifiers>
+			<HealUnitCombatTypes>
+				<HealUnitCombatType>
+					<UnitCombatType>UNITCOMBAT_HEALS_AS_PEOPLE</UnitCombatType>
+					<iHeal>2</iHeal>
+				</HealUnitCombatType>
+			</HealUnitCombatTypes>
+			<bNeverCapture>1</bNeverCapture>
+			<bNukeImmune>1</bNukeImmune>
+			<fVisibilityPriority>0</fVisibilityPriority>
+			<ArtDefineTag>ART_DEF_BUILDING_LEADER_TRADER_HUT</ArtDefineTag>
+			<MovieDefineTag>ART_DEF_MOVIE_TOOL</MovieDefineTag>
+		</BuildingInfo>
+
+		<BuildingInfo>
+			<Type>BUILDING_LEADER_FISHERMAN_HUT</Type>
+			<iMaxPlayerInstances>1</iMaxPlayerInstances>
+			<iExtraPlayerInstances>1</iExtraPlayerInstances>
+			<SpecialBuildingType>SPECIALBUILDING_GROUP_PREHISTORIC_LEADER_HUTS</SpecialBuildingType>
+			<MapCategoryTypes>
+				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
+			</MapCategoryTypes>
+			<PrereqTech>TECH_CHIEFDOM</PrereqTech>
+			<TechTypes>
+				<PrereqTech>TECH_FISHING</PrereqTech>
+			</TechTypes>
+			<Description>TXT_KEY_BUILDING_LEADER_TRADER_HUT</Description>
+			<Civilopedia>TXT_KEY_BUILDING_LEADER_TRADER_HUT_PEDIA</Civilopedia>
+			<iCost>142</iCost>
+			<iCostSizeModifier>1</iCostSizeModifier>
+			<iCostCountModifier>0</iCostCountModifier>
+			<iCostMaterialsModifier>1</iCostMaterialsModifier>
+			<iCostComplexityModifier>1</iCostComplexityModifier>
+			<iHurryCostModifier>100</iHurryCostModifier>
+			<Advisor>ADVISOR_GROWTH</Advisor>
+			<iHappiness>1</iHappiness>
+			<iHealth>1</iHealth>
+			<YieldChanges>
+				<iYield>2</iYield>
+				<iYield>2</iYield>
+				<iYield>0</iYield>
+			</YieldChanges>
+			<YieldModifiers>
+				<iYield>0</iYield>
+				<iYield>0</iYield>
+				<iYield>0</iYield>
+			</YieldModifiers>
+			<CommerceChanges>
+				<iCommerce>1</iCommerce>
+				<iCommerce>1</iCommerce>
+				<iCommerce>1</iCommerce>
+				<iCommerce>0</iCommerce>
+			</CommerceChanges>
+			<CommerceModifiers>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+			</CommerceModifiers>
+			<bWater>1</bWater>
+			<PlotYieldChanges>
+				<PlotYieldChange>
+					<PlotType>PLOT_OCEAN</PlotType>
+					<Yields>
+						<iYield>1</iYield>
+					</Yields>
+				</PlotYieldChange>
+			</PlotYieldChanges>
+			<DomainProductionModifiers>
+				<DomainProductionModifier>
+					<DomainType>DOMAIN_SEA</DomainType>
+					<iProductionModifier>10</iProductionModifier>
+				</DomainProductionModifier>
+			</DomainProductionModifiers>
+			<bNeverCapture>1</bNeverCapture>
+			<bNukeImmune>1</bNukeImmune>
+			<fVisibilityPriority>0</fVisibilityPriority>
+			<ArtDefineTag>ART_DEF_BUILDING_LEADER_TRADER_HUT</ArtDefineTag>
+			<MovieDefineTag>ART_DEF_MOVIE_TOOL</MovieDefineTag>
+		</BuildingInfo>
+
+		<BuildingInfo>
+			<Type>BUILDING_LEADER_THINKER_HUT</Type>
+			<iMaxPlayerInstances>1</iMaxPlayerInstances>
+			<iExtraPlayerInstances>1</iExtraPlayerInstances>
+			<SpecialBuildingType>SPECIALBUILDING_GROUP_PREHISTORIC_LEADER_HUTS</SpecialBuildingType>
+			<MapCategoryTypes>
+				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
+			</MapCategoryTypes>
+			<PrereqTech>TECH_CHIEFDOM</PrereqTech>
+			<TechTypes>
+				<PrereqTech>TECH_PICTOGRAPHS</PrereqTech>
+			</TechTypes>
+			<Description>TXT_KEY_BUILDING_LEADER_TRADER_HUT</Description>
+			<Civilopedia>TXT_KEY_BUILDING_LEADER_TRADER_HUT_PEDIA</Civilopedia>
+			<iCost>142</iCost>
+			<iCostSizeModifier>1</iCostSizeModifier>
+			<iCostCountModifier>0</iCostCountModifier>
+			<iCostMaterialsModifier>1</iCostMaterialsModifier>
+			<iCostComplexityModifier>1</iCostComplexityModifier>
+			<iHurryCostModifier>100</iHurryCostModifier>
+			<Advisor>ADVISOR_SCIENCE</Advisor>
+			<iHappiness>1</iHappiness>
+			<iHealth>1</iHealth>
+			<YieldChanges>
+				<iYield>2</iYield>
+				<iYield>2</iYield>
+				<iYield>0</iYield>
+			</YieldChanges>
+			<YieldModifiers>
+				<iYield>0</iYield>
+				<iYield>0</iYield>
+				<iYield>0</iYield>
+			</YieldModifiers>
+			<CommerceChanges>
+				<iCommerce>1</iCommerce>
+				<iCommerce>5</iCommerce>
+				<iCommerce>1</iCommerce>
+				<iCommerce>0</iCommerce>
+			</CommerceChanges>
+			<CommerceModifiers>
+				<iCommerce>0</iCommerce>
+				<iCommerce>5</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+			</CommerceModifiers>
+			<PropertyManipulators>
+				<PropertySource>
+					<PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>
+					<PropertyType>PROPERTY_EDUCATION</PropertyType>
+					<iAmountPerTurn>10</iAmountPerTurn>
+				</PropertySource>
+			</PropertyManipulators>
+			<bNeverCapture>1</bNeverCapture>
+			<bNukeImmune>1</bNukeImmune>
+			<fVisibilityPriority>0</fVisibilityPriority>
+			<ArtDefineTag>ART_DEF_BUILDING_LEADER_TRADER_HUT</ArtDefineTag>
+			<MovieDefineTag>ART_DEF_MOVIE_TOOL</MovieDefineTag>
+		</BuildingInfo>
+
+		<BuildingInfo>
+			<Type>BUILDING_LEADER_CARPENTRY_HUT</Type>
+			<iMaxPlayerInstances>1</iMaxPlayerInstances>
+			<iExtraPlayerInstances>1</iExtraPlayerInstances>
+			<SpecialBuildingType>SPECIALBUILDING_GROUP_PREHISTORIC_LEADER_HUTS</SpecialBuildingType>
+			<MapCategoryTypes>
+				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
+			</MapCategoryTypes>
+			<PrereqTech>TECH_CHIEFDOM</PrereqTech>
+			<TechTypes>
+				<PrereqTech>TECH_CARPENTRY</PrereqTech>
+			</TechTypes>
+			<Description>TXT_KEY_BUILDING_LEADER_TOOL_SHELTER</Description>
+			<Civilopedia>TXT_KEY_BUILDING_LEADER_TOOL_SHELTER_PEDIA</Civilopedia>
+			<iCost>142</iCost>
+			<iCostSizeModifier>1</iCostSizeModifier>
+			<iCostCountModifier>0</iCostCountModifier>
+			<iCostMaterialsModifier>1</iCostMaterialsModifier>
+			<iCostComplexityModifier>1</iCostComplexityModifier>
+			<iMilitaryProductionModifier>-10</iMilitaryProductionModifier>
+			<iHurryCostModifier>100</iHurryCostModifier>
+			<Advisor>ADVISOR_ECONOMY</Advisor>
+			<iHappiness>1</iHappiness>
+			<iHealth>1</iHealth>
+			<YieldChanges>
+				<iYield>2</iYield>
+				<iYield>4</iYield>
+				<iYield>0</iYield>
+			</YieldChanges>
+			<YieldModifiers>
+				<iYield>0</iYield>
+				<iYield>10</iYield>
+				<iYield>0</iYield>
+			</YieldModifiers>
+			<CommerceChanges>
+				<iCommerce>1</iCommerce>
+				<iCommerce>1</iCommerce>
+				<iCommerce>1</iCommerce>
+				<iCommerce>0</iCommerce>
+			</CommerceChanges>
+			<CommerceModifiers>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+			</CommerceModifiers>
+			<bNeverCapture>1</bNeverCapture>
+			<bNukeImmune>1</bNukeImmune>
+			<fVisibilityPriority>0</fVisibilityPriority>
+			<ArtDefineTag>ART_DEF_BUILDING_LEADER_TOOL_SHELTER</ArtDefineTag>
+			<MovieDefineTag>ART_DEF_MOVIE_TOOL</MovieDefineTag>
+		</BuildingInfo>
+
+		<BuildingInfo>
+			<Type>BUILDING_LEADER_FOOD_STORAGE_HUT</Type>
+			<iMaxPlayerInstances>1</iMaxPlayerInstances>
+			<iExtraPlayerInstances>1</iExtraPlayerInstances>
+			<SpecialBuildingType>SPECIALBUILDING_GROUP_PREHISTORIC_LEADER_HUTS</SpecialBuildingType>
+			<MapCategoryTypes>
+				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
+			</MapCategoryTypes>
+			<PrereqTech>TECH_CHIEFDOM</PrereqTech>
+			<TechTypes>
+				<PrereqTech>TECH_EARTH_OVEN</PrereqTech>
+			</TechTypes>
+			<Description>TXT_KEY_BUILDING_LEADER_FOOD_SHELTER</Description>
+			<Civilopedia>TXT_KEY_BUILDING_LEADER_FOOD_SHELTER_PEDIA</Civilopedia>
+			<iCost>142</iCost>
+			<iCostSizeModifier>1</iCostSizeModifier>
+			<iCostCountModifier>0</iCostCountModifier>
+			<iCostMaterialsModifier>1</iCostMaterialsModifier>
+			<iCostComplexityModifier>1</iCostComplexityModifier>
+			<iHurryCostModifier>100</iHurryCostModifier>
+			<Advisor>ADVISOR_GROWTH</Advisor>
+			<iHappiness>1</iHappiness>
+			<iHealth>1</iHealth>
+			<YieldChanges>
+				<iYield>4</iYield>
+				<iYield>2</iYield>
+				<iYield>0</iYield>
+			</YieldChanges>
+			<YieldModifiers>
+				<iYield>10</iYield>
+				<iYield>0</iYield>
+				<iYield>0</iYield>
+			</YieldModifiers>
+			<CommerceChanges>
+				<iCommerce>1</iCommerce>
+				<iCommerce>1</iCommerce>
+				<iCommerce>1</iCommerce>
+				<iCommerce>0</iCommerce>
+			</CommerceChanges>
+			<CommerceModifiers>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+			</CommerceModifiers>
+			<iPopulationgrowthratepercentage>-5</iPopulationgrowthratepercentage>
+			<bNeverCapture>1</bNeverCapture>
+			<bNukeImmune>1</bNukeImmune>
+			<fVisibilityPriority>0</fVisibilityPriority>
+			<ArtDefineTag>ART_DEF_BUILDING_LEADER_FOOD_SHELTER</ArtDefineTag>
+			<MovieDefineTag>ART_DEF_MOVIE_FOOD</MovieDefineTag>
+		</BuildingInfo>
+
+		<BuildingInfo>
+			<Type>BUILDING_LEADER_TAX_HUT</Type>
+			<iMaxPlayerInstances>1</iMaxPlayerInstances>
+			<iExtraPlayerInstances>1</iExtraPlayerInstances>
+			<SpecialBuildingType>SPECIALBUILDING_GROUP_PREHISTORIC_LEADER_HUTS</SpecialBuildingType>
+			<MapCategoryTypes>
+				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
+			</MapCategoryTypes>
+			<PrereqTech>TECH_CHIEFDOM</PrereqTech>
+			<TechTypes>
+				<PrereqTech>TECH_ARITHMETIC</PrereqTech>
+			</TechTypes>
+			<Description>TXT_KEY_BUILDING_LEADER_STORAGE_SHELTER</Description>
+			<Civilopedia>TXT_KEY_BUILDING_LEADER_STORAGE_SHELTER_PEDIA</Civilopedia>
+			<iCost>142</iCost>
+			<iCostSizeModifier>1</iCostSizeModifier>
+			<iCostCountModifier>0</iCostCountModifier>
+			<iCostMaterialsModifier>1</iCostMaterialsModifier>
+			<iCostComplexityModifier>1</iCostComplexityModifier>
+			<iHurryCostModifier>100</iHurryCostModifier>
+			<Advisor>ADVISOR_ECONOMY</Advisor>
+			<iHappiness>0</iHappiness>
+			<iHealth>1</iHealth>
+			<YieldChanges>
+				<iYield>2</iYield>
+				<iYield>2</iYield>
+				<iYield>0</iYield>
+			</YieldChanges>
+			<YieldModifiers>
+				<iYield>0</iYield>
+				<iYield>0</iYield>
+				<iYield>0</iYield>
+			</YieldModifiers>
+			<CommerceChanges>
+				<iCommerce>5</iCommerce>
+				<iCommerce>1</iCommerce>
+				<iCommerce>1</iCommerce>
+				<iCommerce>0</iCommerce>
+			</CommerceChanges>
+			<CommerceModifiers>
+				<iCommerce>5</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+			</CommerceModifiers>
+			<iMaintenanceModifier>-5</iMaintenanceModifier>
+			<bNeverCapture>1</bNeverCapture>
+			<bNukeImmune>1</bNukeImmune>
+			<fVisibilityPriority>0</fVisibilityPriority>
+			<ArtDefineTag>ART_DEF_BUILDING_LEADER_STORAGE_SHELTER</ArtDefineTag>
+			<MovieDefineTag>ART_DEF_MOVIE_STORAGE</MovieDefineTag>
+		</BuildingInfo>
+
+		<BuildingInfo>
+			<Type>BUILDING_LEADER_WAR_CHIEF_HUT</Type>
+			<iMaxPlayerInstances>1</iMaxPlayerInstances>
+			<iExtraPlayerInstances>1</iExtraPlayerInstances>
+			<SpecialBuildingType>SPECIALBUILDING_GROUP_PREHISTORIC_LEADER_HUTS</SpecialBuildingType>
+			<MapCategoryTypes>
+				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
+			</MapCategoryTypes>
+			<PrereqTech>TECH_CHIEFDOM</PrereqTech>
+			<TechTypes>
+				<PrereqTech>TECH_WARFARE</PrereqTech>
+			</TechTypes>
+			<Description>TXT_KEY_BUILDING_LEADER_TROPHY_SHELTER</Description>
+			<Civilopedia>TXT_KEY_BUILDING_LEADER_TROPHY_SHELTER_PEDIA</Civilopedia>
+			<iCost>142</iCost>
+			<iCostSizeModifier>1</iCostSizeModifier>
+			<iCostCountModifier>0</iCostCountModifier>
+			<iCostMaterialsModifier>1</iCostMaterialsModifier>
+			<iCostComplexityModifier>1</iCostComplexityModifier>
+			<UnitProductionModifiers>
+				<UnitProductionModifier>
+					<UnitType>UNIT_ARCHER</UnitType>
+					<iProductionModifier>10</iProductionModifier>
+				</UnitProductionModifier>
+				<UnitProductionModifier>
+					<UnitType>UNIT_STONE_SPEARMAN</UnitType>
+					<iProductionModifier>15</iProductionModifier>
+				</UnitProductionModifier>
+				<UnitProductionModifier>
+					<UnitType>UNIT_SLINGER</UnitType>
+					<iProductionModifier>15</iProductionModifier>
+				</UnitProductionModifier>
+				<UnitProductionModifier>
+					<UnitType>UNIT_STONE_AXEMAN</UnitType>
+					<iProductionModifier>15</iProductionModifier>
+				</UnitProductionModifier>
+				<UnitProductionModifier>
+					<UnitType>UNIT_STONE_MACEMAN</UnitType>
+					<iProductionModifier>15</iProductionModifier>
+				</UnitProductionModifier>
+				<UnitProductionModifier>
+					<UnitType>UNIT_ATLATL</UnitType>
+					<iProductionModifier>15</iProductionModifier>
+				</UnitProductionModifier>
+				<UnitProductionModifier>
+					<UnitType>UNIT_OBSIDIAN_MACEMAN</UnitType>
+					<iProductionModifier>15</iProductionModifier>
+				</UnitProductionModifier>
+				<UnitProductionModifier>
+					<UnitType>UNIT_OBSIDIAN_SPEARMAN</UnitType>
+					<iProductionModifier>15</iProductionModifier>
+				</UnitProductionModifier>
+				<UnitProductionModifier>
+					<UnitType>UNIT_OBSIDIAN_SWORDSMAN</UnitType>
+					<iProductionModifier>15</iProductionModifier>
+				</UnitProductionModifier>
+				<UnitProductionModifier>
+					<UnitType>UNIT_OBSIDIAN_AXEMAN</UnitType>
+					<iProductionModifier>15</iProductionModifier>
+				</UnitProductionModifier>
+			</UnitProductionModifiers>
+			<iHurryCostModifier>100</iHurryCostModifier>
+			<Advisor>ADVISOR_ECONOMY</Advisor>
+			<iHappiness>1</iHappiness>
+			<iHealth>1</iHealth>
+			<YieldChanges>
+				<iYield>2</iYield>
+				<iYield>2</iYield>
+				<iYield>0</iYield>
+			</YieldChanges>
+			<YieldModifiers>
+				<iYield>0</iYield>
+				<iYield>0</iYield>
+				<iYield>0</iYield>
+			</YieldModifiers>
+			<CommerceChanges>
+				<iCommerce>1</iCommerce>
+				<iCommerce>1</iCommerce>
+				<iCommerce>1</iCommerce>
+				<iCommerce>0</iCommerce>
+			</CommerceChanges>
+			<CommerceModifiers>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+			</CommerceModifiers>
+			<bNeverCapture>1</bNeverCapture>
+			<bNukeImmune>1</bNukeImmune>
+			<fVisibilityPriority>0</fVisibilityPriority>
+			<ArtDefineTag>ART_DEF_BUILDING_LEADER_TROPHY_SHELTER</ArtDefineTag>
+			<MovieDefineTag>ART_DEF_MOVIE_TROPHY</MovieDefineTag>
+		</BuildingInfo>
+
+		<BuildingInfo>
+			<Type>BUILDING_LEADER_ORDER_HUT</Type>
+			<iMaxPlayerInstances>1</iMaxPlayerInstances>
+			<iExtraPlayerInstances>1</iExtraPlayerInstances>
+			<SpecialBuildingType>SPECIALBUILDING_GROUP_PREHISTORIC_LEADER_HUTS</SpecialBuildingType>
+			<MapCategoryTypes>
+				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
+			</MapCategoryTypes>
+			<PrereqTech>TECH_CHIEFDOM</PrereqTech>
+			<TechTypes>
+				<PrereqTech>TECH_CONDUCT</PrereqTech>
+			</TechTypes>
+			<Description>TXT_KEY_BUILDING_LEADER_TRADER_HUT</Description>
+			<Civilopedia>TXT_KEY_BUILDING_LEADER_TRADER_HUT_PEDIA</Civilopedia>
+			<iCost>142</iCost>
+			<iCostSizeModifier>1</iCostSizeModifier>
+			<iCostCountModifier>0</iCostCountModifier>
+			<iCostMaterialsModifier>1</iCostMaterialsModifier>
+			<iCostComplexityModifier>1</iCostComplexityModifier>
+			<iHurryCostModifier>100</iHurryCostModifier>
+			<Advisor>ADVISOR_SCIENCE</Advisor>
+			<iHappiness>1</iHappiness>
+			<iHealth>1</iHealth>
+			<YieldChanges>
+				<iYield>2</iYield>
+				<iYield>2</iYield>
+				<iYield>0</iYield>
+			</YieldChanges>
+			<YieldModifiers>
+				<iYield>0</iYield>
+				<iYield>0</iYield>
+				<iYield>0</iYield>
+			</YieldModifiers>
+			<CommerceChanges>
+				<iCommerce>1</iCommerce>
+				<iCommerce>1</iCommerce>
+				<iCommerce>1</iCommerce>
+				<iCommerce>0</iCommerce>
+			</CommerceChanges>
+			<CommerceModifiers>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+			</CommerceModifiers>
+			<PropertyManipulators>
+				<PropertySource>
+					<PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>
+					<PropertyType>PROPERTY_CRIME</PropertyType>
+					<iAmountPerTurn>-10</iAmountPerTurn>
+				</PropertySource>
+			</PropertyManipulators>
+			<UnitProductionModifiers>
+				<UnitProductionModifier>
+					<UnitType>UNIT_ENFORCERS</UnitType>
+					<iProductionModifier>15</iProductionModifier>
+				</UnitProductionModifier>
+			</UnitProductionModifiers>
+			<iInvestigation>10</iInvestigation>
+			<iDefense>5</iDefense>
+			<iEspionageDefense>2</iEspionageDefense>
+			<bNeverCapture>1</bNeverCapture>
+			<bNukeImmune>1</bNukeImmune>
+			<fVisibilityPriority>0</fVisibilityPriority>
+			<ArtDefineTag>ART_DEF_BUILDING_LEADER_TRADER_HUT</ArtDefineTag>
+			<MovieDefineTag>ART_DEF_MOVIE_TOOL</MovieDefineTag>
+		</BuildingInfo>
+
+		<BuildingInfo>
+			<Type>BUILDING_LEADER_SPY_HUT</Type>
+			<iMaxPlayerInstances>1</iMaxPlayerInstances>
+			<iExtraPlayerInstances>1</iExtraPlayerInstances>
+			<SpecialBuildingType>SPECIALBUILDING_GROUP_PREHISTORIC_LEADER_HUTS</SpecialBuildingType>
+			<MapCategoryTypes>
+				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
+			</MapCategoryTypes>
+			<PrereqTech>TECH_SHELTER_BUILDING</PrereqTech>
+			<TechTypes>
+				<PrereqTech>TECH_THEFT</PrereqTech>
+			</TechTypes>
+			<Description>TXT_KEY_BUILDING_LEADER_SECRET_SHELTER</Description>
+			<Civilopedia>TXT_KEY_BUILDING_LEADER_SECRET_SHELTER_PEDIA</Civilopedia>
+			<iCost>142</iCost>
+			<iCostSizeModifier>1</iCostSizeModifier>
+			<iCostCountModifier>0</iCostCountModifier>
+			<iCostMaterialsModifier>1</iCostMaterialsModifier>
+			<iCostComplexityModifier>1</iCostComplexityModifier>
+			<iHurryCostModifier>100</iHurryCostModifier>
+			<Advisor>ADVISOR_ECONOMY</Advisor>
+			<iHappiness>1</iHappiness>
+			<iHealth>1</iHealth>
+			<YieldChanges>
+				<iYield>2</iYield>
+				<iYield>2</iYield>
+				<iYield>0</iYield>
+			</YieldChanges>
+			<YieldModifiers>
+				<iYield>0</iYield>
+				<iYield>0</iYield>
+				<iYield>0</iYield>
+			</YieldModifiers>
+			<CommerceChanges>
+				<iCommerce>1</iCommerce>
+				<iCommerce>1</iCommerce>
+				<iCommerce>1</iCommerce>
+				<iCommerce>5</iCommerce>
+			</CommerceChanges>
+			<CommerceModifiers>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>5</iCommerce>
+			</CommerceModifiers>
+			<UnitProductionModifiers>
+				<UnitProductionModifier>
+					<UnitType>UNIT_THIEF</UnitType>
+					<iProductionModifier>15</iProductionModifier>
+				</UnitProductionModifier>
+				<UnitProductionModifier>
+					<UnitType>UNIT_ROGUE</UnitType>
+					<iProductionModifier>15</iProductionModifier>
+				</UnitProductionModifier>
+				<UnitProductionModifier>
+					<UnitType>UNIT_AMBUSHER</UnitType>
+					<iProductionModifier>15</iProductionModifier>
+				</UnitProductionModifier>
+				<UnitProductionModifier>
+					<UnitType>UNIT_ASSASSIN</UnitType>
+					<iProductionModifier>15</iProductionModifier>
+				</UnitProductionModifier>
+				<UnitProductionModifier>
+					<UnitType>UNIT_STALKERS</UnitType>
+					<iProductionModifier>15</iProductionModifier>
+				</UnitProductionModifier>
+			</UnitProductionModifiers>
+			<iEspionageDefense>2</iEspionageDefense>
+			<bNeverCapture>1</bNeverCapture>
+			<bNukeImmune>1</bNukeImmune>
+			<fVisibilityPriority>0</fVisibilityPriority>
+			<ArtDefineTag>ART_DEF_BUILDING_LEADER_SECRET_SHELTER</ArtDefineTag>
+			<MovieDefineTag>ART_DEF_MOVIE_SECRET</MovieDefineTag>
+		</BuildingInfo>
+
+		<BuildingInfo>
+			<Type>BUILDING_LEADER_HUNTER_HUT</Type>
+			<iMaxPlayerInstances>1</iMaxPlayerInstances>
+			<iExtraPlayerInstances>1</iExtraPlayerInstances>
+			<SpecialBuildingType>SPECIALBUILDING_GROUP_PREHISTORIC_LEADER_HUTS</SpecialBuildingType>
+			<MapCategoryTypes>
+				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
+			</MapCategoryTypes>
+			<PrereqTech>TECH_CHIEFDOM</PrereqTech>
+			<TechTypes>
+				<PrereqTech>TECH_HUNTING</PrereqTech>
+			</TechTypes>
+			<Description>TXT_KEY_BUILDING_LEADER_WANDERER_SHELTER</Description>
+			<Civilopedia>TXT_KEY_BUILDING_LEADER_WANDERER_SHELTER_PEDIA</Civilopedia>
+			<iCost>142</iCost>
+			<iCostSizeModifier>1</iCostSizeModifier>
+			<iCostCountModifier>0</iCostCountModifier>
+			<iCostMaterialsModifier>1</iCostMaterialsModifier>
+			<iCostComplexityModifier>1</iCostComplexityModifier>
+			<iHurryCostModifier>100</iHurryCostModifier>
+			<Advisor>ADVISOR_ECONOMY</Advisor>
+			<iHappiness>1</iHappiness>
+			<iHealth>1</iHealth>
+			<YieldChanges>
+				<iYield>2</iYield>
+				<iYield>2</iYield>
+				<iYield>0</iYield>
+			</YieldChanges>
+			<YieldModifiers>
+				<iYield>0</iYield>
+				<iYield>0</iYield>
+				<iYield>0</iYield>
+			</YieldModifiers>
+			<CommerceChanges>
+				<iCommerce>1</iCommerce>
+				<iCommerce>1</iCommerce>
+				<iCommerce>1</iCommerce>
+				<iCommerce>0</iCommerce>
+			</CommerceChanges>
+			<CommerceModifiers>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+			</CommerceModifiers>
+			<UnitProductionModifiers>
+				<UnitProductionModifier>
+					<UnitType>UNIT_SCOUT</UnitType>
+					<iProductionModifier>20</iProductionModifier>
+				</UnitProductionModifier>
+				<UnitProductionModifier>
+					<UnitType>UNIT_GUIDE</UnitType>
+					<iProductionModifier>20</iProductionModifier>
+				</UnitProductionModifier>
+				<UnitProductionModifier>
+					<UnitType>UNIT_HUNTER</UnitType>
+					<iProductionModifier>15</iProductionModifier>
+				</UnitProductionModifier>
+			</UnitProductionModifiers>
+			<FreePromoTypes>
+				<FreePromoType>
+					<PromotionType>PROMOTION_CAUTIOUS1</PromotionType>
+					<FreePromotionCondition>
+						<Has>
+							<GOMType>GOM_UNITCOMBAT</GOMType>
+							<ID>UNITCOMBAT_RECON</ID>
+						</Has>
+					</FreePromotionCondition>
+				</FreePromoType>
+				<FreePromoType>
+					<PromotionType>PROMOTION_HUNTING_STRIKE1</PromotionType>
+					<FreePromotionCondition>
+						<Has>
+							<GOMType>GOM_UNITCOMBAT</GOMType>
+							<ID>UNITCOMBAT_HUNTER</ID>
+						</Has>
+					</FreePromotionCondition>
+				</FreePromoType>
+				<FreePromoType>
+					<PromotionType>PROMOTION_HUNT_DOWN1</PromotionType>
+					<FreePromotionCondition>
+						<Has>
+							<GOMType>GOM_UNITCOMBAT</GOMType>
+							<ID>UNITCOMBAT_HUNTER</ID>
+						</Has>
+					</FreePromotionCondition>
+				</FreePromoType>
+			</FreePromoTypes>
+			<bNeverCapture>1</bNeverCapture>
+			<bNukeImmune>1</bNukeImmune>
+			<fVisibilityPriority>0</fVisibilityPriority>
+			<ArtDefineTag>ART_DEF_BUILDING_LEADER_WANDERER_SHELTER</ArtDefineTag>
+			<MovieDefineTag>ART_DEF_MOVIE_WANDERER</MovieDefineTag>
+		</BuildingInfo>
+
+		<BuildingInfo>
+			<Type>BUILDING_LEADER_FORTIFIED_HUT</Type>
+			<iMaxPlayerInstances>1</iMaxPlayerInstances>
+			<iExtraPlayerInstances>1</iExtraPlayerInstances>
+			<SpecialBuildingType>SPECIALBUILDING_GROUP_PREHISTORIC_LEADER_HUTS</SpecialBuildingType>
+			<MapCategoryTypes>
+				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
+			</MapCategoryTypes>
+			<PrereqTech>TECH_CHIEFDOM</PrereqTech>
+			<TechTypes>
+				<PrereqTech>TECH_CARPENTRY</PrereqTech>
+			</TechTypes>
+			<Description>TXT_KEY_BUILDING_LEADER_WANDERER_SHELTER</Description>
+			<Civilopedia>TXT_KEY_BUILDING_LEADER_WANDERER_SHELTER_PEDIA</Civilopedia>
+			<iCost>142</iCost>
+			<iCostSizeModifier>1</iCostSizeModifier>
+			<iCostCountModifier>0</iCostCountModifier>
+			<iCostMaterialsModifier>1</iCostMaterialsModifier>
+			<iCostComplexityModifier>1</iCostComplexityModifier>
+			<iHurryCostModifier>100</iHurryCostModifier>
+			<Advisor>ADVISOR_ECONOMY</Advisor>
+			<iHappiness>1</iHappiness>
+			<iHealth>1</iHealth>
+			<YieldChanges>
+				<iYield>2</iYield>
+				<iYield>2</iYield>
+				<iYield>0</iYield>
+			</YieldChanges>
+			<YieldModifiers>
+				<iYield>0</iYield>
+				<iYield>0</iYield>
+				<iYield>0</iYield>
+			</YieldModifiers>
+			<CommerceChanges>
+				<iCommerce>1</iCommerce>
+				<iCommerce>1</iCommerce>
+				<iCommerce>1</iCommerce>
+				<iCommerce>0</iCommerce>
+			</CommerceChanges>
+			<CommerceModifiers>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+			</CommerceModifiers>
+			<iDefense>20</iDefense>
+			<iBombardDefense>10</iBombardDefense>
+			<iNoEntryDefenseLevel>70</iNoEntryDefenseLevel>
+			<iMinDefense>10</iMinDefense>
+			<bNeverCapture>1</bNeverCapture>
+			<bNukeImmune>1</bNukeImmune>
+			<fVisibilityPriority>0</fVisibilityPriority>
+			<ArtDefineTag>ART_DEF_BUILDING_LEADER_WANDERER_SHELTER</ArtDefineTag>
+			<MovieDefineTag>ART_DEF_MOVIE_WANDERER</MovieDefineTag>
+		</BuildingInfo>
+
+		<BuildingInfo>
+			<Type>BUILDING_LEADER_MEGALITH_HUT</Type>
+			<iMaxPlayerInstances>1</iMaxPlayerInstances>
+			<iExtraPlayerInstances>1</iExtraPlayerInstances>
+			<SpecialBuildingType>SPECIALBUILDING_GROUP_PREHISTORIC_LEADER_HUTS</SpecialBuildingType>
+			<MapCategoryTypes>
+				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
+			</MapCategoryTypes>
+			<PrereqTech>TECH_CHIEFDOM</PrereqTech>
+			<TechTypes>
+				<PrereqTech>TECH_MEGALITH_CONSTRUCTION</PrereqTech>
+			</TechTypes>
+			<Description>TXT_KEY_BUILDING_LEADER_WANDERER_SHELTER</Description>
+			<Civilopedia>TXT_KEY_BUILDING_LEADER_WANDERER_SHELTER_PEDIA</Civilopedia>
+			<iCost>142</iCost>
+			<iCostSizeModifier>2</iCostSizeModifier>
+			<iCostCountModifier>0</iCostCountModifier>
+			<iCostMaterialsModifier>2</iCostMaterialsModifier>
+			<iCostComplexityModifier>2</iCostComplexityModifier>
+			<iHurryCostModifier>100</iHurryCostModifier>
+			<Advisor>ADVISOR_ECONOMY</Advisor>
+			<iHappiness>1</iHappiness>
+			<iHealth>-1</iHealth>
+			<YieldChanges>
+				<iYield>0</iYield>
+				<iYield>0</iYield>
+				<iYield>0</iYield>
+			</YieldChanges>
+			<YieldModifiers>
+				<iYield>0</iYield>
+				<iYield>0</iYield>
+				<iYield>0</iYield>
+			</YieldModifiers>
+			<CommerceChanges>
+				<iCommerce>-5</iCommerce>
+				<iCommerce>2</iCommerce>
+				<iCommerce>2</iCommerce>
+				<iCommerce>0</iCommerce>
+			</CommerceChanges>
+			<CommerceModifiers>
+				<iCommerce>-5</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+			</CommerceModifiers>
+			<GlobalBuildingProductionModifiers>
+				<BuildingProductionModifier>
+					<BuildingType>BUILDING_GOBEKLI_TEPE</BuildingType>
+					<iProductionModifier>20</iProductionModifier>
+				</BuildingProductionModifier>
+				<BuildingProductionModifier>
+					<BuildingType>BUILDING_HAAMONGA_A_MAUI</BuildingType>
+					<iProductionModifier>20</iProductionModifier>
+				</BuildingProductionModifier>
+				<BuildingProductionModifier>
+					<BuildingType>BUILDING_HILL_OF_TARA</BuildingType>
+					<iProductionModifier>20</iProductionModifier>
+				</BuildingProductionModifier>
+				<BuildingProductionModifier>
+					<BuildingType>BUILDING_MOAI_STATUES</BuildingType>
+					<iProductionModifier>20</iProductionModifier>
+				</BuildingProductionModifier>
+				<BuildingProductionModifier>
+					<BuildingType>BUILDING_STONE_HENGE</BuildingType>
+					<iProductionModifier>20</iProductionModifier>
+				</BuildingProductionModifier>
+				<BuildingProductionModifier>
+					<BuildingType>BUILDING_LIBRARY_OF_NINEVEH</BuildingType>
+					<iProductionModifier>20</iProductionModifier>
+				</BuildingProductionModifier>
+				<BuildingProductionModifier>
+					<BuildingType>BUILDING_CLEOPATRAS_NEEDLE</BuildingType>
+					<iProductionModifier>20</iProductionModifier>
+				</BuildingProductionModifier>
+				<BuildingProductionModifier>
+					<BuildingType>BUILDING_GREAT_BATH_OF_MOHENJO_DARO</BuildingType>
+					<iProductionModifier>20</iProductionModifier>
+				</BuildingProductionModifier>
+			</GlobalBuildingProductionModifiers>
+			<SpecialistCounts>
+				<SpecialistCount>
+					<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+					<iSpecialistCount>1</iSpecialistCount>
+				</SpecialistCount>
+			</SpecialistCounts>
+			<bFreeSpecialistperWorldWonder>1</bFreeSpecialistperWorldWonder>
+			<bNeverCapture>1</bNeverCapture>
+			<bNukeImmune>1</bNukeImmune>
+			<fVisibilityPriority>0</fVisibilityPriority>
+			<ArtDefineTag>ART_DEF_BUILDING_LEADER_WANDERER_SHELTER</ArtDefineTag>
+			<MovieDefineTag>ART_DEF_MOVIE_WANDERER</MovieDefineTag>
+		</BuildingInfo>
+
+		<BuildingInfo>
+			<Type>BUILDING_LEADER_CULTURE_HUT</Type>
+			<iMaxPlayerInstances>1</iMaxPlayerInstances>
+			<iExtraPlayerInstances>1</iExtraPlayerInstances>
+			<SpecialBuildingType>SPECIALBUILDING_GROUP_PREHISTORIC_LEADER_HUTS</SpecialBuildingType>
+			<MapCategoryTypes>
+				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
+			</MapCategoryTypes>
+			<PrereqTech>TECH_CHIEFDOM</PrereqTech>
+			<TechTypes>
+				<PrereqTech>TECH_CULTURAL_IDENTITY</PrereqTech>
+			</TechTypes>
+			<Description>TXT_KEY_BUILDING_LEADER_SAGE_SHELTER</Description>
+			<Civilopedia>TXT_KEY_BUILDING_LEADER_SAGE_SHELTER_PEDIA</Civilopedia>
+			<iCost>142</iCost>
+			<iCostSizeModifier>1</iCostSizeModifier>
+			<iCostCountModifier>0</iCostCountModifier>
+			<iCostMaterialsModifier>1</iCostMaterialsModifier>
+			<iCostComplexityModifier>1</iCostComplexityModifier>
+			<iHurryCostModifier>100</iHurryCostModifier>
+			<Advisor>ADVISOR_ECONOMY</Advisor>
+			<iHappiness>1</iHappiness>
+			<iHealth>1</iHealth>
+			<YieldChanges>
+				<iYield>2</iYield>
+				<iYield>2</iYield>
+				<iYield>0</iYield>
+			</YieldChanges>
+			<YieldModifiers>
+				<iYield>0</iYield>
+				<iYield>0</iYield>
+				<iYield>0</iYield>
+			</YieldModifiers>
+			<CommerceChanges>
+				<iCommerce>1</iCommerce>
+				<iCommerce>1</iCommerce>
+				<iCommerce>5</iCommerce>
+				<iCommerce>0</iCommerce>
+			</CommerceChanges>
+			<CommerceModifiers>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>5</iCommerce>
+				<iCommerce>0</iCommerce>
+			</CommerceModifiers>
+			<UnitProductionModifiers>
+				<UnitProductionModifier>
+					<UnitType>UNIT_STORY_TELLER</UnitType>
+					<iProductionModifier>15</iProductionModifier>
+				</UnitProductionModifier>
+			</UnitProductionModifiers>
+			<bNeverCapture>1</bNeverCapture>
+			<bNukeImmune>1</bNukeImmune>
+			<fVisibilityPriority>0</fVisibilityPriority>
+			<ArtDefineTag>ART_DEF_BUILDING_LEADER_SAGE_SHELTER</ArtDefineTag>
+			<MovieDefineTag>ART_DEF_MOVIE_SAGE</MovieDefineTag>
 		</BuildingInfo>
 
 		<BuildingInfo>

@@ -1972,7 +1972,7 @@
 			<bApplyFreePromotionOnMove>1</bApplyFreePromotionOnMove>
 			<FreePromoTypes>
 				<FreePromoType>
-					<PromotionType>PROMOTION_HUNTER1</PromotionType>
+					<PromotionType>PROMOTION_ENTRAPMENT1</PromotionType>
 					<FreePromotionCondition>
 						<Has>
 							<GOMType>GOM_UNITCOMBAT</GOMType>

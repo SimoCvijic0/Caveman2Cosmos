@@ -15315,7 +15315,7 @@
 				<FeatureType>FEATURE_BAMBOO</FeatureType>
 				<FeatureType>FEATURE_FOREST_ANCIENT</FeatureType>
 			</FeatureImpassableTypes>
-			<iCombat>5</iCombat>
+			<iCombat>4</iCombat>
 			<iAggression>1</iAggression>
 			<bBlendIntoCity>1</bBlendIntoCity>
 			<iXPValueAttack>3</iXPValueAttack>
@@ -15349,8 +15349,8 @@
 					<Yields>
 						<iYield>
 							<Plus>
-								<Constant>2000</Constant>
-								<Random>2000</Random>
+								<Constant>200</Constant>
+								<Random>200</Random>
 							</Plus>
 						</iYield>
 						<iYield>
@@ -15367,8 +15367,8 @@
 					<Yields>
 						<iYield>
 							<Plus>
-								<Constant>2000</Constant>
-								<Random>2000</Random>
+								<Constant>200</Constant>
+								<Random>200</Random>
 							</Plus>
 						</iYield>
 						<iYield>
