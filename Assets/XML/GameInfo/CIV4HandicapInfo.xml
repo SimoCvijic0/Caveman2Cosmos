@@ -441,7 +441,7 @@
 			<Description>TXT_KEY_HANDICAP_NOBLE</Description>
 			<Help>TXT_KEY_HANDICAP_NOBLE_HELP</Help>
 			<iAdvancedStartPointsMod>100</iAdvancedStartPointsMod>
-			<iGold>70</iGold>
+			<iGold>80</iGold>
 			<iUnitUpkeepPercent>100</iUnitUpkeepPercent>
 			<iMaxColonyMaintenance>200</iMaxColonyMaintenance>
 			<iDistanceMaintenancePercent>420</iDistanceMaintenancePercent>
@@ -462,7 +462,7 @@
 					<iAmountPerTurn>
 						<Mult>
 							<AttributeType>ATTRIBUTE_POPULATION</AttributeType>
-							<Constant>6</Constant>
+							<Constant>5</Constant>
 						</Mult>
 					</iAmountPerTurn>
 				</PropertySource>
@@ -474,7 +474,19 @@
 					<iAmountPerTurn>
 						<Mult>
 							<AttributeType>ATTRIBUTE_POPULATION</AttributeType>
-							<Constant>-6</Constant>
+							<Constant>-5</Constant>
+						</Mult>
+					</iAmountPerTurn>
+				</PropertySource>
+				<PropertySource>
+					<PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>
+					<PropertyType>PROPERTY_DISEASE</PropertyType>
+					<GameObjectType>GAMEOBJECT_CITY</GameObjectType>
+					<RelationType>RELATION_ASSOCIATED</RelationType>
+					<iAmountPerTurn>
+						<Mult>
+							<AttributeType>ATTRIBUTE_POPULATION</AttributeType>
+							<Constant>5</Constant>
 						</Mult>
 					</iAmountPerTurn>
 				</PropertySource>
