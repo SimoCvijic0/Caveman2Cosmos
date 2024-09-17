@@ -2473,7 +2473,6 @@
 		<BuildingInfo>
 			<Type>BUILDING_LEADER_TOOL_SHELTER</Type>
 			<iMaxPlayerInstances>1</iMaxPlayerInstances>
-			<iExtraPlayerInstances>1</iExtraPlayerInstances>
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_PREHISTORIC_LEADER_SHELTERS</SpecialBuildingType>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -2558,7 +2557,6 @@
 		<BuildingInfo>
 			<Type>BUILDING_LEADER_FOOD_SHELTER</Type>
 			<iMaxPlayerInstances>1</iMaxPlayerInstances>
-			<iExtraPlayerInstances>1</iExtraPlayerInstances>
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_PREHISTORIC_LEADER_SHELTERS</SpecialBuildingType>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -2642,7 +2640,6 @@
 		<BuildingInfo>
 			<Type>BUILDING_LEADER_SAGE_SHELTER</Type>
 			<iMaxPlayerInstances>1</iMaxPlayerInstances>
-			<iExtraPlayerInstances>1</iExtraPlayerInstances>
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_PREHISTORIC_LEADER_SHELTERS</SpecialBuildingType>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -2726,7 +2723,6 @@
 		<BuildingInfo>
 			<Type>BUILDING_LEADER_STORAGE_SHELTER</Type>
 			<iMaxPlayerInstances>1</iMaxPlayerInstances>
-			<iExtraPlayerInstances>1</iExtraPlayerInstances>
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_PREHISTORIC_LEADER_SHELTERS</SpecialBuildingType>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -2810,7 +2806,6 @@
 		<BuildingInfo>
 			<Type>BUILDING_LEADER_TROPHY_SHELTER</Type>
 			<iMaxPlayerInstances>1</iMaxPlayerInstances>
-			<iExtraPlayerInstances>1</iExtraPlayerInstances>
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_PREHISTORIC_LEADER_SHELTERS</SpecialBuildingType>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -2952,7 +2947,6 @@
 		<BuildingInfo>
 			<Type>BUILDING_LEADER_GROUP_SHELTER</Type>
 			<iMaxPlayerInstances>1</iMaxPlayerInstances>
-			<iExtraPlayerInstances>1</iExtraPlayerInstances>
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_PREHISTORIC_LEADER_SHELTERS</SpecialBuildingType>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -3075,7 +3069,6 @@
 		<BuildingInfo>
 			<Type>BUILDING_LEADER_SECRET_SHELTER</Type>
 			<iMaxPlayerInstances>1</iMaxPlayerInstances>
-			<iExtraPlayerInstances>1</iExtraPlayerInstances>
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_PREHISTORIC_LEADER_SHELTERS</SpecialBuildingType>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -3181,7 +3174,6 @@
 		<BuildingInfo>
 			<Type>BUILDING_LEADER_WANDERER_SHELTER</Type>
 			<iMaxPlayerInstances>1</iMaxPlayerInstances>
-			<iExtraPlayerInstances>1</iExtraPlayerInstances>
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_PREHISTORIC_LEADER_SHELTERS</SpecialBuildingType>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -3307,7 +3299,6 @@
 		<BuildingInfo>
 			<Type>BUILDING_LEADER_ANIMAL_HUT</Type>
 			<iMaxPlayerInstances>1</iMaxPlayerInstances>
-			<iExtraPlayerInstances>1</iExtraPlayerInstances>
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_PREHISTORIC_LEADER_HUTS</SpecialBuildingType>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -3381,7 +3372,6 @@
 		<BuildingInfo>
 			<Type>BUILDING_LEADER_TRADER_HUT</Type>
 			<iMaxPlayerInstances>1</iMaxPlayerInstances>
-			<iExtraPlayerInstances>1</iExtraPlayerInstances>
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_PREHISTORIC_LEADER_HUTS</SpecialBuildingType>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -3445,7 +3435,6 @@
 		<BuildingInfo>
 			<Type>BUILDING_LEADER_HEALER_HUT</Type>
 			<iMaxPlayerInstances>1</iMaxPlayerInstances>
-			<iExtraPlayerInstances>1</iExtraPlayerInstances>
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_PREHISTORIC_LEADER_HUTS</SpecialBuildingType>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -3516,7 +3505,6 @@
 		<BuildingInfo>
 			<Type>BUILDING_LEADER_FISHERMAN_HUT</Type>
 			<iMaxPlayerInstances>1</iMaxPlayerInstances>
-			<iExtraPlayerInstances>1</iExtraPlayerInstances>
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_PREHISTORIC_LEADER_HUTS</SpecialBuildingType>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -3583,7 +3571,6 @@
 		<BuildingInfo>
 			<Type>BUILDING_LEADER_THINKER_HUT</Type>
 			<iMaxPlayerInstances>1</iMaxPlayerInstances>
-			<iExtraPlayerInstances>1</iExtraPlayerInstances>
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_PREHISTORIC_LEADER_HUTS</SpecialBuildingType>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -3642,7 +3629,6 @@
 		<BuildingInfo>
 			<Type>BUILDING_LEADER_CARPENTRY_HUT</Type>
 			<iMaxPlayerInstances>1</iMaxPlayerInstances>
-			<iExtraPlayerInstances>1</iExtraPlayerInstances>
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_PREHISTORIC_LEADER_HUTS</SpecialBuildingType>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -3695,7 +3681,6 @@
 		<BuildingInfo>
 			<Type>BUILDING_LEADER_FOOD_STORAGE_HUT</Type>
 			<iMaxPlayerInstances>1</iMaxPlayerInstances>
-			<iExtraPlayerInstances>1</iExtraPlayerInstances>
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_PREHISTORIC_LEADER_HUTS</SpecialBuildingType>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -3748,7 +3733,6 @@
 		<BuildingInfo>
 			<Type>BUILDING_LEADER_TAX_HUT</Type>
 			<iMaxPlayerInstances>1</iMaxPlayerInstances>
-			<iExtraPlayerInstances>1</iExtraPlayerInstances>
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_PREHISTORIC_LEADER_HUTS</SpecialBuildingType>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -3801,7 +3785,6 @@
 		<BuildingInfo>
 			<Type>BUILDING_LEADER_WAR_CHIEF_HUT</Type>
 			<iMaxPlayerInstances>1</iMaxPlayerInstances>
-			<iExtraPlayerInstances>1</iExtraPlayerInstances>
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_PREHISTORIC_LEADER_HUTS</SpecialBuildingType>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -3895,7 +3878,6 @@
 		<BuildingInfo>
 			<Type>BUILDING_LEADER_ORDER_HUT</Type>
 			<iMaxPlayerInstances>1</iMaxPlayerInstances>
-			<iExtraPlayerInstances>1</iExtraPlayerInstances>
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_PREHISTORIC_LEADER_HUTS</SpecialBuildingType>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -3963,12 +3945,11 @@
 		<BuildingInfo>
 			<Type>BUILDING_LEADER_SPY_HUT</Type>
 			<iMaxPlayerInstances>1</iMaxPlayerInstances>
-			<iExtraPlayerInstances>1</iExtraPlayerInstances>
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_PREHISTORIC_LEADER_HUTS</SpecialBuildingType>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
-			<PrereqTech>TECH_SHELTER_BUILDING</PrereqTech>
+			<PrereqTech>TECH_CHIEFDOM</PrereqTech>
 			<TechTypes>
 				<PrereqTech>TECH_THEFT</PrereqTech>
 			</TechTypes>
@@ -4038,7 +4019,6 @@
 		<BuildingInfo>
 			<Type>BUILDING_LEADER_HUNTER_HUT</Type>
 			<iMaxPlayerInstances>1</iMaxPlayerInstances>
-			<iExtraPlayerInstances>1</iExtraPlayerInstances>
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_PREHISTORIC_LEADER_HUTS</SpecialBuildingType>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -4133,7 +4113,6 @@
 		<BuildingInfo>
 			<Type>BUILDING_LEADER_FORTIFIED_HUT</Type>
 			<iMaxPlayerInstances>1</iMaxPlayerInstances>
-			<iExtraPlayerInstances>1</iExtraPlayerInstances>
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_PREHISTORIC_LEADER_HUTS</SpecialBuildingType>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -4189,7 +4168,6 @@
 		<BuildingInfo>
 			<Type>BUILDING_LEADER_MEGALITH_HUT</Type>
 			<iMaxPlayerInstances>1</iMaxPlayerInstances>
-			<iExtraPlayerInstances>1</iExtraPlayerInstances>
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_PREHISTORIC_LEADER_HUTS</SpecialBuildingType>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -4282,7 +4260,6 @@
 		<BuildingInfo>
 			<Type>BUILDING_LEADER_CULTURE_HUT</Type>
 			<iMaxPlayerInstances>1</iMaxPlayerInstances>
-			<iExtraPlayerInstances>1</iExtraPlayerInstances>
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_PREHISTORIC_LEADER_HUTS</SpecialBuildingType>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
