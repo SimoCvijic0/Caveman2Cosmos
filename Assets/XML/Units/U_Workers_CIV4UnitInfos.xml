@@ -75,7 +75,7 @@
 				<BuildType>BUILD_WOODEN_WATCHTOWER_KILL</BuildType>
 				<BuildType>BUILD_WOOD_GATHERER_KILL</BuildType>
 			</Builds>
-			<iCost>12</iCost>
+			<iCost>10</iCost>
 			<iBaseUpkeep>1</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iWorkRate>50</iWorkRate>

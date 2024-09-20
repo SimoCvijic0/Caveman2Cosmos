@@ -628,7 +628,7 @@
 	</Define>
 	<Define>
 		<DefineName>GOLDEN_AGE_LENGTH</DefineName>
-		<iDefineIntVal>5</iDefineIntVal>
+		<iDefineIntVal>4</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>GOLDEN_AGE_GREAT_PEOPLE_MODIFIER</DefineName>
@@ -688,7 +688,7 @@
 	</Define>
 	<Define>
 		<DefineName>MAX_FORTIFY_TURNS</DefineName>
-		<iDefineIntVal>30</iDefineIntVal>
+		<iDefineIntVal>25</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>WW_UNIT_KILLED_ATTACKING</DefineName>
@@ -957,7 +957,7 @@
 	</Define>
 	<Define>
 		<DefineName>TECH_COST_MODIFIER</DefineName>
-		<iDefineIntVal>550</iDefineIntVal>
+		<iDefineIntVal>560</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>MAXED_UNIT_GOLD_PERCENT</DefineName>
@@ -1771,7 +1771,7 @@
 	<!-- 100 is default, 50 would be requirement for next level growing 2x slower, meaning more traits gained in same time frame. -->
 	<Define>
 		<DefineName>NEXT_TRAIT_CULTURE_REQ_PERCENT</DefineName>
-		<iDefineIntVal>200</iDefineIntVal>
+		<iDefineIntVal>175</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>CITY_OUTPUT_HISTORY_SIZE</DefineName>

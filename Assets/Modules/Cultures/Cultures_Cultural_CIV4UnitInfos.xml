@@ -7109,6 +7109,7 @@
 			<bMilitaryHappiness>1</bMilitaryHappiness>
 			<bMilitarySupport>1</bMilitarySupport>
 			<bMilitaryProduction>1</bMilitaryProduction>
+            <bMilitaryTrade>1</bMilitaryTrade>
 			<bPillage>1</bPillage>
 			<UnitUpgrades>
 				<UnitType>UNIT_ARCHER</UnitType>
@@ -7148,12 +7149,12 @@
 			<iCombat>3</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
 			<iXPValueDefense>3</iXPValueDefense>
-			<iFirstStrikes>1</iFirstStrikes>
+			<iFirstStrikes>2</iFirstStrikes>
 			<iWithdrawalProb>10</iWithdrawalProb>
 			<iPursuit>15</iPursuit>
 			<iEarlyWithdraw>75</iEarlyWithdraw>
-			<iCityDefense>50</iCityDefense>
-			<iHillsDefense>25</iHillsDefense>
+			<iCityDefense>25</iCityDefense>
+			<iHillsDefense>20</iHillsDefense>
 			<iConscription>4</iConscription>
 			<iAsset>2</iAsset>
 			<iPower>8</iPower>
@@ -7321,6 +7322,7 @@
 			<bMilitaryHappiness>1</bMilitaryHappiness>
 			<bMilitarySupport>1</bMilitarySupport>
 			<bMilitaryProduction>1</bMilitaryProduction>
+            <bMilitaryTrade>1</bMilitaryTrade>
 			<bPillage>1</bPillage>
 			<bFirstStrikeImmune>1</bFirstStrikeImmune>
 			<UnitUpgrades>
@@ -7342,22 +7344,21 @@
 			<iXPValueAttack>6</iXPValueAttack>
 			<iXPValueDefense>3</iXPValueDefense>
 			<iFirstStrikes>1</iFirstStrikes>
-			<iChanceFirstStrikes>1</iChanceFirstStrikes>
 			<iWithdrawalProb>10</iWithdrawalProb>
 			<iEarlyWithdraw>50</iEarlyWithdraw>
 			<iCollateralDamage>3</iCollateralDamage>
 			<iCollateralDamageLimit>10</iCollateralDamageLimit>
 			<iCollateralDamageMaxUnits>1</iCollateralDamageMaxUnits>
 			<iCityAttack>10</iCityAttack>
-			<iCityDefense>10</iCityDefense>
+			<iCityDefense>15</iCityDefense>
 			<UnitCombatMods>
 				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-					<iUnitCombatMod>100</iUnitCombatMod>
+					<iUnitCombatMod>50</iUnitCombatMod>
 				</UnitCombatMod>
 				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_THROWING</UnitCombatType>
-					<iUnitCombatMod>50</iUnitCombatMod>
+					<iUnitCombatMod>25</iUnitCombatMod>
 				</UnitCombatMod>
 				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
@@ -7365,22 +7366,26 @@
 				</UnitCombatMod>
 				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-					<iUnitCombatMod>-25</iUnitCombatMod>
+					<iUnitCombatMod>-15</iUnitCombatMod>
 				</UnitCombatMod>
 			</UnitCombatMods>
 			<BonusProductionModifiers>
 				<BonusProductionModifier>
 					<BonusType>BONUS_STONE</BonusType>
-					<iProductonModifier>15</iProductonModifier>
+					<iProductonModifier>10</iProductonModifier>
 				</BonusProductionModifier>
 				<BonusProductionModifier>
 					<BonusType>BONUS_OBSIDIAN</BonusType>
-					<iProductonModifier>15</iProductonModifier>
+					<iProductonModifier>10</iProductonModifier>
 				</BonusProductionModifier>
 				<BonusProductionModifier>
 					<BonusType>BONUS_FLINT</BonusType>
-					<iProductonModifier>15</iProductonModifier>
+					<iProductonModifier>10</iProductonModifier>
 				</BonusProductionModifier>
+                <BonusProductionModifier>
+                    <BonusType>BONUS_PRIME_TIMBER</BonusType>
+                    <iProductonModifier>10</iProductonModifier>
+                </BonusProductionModifier>
 			</BonusProductionModifiers>
 			<iAsset>1</iAsset>
 			<iPower>4</iPower>
@@ -7749,7 +7754,14 @@
 			<bMilitaryHappiness>1</bMilitaryHappiness>
 			<bMilitarySupport>1</bMilitarySupport>
 			<bMilitaryProduction>1</bMilitaryProduction>
+            <bMilitaryTrade>1</bMilitaryTrade>
 			<bPillage>1</bPillage>
+            <BonusProductionModifiers>
+                <BonusProductionModifier>
+                    <BonusType>BONUS_PRIME_TIMBER</BonusType>
+                    <iProductonModifier>10</iProductonModifier>
+                </BonusProductionModifier>
+            </BonusProductionModifiers>
 			<UnitUpgrades>
 				<UnitType>UNIT_ARCHER</UnitType>
 				<UnitType>UNIT_ATLATL</UnitType>

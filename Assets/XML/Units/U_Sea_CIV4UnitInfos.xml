@@ -133,7 +133,6 @@
 				<SubCombatType>UNITCOMBAT_WEAPON_STYLE_DIST_SINGLE_HAND_ONLY</SubCombatType>
 				<SubCombatType>UNITCOMBAT_WEAPON_H2H_OAR</SubCombatType>
 				<SubCombatType>UNITCOMBAT_WEAPON_SIDEARM_AXE</SubCombatType>
-				<SubCombatType>UNITCOMBAT_WEAPON_DIST_ROCK</SubCombatType>
 				<SubCombatType>UNITCOMBAT_MOTILITY_NAVAL</SubCombatType>
 				<SubCombatType>UNITCOMBAT_QUALITY_SUPERIOR</SubCombatType>
 				<SubCombatType>UNITCOMBAT_GROUP_PARTY</SubCombatType>
@@ -8229,8 +8228,9 @@
 		</UnitInfo>
 		<UnitInfo>
 			<Type>UNIT_COG_MERCHANT</Type>
-			<iMaxPlayerInstances>3</iMaxPlayerInstances>
+<!--			<iMaxPlayerInstances>3</iMaxPlayerInstances>-->
 			<Combat>UNITCOMBAT_TRADE</Combat>
+			<bMilitaryTrade>1</bMilitaryTrade>
 			<SubCombatTypes>
 				<SubCombatType>UNITCOMBAT_WOODEN_SHIPS</SubCombatType>
 				<SubCombatType>UNITCOMBAT_CIVILIAN</SubCombatType>
@@ -8254,6 +8254,12 @@
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
+			<BonusProductionModifiers>
+				<BonusProductionModifier>
+					<BonusType>BONUS_PRIME_TIMBER</BonusType>
+					<iProductonModifier>20</iProductonModifier>
+				</BonusProductionModifier>
+			</BonusProductionModifiers>
 			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_COG_MERCHANT</Description>
 			<Civilopedia>TXT_KEY_UNIT_COG_MERCHANT_PEDIA</Civilopedia>
@@ -8361,7 +8367,7 @@
 		</UnitInfo>
 		<UnitInfo>
 			<Type>UNIT_CARRACK_MERCHANT</Type>
-			<iMaxPlayerInstances>3</iMaxPlayerInstances>
+<!--			<iMaxPlayerInstances>3</iMaxPlayerInstances>-->
 			<Combat>UNITCOMBAT_TRADE</Combat>
 			<SubCombatTypes>
 				<SubCombatType>UNITCOMBAT_WOODEN_SHIPS</SubCombatType>
@@ -8449,7 +8455,7 @@
 		</UnitInfo>
 		<UnitInfo>
 			<Type>UNIT_CLIPPER_MERCHANT</Type>
-			<iMaxPlayerInstances>3</iMaxPlayerInstances>
+<!--			<iMaxPlayerInstances>3</iMaxPlayerInstances>-->
 			<Combat>UNITCOMBAT_TRADE</Combat>
 			<SubCombatTypes>
 				<SubCombatType>UNITCOMBAT_STEAM_SHIPS</SubCombatType>
@@ -8539,7 +8545,7 @@
 		</UnitInfo>
 		<UnitInfo>
 			<Type>UNIT_LIBERTY_MERCHANT</Type>
-			<iMaxPlayerInstances>3</iMaxPlayerInstances>
+<!--			<iMaxPlayerInstances>3</iMaxPlayerInstances>-->
 			<Combat>UNITCOMBAT_TRADE</Combat>
 			<SubCombatTypes>
 				<SubCombatType>UNITCOMBAT_DIESEL_SHIPS</SubCombatType>
@@ -8626,7 +8632,7 @@
 		</UnitInfo>
 		<UnitInfo>
 			<Type>UNIT_CARGO_SHIP</Type>
-			<iMaxPlayerInstances>3</iMaxPlayerInstances>
+<!--			<iMaxPlayerInstances>3</iMaxPlayerInstances>-->
 			<Combat>UNITCOMBAT_TRADE</Combat>
 			<SubCombatTypes>
 				<SubCombatType>UNITCOMBAT_DIESEL_SHIPS</SubCombatType>
