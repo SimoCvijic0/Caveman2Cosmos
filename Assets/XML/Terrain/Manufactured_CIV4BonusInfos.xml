@@ -1610,6 +1610,7 @@
 			<BonusClassType>BONUSCLASS_MANUFACTURED</BonusClassType>
 			<ArtDefineTag>ART_DEF_BONUS_OLIVE_OIL</ArtDefineTag>
 			<TechReveal>TECH_FERMENTATION</TechReveal>
+			<iHealth>1</iHealth>
 			<TechCityTrade>TECH_FERMENTATION</TechCityTrade>
 		</BonusInfo>
 		<!-- Omega Acids -->
