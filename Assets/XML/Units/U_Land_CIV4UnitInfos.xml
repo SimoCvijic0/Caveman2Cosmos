@@ -9268,9 +9268,6 @@
             </UnitAIs>
             <PrereqTech>TECH_ATLATL_MAKING</PrereqTech>
             <ObsoleteTech>TECH_FLINTLOCK</ObsoleteTech>
-            <SupersedingUnits>
-<!--                <UnitType>UNIT_NEANDERTHAL_GATHERER</UnitType>-->
-            </SupersedingUnits>
             <iCost>52</iCost>
             <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>1</iMoves>
@@ -9288,14 +9285,28 @@
             <iAttackCombatModifier>-10</iAttackCombatModifier>
             <UnitCombatMods>
                 <UnitCombatMod>
-                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <iUnitCombatMod>10</iUnitCombatMod>
-                </UnitCombatMod>
-                <UnitCombatMod>
                     <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-                    <iUnitCombatMod>10</iUnitCombatMod>
+                    <iUnitCombatMod>20</iUnitCombatMod>
                 </UnitCombatMod>
             </UnitCombatMods>
+            <UnitAttackMods>
+                <UnitAttackMod>
+                    <UnitType>UNIT_ELEPHANT_RIDER</UnitType>
+                    <iModifier>20</iModifier>
+                </UnitAttackMod>
+                <UnitAttackMod>
+                    <UnitType>UNIT_WAR_ELEPHANT</UnitType>
+                    <iModifier>15</iModifier>
+                </UnitAttackMod>
+                <UnitAttackMod>
+                    <UnitType>UNIT_TRAINED_MAMMOTH</UnitType>
+                    <iModifier>20</iModifier>
+                </UnitAttackMod>
+                <UnitAttackMod>
+                    <UnitType>UNIT_WAR_MAMMOTH</UnitType>
+                    <iModifier>15</iModifier>
+                </UnitAttackMod>
+            </UnitAttackMods>
             <BonusProductionModifiers>
                 <BonusProductionModifier>
                     <BonusType>BONUS_OBSIDIAN</BonusType>
