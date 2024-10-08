@@ -35,10 +35,6 @@
                     <PromotionType>PROMOTION_SENTRY</PromotionType>
                     <bFreePromotion>1</bFreePromotion>
                 </FreePromotion>
-                <FreePromotion>
-                    <PromotionType>PROMOTION_GUARDIAN_TRIBAL</PromotionType>
-                    <bFreePromotion>1</bFreePromotion>
-                </FreePromotion>
             </FreePromotions>
             <UnitUpgrades>
                 <UnitType>UNIT_TRIBE</UnitType>
@@ -2481,7 +2477,7 @@
                 </Flavor>
             </Flavors>
             <iCost>473</iCost>
-            <iBaseUpkeep>100</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iAsset>1</iAsset>
             <UnitMeshGroups>
@@ -2555,7 +2551,7 @@
                 </Flavor>
             </Flavors>
             <iCost>811</iCost>
-            <iBaseUpkeep>1000</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>2</iMoves>
             <iEspionagePoints>500</iEspionagePoints>
             <iAsset>1</iAsset>
@@ -2642,7 +2638,7 @@
                 </Flavor>
             </Flavors>
             <iCost>1350</iCost>
-            <iBaseUpkeep>1500</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>3</iMoves>
             <iDropRange>10</iDropRange>
             <iAsset>1</iAsset>
@@ -2745,7 +2741,7 @@
                 </Flavor>
             </Flavors>
             <iCost>4092</iCost>
-            <iBaseUpkeep>10000</iBaseUpkeep>
+            <iBaseUpkeep>1</iBaseUpkeep>
             <iMoves>4</iMoves>
             <iDropRange>20</iDropRange>
             <iEspionagePoints>500</iEspionagePoints>
