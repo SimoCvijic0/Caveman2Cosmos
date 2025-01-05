@@ -27061,7 +27061,7 @@
             <iCombat>2</iCombat>
             <iXPValueAttack>1</iXPValueAttack>
             <iXPValueDefense>2</iXPValueDefense>
-            <iCityDefense>250</iCityDefense>
+            <iCityDefense>150</iCityDefense>
             <iAsset>1</iAsset>
             <iPower>3</iPower>
             <PrereqAndBuildings>
