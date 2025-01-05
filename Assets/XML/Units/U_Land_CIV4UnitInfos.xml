@@ -1632,14 +1632,14 @@
             <iCombat>1</iCombat>
             <iXPValueAttack>2</iXPValueAttack>
             <iXPValueDefense>1</iXPValueDefense>
-            <iPursuit>10</iPursuit>
+            <iPursuit>20</iPursuit>
             <iCityAttack>-75</iCityAttack>
-            <iAnimalCombat>100</iAnimalCombat>
-            <iEarlyWithdraw>30</iEarlyWithdraw>
+            <iAnimalCombat>120</iAnimalCombat>
+            <iEarlyWithdraw>40</iEarlyWithdraw>
             <UnitCombatMods>
                 <UnitCombatMod>
                     <UnitCombatType>UNITCOMBAT_ANIMAL_COMBAT_FLEEING</UnitCombatType>
-                    <iUnitCombatMod>100</iUnitCombatMod>
+                    <iUnitCombatMod>150</iUnitCombatMod>
                 </UnitCombatMod>
                 <UnitCombatMod>
                     <UnitCombatType>UNITCOMBAT_ANIMAL_COMBAT_RAGING</UnitCombatType>

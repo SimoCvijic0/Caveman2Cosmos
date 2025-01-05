@@ -6463,11 +6463,11 @@
 			<UnitProductionModifiers>
 				<UnitProductionModifier>
 					<UnitType>UNIT_TRIBE</UnitType>
-					<iProductionModifier>30</iProductionModifier>
+					<iProductionModifier>50</iProductionModifier>
 				</UnitProductionModifier>
 				<UnitProductionModifier>
 					<UnitType>UNIT_SETTLER</UnitType>
-					<iProductionModifier>20</iProductionModifier>
+					<iProductionModifier>25</iProductionModifier>
 				</UnitProductionModifier>
 			</UnitProductionModifiers>
 			<iOccupationTimeModifier>150</iOccupationTimeModifier>

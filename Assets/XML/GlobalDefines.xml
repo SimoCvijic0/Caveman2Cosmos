@@ -608,7 +608,7 @@
 	</Define>
 	<Define>
 		<DefineName>INITIAL_OUTSIDE_UNIT_GOLD_PERCENT</DefineName>
-		<iDefineIntVal>100</iDefineIntVal>
+		<iDefineIntVal>50</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>ANIMAL_MAX_XP_VALUE</DefineName>
