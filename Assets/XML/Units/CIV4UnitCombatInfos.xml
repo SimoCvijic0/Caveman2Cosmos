@@ -8527,7 +8527,7 @@
 			</OnGameOptions>
 			<iExperiencePercent>75</iExperiencePercent>
 			<iQualityBase>0</iQualityBase>
-			<iUpkeepModifier>-200</iUpkeepModifier>
+			<iUpkeepModifier>0</iUpkeepModifier>
 			<VisibilityIntensityRangeChangeTypes>
 				<VisibilityIntensityRangeChangeType>
 					<InvisibleType>INVISIBLE_SIZE</InvisibleType>
@@ -8544,7 +8544,7 @@
 			</Categories>
 			<iExperiencePercent>60</iExperiencePercent>
 			<iQualityBase>1</iQualityBase>
-			<iUpkeepModifier>-140</iUpkeepModifier>
+			<iUpkeepModifier>0</iUpkeepModifier>
 			<OnGameOptions>
 				<GameOptionType>GAMEOPTION_COMBAT_SIZE_MATTERS</GameOptionType>
 			</OnGameOptions>
@@ -8576,7 +8576,7 @@
 			</Categories>
 			<iExperiencePercent>45</iExperiencePercent>
 			<iQualityBase>2</iQualityBase>
-			<iUpkeepModifier>-90</iUpkeepModifier>
+			<iUpkeepModifier>0</iUpkeepModifier>
 			<OnGameOptions>
 				<GameOptionType>GAMEOPTION_COMBAT_SIZE_MATTERS</GameOptionType>
 			</OnGameOptions>
@@ -8608,7 +8608,7 @@
 			</Categories>
 			<iExperiencePercent>30</iExperiencePercent>
 			<iQualityBase>3</iQualityBase>
-			<iUpkeepModifier>-50</iUpkeepModifier>
+			<iUpkeepModifier>0</iUpkeepModifier>
 			<OnGameOptions>
 				<GameOptionType>GAMEOPTION_COMBAT_SIZE_MATTERS</GameOptionType>
 			</OnGameOptions>
@@ -8640,7 +8640,7 @@
 			</Categories>
 			<iExperiencePercent>15</iExperiencePercent>
 			<iQualityBase>4</iQualityBase>
-			<iUpkeepModifier>-20</iUpkeepModifier>
+			<iUpkeepModifier>0</iUpkeepModifier>
 			<OnGameOptions>
 				<GameOptionType>GAMEOPTION_COMBAT_SIZE_MATTERS</GameOptionType>
 			</OnGameOptions>
@@ -8702,7 +8702,7 @@
 			</Categories>
 			<iExperiencePercent>-15</iExperiencePercent>
 			<iQualityBase>6</iQualityBase>
-			<iUpkeepModifier>20</iUpkeepModifier>
+			<iUpkeepModifier>0</iUpkeepModifier>
 			<OnGameOptions>
 				<GameOptionType>GAMEOPTION_COMBAT_SIZE_MATTERS</GameOptionType>
 			</OnGameOptions>
@@ -8734,7 +8734,7 @@
 			</Categories>
 			<iExperiencePercent>-30</iExperiencePercent>
 			<iQualityBase>7</iQualityBase>
-			<iUpkeepModifier>50</iUpkeepModifier>
+			<iUpkeepModifier>0</iUpkeepModifier>
 			<OnGameOptions>
 				<GameOptionType>GAMEOPTION_COMBAT_SIZE_MATTERS</GameOptionType>
 			</OnGameOptions>
@@ -8760,7 +8760,7 @@
 			</Categories>
 			<iExperiencePercent>-45</iExperiencePercent>
 			<iQualityBase>8</iQualityBase>
-			<iUpkeepModifier>90</iUpkeepModifier>
+			<iUpkeepModifier>0</iUpkeepModifier>
 			<OnGameOptions>
 				<GameOptionType>GAMEOPTION_COMBAT_SIZE_MATTERS</GameOptionType>
 			</OnGameOptions>
@@ -8786,7 +8786,7 @@
 			</Categories>
 			<iExperiencePercent>-60</iExperiencePercent>
 			<iQualityBase>9</iQualityBase>
-			<iUpkeepModifier>140</iUpkeepModifier>
+			<iUpkeepModifier>0</iUpkeepModifier>
 			<OnGameOptions>
 				<GameOptionType>GAMEOPTION_COMBAT_SIZE_MATTERS</GameOptionType>
 			</OnGameOptions>
@@ -8815,7 +8815,7 @@
 			</OnGameOptions>
 			<iExperiencePercent>-75</iExperiencePercent>
 			<iQualityBase>10</iQualityBase>
-			<iUpkeepModifier>200</iUpkeepModifier>
+			<iUpkeepModifier>0</iUpkeepModifier>
 			<VisibilityIntensityChangeTypes>
 				<VisibilityIntensityChangeType>
 					<InvisibleType>INVISIBLE_SIZE</InvisibleType>

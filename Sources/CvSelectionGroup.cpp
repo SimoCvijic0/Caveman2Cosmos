@@ -5993,7 +5993,7 @@ bool CvSelectionGroup::doMergeCheck()
 	PROFILE_EXTRA_FUNC();
 	bool anyMerged = false;
 
-	while (true)
+	while (false)
 	{
 		bst::optional<CvUnit*> mergable = algo::find_if(units(), isMergable);
 

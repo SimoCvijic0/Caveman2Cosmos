@@ -1109,7 +1109,17 @@
             <fInterfaceScale>0</fInterfaceScale>
             <NIF/>
             <KFM/>
-            <Button>Art/Interface/Buttons/Buildings/leader_tool_shelter_icon_.dds</Button>
+            <Button>Art/Interface/Buttons/Buildings/button_animal_husbandry_hut.dds</Button>
+        </BuildingArtInfo>
+        <BuildingArtInfo>
+            <Type>ART_DEF_BUILDING_LEADER_HEALER_HUT</Type>
+            <LSystem/>
+            <bAnimated>0</bAnimated>
+            <fScale>0</fScale>
+            <fInterfaceScale>0</fInterfaceScale>
+            <NIF/>
+            <KFM/>
+            <Button>Art/Interface/Buttons/Buildings/button_health_hut.dds</Button>
         </BuildingArtInfo>
         <BuildingArtInfo>
             <Type>ART_DEF_BUILDING_LEADER_TRADER_HUT</Type>
@@ -1119,7 +1129,37 @@
             <fInterfaceScale>0</fInterfaceScale>
             <NIF/>
             <KFM/>
-            <Button>Art/Interface/Buttons/Buildings/leader_tool_shelter_icon_.dds</Button>
+            <Button>Art/Interface/Buttons/Buildings/button_trader_hut.dds</Button>
+        </BuildingArtInfo>
+        <BuildingArtInfo>
+            <Type>ART_DEF_BUILDING_LEADER_FISHERMAN_HUT</Type>
+            <LSystem/>
+            <bAnimated>0</bAnimated>
+            <fScale>0</fScale>
+            <fInterfaceScale>0</fInterfaceScale>
+            <NIF/>
+            <KFM/>
+            <Button>Art/Interface/Buttons/Buildings/button_port_fishing_hut.dds</Button>
+        </BuildingArtInfo>
+        <BuildingArtInfo>
+            <Type>ART_DEF_BUILDING_LEADER_THINKER_HUT</Type>
+            <LSystem/>
+            <bAnimated>0</bAnimated>
+            <fScale>0</fScale>
+            <fInterfaceScale>0</fInterfaceScale>
+            <NIF/>
+            <KFM/>
+            <Button>Art/Interface/Buttons/Buildings/button_research_hut.dds</Button>
+        </BuildingArtInfo>
+        <BuildingArtInfo>
+            <Type>ART_DEF_BUILDING_LEADER_ORDER_HUT</Type>
+            <LSystem/>
+            <bAnimated>0</bAnimated>
+            <fScale>0</fScale>
+            <fInterfaceScale>0</fInterfaceScale>
+            <NIF/>
+            <KFM/>
+            <Button>Art/Interface/Buttons/Buildings/button_order_hut.dds</Button>
         </BuildingArtInfo>
         <BuildingArtInfo>
             <Type>ART_DEF_BUILDING_LEADER_TOOL_SHELTER</Type>
@@ -1130,6 +1170,26 @@
             <NIF/>
             <KFM/>
             <Button>Art/Interface/Buttons/Buildings/leader_tool_shelter_icon_.dds</Button>
+        </BuildingArtInfo>
+        <BuildingArtInfo>
+            <Type>ART_DEF_BUILDING_LEADER_CARPENTRY_HUT</Type>
+            <LSystem/>
+            <bAnimated>0</bAnimated>
+            <fScale>0</fScale>
+            <fInterfaceScale>0</fInterfaceScale>
+            <NIF/>
+            <KFM/>
+            <Button>Art/Interface/Buttons/Buildings/button_prehistoric_hut.dds</Button>
+        </BuildingArtInfo>
+        <BuildingArtInfo>
+            <Type>ART_DEF_BUILDING_LEADER_FOOD_STORAGE_HUT</Type>
+            <LSystem/>
+            <bAnimated>0</bAnimated>
+            <fScale>0</fScale>
+            <fInterfaceScale>0</fInterfaceScale>
+            <NIF/>
+            <KFM/>
+            <Button>Art/Interface/Buttons/Buildings/button_food_hut.dds</Button>
         </BuildingArtInfo>
         <BuildingArtInfo>
             <Type>ART_DEF_BUILDING_LEADER_FOOD_SHELTER</Type>
@@ -1152,6 +1212,16 @@
             <Button>Art/Interface/Buttons/Buildings/sage.dds</Button>
         </BuildingArtInfo>
         <BuildingArtInfo>
+            <Type>ART_DEF_BUILDING_LEADER_CULTURE_HUT</Type>
+            <LSystem/>
+            <bAnimated>0</bAnimated>
+            <fScale>0</fScale>
+            <fInterfaceScale>0</fInterfaceScale>
+            <NIF/>
+            <KFM/>
+            <Button>Art/Interface/Buttons/Buildings/button_culture_hut.dds</Button>
+        </BuildingArtInfo>
+        <BuildingArtInfo>
             <Type>ART_DEF_BUILDING_LEADER_STORAGE_SHELTER</Type>
             <LSystem/>
             <bAnimated>0</bAnimated>
@@ -1160,6 +1230,16 @@
             <NIF/>
             <KFM/>
             <Button>Art/Interface/Buttons/Buildings/storage.dds</Button>
+        </BuildingArtInfo>
+        <BuildingArtInfo>
+            <Type>ART_DEF_BUILDING_LEADER_TREASURE_HUT</Type>
+            <LSystem/>
+            <bAnimated>0</bAnimated>
+            <fScale>0</fScale>
+            <fInterfaceScale>0</fInterfaceScale>
+            <NIF/>
+            <KFM/>
+            <Button>Art/Interface/Buttons/Buildings/button_treasure_hut.dds</Button>
         </BuildingArtInfo>
         <BuildingArtInfo>
             <Type>ART_DEF_BUILDING_LEADER_TROPHY_SHELTER</Type>
@@ -1172,6 +1252,16 @@
             <Button>Art/Interface/Buttons/Buildings/trophies.dds</Button>
         </BuildingArtInfo>
         <BuildingArtInfo>
+            <Type>ART_DEF_BUILDING_LEADER_WARCHIEF_HUT</Type>
+            <LSystem/>
+            <bAnimated>0</bAnimated>
+            <fScale>0</fScale>
+            <fInterfaceScale>0</fInterfaceScale>
+            <NIF/>
+            <KFM/>
+            <Button>Art/Interface/Buttons/Buildings/button_war_hut.dds</Button>
+        </BuildingArtInfo>
+        <BuildingArtInfo>
             <Type>ART_DEF_BUILDING_LEADER_GROUP_SHELTER</Type>
             <LSystem/>
             <bAnimated>0</bAnimated>
@@ -1180,6 +1270,16 @@
             <NIF/>
             <KFM/>
             <Button>Art/Interface/Buttons/Buildings/group.dds</Button>
+        </BuildingArtInfo>
+        <BuildingArtInfo>
+            <Type>ART_DEF_BUILDING_LEADER_SPY_HUT</Type>
+            <LSystem/>
+            <bAnimated>0</bAnimated>
+            <fScale>0</fScale>
+            <fInterfaceScale>0</fInterfaceScale>
+            <NIF/>
+            <KFM/>
+            <Button>Art/Interface/Buttons/Buildings/button_spy_hut.dds</Button>
         </BuildingArtInfo>
         <BuildingArtInfo>
             <Type>ART_DEF_BUILDING_LEADER_SECRET_SHELTER</Type>
@@ -1200,6 +1300,36 @@
             <NIF/>
             <KFM/>
             <Button>Art/Interface/Buttons/Buildings/wanderer.dds</Button>
+        </BuildingArtInfo>
+        <BuildingArtInfo>
+            <Type>ART_DEF_BUILDING_LEADER_HUNTER_HUT</Type>
+            <LSystem/>
+            <bAnimated>0</bAnimated>
+            <fScale>0</fScale>
+            <fInterfaceScale>0</fInterfaceScale>
+            <NIF/>
+            <KFM/>
+            <Button>Art/Interface/Buttons/Buildings/button_explorer_hut.dds</Button>
+        </BuildingArtInfo>
+        <BuildingArtInfo>
+            <Type>ART_DEF_BUILDING_LEADER_FORTIFIED_HUT</Type>
+            <LSystem/>
+            <bAnimated>0</bAnimated>
+            <fScale>0</fScale>
+            <fInterfaceScale>0</fInterfaceScale>
+            <NIF/>
+            <KFM/>
+            <Button>Art/Interface/Buttons/Buildings/button_fortified_hut.dds</Button>
+        </BuildingArtInfo>
+        <BuildingArtInfo>
+            <Type>ART_DEF_BUILDING_LEADER_MEGALITH_HUT</Type>
+            <LSystem/>
+            <bAnimated>0</bAnimated>
+            <fScale>0</fScale>
+            <fInterfaceScale>0</fInterfaceScale>
+            <NIF/>
+            <KFM/>
+            <Button>Art/Interface/button_megalith_hut.dds</Button>
         </BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_ALPHA_ASSEMBLER</Type>

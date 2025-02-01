@@ -5600,12 +5600,12 @@ void CvUnit::doCommand(CommandTypes eCommand, int iData1, int iData2)
 		}
 		case COMMAND_MERGE:
 		{
-			doMerge();
+//			doMerge();
 			break;
 		}
 		case COMMAND_SPLIT:
 		{
-			doSplit();
+//			doSplit();
 			break;
 		}
 		case COMMAND_STATUS:

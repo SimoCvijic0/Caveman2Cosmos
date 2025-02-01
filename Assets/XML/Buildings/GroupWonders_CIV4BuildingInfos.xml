@@ -3498,7 +3498,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<bNukeImmune>1</bNukeImmune>
 			<fVisibilityPriority>0</fVisibilityPriority>
-			<ArtDefineTag>ART_DEF_BUILDING_LEADER_TRADER_HUT</ArtDefineTag>
+			<ArtDefineTag>ART_DEF_BUILDING_LEADER_HEALER_HUT</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_TOOL</MovieDefineTag>
 		</BuildingInfo>
 
@@ -3564,7 +3564,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<bNukeImmune>1</bNukeImmune>
 			<fVisibilityPriority>0</fVisibilityPriority>
-			<ArtDefineTag>ART_DEF_BUILDING_LEADER_TRADER_HUT</ArtDefineTag>
+			<ArtDefineTag>ART_DEF_BUILDING_LEADER_FISHERMAN_HUT</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_TOOL</MovieDefineTag>
 		</BuildingInfo>
 
@@ -3622,7 +3622,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<bNukeImmune>1</bNukeImmune>
 			<fVisibilityPriority>0</fVisibilityPriority>
-			<ArtDefineTag>ART_DEF_BUILDING_LEADER_TRADER_HUT</ArtDefineTag>
+			<ArtDefineTag>ART_DEF_BUILDING_LEADER_THINKER_HUT</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_TOOL</MovieDefineTag>
 		</BuildingInfo>
 
@@ -3674,7 +3674,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<bNukeImmune>1</bNukeImmune>
 			<fVisibilityPriority>0</fVisibilityPriority>
-			<ArtDefineTag>ART_DEF_BUILDING_LEADER_TOOL_SHELTER</ArtDefineTag>
+			<ArtDefineTag>ART_DEF_BUILDING_LEADER_CARPENTRY_HUT</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_TOOL</MovieDefineTag>
 		</BuildingInfo>
 
@@ -3726,7 +3726,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<bNukeImmune>1</bNukeImmune>
 			<fVisibilityPriority>0</fVisibilityPriority>
-			<ArtDefineTag>ART_DEF_BUILDING_LEADER_FOOD_SHELTER</ArtDefineTag>
+			<ArtDefineTag>ART_DEF_BUILDING_LEADER_FOOD_STORAGE_HUT</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_FOOD</MovieDefineTag>
 		</BuildingInfo>
 
@@ -3778,7 +3778,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<bNukeImmune>1</bNukeImmune>
 			<fVisibilityPriority>0</fVisibilityPriority>
-			<ArtDefineTag>ART_DEF_BUILDING_LEADER_STORAGE_SHELTER</ArtDefineTag>
+			<ArtDefineTag>ART_DEF_BUILDING_LEADER_TREASURE_HUT</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_STORAGE</MovieDefineTag>
 		</BuildingInfo>
 
@@ -3871,7 +3871,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<bNukeImmune>1</bNukeImmune>
 			<fVisibilityPriority>0</fVisibilityPriority>
-			<ArtDefineTag>ART_DEF_BUILDING_LEADER_TROPHY_SHELTER</ArtDefineTag>
+			<ArtDefineTag>ART_DEF_BUILDING_LEADER_WARCHIEF_HUT</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_TROPHY</MovieDefineTag>
 		</BuildingInfo>
 
@@ -3938,7 +3938,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<bNukeImmune>1</bNukeImmune>
 			<fVisibilityPriority>0</fVisibilityPriority>
-			<ArtDefineTag>ART_DEF_BUILDING_LEADER_TRADER_HUT</ArtDefineTag>
+			<ArtDefineTag>ART_DEF_BUILDING_LEADER_ORDER_HUT</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_TOOL</MovieDefineTag>
 		</BuildingInfo>
 
@@ -4012,7 +4012,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<bNukeImmune>1</bNukeImmune>
 			<fVisibilityPriority>0</fVisibilityPriority>
-			<ArtDefineTag>ART_DEF_BUILDING_LEADER_SECRET_SHELTER</ArtDefineTag>
+			<ArtDefineTag>ART_DEF_BUILDING_LEADER_SPY_HUT</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_SECRET</MovieDefineTag>
 		</BuildingInfo>
 
@@ -4106,7 +4106,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<bNukeImmune>1</bNukeImmune>
 			<fVisibilityPriority>0</fVisibilityPriority>
-			<ArtDefineTag>ART_DEF_BUILDING_LEADER_WANDERER_SHELTER</ArtDefineTag>
+			<ArtDefineTag>ART_DEF_BUILDING_LEADER_HUNTER_HUT</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_WANDERER</MovieDefineTag>
 		</BuildingInfo>
 
@@ -4161,7 +4161,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<bNukeImmune>1</bNukeImmune>
 			<fVisibilityPriority>0</fVisibilityPriority>
-			<ArtDefineTag>ART_DEF_BUILDING_LEADER_WANDERER_SHELTER</ArtDefineTag>
+			<ArtDefineTag>ART_DEF_BUILDING_LEADER_FORTIFIED_HUT</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_WANDERER</MovieDefineTag>
 		</BuildingInfo>
 
@@ -4253,7 +4253,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<bNukeImmune>1</bNukeImmune>
 			<fVisibilityPriority>0</fVisibilityPriority>
-			<ArtDefineTag>ART_DEF_BUILDING_LEADER_WANDERER_SHELTER</ArtDefineTag>
+			<ArtDefineTag>ART_DEF_BUILDING_LEADER_MEGALITH_HUT</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_WANDERER</MovieDefineTag>
 		</BuildingInfo>
 
@@ -4310,7 +4310,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<bNukeImmune>1</bNukeImmune>
 			<fVisibilityPriority>0</fVisibilityPriority>
-			<ArtDefineTag>ART_DEF_BUILDING_LEADER_SAGE_SHELTER</ArtDefineTag>
+			<ArtDefineTag>ART_DEF_BUILDING_LEADER_CULTURE_HUT</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_SAGE</MovieDefineTag>
 		</BuildingInfo>
 

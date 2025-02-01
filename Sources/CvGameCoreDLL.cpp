@@ -721,7 +721,7 @@ const std::string getModDir()
 int applySMRank(int value, int rankChange, int rankMultiplier)
 {
 	FAssertMsg(rankMultiplier > 0, "rankMultiplier must be greater than 0");
-	int64_t lvalue = 100 * value;
+	int64_t lvalue = 100 * value; // here is Size matter strenght calculation
 	if (rankChange > 0)
 	{
 		for (int iI = 0; iI < rankChange; iI++)
