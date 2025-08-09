@@ -15485,7 +15485,12 @@
 			<iCostCountModifier>0</iCostCountModifier>
 			<iCostMaterialsModifier>0</iCostMaterialsModifier>
 			<iCostComplexityModifier>0</iCostComplexityModifier>
-			<FreeBuilding>BUILDING_C_AC_NEANDERTHAL</FreeBuilding>
+<!--			<FreeBuilding>BUILDING_C_AC_NEANDERTHAL</FreeBuilding>-->
+            <iMilitaryProductionModifier>20</iMilitaryProductionModifier>
+            <CommerceModifiers>
+                <iCommerce>0</iCommerce>
+                <iCommerce>-20</iCommerce>
+            </CommerceModifiers>
 			<iConquestProb>100</iConquestProb>
 			<iHurryCostModifier>200</iHurryCostModifier>
 			<bNukeImmune>1</bNukeImmune>

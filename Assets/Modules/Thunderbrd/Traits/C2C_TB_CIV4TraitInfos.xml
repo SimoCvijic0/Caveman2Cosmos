@@ -58930,15 +58930,15 @@
 			<iUpkeepModifier>10</iUpkeepModifier>
 			<iGreatPeopleRateModifier>50</iGreatPeopleRateModifier>
 			<CommerceChanges>
-				<iCommerce>1</iCommerce>
-				<iCommerce>1</iCommerce>
 				<iCommerce>0</iCommerce>
+				<iCommerce>1</iCommerce>
+				<iCommerce>1</iCommerce>
 				<iCommerce>0</iCommerce>
 			</CommerceChanges>
 			<CommerceModifiers>
-				<iCommerce>5</iCommerce>
-				<iCommerce>5</iCommerce>
 				<iCommerce>0</iCommerce>
+				<iCommerce>5</iCommerce>
+				<iCommerce>5</iCommerce>
 				<iCommerce>0</iCommerce>
 			</CommerceModifiers>
 			<SpecialistExtraYields>
@@ -59102,15 +59102,15 @@
 			<iGreatPeopleRateModifier>50</iGreatPeopleRateModifier>
 			<iGreatGeneralRateModifier>10</iGreatGeneralRateModifier>
 			<CommerceChanges>
-				<iCommerce>1</iCommerce>
-				<iCommerce>1</iCommerce>
 				<iCommerce>0</iCommerce>
+				<iCommerce>1</iCommerce>
+				<iCommerce>1</iCommerce>
 				<iCommerce>0</iCommerce>
 			</CommerceChanges>
 			<CommerceModifiers>
-				<iCommerce>5</iCommerce>
-				<iCommerce>5</iCommerce>
 				<iCommerce>0</iCommerce>
+				<iCommerce>5</iCommerce>
+				<iCommerce>5</iCommerce>
 				<iCommerce>0</iCommerce>
 			</CommerceModifiers>
 			<SpecialistExtraYields>
@@ -59217,15 +59217,15 @@
 			<iGreatPeopleRateModifier>50</iGreatPeopleRateModifier>
 			<iGreatGeneralRateModifier>20</iGreatGeneralRateModifier>
 			<CommerceChanges>
-				<iCommerce>1</iCommerce>
-				<iCommerce>1</iCommerce>
 				<iCommerce>0</iCommerce>
+				<iCommerce>1</iCommerce>
+				<iCommerce>1</iCommerce>
 				<iCommerce>0</iCommerce>
 			</CommerceChanges>
 			<CommerceModifiers>
-				<iCommerce>5</iCommerce>
-				<iCommerce>5</iCommerce>
 				<iCommerce>0</iCommerce>
+				<iCommerce>5</iCommerce>
+				<iCommerce>5</iCommerce>
 				<iCommerce>0</iCommerce>
 			</CommerceModifiers>
 			<SpecialistExtraYields>
