@@ -178,7 +178,7 @@ selection_names_and_values = [
 					["108 x 72",[108,72],False],
 					["120 x 80",[120,80],False],
 					["132 x 88",[132,88],False],
-					["144 x 96",[144,96],False],
+					["144 x 96",[180,140],False],
 					],
 					[ #Continents:
 					["First Time (FT) Random","random",False],
