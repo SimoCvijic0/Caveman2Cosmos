@@ -6435,8 +6435,8 @@
             </MapCategoryTypes>
             <PrereqTech>TECH_COMPOSITE_TOOLS</PrereqTech>
             <UnitUpgrades>
-<!--                <UnitType>UNIT_OBSIDIAN_MACEMAN</UnitType>-->
-<!--                <UnitType>UNIT_OBSIDIAN_SWORDSMAN</UnitType>-->
+                <UnitType>UNIT_OBSIDIAN_MACEMAN</UnitType>
+                <UnitType>UNIT_OBSIDIAN_SWORDSMAN</UnitType>
 <!--                <UnitType>UNIT_NEANDERTHAL_STONE_MACEMAN</UnitType>-->
             </UnitUpgrades>
             <ObsoleteTech>TECH_FLINTLOCK</ObsoleteTech>
@@ -6834,6 +6834,9 @@
             <ObsoleteTech>TECH_FLINTLOCK</ObsoleteTech>
             <iCost>42</iCost>
             <iBaseUpkeep>1</iBaseUpkeep>
+            <UnitUpgrades>
+                <UnitType>UNIT_OBSIDIAN_AXEMAN</UnitType>
+            </UnitUpgrades>
             <iMoves>1</iMoves>
             <iCombat>4</iCombat>
             <iXPValueAttack>3</iXPValueAttack>
@@ -7836,7 +7839,7 @@
             <bPillage>1</bPillage>
             <bMilitaryTrade>1</bMilitaryTrade>
             <UnitUpgrades>
-                <!--				<UnitType>UNIT_OBSIDIAN_SPEARMAN</UnitType>-->
+                	<UnitType>UNIT_OBSIDIAN_SPEARMAN</UnitType>
 <!--                <UnitType>UNIT_NEANDERTHAL_STONE_AGE_SPEARMAN</UnitType>-->
             </UnitUpgrades>
             <UnitAIs>
