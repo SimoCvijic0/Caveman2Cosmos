@@ -1621,6 +1621,7 @@
 			<BonusClassType>BONUSCLASS_MANUFACTURED</BonusClassType>
 			<ArtDefineTag>ART_DEF_BONUS_OMEGA_FATTY_ACID</ArtDefineTag>
 			<TechReveal>TECH_MOLECULAR_BIOLOGY</TechReveal>
+			<iHealth>1</iHealth>
 			<TechCityTrade>TECH_MOLECULAR_BIOLOGY</TechCityTrade>
 		</BonusInfo>
 		<!-- Organic Computers -->

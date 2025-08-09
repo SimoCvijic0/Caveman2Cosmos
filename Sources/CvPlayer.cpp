@@ -13759,7 +13759,23 @@ bool CvPlayer::isUnitMaxedOut(const UnitTypes eIndex, const int iExtra) const
 		CvString::format("getUnitCount=%d is expected not to be greater than MaxPlayerInstances=%d for %s",
 		getUnitCount(eIndex), GC.getUnitInfo(eIndex).getMaxPlayerInstances(), GC.getUnitInfo(eIndex).getType()).c_str());
 
-	return (getUnitCount(eIndex) + iExtra) >= GC.getUnitInfo(eIndex).getMaxPlayerInstances();
+
+//    this scale will be used for national units only... the idea is to start them 5 at prehistoric and scale by 5 per age...
+//     as an alternative to the 10% per unit cost increase but unlimited
+//     might have to use separate indicator but this will do for now for testing purposes
+   int iMaxUnits = GC.getUnitInfo(eIndex).getMaxPlayerInstances();
+
+   if (iMaxUnits == 5)
+   {
+   	int iEra = getCurrentEra(); // 0 = Prehistoric, 1 = Ancient, etc.
+
+   	if (iEra > 0)
+   	{
+   		iMaxUnits += iEra * 5;
+   	}
+   }
+
+   return (getUnitCount(eIndex) + iExtra) >= iMaxUnits;
 }
 
 
@@ -25123,22 +25139,44 @@ bool CvPlayer::getItemTradeString(PlayerTypes eOtherPlayer, bool bOffer, bool bS
 		szIcon = GC.getTechInfo((TechTypes)zTradeData.m_iData).getButton();
 		break;
 	case TRADE_RESOURCES:
-		if (bOffer)
-		{
-			int iNumResources = GET_PLAYER(eOtherPlayer).getNumTradeableBonuses((BonusTypes)zTradeData.m_iData);
-			if (bShowingCurrent)
-			{
-				++iNumResources;
-			}
-			szString = gDLL->getText("TXT_KEY_TRADE_RESOURCE", GC.getBonusInfo((BonusTypes)zTradeData.m_iData).getDescription(), iNumResources);
+        {
+            BonusTypes eBonus = (BonusTypes)zTradeData.m_iData;
+            szIcon = GC.getBonusInfo(eBonus).getButton();
 
-		}
-		else
-		{
-			szString.Format( L"%s (%d)", GC.getBonusInfo((BonusTypes)zTradeData.m_iData).getDescription(), getNumTradeableBonuses((BonusTypes)zTradeData.m_iData));
-		}
-		szIcon = GC.getBonusInfo((BonusTypes)zTradeData.m_iData).getButton();
-		break;
+            if (bOffer)
+            {
+                int iNumResources = GET_PLAYER(eOtherPlayer).getNumTradeableBonuses((BonusTypes)zTradeData.m_iData);
+                if (bShowingCurrent)
+                {
+                    ++iNumResources;
+                }
+                szString = gDLL->getText("TXT_KEY_TRADE_RESOURCE", GC.getBonusInfo((BonusTypes)zTradeData.m_iData).getDescription(), iNumResources);
+            }
+            else
+            {
+
+                int iHisResources = GET_PLAYER(eOtherPlayer).getNumAvailableBonuses(eBonus);
+                int iMyResources = getNumAvailableBonuses(eBonus);
+                if (bShowingCurrent)
+                {
+                    ++iHisResources;
+                }
+
+                if (iMyResources == 0 && iHisResources > 0)
+                {
+                    szString = gDLL->getText("TXT_KEY_TRADE_RESOURCE_COLORED_GREEN", GC.getBonusInfo(eBonus).getDescription(), iMyResources);
+                }
+                else if (iMyResources > 0 && iHisResources == 0)
+                {
+                    szString = gDLL->getText("TXT_KEY_TRADE_RESOURCE_COLORED_GREEN", GC.getBonusInfo(eBonus).getDescription(), iMyResources);
+                }
+                else
+                {
+                    szString = gDLL->getText("TXT_KEY_TRADE_RESOURCE_GRAY", GC.getBonusInfo(eBonus).getDescription(), iMyResources);
+                }
+            }
+            break;
+        }
 	case TRADE_CITIES:
 		{
 			CvCity* pCity = NULL;

@@ -9402,7 +9402,7 @@
 			<Type>EVENT_FORTIFIED_CAVE_IN_DISREPAIR_2</Type>
 			<Description>TXT_KEY_EVENT_FORT_IN_DISREPAIR_2</Description>
 			<iGold>-15</iGold>
-			<bGameSpeedScale></bGameSpeedScale>
+			<bGameSpeedScale>1</bGameSpeedScale>
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
 			<iAIValue>2</iAIValue>
 		</EventInfo>
@@ -10434,15 +10434,15 @@
 				</PromoteUnit>
 				<PromoteUnit>
 					<UnitType>UNIT_MASTER_CHASER</UnitType>
-					<Promotion>PROMOTION_HUNTING_STRIKE1</Promotion>
+					<Promotion>PROMOTION_HUNTING_SIGHT1</Promotion>
 				</PromoteUnit>
 				<PromoteUnit>
 					<UnitType>UNIT_MASTER_TRACKER</UnitType>
-					<Promotion>PROMOTION_HUNTING_STRIKE1</Promotion>
+					<Promotion>PROMOTION_HUNTING_SIGHT1</Promotion>
 				</PromoteUnit>
 				<PromoteUnit>
 					<UnitType>UNIT_MASTER_HUNTER</UnitType>
-					<Promotion>PROMOTION_HUNTING_STRIKE1</Promotion>
+					<Promotion>PROMOTION_HUNTING_SIGHT1</Promotion>
 				</PromoteUnit>
 			</PromoteUnits>
 			<PythonCanDo>canDoBestHunters2</PythonCanDo>
@@ -10472,15 +10472,15 @@
 				</PromoteUnit>
 				<PromoteUnit>
 					<UnitType>UNIT_MASTER_CHASER</UnitType>
-					<Promotion>PROMOTION_HUNTING_STRIKE1</Promotion>
+					<Promotion>PROMOTION_GREAT_HUNTER</Promotion>
 				</PromoteUnit>
 				<PromoteUnit>
 					<UnitType>UNIT_MASTER_TRACKER</UnitType>
-					<Promotion>PROMOTION_HUNTING_STRIKE1</Promotion>
+					<Promotion>PROMOTION_GREAT_HUNTER</Promotion>
 				</PromoteUnit>
 				<PromoteUnit>
 					<UnitType>UNIT_MASTER_HUNTER</UnitType>
-					<Promotion>PROMOTION_HUNTING_STRIKE1</Promotion>
+					<Promotion>PROMOTION_GREAT_HUNTER</Promotion>
 				</PromoteUnit>
 			</PromoteUnits>
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
