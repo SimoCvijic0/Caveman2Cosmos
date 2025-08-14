@@ -1,5 +1,5 @@
 @echo off
-echo Launching Caveman2Cosmos ...
+echo Launching Stones2Stars ...
 
 PUSHD "%~dp0"
 

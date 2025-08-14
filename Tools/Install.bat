@@ -168,11 +168,11 @@ exit /B 0
 :warn_dir_exists
 
 for /f "tokens=2-8 delims=.:/ " %%a in ("%date% %time%") do set DateNtime=%%c-%%a-%%b_%%d-%%e-%%f.%%g
-set new_name=Caveman2Cosmos_%DateNtime%
+set new_name=Stones2Stars_%DateNtime%
 echo.
 echo *** WARNING ***
 echo.
-echo Caveman2Cosmos already exists in the mods folder %1.
+echo Stones2Stars already exists in the mods folder %1.
 echo It does not appear to be there from a previous install with this script.
 echo This operation will RENAME it to %new_name% and create a new mod directory
 echo from scratch, are you sure?
@@ -183,7 +183,7 @@ pause
 PUSHD "%~1\.."
 MOVE /-Y "%~1" "%new_name%""
 if %errorlevel% neq 0 (
-    echo Something went wrong backing up your old Caveman2Cosmos folder, please
+    echo Something went wrong backing up your old Stones2Stars folder, please
     echo close this Window and renamem, move or delete the folder yourself
     pause
     exit /B 1
