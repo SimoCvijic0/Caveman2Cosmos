@@ -34,20 +34,20 @@ if not exist "%MODS_DIR%\..\Civ4BeyondSword.exe" (
     exit /B 3
 )
 
-if not exist "%MODS_DIR%\Caveman2Cosmos\git_directory.txt" (
+if not exist "%MODS_DIR%\Stones2Stars\git_directory.txt" (
     call :git_mod_not_active
     exit /B 4
 )
 
 PUSHD "%MODS_DIR%\.."
-start "" "Civ4BeyondSword.exe" "mod= mods\Caveman2Cosmos"
+start "" "Civ4BeyondSword.exe" "mod= mods\Stones2Stars"
 POPD
 
 exit /B 0
 
 :run_from_mods_dir
 PUSHD "%~dp0..\.."
-start "" "Civ4BeyondSword.exe" "mod= mods\Caveman2Cosmos"
+start "" "Civ4BeyondSword.exe" "mod= mods\Stones2Stars"
 POPD
 exit /B 0
 
@@ -55,7 +55,7 @@ exit /B 0
 echo.
 echo.
 echo ERROR: It looks like you have not run DevSetup.bat.
-echo Please run DevSetup.bat before trying to use this script to start Caveman2Cosmos.
+echo Please run DevSetup.bat before trying to use this script to start Stones2Stars.
 pause
 exit /B 0
 
@@ -81,6 +81,6 @@ exit /B 0
 echo.
 echo.
 echo ERROR: This isn't the currently active version of the mod. 
-echo Did you rename your Mods\Caveman2Cosmos dir so you could switch to a different version?
+echo Did you rename your Mods\Stones2Stars dir so you could switch to a different version?
 pause
 exit /B 0

@@ -57,7 +57,7 @@ echo -- [Author @billw on discord / @billw2015 on the forums]
 echo.
 echo This script will:
 echo   1. (optional) Give you a directory browser to select your Mods location.
-echo   2. Create the Caveman2Cosmos directory under Mods.
+echo   2. Create the Stones2Stars directory under Mods.
 echo   3. Create the appropriate links from your Git workspace to that new directory.
 echo   4. Copy any files that shouldn't be linked to that new directory.
 echo.
@@ -116,34 +116,34 @@ if not exist "%MODS_DIR%\..\Civ4BeyondSword.exe" (
 )
 
 :: If the C2C directory already exists then we can offer to delete it or abort
-set "C2C_MOD_DIR=%MODS_DIR%\Caveman2Cosmos"
-if exist "%C2C_MOD_DIR%" (
+set "S2S_MOD_DIR=%MODS_DIR%\Stones2Stars"
+if exist "%S2S_MOD_DIR%" (
     :: We will only warn if it isn't an install done previously with this tool
-    if not exist "!C2C_MOD_DIR!\git_directory.txt" (
-        call :warn_dir_exists "!C2C_MOD_DIR!"
+    if not exist "!S2S_MOD_DIR!\git_directory.txt" (
+        call :warn_dir_exists "!S2S_MOD_DIR!"
         if %errorlevel% neq 0 exit /B 1
     ) else (
-        rmdir /S /Q "!C2C_MOD_DIR!"
+        rmdir /S /Q "!S2S_MOD_DIR!"
     )
 )
 
-echo 2. Create Caveman2Cosmos directory ...
-mkdir "%C2C_MOD_DIR%"
+echo 2. Create Stones2Stars directory ...
+mkdir "%S2S_MOD_DIR%"
 
 PUSHD ..
 
 :: Make the junctions and copy the files we don't want to modify in Git
-echo 3. Making required links from '%cd%' Git directory to '%C2C_MOD_DIR%' ...
-mklink /J "%C2C_MOD_DIR%\Assets" Assets
-mklink /J "%C2C_MOD_DIR%\PrivateMaps" PrivateMaps
-mklink /J "%C2C_MOD_DIR%\PublicMaps" PublicMaps
-mklink /J "%C2C_MOD_DIR%\Resource" Resource
+echo 3. Making required links from '%cd%' Git directory to '%S2S_MOD_DIR%' ...
+mklink /J "%S2S_MOD_DIR%\Assets" Assets
+mklink /J "%S2S_MOD_DIR%\PrivateMaps" PrivateMaps
+mklink /J "%S2S_MOD_DIR%\PublicMaps" PublicMaps
+mklink /J "%S2S_MOD_DIR%\Resource" Resource
 
 echo 4. Copying config file ...
-copy "Caveman2Cosmos.ini" "%C2C_MOD_DIR%"
+copy "Stones2Stars.ini" "%S2S_MOD_DIR%"
 
 :: Write a back pointer so we know where the Git repo is
-echo %cd%>"%C2C_MOD_DIR%\git_directory.txt"
+echo %cd%>"%S2S_MOD_DIR%\git_directory.txt"
 
 POPD
 POPD
