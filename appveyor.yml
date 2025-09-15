@@ -1,4 +1,4 @@
-version: 1.BETA.{build}
+version: 44.BETA.{build}
 image: Visual Studio 2019
 # skip_tags is important or you will get an infinite build loop when we apply release tags
 skip_tags: true
@@ -18,17 +18,17 @@ skip_branch_with_pr: true
 #  - ps: iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/appveyor/ci/master/scripts/enable-rdp.ps1'))
 
 environment:
-  svn_url: https://svn.code.sf.net/p/stones2stars/code/trunk
-  svn_test_url:
-  svn_user:
+  svn_url: https://svn.code.sf.net/p/caveman2cosmos/code/trunk
+  svn_test_url: https://svn.code.sf.net/p/caveman2cosmos/code/branches/billw-git
+  svn_user: c2cappveyor
   svn_pass:
-    secure:
-  git_user:
+    secure: 8MBckNYRp5EVPgbGcmZ6bQ==
+  git_user: billw2012
   git_email:
-    secure:
+    secure: AoLWYD1det69EeuLNvABlrTx2aIRf9IA6AF7s08MhZY=
   git_access_token:
-    secure:
-  release_prefix: Stones2Stars
+    secure: doZmFPN5YobqYMv18KzewNLmDUlCs+gDN2CoKfHBiQ4kN6z8gtPZMztCaigRaGGJ
+  release_prefix: Caveman2Cosmos
   build_dir: _build
   release_branch: release
 
