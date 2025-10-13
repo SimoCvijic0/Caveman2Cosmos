@@ -166,7 +166,9 @@ void CvPlot::init(int iX, int iY)
 	m_aPlotTeamVisibilityIntensity.clear();
 	//--------------------------------
 	// Init non-saved data
-
+#ifdef ENABLE_FOGWAR_DECAY
+	m_iVisibilityDecay = MAX_DECAY;
+#endif
 	//--------------------------------
 	// Init other game data
 }
