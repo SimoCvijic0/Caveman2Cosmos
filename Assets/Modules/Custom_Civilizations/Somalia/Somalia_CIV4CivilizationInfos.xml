@@ -67,6 +67,7 @@
 				<BuildingType>BUILDING_PALACE</BuildingType>
 				<BuildingType>BUILDING_C_N_MIDDLE_EASTERN</BuildingType>
 				<BuildingType>BUILDING_C_AC_MIDDLE_EASTERN</BuildingType>
+                <BuildingType>BUILDING_STORAGE_EMPIRE</BuildingType>
 			</FreeBuildings>
 			<InitialCivics>
 				<CivicType>CIVIC_ANARCHISM</CivicType>

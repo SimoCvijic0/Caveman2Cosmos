@@ -79,7 +79,7 @@
 			<UnitCombatProdModifiers>
 				<UnitCombatProdModifier>
 					<UnitCombatProd>UNITCOMBAT_MOUNTED</UnitCombatProd>
-					<iUnitCombatProdModifier>10</iUnitCombatProdModifier>
+					<iUnitCombatProdModifier>20</iUnitCombatProdModifier>
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<FreeTraitTypes>
@@ -124,7 +124,7 @@
 			<UnitCombatProdModifiers>
 				<UnitCombatProdModifier>
 					<UnitCombatProd>UNITCOMBAT_ARCHER</UnitCombatProd>
-					<iUnitCombatProdModifier>10</iUnitCombatProdModifier>
+					<iUnitCombatProdModifier>20</iUnitCombatProdModifier>
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<FreeTraitTypes>
@@ -169,7 +169,7 @@
 			<UnitCombatProdModifiers>
 				<UnitCombatProdModifier>
 					<UnitCombatProd>UNITCOMBAT_LAW_ENFORCEMENT</UnitCombatProd>
-					<iUnitCombatProdModifier>10</iUnitCombatProdModifier>
+					<iUnitCombatProdModifier>20</iUnitCombatProdModifier>
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<FreeTraitTypes>
@@ -213,7 +213,7 @@
 			<UnitCombatProdModifiers>
 				<UnitCombatProdModifier>
 					<UnitCombatProd>UNITCOMBAT_HEALTH_CARE</UnitCombatProd>
-					<iUnitCombatProdModifier>10</iUnitCombatProdModifier>
+					<iUnitCombatProdModifier>20</iUnitCombatProdModifier>
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<FreeTraitTypes>
@@ -258,15 +258,15 @@
 			<UnitCombatProdModifiers>
 				<UnitCombatProdModifier>
 					<UnitCombatProd>UNITCOMBAT_CRIMINAL</UnitCombatProd>
-					<iUnitCombatProdModifier>10</iUnitCombatProdModifier>
+					<iUnitCombatProdModifier>20</iUnitCombatProdModifier>
 				</UnitCombatProdModifier>
 				<UnitCombatProdModifier>
 					<UnitCombatProd>UNITCOMBAT_RUFFIAN</UnitCombatProd>
-					<iUnitCombatProdModifier>10</iUnitCombatProdModifier>
+					<iUnitCombatProdModifier>20</iUnitCombatProdModifier>
 				</UnitCombatProdModifier>
 				<UnitCombatProdModifier>
 					<UnitCombatProd>UNITCOMBAT_STRIKE_TEAM</UnitCombatProd>
-					<iUnitCombatProdModifier>10</iUnitCombatProdModifier>
+					<iUnitCombatProdModifier>20</iUnitCombatProdModifier>
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<FreeTraitTypes>
@@ -311,7 +311,7 @@
 			<UnitCombatProdModifiers>
 				<UnitCombatProdModifier>
 					<UnitCombatProd>UNITCOMBAT_MELEE</UnitCombatProd>
-					<iUnitCombatProdModifier>10</iUnitCombatProdModifier>
+					<iUnitCombatProdModifier>20</iUnitCombatProdModifier>
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<FreeTraitTypes>
@@ -358,7 +358,7 @@
 			<UnitCombatProdModifiers>
 				<UnitCombatProdModifier>
 					<UnitCombatProd>UNITCOMBAT_NAVAL_COMBATANT</UnitCombatProd>
-					<iUnitCombatProdModifier>10</iUnitCombatProdModifier>
+					<iUnitCombatProdModifier>20</iUnitCombatProdModifier>
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<FreeTraitTypes>
@@ -403,7 +403,7 @@
 			<UnitCombatProdModifiers>
 				<UnitCombatProdModifier>
 					<UnitCombatProd>UNITCOMBAT_EXPLORER</UnitCombatProd>
-					<iUnitCombatProdModifier>10</iUnitCombatProdModifier>
+					<iUnitCombatProdModifier>20</iUnitCombatProdModifier>
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<FreeTraitTypes>
@@ -448,7 +448,7 @@
 			<UnitCombatProdModifiers>
 				<UnitCombatProdModifier>
 					<UnitCombatProd>UNITCOMBAT_THROWING</UnitCombatProd>
-					<iUnitCombatProdModifier>10</iUnitCombatProdModifier>
+					<iUnitCombatProdModifier>20</iUnitCombatProdModifier>
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<FreeTraitTypes>
@@ -495,7 +495,7 @@
 			<UnitCombatProdModifiers>
 				<UnitCombatProdModifier>
 					<UnitCombatProd>UNITCOMBAT_CANINE</UnitCombatProd>
-					<iUnitCombatProdModifier>10</iUnitCombatProdModifier>
+					<iUnitCombatProdModifier>20</iUnitCombatProdModifier>
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<FreeTraitTypes>
@@ -540,17 +540,17 @@
 				</PrereqFeature>
 			</PrereqOrFeature>
 			<ObsoleteTech>TECH_SEDENTARY_LIFESTYLE</ObsoleteTech>
-			<iCost>50</iCost>
+			<iCost>40</iCost>
 			<iCostSizeModifier>2</iCostSizeModifier>
 			<iCostCountModifier>0</iCostCountModifier>
 			<iCostMaterialsModifier>1</iCostMaterialsModifier>
 			<iCostComplexityModifier>1</iCostComplexityModifier>
 			<YieldChanges>
-				<iYield>7</iYield>
-				<iYield>1</iYield>
+				<iYield>3</iYield>
+				<iYield>3</iYield>
 			</YieldChanges>
 			<CommerceChanges>
-				<iCommerce>1</iCommerce>
+				<iCommerce>3</iCommerce>
 			</CommerceChanges>
 			<PropertyManipulators>
 				<PropertySource>
@@ -592,7 +592,7 @@
 			<UnitCombatProdModifiers>
 				<UnitCombatProdModifier>
 					<UnitCombatProd>UNITCOMBAT_WOODEN_SHIPS</UnitCombatProd>
-					<iUnitCombatProdModifier>10</iUnitCombatProdModifier>
+					<iUnitCombatProdModifier>20</iUnitCombatProdModifier>
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<iAnarchyModifier>-25</iAnarchyModifier>
@@ -645,7 +645,7 @@
 			<UnitCombatProdModifiers>
 				<UnitCombatProdModifier>
 					<UnitCombatProd>UNITCOMBAT_LAW_ENFORCEMENT</UnitCombatProd>
-					<iUnitCombatProdModifier>10</iUnitCombatProdModifier>
+					<iUnitCombatProdModifier>20</iUnitCombatProdModifier>
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<FreeTraitTypes>
@@ -698,7 +698,7 @@
 			<UnitCombatProdModifiers>
 				<UnitCombatProdModifier>
 					<UnitCombatProd>UNITCOMBAT_HEALS_AS_PEOPLE</UnitCombatProd>
-					<iUnitCombatProdModifier>10</iUnitCombatProdModifier>
+					<iUnitCombatProdModifier>20</iUnitCombatProdModifier>
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<FreeTraitTypes>
@@ -755,7 +755,7 @@
 			<UnitCombatProdModifiers>
 				<UnitCombatProdModifier>
 					<UnitCombatProd>UNITCOMBAT_WOODEN_SHIPS</UnitCombatProd>
-					<iUnitCombatProdModifier>10</iUnitCombatProdModifier>
+					<iUnitCombatProdModifier>20</iUnitCombatProdModifier>
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<FreeTraitTypes>
@@ -811,7 +811,7 @@
 			<UnitCombatProdModifiers>
 				<UnitCombatProdModifier>
 					<UnitCombatProd>UNITCOMBAT_SIEGE</UnitCombatProd>
-					<iUnitCombatProdModifier>10</iUnitCombatProdModifier>
+					<iUnitCombatProdModifier>20</iUnitCombatProdModifier>
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<FreeTraitTypes>
@@ -867,7 +867,7 @@
 			<UnitCombatProdModifiers>
 				<UnitCombatProdModifier>
 					<UnitCombatProd>UNITCOMBAT_MELEE</UnitCombatProd>
-					<iUnitCombatProdModifier>10</iUnitCombatProdModifier>
+					<iUnitCombatProdModifier>20</iUnitCombatProdModifier>
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<FreeTraitTypes>
@@ -920,11 +920,11 @@
 			<UnitCombatProdModifiers>
 				<UnitCombatProdModifier>
 					<UnitCombatProd>UNITCOMBAT_ARCHER</UnitCombatProd>
-					<iUnitCombatProdModifier>10</iUnitCombatProdModifier>
+					<iUnitCombatProdModifier>20</iUnitCombatProdModifier>
 				</UnitCombatProdModifier>
 				<UnitCombatProdModifier>
 					<UnitCombatProd>UNITCOMBAT_THROWING</UnitCombatProd>
-					<iUnitCombatProdModifier>10</iUnitCombatProdModifier>
+					<iUnitCombatProdModifier>20</iUnitCombatProdModifier>
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<FreeTraitTypes>
@@ -977,7 +977,7 @@
 			<UnitCombatProdModifiers>
 				<UnitCombatProdModifier>
 					<UnitCombatProd>UNITCOMBAT_MOUNTED</UnitCombatProd>
-					<iUnitCombatProdModifier>10</iUnitCombatProdModifier>
+					<iUnitCombatProdModifier>20</iUnitCombatProdModifier>
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<FreeTraitTypes>
@@ -1034,7 +1034,7 @@
 			<UnitCombatProdModifiers>
 				<UnitCombatProdModifier>
 					<UnitCombatProd>UNITCOMBAT_MOUNTED</UnitCombatProd>
-					<iUnitCombatProdModifier>10</iUnitCombatProdModifier>
+					<iUnitCombatProdModifier>20</iUnitCombatProdModifier>
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<FreeTraitTypes>
@@ -1089,7 +1089,7 @@
 			<UnitCombatProdModifiers>
 				<UnitCombatProdModifier>
 					<UnitCombatProd>UNITCOMBAT_LAW_ENFORCEMENT</UnitCombatProd>
-					<iUnitCombatProdModifier>10</iUnitCombatProdModifier>
+					<iUnitCombatProdModifier>20</iUnitCombatProdModifier>
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<FreeTraitTypes>
@@ -1147,11 +1147,11 @@
 			<UnitCombatProdModifiers>
 				<UnitCombatProdModifier>
 					<UnitCombatProd>UNITCOMBAT_ARCHER</UnitCombatProd>
-					<iUnitCombatProdModifier>10</iUnitCombatProdModifier>
+					<iUnitCombatProdModifier>20</iUnitCombatProdModifier>
 				</UnitCombatProdModifier>
 				<UnitCombatProdModifier>
 					<UnitCombatProd>UNITCOMBAT_THROWING</UnitCombatProd>
-					<iUnitCombatProdModifier>10</iUnitCombatProdModifier>
+					<iUnitCombatProdModifier>20</iUnitCombatProdModifier>
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<FreeTraitTypes>
@@ -1206,7 +1206,7 @@
 			<UnitCombatProdModifiers>
 				<UnitCombatProdModifier>
 					<UnitCombatProd>UNITCOMBAT_SIEGE</UnitCombatProd>
-					<iUnitCombatProdModifier>10</iUnitCombatProdModifier>
+					<iUnitCombatProdModifier>20</iUnitCombatProdModifier>
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<FreeTraitTypes>
@@ -1241,7 +1241,7 @@
 			<Civilopedia>TXT_KEY_BUILDING_LL_BLACKWATER_DRAW_PEDIA</Civilopedia>
 			<PrereqTech>TECH_BONE_WORKING</PrereqTech>
 			<ObsoleteTech>TECH_SEDENTARY_LIFESTYLE</ObsoleteTech>
-			<iCost>190</iCost>
+			<iCost>180</iCost>
 			<iCostSizeModifier>2</iCostSizeModifier>
 			<iCostCountModifier>0</iCostCountModifier>
 			<iCostMaterialsModifier>1</iCostMaterialsModifier>
@@ -1292,17 +1292,17 @@
 				</PrereqFeature>
 			</PrereqOrFeature>
 			<ObsoleteTech>TECH_SEDENTARY_LIFESTYLE</ObsoleteTech>
-			<iCost>50</iCost>
+			<iCost>40</iCost>
 			<iCostSizeModifier>2</iCostSizeModifier>
 			<iCostCountModifier>0</iCostCountModifier>
 			<iCostMaterialsModifier>1</iCostMaterialsModifier>
 			<iCostComplexityModifier>1</iCostComplexityModifier>
 			<YieldChanges>
-				<iYield>7</iYield>
-				<iYield>1</iYield>
+				<iYield>3</iYield>
+				<iYield>3</iYield>
 			</YieldChanges>
 			<CommerceChanges>
-				<iCommerce>1</iCommerce>
+				<iCommerce>3</iCommerce>
 			</CommerceChanges>
 			<PropertyManipulators>
 				<PropertySource>
@@ -1355,17 +1355,17 @@
 				</PrereqFeature>
 			</PrereqOrFeature>
 			<ObsoleteTech>TECH_SEDENTARY_LIFESTYLE</ObsoleteTech>
-			<iCost>50</iCost>
+			<iCost>40</iCost>
 			<iCostSizeModifier>2</iCostSizeModifier>
 			<iCostCountModifier>0</iCostCountModifier>
 			<iCostMaterialsModifier>1</iCostMaterialsModifier>
 			<iCostComplexityModifier>1</iCostComplexityModifier>
 			<YieldChanges>
-				<iYield>7</iYield>
-				<iYield>1</iYield>
+				<iYield>3</iYield>
+				<iYield>3</iYield>
 			</YieldChanges>
 			<CommerceChanges>
-				<iCommerce>1</iCommerce>
+				<iCommerce>3</iCommerce>
 			</CommerceChanges>
 			<PropertyManipulators>
 				<PropertySource>
@@ -1394,7 +1394,7 @@
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_AXE_MAKING</PrereqTech>
 			<ObsoleteTech>TECH_POTTERY</ObsoleteTech>
-			<iCost>234</iCost>
+			<iCost>224</iCost>
 			<iCostSizeModifier>2</iCostSizeModifier>
 			<iCostCountModifier>0</iCostCountModifier>
 			<iCostMaterialsModifier>1</iCostMaterialsModifier>
@@ -1492,17 +1492,17 @@
 				</PrereqFeature>
 			</PrereqOrFeature>
 			<ObsoleteTech>TECH_SEDENTARY_LIFESTYLE</ObsoleteTech>
-			<iCost>50</iCost>
+			<iCost>40</iCost>
 			<iCostSizeModifier>2</iCostSizeModifier>
 			<iCostCountModifier>0</iCostCountModifier>
 			<iCostMaterialsModifier>1</iCostMaterialsModifier>
 			<iCostComplexityModifier>1</iCostComplexityModifier>
 			<YieldChanges>
-				<iYield>7</iYield>
-				<iYield>1</iYield>
+				<iYield>3</iYield>
+				<iYield>3</iYield>
 			</YieldChanges>
 			<CommerceChanges>
-				<iCommerce>1</iCommerce>
+				<iCommerce>3</iCommerce>
 			</CommerceChanges>
 			<PropertyManipulators>
 				<PropertySource>
@@ -1939,7 +1939,7 @@
 			<PrereqTech>TECH_SKINNING</PrereqTech>
 			<bWater>1</bWater>
 			<ObsoleteTech>TECH_SEDENTARY_LIFESTYLE</ObsoleteTech>
-			<iCost>170</iCost>
+			<iCost>160</iCost>
 			<iCostSizeModifier>2</iCostSizeModifier>
 			<iCostCountModifier>0</iCostCountModifier>
 			<iCostMaterialsModifier>1</iCostMaterialsModifier>
@@ -1985,17 +1985,17 @@
 				</PrereqFeature>
 			</PrereqOrFeature>
 			<ObsoleteTech>TECH_SEDENTARY_LIFESTYLE</ObsoleteTech>
-			<iCost>50</iCost>
+			<iCost>40</iCost>
 			<iCostSizeModifier>2</iCostSizeModifier>
 			<iCostCountModifier>0</iCostCountModifier>
 			<iCostMaterialsModifier>1</iCostMaterialsModifier>
 			<iCostComplexityModifier>1</iCostComplexityModifier>
 			<YieldChanges>
-				<iYield>7</iYield>
-				<iYield>1</iYield>
+				<iYield>3</iYield>
+				<iYield>3</iYield>
 			</YieldChanges>
 			<CommerceChanges>
-				<iCommerce>1</iCommerce>
+				<iCommerce>3</iCommerce>
 			</CommerceChanges>
 			<PropertyManipulators>
 				<PropertySource>
@@ -2025,7 +2025,7 @@
 			<PrereqTech>TECH_SKINNING</PrereqTech>
 			<bWater>1</bWater>
 			<ObsoleteTech>TECH_SEDENTARY_LIFESTYLE</ObsoleteTech>
-			<iCost>170</iCost>
+			<iCost>160</iCost>
 			<iCostSizeModifier>2</iCostSizeModifier>
 			<iCostCountModifier>0</iCostCountModifier>
 			<iCostMaterialsModifier>1</iCostMaterialsModifier>
@@ -2064,7 +2064,7 @@
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_STONE_BUILDING</PrereqTech>
 			<ObsoleteTech>TECH_MINING</ObsoleteTech>
-			<iCost>258</iCost>
+			<iCost>248</iCost>
 			<iCostSizeModifier>2</iCostSizeModifier>
 			<iCostCountModifier>0</iCostCountModifier>
 			<iCostMaterialsModifier>1</iCostMaterialsModifier>
@@ -2105,7 +2105,7 @@
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_TRIBALISM</PrereqTech>
 			<ObsoleteTech>TECH_COPPER_WORKING</ObsoleteTech>
-			<iCost>306</iCost>
+			<iCost>296</iCost>
 			<iCostSizeModifier>3</iCostSizeModifier>
 			<iCostCountModifier>0</iCostCountModifier>
 			<iCostMaterialsModifier>1</iCostMaterialsModifier>
@@ -2390,17 +2390,17 @@
 				</PrereqFeature>
 			</PrereqOrFeature>
 			<ObsoleteTech>TECH_SEDENTARY_LIFESTYLE</ObsoleteTech>
-			<iCost>50</iCost>
+			<iCost>40</iCost>
 			<iCostSizeModifier>2</iCostSizeModifier>
 			<iCostCountModifier>0</iCostCountModifier>
 			<iCostMaterialsModifier>1</iCostMaterialsModifier>
 			<iCostComplexityModifier>1</iCostComplexityModifier>
 			<YieldChanges>
-				<iYield>7</iYield>
-				<iYield>1</iYield>
+				<iYield>3</iYield>
+				<iYield>3</iYield>
 			</YieldChanges>
 			<CommerceChanges>
-				<iCommerce>1</iCommerce>
+				<iCommerce>3</iCommerce>
 			</CommerceChanges>
 			<PropertyManipulators>
 				<PropertySource>
@@ -4332,7 +4332,7 @@
 			<bWater>1</bWater>
 			<iMinAreaSize>10</iMinAreaSize>
 			<ObsoleteTech>TECH_COPPER_WORKING</ObsoleteTech>
-			<iCost>306</iCost>
+			<iCost>296</iCost>
 			<iCostSizeModifier>3</iCostSizeModifier>
 			<iCostCountModifier>0</iCostCountModifier>
 			<iCostMaterialsModifier>1</iCostMaterialsModifier>

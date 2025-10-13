@@ -104,6 +104,8 @@ void CvSelectionGroup::reset(int iID, PlayerTypes eOwner, bool bConstructorCall)
 	m_bLastPlotVisible = false;
 	m_bLastPlotRevealed = false;
 
+	m_iArmyID = -1;
+
 	if (!bConstructorCall)
 	{
 		AI_reset();
@@ -513,6 +515,9 @@ bool CvSelectionGroup::pushMissionInternal(MissionTypes eMission, int iData1, in
 		}
 		clearMissionQueue();
 	}
+
+	if (getHeadUnit() == NULL)
+		return false;
 
 	if (bManual)
 	{
@@ -5453,6 +5458,7 @@ TeamTypes CvSelectionGroup::getHeadTeam() const
 
 void CvSelectionGroup::clearMissionQueue()
 {
+	PROFILE_FUNC();
 	FAssert(getOwner() != NO_PLAYER);
 	FAssert(getHeadUnit());
 
@@ -5993,7 +5999,7 @@ bool CvSelectionGroup::doMergeCheck()
 	PROFILE_EXTRA_FUNC();
 	bool anyMerged = false;
 
-	while (false)
+	while (true)
 	{
 		bst::optional<CvUnit*> mergable = algo::find_if(units(), isMergable);
 

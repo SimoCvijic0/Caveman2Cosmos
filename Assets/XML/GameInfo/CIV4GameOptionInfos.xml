@@ -672,6 +672,13 @@
 			<bDefault>0</bDefault>
 			<bVisible>1</bVisible>
 		</GameOptionInfo>
+        <GameOptionInfo>
+            <Type>GAMEOPTION_REALISTIC_ECONOMY</Type>
+            <Description>TXT_KEY_GAMEOPTION_REALISTIC_ECONOMY</Description>
+            <Help>TXT_KEY_GAMEOPTION_REALISTIC_ECONOMY_HELP</Help>
+            <bDefault>0</bDefault>
+            <bVisible>1</bVisible>
+        </GameOptionInfo>
 		<!-- Challenge -->
 		<GameOptionInfo>
 			<Type>GAMEOPTION_CHALLENGE_CUT_LOSERS</Type>
@@ -720,6 +727,13 @@
 			<Type>GAMEOPTION_UNSUPPORTED_REVOLUTION</Type>
 			<Description>TXT_KEY_GAMEOPTION_UNSUPPORTED_REVOLUTION</Description>
 			<Help>TXT_KEY_GAMEOPTION_UNSUPPORTED_REVOLUTION_HELP</Help>
+			<bDefault>0</bDefault>
+			<bVisible>1</bVisible>
+		</GameOptionInfo>
+		<GameOptionInfo>
+			<Type>GAMEOPTION_AI_BOOST</Type>
+			<Description>TXT_KEY_GAMEOPTION_AI_BOOST</Description>
+			<Help>TXT_KEY_GAMEOPTION_AI_BOOST_HELP</Help>
 			<bDefault>0</bDefault>
 			<bVisible>1</bVisible>
 		</GameOptionInfo>

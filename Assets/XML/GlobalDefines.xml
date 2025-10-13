@@ -356,7 +356,7 @@
 			At 100, it will put 1 culture (minimum) at max range tiles and 100% on city center.
 			Value of 75 means a city will flip other cities at max radius if its culture is 4x the lesser. -->
 		<DefineName>CITY_CULTURE_DENSITY_FACTOR</DefineName>
-		<iDefineIntVal>60</iDefineIntVal>
+		<iDefineIntVal>50</iDefineIntVal>
 	</Define>
 	<Define>
 		<!-- Each turn, culture on each plot will decay by this percent in equilibrium game option,
@@ -364,7 +364,7 @@
 			E.g. value of 5 means 100 culture loses 5, becomes 95. Sweet spot between 2 and 8.
 			Don't use 0 or 12+ (higher causes control issues at high speed), but between is alright. -->
 		<DefineName>TILE_CULTURE_DECAY_PERCENT</DefineName>
-		<iDefineIntVal>5</iDefineIntVal>
+		<iDefineIntVal>3</iDefineIntVal>
 	</Define>
 	<Define>
 		<!-- The relative percent of culture by which another player must surpass
@@ -804,7 +804,7 @@
 	</Define>
 	<Define>
 		<DefineName>PEACE_TREATY_LENGTH</DefineName>
-		<iDefineIntVal>30</iDefineIntVal>
+		<iDefineIntVal>20</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>MAX_ANARCHY_TURNS</DefineName>

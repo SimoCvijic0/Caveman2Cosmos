@@ -307,9 +307,13 @@ void IFPBeginSample(ProfileLinkageInfo* linkageInfo, bool bAsConditional)
 
 void IFPEndSample(ProfileLinkageInfo* linkageInfo, bool bAsConditional)
 {
+	if (!linkageInfo || !linkageInfo->sample)
+	{
+		return;
+	}
 	if ( iThreadSlot != -1 )
 	{
-		if ( !bAsConditional && _currentSample != linkageInfo && linkageInfo->sample->Parent != -1 )
+		if ( !bAsConditional && _currentSample != linkageInfo &&  linkageInfo->sample->Parent != -1 )
 		{
 			char	buffer[200];
 
@@ -721,7 +725,7 @@ const std::string getModDir()
 int applySMRank(int value, int rankChange, int rankMultiplier)
 {
 	FAssertMsg(rankMultiplier > 0, "rankMultiplier must be greater than 0");
-	int64_t lvalue = 100 * value; // here is Size matter strenght calculation
+	int64_t lvalue = 100 * value;
 	if (rankChange > 0)
 	{
 		for (int iI = 0; iI < rankChange; iI++)

@@ -67,6 +67,7 @@
 				<BuildingType>BUILDING_PALACE</BuildingType>
 				<BuildingType>BUILDING_C_N_EUROPEAN</BuildingType>
 				<BuildingType>BUILDING_C_AC_EUROPEAN</BuildingType>
+                <BuildingType>BUILDING_STORAGE_EMPIRE</BuildingType>
 			</FreeBuildings>
 
 			<InitialCivics>

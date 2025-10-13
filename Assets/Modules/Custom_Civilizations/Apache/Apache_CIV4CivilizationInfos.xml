@@ -84,6 +84,7 @@
 				<BuildingType>BUILDING_PALACE</BuildingType>
 				<BuildingType>BUILDING_C_N_NORTH_AMERICAN</BuildingType>
 				<BuildingType>BUILDING_C_AC_NORTH_AMERICAN</BuildingType>
+                <BuildingType>BUILDING_STORAGE_EMPIRE</BuildingType>
 			</FreeBuildings>
 
 			<InitialCivics>

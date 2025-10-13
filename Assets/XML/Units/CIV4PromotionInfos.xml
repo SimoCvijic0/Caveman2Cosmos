@@ -2294,6 +2294,7 @@
 			<Type>PROMOTION_WARMTH1</Type>
 			<Description>TXT_KEY_PROMOTION_WARMTH1</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PromotionPrereqOr1>PROMOTION_COMBAT1</PromotionPrereqOr1>
 			<PromotionLine>PROMOTIONLINE_WARMTH</PromotionLine>
 			<iLinePriority>1</iLinePriority>
 			<NotOnDomainTypes>
@@ -2389,6 +2390,7 @@
 			<Type>PROMOTION_COLD1</Type>
 			<Description>TXT_KEY_PROMOTION_COLD1</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PromotionPrereqOr1>PROMOTION_COMBAT1</PromotionPrereqOr1>
 			<PromotionLine>PROMOTIONLINE_COLD</PromotionLine>
 			<iLinePriority>1</iLinePriority>
 			<NotOnDomainTypes>
@@ -2516,6 +2518,7 @@
 			<Type>PROMOTION_WETLAND1</Type>
 			<Description>TXT_KEY_PROMOTION_WETLAND1</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PromotionPrereq>PROMOTION_COMBAT1</PromotionPrereq>
 			<PromotionLine>PROMOTIONLINE_WETLAND</PromotionLine>
 			<iLinePriority>1</iLinePriority>
 			<NotOnDomainTypes>
@@ -2608,6 +2611,7 @@
 			<Type>PROMOTION_RUGGED1</Type>
 			<Description>TXT_KEY_PROMOTION_RUGGED1</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PromotionPrereq>PROMOTION_COMBAT1</PromotionPrereq>
 			<PromotionLine>PROMOTIONLINE_RUGGED</PromotionLine>
 			<iLinePriority>1</iLinePriority>
 			<NotOnDomainTypes>
@@ -2883,6 +2887,8 @@
 			<Type>PROMOTION_COVER</Type>
 			<Description>TXT_KEY_PROMOTION_COVER</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PromotionPrereqOr1>PROMOTION_COMBAT1</PromotionPrereqOr1>
+			<PromotionPrereqOr2>PROMOTION_DRILL1</PromotionPrereqOr2>
 			<TechPrereq>TECH_ARCHERY</TechPrereq>
 			<PromotionLine>PROMOTIONLINE_COVER</PromotionLine>
 			<iLinePriority>1</iLinePriority>
@@ -2944,6 +2950,8 @@
 			<Type>PROMOTION_SHOCK</Type>
 			<Description>TXT_KEY_PROMOTION_SHOCK</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PromotionPrereqOr1>PROMOTION_COMBAT1</PromotionPrereqOr1>
+			<PromotionPrereqOr2>PROMOTION_DRILL1</PromotionPrereqOr2>
 			<TechPrereq>TECH_HARD_HAMMER_PERCUSSION</TechPrereq>
 			<PromotionLine>PROMOTIONLINE_SHOCK</PromotionLine>
 			<iLinePriority>1</iLinePriority>
@@ -3218,6 +3226,7 @@
 			<Type>PROMOTION_FIELD1</Type>
 			<Description>TXT_KEY_PROMOTION_FIELD1</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PromotionPrereqOr1>PROMOTION_COMBAT2</PromotionPrereqOr1>
 			<PromotionLine>PROMOTIONLINE_FIELD</PromotionLine>
 			<iLinePriority>1</iLinePriority>
 			<TerrainDefenses>
@@ -3300,6 +3309,8 @@
 			<Type>PROMOTION_SENTRY</Type>
 			<Description>TXT_KEY_PROMOTION_SENTRY</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PromotionPrereqOr1>PROMOTION_FLANKING1</PromotionPrereqOr1>
+			<PromotionPrereqOr2>PROMOTION_COMBAT3</PromotionPrereqOr2>
 			<TechPrereq>TECH_NOMADISM</TechPrereq>
 			<PromotionLine>PROMOTIONLINE_SENTRY</PromotionLine>
 			<iLinePriority>1</iLinePriority>
@@ -3344,8 +3355,8 @@
 			<Type>PROMOTION_MARCH</Type>
 			<Description>TXT_KEY_PROMOTION_MARCH</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
-			<PromotionPrereqOr1>PROMOTION_COMBAT2</PromotionPrereqOr1>
-			<PromotionPrereqOr2>PROMOTION_DRILL2</PromotionPrereqOr2>
+			<PromotionPrereqOr1>PROMOTION_COMBAT3</PromotionPrereqOr1>
+			<PromotionPrereqOr2>PROMOTION_DRILL3</PromotionPrereqOr2>
 			<TechPrereq>TECH_FOLK_DANCE</TechPrereq>
 			<bAlwaysHeal>1</bAlwaysHeal>
 			<UnitCombats>
@@ -3764,6 +3775,8 @@
 			<Type>PROMOTION_FORMATION</Type>
 			<Description>TXT_KEY_PROMOTION_FORMATION</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PromotionPrereqOr1>PROMOTION_COMBAT2</PromotionPrereqOr1>
+			<PromotionPrereqOr2>PROMOTION_DRILL2</PromotionPrereqOr2>
 			<PromotionLine>PROMOTIONLINE_FORMATION</PromotionLine>
 			<iLinePriority>1</iLinePriority>
 			<UnitCombatMods>
@@ -3822,6 +3835,8 @@
 			<Type>PROMOTION_CHARGE</Type>
 			<Description>TXT_KEY_PROMOTION_CHARGE</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PromotionPrereqOr1>PROMOTION_COMBAT2</PromotionPrereqOr1>
+			<PromotionPrereqOr2>PROMOTION_DRILL2</PromotionPrereqOr2>
 			<PromotionLine>PROMOTIONLINE_CHARGE</PromotionLine>
 			<iLinePriority>1</iLinePriority>
 			<UnitCombatMods>
@@ -3965,6 +3980,7 @@
 			<Type>PROMOTION_AMPHIBIOUS</Type>
 			<Description>TXT_KEY_PROMOTION_AMPHIBIOUS</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PromotionPrereqOr1>PROMOTION_COMBAT2</PromotionPrereqOr1>
 			<TechPrereq>TECH_SAILING</TechPrereq>
 			<NotOnDomainTypes>
 				<DomainType>DOMAIN_AIR</DomainType>
@@ -4023,7 +4039,7 @@
 			<Type>PROMOTION_COMMANDO</Type>
 			<Description>TXT_KEY_PROMOTION_COMMANDO</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
-			<PromotionPrereq>PROMOTION_COMBAT2</PromotionPrereq>
+			<PromotionPrereq>PROMOTION_COMBAT4</PromotionPrereq>
 			<TechPrereq>TECH_MILITARY_SCIENCE</TechPrereq>
 			<NotOnDomainTypes>
 				<DomainType>DOMAIN_AIR</DomainType>
@@ -4411,6 +4427,7 @@
 			<Description>TXT_KEY_PROMOTION_GARRISON4</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<PromotionPrereq>PROMOTION_CITY_GARRISON3</PromotionPrereq>
+			<PromotionPrereqOr1>PROMOTION_COMBAT3</PromotionPrereqOr1>
 			<TechPrereq>TECH_MASONRY</TechPrereq>
 			<PromotionLine>PROMOTIONLINE_GARRISON</PromotionLine>
 			<iLinePriority>4</iLinePriority>
@@ -4706,8 +4723,8 @@
 			<Type>PROMOTION_SPEED</Type>
 			<Description>TXT_KEY_PROMOTION_SPEED</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
-			<PromotionPrereqOr1>PROMOTION_COMBAT2</PromotionPrereqOr1>
-			<PromotionPrereqOr2>PROMOTION_FLANKING1</PromotionPrereqOr2>
+			<PromotionPrereqOr1>PROMOTION_COMBAT4</PromotionPrereqOr1>
+			<PromotionPrereqOr2>PROMOTION_FLANKING3</PromotionPrereqOr2>
 			<iMovesChange>1</iMovesChange>
 			<UnitCombats>
 				<UnitCombat>
@@ -5179,7 +5196,7 @@
 			<Type>PROMOTION_FANATIC</Type>
 			<Description>TXT_KEY_PROMOTION_FANATIC</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
-			<PromotionPrereqOr1>PROMOTION_COMBAT2</PromotionPrereqOr1>
+			<PromotionPrereqOr1>PROMOTION_COMBAT3</PromotionPrereqOr1>
 			<TechPrereq>TECH_FUNDAMENTALISM</TechPrereq>
 			<iUpkeepModifier>-75</iUpkeepModifier>
 			<iCombatPercent>10</iCombatPercent>
@@ -5289,7 +5306,7 @@
 			<Type>PROMOTION_BLITZ</Type>
 			<Description>TXT_KEY_PROMOTION_BLITZ</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
-			<PromotionPrereqOr1>PROMOTION_COMBAT2</PromotionPrereqOr1>
+			<PromotionPrereqOr1>PROMOTION_COMBAT3</PromotionPrereqOr1>
 			<PromotionPrereqOr2>PROMOTION_AIR_REFUEL</PromotionPrereqOr2>
 			<TechPrereq>TECH_MILITARY_SCIENCE</TechPrereq>
 			<bBlitz>1</bBlitz>
@@ -7361,6 +7378,7 @@
 			<Type>PROMOTION_TACTICS1</Type>
 			<Description>TXT_KEY_PROMOTION_TACTICS1</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PromotionPrereq>PROMOTION_MORALE1</PromotionPrereq>
 			<PromotionLine>PROMOTIONLINE_TACTICS</PromotionLine>
 			<iLinePriority>1</iLinePriority>
 			<iWithdrawalChange>15</iWithdrawalChange>
@@ -7411,7 +7429,7 @@
 			<Type>PROMOTION_INITIATIVE1</Type>
 			<Description>TXT_KEY_PROMOTION_INITIATIVE1</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
-			<PromotionPrereqOr1>PROMOTION_MORALE1</PromotionPrereqOr1>
+			<PromotionPrereqOr1>PROMOTION_MORALE3</PromotionPrereqOr1>
 			<PromotionPrereqOr2>PROMOTION_TACTICS1</PromotionPrereqOr2>
 			<PromotionLine>PROMOTIONLINE_INITIATIVE</PromotionLine>
 			<iLinePriority>1</iLinePriority>
@@ -8214,7 +8232,8 @@
 			<Type>PROMOTION_MOUNTAINEER</Type>
 			<Description>TXT_KEY_PROMOTION_MOUNTAINEER</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
-			<PromotionPrereq>PROMOTION_GUERILLA2</PromotionPrereq>
+			<PromotionPrereq>PROMOTION_COMBAT3</PromotionPrereq>
+			<PromotionPrereqOr1>PROMOTION_GUERILLA3</PromotionPrereqOr1>
 			<bCanMovePeaks>1</bCanMovePeaks>
 			<UnitCombats>
 				<UnitCombat>
@@ -9391,6 +9410,8 @@
 			<Type>PROMOTION_SIDESTEP1</Type>
 			<Description>TXT_KEY_PROMOTION_SIDESTEP1</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PromotionPrereqOr1>PROMOTION_COMBAT1</PromotionPrereqOr1>
+			<PromotionPrereqOr2>PROMOTION_DRILL1</PromotionPrereqOr2>
 			<TechPrereq>TECH_NOMADISM</TechPrereq>
 			<PromotionLine>PROMOTIONLINE_SIDESTEP</PromotionLine>
 			<iLinePriority>1</iLinePriority>
@@ -10131,6 +10152,7 @@
 			<Type>PROMOTION_HIT_AND_RUN</Type>
 			<Description>TXT_KEY_PROMOTION_HIT_AND_RUN</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PromotionPrereqOr1>PROMOTION_COMBAT2</PromotionPrereqOr1>
 			<TechPrereq>TECH_PERSISTENCE_HUNTING</TechPrereq>
 			<NotOnUnitCombatTypes>
 				<NotOnUnitCombatType>UNITCOMBAT_WOODEN_SHIPS</NotOnUnitCombatType>
@@ -10155,6 +10177,7 @@
 			<Type>PROMOTION_LOOSE_FORMATION</Type>
 			<Description>TXT_KEY_PROMOTION_LOOSE_FORMATION</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PromotionPrereqOr1>PROMOTION_COMBAT2</PromotionPrereqOr1>
 			<TechPrereq>TECH_COOPERATION</TechPrereq>
 			<NotOnUnitCombatTypes>
 				<NotOnUnitCombatType>UNITCOMBAT_WOODEN_SHIPS</NotOnUnitCombatType>
@@ -10242,6 +10265,7 @@
 			<Type>PROMOTION_CAMOUFLAGE</Type>
 			<Description>TXT_KEY_PROMOTION_CAMOUFLAGE</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PromotionPrereqOr1>PROMOTION_COMBAT2</PromotionPrereqOr1>
 			<NotOnUnitCombatTypes>
 				<NotOnUnitCombatType>UNITCOMBAT_WOODEN_SHIPS</NotOnUnitCombatType>
 				<NotOnUnitCombatType>UNITCOMBAT_STEAM_SHIPS</NotOnUnitCombatType>
@@ -10402,6 +10426,7 @@
 			<Type>PROMOTION_FORESTRY</Type>
 			<Description>TXT_KEY_PROMOTION_FORESTRY</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PromotionPrereqOr1>PROMOTION_COMBAT2</PromotionPrereqOr1>
 			<TechPrereq>TECH_TRAILS</TechPrereq>
 			<NotOnDomainTypes>
 				<DomainType>DOMAIN_AIR</DomainType>
@@ -10472,6 +10497,7 @@
 			<Type>PROMOTION_HILLSMAN</Type>
 			<Description>TXT_KEY_PROMOTION_HILLSMAN</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PromotionPrereqOr1>PROMOTION_COMBAT2</PromotionPrereqOr1>
 			<TechPrereq>TECH_NOMADISM</TechPrereq>
 			<NotOnDomainTypes>
 				<DomainType>DOMAIN_AIR</DomainType>
@@ -10994,6 +11020,7 @@
 			<Type>PROMOTION_SHADOWSTALKER1</Type>
 			<Description>TXT_KEY_PROMOTION_SHADOWSTALKER1</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PromotionPrereq>PROMOTION_COMBAT3</PromotionPrereq>
 			<PromotionLine>PROMOTIONLINE_SHADOWSTALKER</PromotionLine>
 			<iLinePriority>1</iLinePriority>
 			<iStealthStrikesChange>1</iStealthStrikesChange>
@@ -11731,6 +11758,7 @@
 			<Type>PROMOTION_STREET_FIGHTER1</Type>
 			<Description>TXT_KEY_PROMOTION_STREET_FIGHTER1</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PromotionPrereqOr1>PROMOTION_COMBAT2</PromotionPrereqOr1>
 			<TechPrereq>TECH_TRAILS</TechPrereq>
 			<PromotionLine>PROMOTIONLINE_STREET_FIGHTER</PromotionLine>
 			<iLinePriority>1</iLinePriority>
@@ -12213,6 +12241,7 @@
 			</OnGameOptions>
 			<NotOnUnitCombatTypes>
 				<NotOnUnitCombatType>UNITCOMBAT_PACIFIST</NotOnUnitCombatType>
+				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
 			</NotOnUnitCombatTypes>
 			<ReplacesUnitCombat>UNITCOMBAT_QUALITY_INCAPABLE</ReplacesUnitCombat>
 			<bZeroesXP>1</bZeroesXP>
@@ -12234,6 +12263,7 @@
 			</OnGameOptions>
 			<NotOnUnitCombatTypes>
 				<NotOnUnitCombatType>UNITCOMBAT_PACIFIST</NotOnUnitCombatType>
+				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
 			</NotOnUnitCombatTypes>
 			<iLevelPrereq>1</iLevelPrereq>
 			<ReplacesUnitCombat>UNITCOMBAT_QUALITY_PATHETIC</ReplacesUnitCombat>
@@ -12256,6 +12286,7 @@
 			</OnGameOptions>
 			<NotOnUnitCombatTypes>
 				<NotOnUnitCombatType>UNITCOMBAT_PACIFIST</NotOnUnitCombatType>
+				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
 			</NotOnUnitCombatTypes>
 			<iLevelPrereq>2</iLevelPrereq>
 			<ReplacesUnitCombat>UNITCOMBAT_QUALITY_INFERIOR</ReplacesUnitCombat>
@@ -12278,6 +12309,7 @@
 			</OnGameOptions>
 			<NotOnUnitCombatTypes>
 				<NotOnUnitCombatType>UNITCOMBAT_PACIFIST</NotOnUnitCombatType>
+				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
 			</NotOnUnitCombatTypes>
 			<iLevelPrereq>3</iLevelPrereq>
 			<ReplacesUnitCombat>UNITCOMBAT_QUALITY_POOR</ReplacesUnitCombat>
@@ -12322,6 +12354,7 @@
 			</OnGameOptions>
 			<NotOnUnitCombatTypes>
 				<NotOnUnitCombatType>UNITCOMBAT_PACIFIST</NotOnUnitCombatType>
+				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
 			</NotOnUnitCombatTypes>
 			<iLevelPrereq>6</iLevelPrereq>
 			<ReplacesUnitCombat>UNITCOMBAT_QUALITY_STANDARD</ReplacesUnitCombat>
@@ -12344,6 +12377,7 @@
 			</OnGameOptions>
 			<NotOnUnitCombatTypes>
 				<NotOnUnitCombatType>UNITCOMBAT_PACIFIST</NotOnUnitCombatType>
+				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
 			</NotOnUnitCombatTypes>
 			<iLevelPrereq>8</iLevelPrereq>
 			<ReplacesUnitCombat>UNITCOMBAT_QUALITY_SUPERIOR</ReplacesUnitCombat>
@@ -12366,6 +12400,7 @@
 			</OnGameOptions>
 			<NotOnUnitCombatTypes>
 				<NotOnUnitCombatType>UNITCOMBAT_PACIFIST</NotOnUnitCombatType>
+				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
 			</NotOnUnitCombatTypes>
 			<iLevelPrereq>11</iLevelPrereq>
 			<ReplacesUnitCombat>UNITCOMBAT_QUALITY_EXCEPTIONAL</ReplacesUnitCombat>
@@ -12388,6 +12423,7 @@
 			</OnGameOptions>
 			<NotOnUnitCombatTypes>
 				<NotOnUnitCombatType>UNITCOMBAT_PACIFIST</NotOnUnitCombatType>
+				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
 			</NotOnUnitCombatTypes>
 			<iLevelPrereq>15</iLevelPrereq>
 			<ReplacesUnitCombat>UNITCOMBAT_QUALITY_ELITE</ReplacesUnitCombat>
@@ -12410,6 +12446,7 @@
 			</OnGameOptions>
 			<NotOnUnitCombatTypes>
 				<NotOnUnitCombatType>UNITCOMBAT_PACIFIST</NotOnUnitCombatType>
+				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
 			</NotOnUnitCombatTypes>
 			<iLevelPrereq>20</iLevelPrereq>
 			<ReplacesUnitCombat>UNITCOMBAT_QUALITY_EPIC</ReplacesUnitCombat>
@@ -12432,6 +12469,7 @@
 			</OnGameOptions>
 			<NotOnUnitCombatTypes>
 				<NotOnUnitCombatType>UNITCOMBAT_PACIFIST</NotOnUnitCombatType>
+				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
 			</NotOnUnitCombatTypes>
 			<ReplacesUnitCombat>UNITCOMBAT_QUALITY_DIVINE</ReplacesUnitCombat>
 			<bForOffset>1</bForOffset>
@@ -12453,6 +12491,7 @@
 			</OnGameOptions>
 			<NotOnUnitCombatTypes>
 				<NotOnUnitCombatType>UNITCOMBAT_PACIFIST</NotOnUnitCombatType>
+				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
 			</NotOnUnitCombatTypes>
 			<ReplacesUnitCombat>UNITCOMBAT_QUALITY_EPIC</ReplacesUnitCombat>
 			<bForOffset>1</bForOffset>
@@ -12474,6 +12513,7 @@
 			</OnGameOptions>
 			<NotOnUnitCombatTypes>
 				<NotOnUnitCombatType>UNITCOMBAT_PACIFIST</NotOnUnitCombatType>
+				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
 			</NotOnUnitCombatTypes>
 			<ReplacesUnitCombat>UNITCOMBAT_QUALITY_ELITE</ReplacesUnitCombat>
 			<bForOffset>1</bForOffset>
@@ -12495,6 +12535,7 @@
 			</OnGameOptions>
 			<NotOnUnitCombatTypes>
 				<NotOnUnitCombatType>UNITCOMBAT_PACIFIST</NotOnUnitCombatType>
+				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
 			</NotOnUnitCombatTypes>
 			<ReplacesUnitCombat>UNITCOMBAT_QUALITY_EXCEPTIONAL</ReplacesUnitCombat>
 			<bForOffset>1</bForOffset>
@@ -12516,6 +12557,7 @@
 			</OnGameOptions>
 			<NotOnUnitCombatTypes>
 				<NotOnUnitCombatType>UNITCOMBAT_PACIFIST</NotOnUnitCombatType>
+				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
 			</NotOnUnitCombatTypes>
 			<ReplacesUnitCombat>UNITCOMBAT_QUALITY_SUPERIOR</ReplacesUnitCombat>
 			<bForOffset>1</bForOffset>
@@ -12537,6 +12579,7 @@
 			</OnGameOptions>
 			<NotOnUnitCombatTypes>
 				<NotOnUnitCombatType>UNITCOMBAT_PACIFIST</NotOnUnitCombatType>
+				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
 			</NotOnUnitCombatTypes>
 			<ReplacesUnitCombat>UNITCOMBAT_QUALITY_STANDARD</ReplacesUnitCombat>
 			<bForOffset>1</bForOffset>
@@ -12558,6 +12601,7 @@
 			</OnGameOptions>
 			<NotOnUnitCombatTypes>
 				<NotOnUnitCombatType>UNITCOMBAT_PACIFIST</NotOnUnitCombatType>
+				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
 			</NotOnUnitCombatTypes>
 			<ReplacesUnitCombat>UNITCOMBAT_QUALITY_MEDIOCRE</ReplacesUnitCombat>
 			<bForOffset>1</bForOffset>
@@ -12579,6 +12623,7 @@
 			</OnGameOptions>
 			<NotOnUnitCombatTypes>
 				<NotOnUnitCombatType>UNITCOMBAT_PACIFIST</NotOnUnitCombatType>
+				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
 			</NotOnUnitCombatTypes>
 			<ReplacesUnitCombat>UNITCOMBAT_QUALITY_POOR</ReplacesUnitCombat>
 			<bForOffset>1</bForOffset>
@@ -12600,6 +12645,7 @@
 			</OnGameOptions>
 			<NotOnUnitCombatTypes>
 				<NotOnUnitCombatType>UNITCOMBAT_PACIFIST</NotOnUnitCombatType>
+				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
 			</NotOnUnitCombatTypes>
 			<ReplacesUnitCombat>UNITCOMBAT_QUALITY_INFERIOR</ReplacesUnitCombat>
 			<bForOffset>1</bForOffset>
@@ -12621,6 +12667,7 @@
 			</OnGameOptions>
 			<NotOnUnitCombatTypes>
 				<NotOnUnitCombatType>UNITCOMBAT_PACIFIST</NotOnUnitCombatType>
+				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
 			</NotOnUnitCombatTypes>
 			<ReplacesUnitCombat>UNITCOMBAT_QUALITY_PATHETIC</ReplacesUnitCombat>
 			<bForOffset>1</bForOffset>
@@ -15357,13 +15404,12 @@
 			<iLinePriority>1</iLinePriority>
 			<iUpkeepModifier>50</iUpkeepModifier>
 			<iStrengthChange>1</iStrengthChange>
+			<NotOnUnitCombatTypes>
+				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
+			</NotOnUnitCombatTypes>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_QUALITY_INFERIOR</UnitCombatType>
-					<bUnitCombat>1</bUnitCombat>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_COMBATANT</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 				<UnitCombat>
@@ -15411,6 +15457,9 @@
 			<iLevelPrereq>15</iLevelPrereq>
 			<iUpkeepModifier>50</iUpkeepModifier>
 			<iStrengthChange>1</iStrengthChange>
+			<NotOnUnitCombatTypes>
+				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
+			</NotOnUnitCombatTypes>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_QUALITY_POOR</UnitCombatType>
@@ -15457,6 +15506,9 @@
 			<iLevelPrereq>20</iLevelPrereq>
 			<iUpkeepModifier>50</iUpkeepModifier>
 			<iStrengthChange>2</iStrengthChange>
+			<NotOnUnitCombatTypes>
+				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
+			</NotOnUnitCombatTypes>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_QUALITY_MEDIOCRE</UnitCombatType>
@@ -15499,6 +15551,9 @@
 			<iLevelPrereq>25</iLevelPrereq>
 			<iUpkeepModifier>50</iUpkeepModifier>
 			<iStrengthChange>2</iStrengthChange>
+			<NotOnUnitCombatTypes>
+				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
+			</NotOnUnitCombatTypes>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_QUALITY_STANDARD</UnitCombatType>
@@ -15537,6 +15592,9 @@
 			<iLevelPrereq>30</iLevelPrereq>
 			<iUpkeepModifier>100</iUpkeepModifier>
 			<iStrengthChange>3</iStrengthChange>
+			<NotOnUnitCombatTypes>
+				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
+			</NotOnUnitCombatTypes>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_QUALITY_SUPERIOR</UnitCombatType>
@@ -15571,6 +15629,9 @@
 			<iLevelPrereq>35</iLevelPrereq>
 			<iUpkeepModifier>100</iUpkeepModifier>
 			<iStrengthChange>4</iStrengthChange>
+			<NotOnUnitCombatTypes>
+				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
+			</NotOnUnitCombatTypes>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_QUALITY_SUPERIOR</UnitCombatType>
@@ -15605,6 +15666,9 @@
 			<iLevelPrereq>40</iLevelPrereq>
 			<iUpkeepModifier>100</iUpkeepModifier>
 			<iStrengthChange>5</iStrengthChange>
+			<NotOnUnitCombatTypes>
+				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
+			</NotOnUnitCombatTypes>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_QUALITY_EXCEPTIONAL</UnitCombatType>
@@ -15635,6 +15699,9 @@
 			<iLevelPrereq>45</iLevelPrereq>
 			<iUpkeepModifier>10</iUpkeepModifier>
 			<iStrengthChange>7</iStrengthChange>
+			<NotOnUnitCombatTypes>
+				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
+			</NotOnUnitCombatTypes>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_QUALITY_EXCEPTIONAL</UnitCombatType>
@@ -15665,6 +15732,9 @@
 			<iLevelPrereq>50</iLevelPrereq>
 			<iUpkeepModifier>10</iUpkeepModifier>
 			<iStrengthChange>10</iStrengthChange>
+			<NotOnUnitCombatTypes>
+				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
+			</NotOnUnitCombatTypes>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_QUALITY_ELITE</UnitCombatType>
@@ -15691,6 +15761,9 @@
 			<iLevelPrereq>60</iLevelPrereq>
 			<iUpkeepModifier>10</iUpkeepModifier>
 			<iStrengthChange>15</iStrengthChange>
+			<NotOnUnitCombatTypes>
+				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
+			</NotOnUnitCombatTypes>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_QUALITY_ELITE</UnitCombatType>
@@ -15717,6 +15790,9 @@
 			<iLevelPrereq>70</iLevelPrereq>
 			<iUpkeepModifier>10</iUpkeepModifier>
 			<iStrengthChange>20</iStrengthChange>
+			<NotOnUnitCombatTypes>
+				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
+			</NotOnUnitCombatTypes>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_QUALITY_EPIC</UnitCombatType>
@@ -15739,6 +15815,9 @@
 			<iLevelPrereq>80</iLevelPrereq>
 			<iUpkeepModifier>10</iUpkeepModifier>
 			<iStrengthChange>25</iStrengthChange>
+			<NotOnUnitCombatTypes>
+				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
+			</NotOnUnitCombatTypes>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_QUALITY_EPIC</UnitCombatType>
@@ -15761,6 +15840,9 @@
 			<iLevelPrereq>100</iLevelPrereq>
 			<iUpkeepModifier>10</iUpkeepModifier>
 			<iStrengthChange>30</iStrengthChange>
+			<NotOnUnitCombatTypes>
+				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
+			</NotOnUnitCombatTypes>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_QUALITY_DIVINE</UnitCombatType>
@@ -16117,7 +16199,7 @@
 			<Type>PROMOTION_HEROIC2</Type>
 			<Description>TXT_KEY_PROMOTION_HEROIC2</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
-			<PromotionPrereq>PROMOTION_COMBAT4</PromotionPrereq>
+			<PromotionPrereq>PROMOTION_COMBAT6</PromotionPrereq>
 			<PromotionPrereqOr1>PROMOTION_HEROIC</PromotionPrereqOr1>
 			<PromotionPrereqOr2>PROMOTION_DRILL4</PromotionPrereqOr2>
 			<TechPrereq>TECH_SCAVENGING</TechPrereq>
@@ -24803,22 +24885,22 @@
 				</UnitCombat>
 			</UnitCombats>
 			<iNumHealSupport>2</iNumHealSupport>
-			<PropertyManipulators>
-				<PropertySource>
-					<PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>
-					<PropertyType>PROPERTY_DISEASE</PropertyType>
-					<GameObjectType>GAMEOBJECT_CITY</GameObjectType>
-					<RelationType>RELATION_SAME_PLOT</RelationType>
-					<iAmountPerTurn>-3</iAmountPerTurn>
-				</PropertySource>
-				<PropertySource>
-					<PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>
-					<PropertyType>PROPERTY_DISEASE</PropertyType>
-					<GameObjectType>GAMEOBJECT_PLOT</GameObjectType>
-					<RelationType>RELATION_SAME_PLOT</RelationType>
-					<iAmountPerTurn>-2</iAmountPerTurn>
-				</PropertySource>
-			</PropertyManipulators>
+		<PropertyManipulators>
+			<PropertySource>
+				<PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>
+				<PropertyType>PROPERTY_DISEASE</PropertyType>
+				<GameObjectType>GAMEOBJECT_CITY</GameObjectType>
+				<RelationType>RELATION_SAME_PLOT</RelationType>
+				<iAmountPerTurn>-3</iAmountPerTurn>
+			</PropertySource>
+			<PropertySource>
+				<PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>
+				<PropertyType>PROPERTY_DISEASE</PropertyType>
+				<GameObjectType>GAMEOBJECT_PLOT</GameObjectType>
+				<RelationType>RELATION_SAME_PLOT</RelationType>
+				<iAmountPerTurn>-2</iAmountPerTurn>
+			</PropertySource>
+		</PropertyManipulators>
 			<Button>Art/Buttons/Promotions/InfluenceOfTheMoonPromotion.dds</Button>
 		</PromotionInfo>
 		<PromotionInfo>

@@ -32,4 +32,4 @@ I'm thinking we may have to give neadnerthals and higher NPC slots a unique dll/
 That way we could fix the bug where the exe allows the player to define regular starting players in the NPC slots by telling the exe that slot 39 is the last playable one.
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
-Matt: delete EVENTTRIGGER_BONUS_TAX !!
+Matt: delete EVENTTRIGGER_BONUS_TAX

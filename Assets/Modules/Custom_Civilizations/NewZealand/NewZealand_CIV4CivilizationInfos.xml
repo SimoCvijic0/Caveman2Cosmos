@@ -68,6 +68,7 @@
 				<BuildingType>BUILDING_PALACE</BuildingType>
 				<BuildingType>BUILDING_C_N_OCEANIAN</BuildingType>
 				<BuildingType>BUILDING_C_AC_OCEANIAN</BuildingType>
+                <BuildingType>BUILDING_STORAGE_EMPIRE</BuildingType>
 			</FreeBuildings>
 			<InitialCivics>
 				<CivicType>CIVIC_ANARCHISM</CivicType>

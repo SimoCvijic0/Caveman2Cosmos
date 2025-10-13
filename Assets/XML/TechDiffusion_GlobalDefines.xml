@@ -11,7 +11,7 @@
 	<Define>
 		<!-- Tech Diffusion: Power of research rate increase based on number of teams you know who already know the tech you're researching. -->
 		<DefineName>TECH_DIFFUSION_KNOWN_TEAM_MODIFIER</DefineName>
-		<iDefineIntVal>4</iDefineIntVal>
+		<iDefineIntVal>5</iDefineIntVal>
 	</Define>
 	<Define>
 		<!-- Tech Diffusion: Threshold percentage of top known tech score at which extra tech welfare help begins. -->
