@@ -318,7 +318,7 @@ void CvContractBroker::advertiseTender(const CvCity* pCity, int iMinPriority)
 {
 	PROFILE_FUNC();
 
-	int iNumTenders = 1; // par dï¿½faut
+	int iNumTenders = 1; // par défaut
 
 	iNumTenders = 1 + (pCity->getPopulation() / 10) + (pCity->getYieldRate(YIELD_PRODUCTION) / 100);
 	if (pCity->isCapital())
@@ -326,7 +326,7 @@ void CvContractBroker::advertiseTender(const CvCity* pCity, int iMinPriority)
 		iNumTenders+=2;
 	}
 
-
+	
 	iNumTenders = std::min(iNumTenders, 4); // max 6
 
 

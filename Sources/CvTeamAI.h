@@ -90,7 +90,7 @@ public:
 	int AI_countMilitaryWeight(const CvArea* pArea) const;
 
 	bool AI_isAnyCapitalAreaAlone() const;
-
+	
 	/**
      * Returns true if the area is the team's primary area.
      * - Checks if any team member considers the area as primary.

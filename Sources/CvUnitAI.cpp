@@ -2532,7 +2532,7 @@ void CvUnitAI::AI_barbAttackMove()
 	if (eAreaAI == AREAAI_OFFENSIVE)
 	{
 		if (AI_groupMergeRange(UNITAI_ATTACK, 2, true, true, true)
-		|| AI_groupMergeRange(UNITAI_ATTACK_CITY, 4, true, true, true)
+		|| AI_groupMergeRange(UNITAI_ATTACK_CITY, 4, true, true, true) 
 		|| AI_groupMergeRange(UNITAI_COLLATERAL, 4, true, true, true))
 		{
 			return;
@@ -3322,7 +3322,7 @@ void CvUnitAI::AI_attackCityMove()
 			}
 		}
 	}
-
+	
 	if (pTargetCity == NULL)
 	{
 		pTargetCity = AI_pickTargetCity(MOVE_THROUGH_ENEMY, MAX_INT, bHuntBarbs);
@@ -3607,7 +3607,7 @@ void CvUnitAI::AI_attackCityMove()
 					if (AI_groupMergeRange(UNITAI_COLLATERAL, 5, true, true, bIgnoreFaster))
 					{
 						return;
-					}
+					}					
 					if (AI_groupMergeRange(UNITAI_ATTACK, 5, true, true, bIgnoreFaster))
 					{
 						return;
@@ -3769,7 +3769,7 @@ void CvUnitAI::AI_attackCityMove()
 								logBBAI("Player %d Unit ID %d, %S of Type %S, at (%d, %d), Mission %S [stack size %d], try to join another Stack at (%d,%d), distance %d...", getOwner(), m_iID, StrUnitName.GetCString(), StrunitAIType.GetCString(), getX(), getY(), MissionInfos.GetCString(), getGroup()->getNumUnits(), pHead->getX(), pHead->getY(), iDistance);
 							});
 							if (getGroup()->pushMissionInternal(MISSION_MOVE_TO_UNIT, pHead->getOwner(), pHead->getID(), 0, false, false, MISSIONAI_GROUP, NULL, pHead))
-							{
+							{							
 								LOG_UNIT_BLOCK(3, {
 									UnitAITypes eUnitAi = AI_getUnitAIType();
 									MissionAITypes eMissionAI = getGroup()->AI_getMissionAIType();
@@ -3781,7 +3781,7 @@ void CvUnitAI::AI_attackCityMove()
 										StrUnitName = getName(0).GetCString();
 									}
 									logBBAI("Player %d Unit ID %d, %S of Type %S, at (%d, %d), Mission %S [stack size %d], join Unit Order done at (%d,%d)...", getOwner(), m_iID, StrUnitName.GetCString(), StrunitAIType.GetCString(), getX(), getY(), MissionInfos.GetCString(), getGroup()->getNumUnits(), pHead->getX(), pHead->getY());
-								});
+								});								
 								return;
 							}
 							else if (getGroup()->pushMissionInternal(MISSION_MOVE_TO, pHead->getX(), pHead->getY(), 0, false, false, MISSIONAI_GROUP, pHead->plot()))
@@ -3797,13 +3797,13 @@ void CvUnitAI::AI_attackCityMove()
 										StrUnitName = getName(0).GetCString();
 									}
 									logBBAI("Player %d Unit ID %d, %S of Type %S, at (%d, %d), Mission %S [stack size %d], join Plot at (%d,%d)...", getOwner(), m_iID, StrUnitName.GetCString(), StrunitAIType.GetCString(), getX(), getY(), MissionInfos.GetCString(), getGroup()->getNumUnits(), pHead->getX(), pHead->getY());
-								});
+								});								
 								return;
 							}
 						}
 					}
 				}
-			}
+			}			
 
 		}
 	}
@@ -4659,7 +4659,7 @@ void CvUnitAI::AI_reserveMove()
 			{
 				int iCurrentValue = getPropertiesConst()->getValueByProperty(pProperty);
 				if (iCurrentValue > 0)
-				{   //it has properties control
+				{   //it has properties control 
 					AI_setUnitAIType(UNITAI_PROPERTY_CONTROL);
 					getGroup()->pushMission(MISSION_SKIP, -1, -1, 0, false, false, NO_MISSIONAI);
 					CvWString StrunitAIType;
@@ -17644,7 +17644,7 @@ CvCity* CvUnitAI::AI_pickTargetCity(int iFlags, int iMaxPathTurns, bool bHuntBar
 					// already on the way, pick a different target
 					if (iPathTurns > 2 && pLoopCity->isVisible(getTeam(), false))
 					{
-
+						
 						int iOurOffense = GET_TEAM(getTeam()).AI_getOurPlotStrength(pLoopCity->plot(),2,false,false,true);
 						int iGroupStrength = GET_TEAM(getTeam()).AI_getOurPlotStrength(plot(), 1, false, false, true);
 						int iEnemyDefense = GET_PLAYER(getOwner()).AI_getEnemyPlotStrength(pLoopCity->plot(),1,true,false);
@@ -21506,7 +21506,7 @@ bool CvUnitAI::AI_nextCityToImprove(CvCity* pCity)
 			return true;
 		}
 		else
-		{
+		{		
 			CvWString StrUnitName;
 			if (gUnitLogLevel > 2)
 			{
@@ -22346,7 +22346,7 @@ bool CvUnitAI::processContracts(int iMinPriority)
 					MissionInfos = MissionAITypeToString(pGroup->AI_getMissionAIType());
 				}
 				//GC.getUnitAIInfo(AI_getUnitAIType())->getType();
-
+				
 			}
 			logContractBroker(1, "	Unit %S (%d) for player %d (%S) at (%d,%d) found work (%S) at (%d,%d) %S\n",
 					getUnitInfo().getDescription(),
@@ -22484,7 +22484,7 @@ bool CvUnitAI::processContracts(int iMinPriority)
 	if (bContractAlreadyEstablished)
 	{
 		m_contractualState = CONTRACTUAL_STATE_NO_WORK_FOUND;
-
+		
 		//	No work available
 		LOG_UNIT_BLOCK(4, {
 			const CvWString szStringUnitAi = GC.getUnitAIInfo(m_eUnitAIType).getType();
@@ -29758,7 +29758,7 @@ namespace {
 	 *   8. Ensure a minimum score for staying put.
 	 *   9. Add a distance scoring factor to prioritize closer cities.
 	 *   10. Return the final score.
-	 */
+	 */	
 	int scorePropertyControlNeed(const std::vector<PropertyAmount>& propertyScores, const CvUnit* unit, const CvCity* city, const PropertyTypes pProperty)
 	{
 		const CvPlayer& player = GET_PLAYER(unit->getOwner());
@@ -29851,9 +29851,9 @@ bool CvUnitAI::AI_fulfillPropertyControlNeed()
 
 		score *= GC.getPropertyInfo(eProperty).getAIWeight() / 50;
 		if (score >= 1)
-		{
+		{		
 			FAssert(eProperty >= 0 && eProperty < GC.getNumPropertyInfos());
-			score = std::min(score,1000000); // limite arbitraire pour ï¿½viter overflow
+			score = std::min(score,1000000); // limite arbitraire pour éviter overflow
 			propertyScores.push_back(PropertyAmount(eProperty, score));
 			if (score > iBestPropertyScore)
 			{
@@ -29863,7 +29863,7 @@ bool CvUnitAI::AI_fulfillPropertyControlNeed()
 		}
 	}
 
-	//No property has been found
+	//No property has been found 	
 	// If it doesn't change properties then it can't fulfill control needs
 	// Calvitix test : assign to another task
 	if (BestProperty == NO_PROPERTY)

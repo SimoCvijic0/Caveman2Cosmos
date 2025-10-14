@@ -5047,7 +5047,7 @@ short CvTeamAI::getVisibilityDecay(bool pSeaPlot)
 
 	if (pSeaPlot)
 	{
-		int iPathfinding = GC.getInfoTypeForString("TECH_NAVIGATION");
+		int iPathfinding = GC.getInfoTypeForString("TECH_NAVIGATION"); 
 		if (isHasTech((TechTypes)iPathfinding))
 		{
 			m_bPermanentMapSea = true;
@@ -5067,7 +5067,7 @@ short CvTeamAI::getVisibilityDecay(bool pSeaPlot)
 		if (isHasTech((TechTypes)iPathfinding))
 		{
 			return (m_iDefaultDecay + 20);
-		}
+		}		
 		iPathfinding = GC.getInfoTypeForString("TECH_RUDDER");
 		if (isHasTech((TechTypes)iPathfinding))
 		{
@@ -5078,7 +5078,7 @@ short CvTeamAI::getVisibilityDecay(bool pSeaPlot)
 		{
 			return (m_iDefaultDecay + 12);
 		}
-
+		
 		iPathfinding = GC.getInfoTypeForString("TECH_WRITING");
 		if (isHasTech((TechTypes)iPathfinding))
 		{
@@ -5103,7 +5103,7 @@ short CvTeamAI::getVisibilityDecay(bool pSeaPlot)
 		{
 			m_bPermanentMapLand = true;
 			return NO_DECAY;
-		}
+		}		
 		iPathfinding = GC.getInfoTypeForString("TECH_SURVEYING");
 		if (isHasTech((TechTypes)iPathfinding))
 		{

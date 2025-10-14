@@ -122,7 +122,7 @@ public:
     /**
      * Returns the leader priority for this unit in a group.
      * - Used to determine group leader.
-     */
+     */  
 	int AI_groupFirstVal() const;
 
     /**
@@ -512,7 +512,7 @@ protected:
 	int GetNumberOfUnitsInGroup();
 	bool AI_upgradeWorker();
 	void AI_workerMove();
-
+	
     /**
      * Handles movement logic for barbarian attack units.
      * @brief Executes AI behavior for barbarian units focused on attacking and pillaging.
@@ -613,7 +613,7 @@ protected:
      *   4. Groups with attack or city defense units, protects if needed.
      *   5. Retreats to city or moves to safety if threatened.
      *   6. Skips turn if no other actions are possible.
-     */
+     */    
 	void AI_counterMove();
 
     /**
@@ -680,7 +680,7 @@ protected:
      *   3. Skips turn if no other actions are possible.
      */
 	void AI_hunterEscortMove();
-
+	
     /**
      * Handles movement logic for missionary units.
      * @brief Executes AI behavior for units assigned to spread religion or corporation.
@@ -777,7 +777,7 @@ protected:
      *   3. Skips turn if no other actions are possible.
      */
 	void AI_engineerMove();
-
+    
     /**
      * Handles movement logic for subdued animal units.
      * @brief Executes AI behavior for units assigned to animal roles.
@@ -1458,7 +1458,7 @@ protected:
      *   3. Returns true if construction was performed.
      */
 	bool AI_heritage();
-
+	
 	int getBestHeritageValue(CvPlot*& pBestConstructPlot, CvPlot*& pBestPlot, CvUnitAI*& pTargetingUnit, HeritageTypes& eBest);
 
     /**
@@ -1540,7 +1540,7 @@ protected:
      *   3. Returns true if defense was provided.
      */
 	bool AI_defend();
-
+	
 	void AI_safetyEval(const CvPlot* plotX, const int iPass, const int iRange, const bool bAnimalDanger, int &iBestValue, const CvPlot** pBestPlot);
 
     /**

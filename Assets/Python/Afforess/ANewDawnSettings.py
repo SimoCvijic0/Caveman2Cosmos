@@ -357,7 +357,7 @@ def setXMLOptionsfromIniFile():
 	changedMinorCivTech(ANewDawnOpt, ANewDawnOpt.getMinorCivTech())
 	changedAssassinateMinimal(ANewDawnOpt, ANewDawnOpt.isAssassinateMinimal())
 	changedAssassinateChoice(ANewDawnOpt, ANewDawnOpt.isAssassinateChoice())
-
+		
 	ANewDawnOpt.setPlayerColor(0)
 	ANewDawnOpt.setCurrentDifficulty(0)
 

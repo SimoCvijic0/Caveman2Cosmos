@@ -4496,7 +4496,7 @@ void CvSelectionGroup::setActivityType(ActivityTypes eNewValue, MissionTypes eSl
 							||	eSleepType == NO_MISSION
 						)
 					) pLoopUnit->setBuildUpType(NO_PROMOTIONLINE, eSleepType);
-
+					
 					pLoopUnit->setSleepType(pLoopUnit->isFortifyable() ? MISSION_FORTIFY : MISSION_SLEEP);
 				}
 			}

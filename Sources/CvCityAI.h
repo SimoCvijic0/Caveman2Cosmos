@@ -133,18 +133,18 @@ public:
 	 * Performs the main AI logic for the city at the start of each turn.
 	 *
 	 * Main steps:
-	 * 1. **Update Assignments**
+	 * 1. **Update Assignments**  
 	 *    - Calls AI_updateAssignWork() to ensure citizens and specialists are assigned optimally.
-	 * 2. **Handle Floating Defenders**
+	 * 2. **Handle Floating Defenders**  
 	 *    - Calls AI_doContractFloatingDefenders() to manage city defense contracts.
-	 * 3. **Production and Worker Management**
+	 * 3. **Production and Worker Management**  
 	 *    - Calls AI_chooseProduction() to select what the city should build next.
 	 *    - Updates worker needs and best build values for city plots.
-	 * 4. **Property and Threat Updates**
+	 * 4. **Property and Threat Updates**  
 	 *    - Updates property values (crime, pollution, etc.) and city threat levels.
-	 * 5. **Governor and Emphasis Handling**
+	 * 5. **Governor and Emphasis Handling**  
 	 *    - Handles governor automation and city emphasis flags.
-	 * 6. **Miscellaneous AI Tasks**
+	 * 6. **Miscellaneous AI Tasks**  
 	 *    - May include caching, logging, and other per-turn AI routines.
 	 *
 	 * @note
@@ -261,7 +261,7 @@ public:
 	UnitTypes AI_bestUnitAI(UnitAITypes eUnitAI, int& iBestValue, bool bAsync = false, bool bNoRand = false, const CvUnitSelectionCriteria* criteria = NULL);
 
 	BuildingTypes AI_bestBuildingThreshold(int iFocusFlags = 0, int iMaxTurns = MAX_INT, int iMinThreshold = 0, bool bAsync = false, AdvisorTypes eIgnoreAdvisor = NO_ADVISOR, bool bMaximizeFlaggedValue = false, PropertyTypes eProperty = NO_PROPERTY);
-
+	
 	/**
 	 * Returns a list of the best buildings to construct, filtered by thresholds.
 	 * - Gathers all possible buildings not maxed out for the player.
@@ -374,7 +374,7 @@ public:
 
 	bool AI_isAdequateHappinessMilitary(int iExtra) const;
 	int AI_neededHappinessDefenders() const;
-
+	
 	/**
 	 * Calculates the number of defenders needed for the city.
 	 * - Considers population, wonders, holy city status, war strategies, and recent acquisition.
@@ -411,7 +411,7 @@ public:
 	 * - Counts the number of times great people are emphasized.
 	 */
 	int AI_getEmphasizeGreatPeopleCount() const;
-
+	
 
 	/**
 	 * Checks if the city is emphasizing great people.
@@ -738,13 +738,13 @@ protected:
 
 	int AI_getPlotMagicValue(const CvPlot* pPlot, bool bHealthy, bool bWorkerOptimization = false) const;
 	int AI_countGoodTiles(bool bHealthy, bool bUnworkedOnly, int iThreshold = 50, bool bWorkerOptimization = false) const;
-
+	
 	/**
 	 * Calculates the number of good specialists in the city.
 	 * - Iterates over all specialist types.
 	 * - Sums up specialists with high yield and commerce values.
 	 * - Adjusts for health and happiness.
-	 */
+	 */	
 	int AI_countGoodSpecialists(bool bHealthy) const;
 	int AI_calculateTargetCulturePerTurn() const;
 

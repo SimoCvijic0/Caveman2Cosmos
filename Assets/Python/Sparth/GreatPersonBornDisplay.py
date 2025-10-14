@@ -36,7 +36,7 @@ def onGreatPersonBorn(argsList):
 		return
 
 	if iPlayer != -1 and iPlayer == CyGame().getActivePlayer() :
-
+		
 		if GC.getPlayer(iPlayer).isHumanDisabled():
 			return
 

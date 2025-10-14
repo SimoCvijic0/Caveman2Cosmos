@@ -1767,7 +1767,7 @@
             <iXPValueDefense>1</iXPValueDefense>
             <iCityAttack>-75</iCityAttack>
             <iPursuit>20</iPursuit>
-            <iAnimalCombat>70</iAnimalCombat>
+            <iAnimalCombat>125</iAnimalCombat>
             <UnitCombatMods>
                 <UnitCombatMod>
                     <UnitCombatType>UNITCOMBAT_ANIMAL_COMBAT_FLEEING</UnitCombatType>
@@ -1890,7 +1890,7 @@
             <iXPValueDefense>1</iXPValueDefense>
             <iCityAttack>-75</iCityAttack>
             <iPursuit>30</iPursuit>
-            <iAnimalCombat>70</iAnimalCombat>
+            <iAnimalCombat>125</iAnimalCombat>
             <UnitCombatMods>
                 <UnitCombatMod>
                     <UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>

@@ -3118,7 +3118,7 @@ bool CvDLLButtonPopup::launchConfirmAmbushPopup(CvPopup* pPopup, CvPopupInfo &in
 
 	if (bAssassinate && GC.getGame().isModderGameOption(MODDERGAMEOPTION_ASSASSINATE_CHOICE))
 	{
-		//Calvitix, give the possibility to choose which Unit will be assassinated :
+		//Calvitix, give the possibility to choose which Unit will be assassinated : 
 		std::vector<CvUnit*> defenders;
 		CvPlayer & player = GET_PLAYER(GC.getGame().getActivePlayer());
 		CvUnit * pAttacker = pAttacker = player.getUnit(iUnitID);
@@ -3128,11 +3128,11 @@ bool CvDLLButtonPopup::launchConfirmAmbushPopup(CvPopup* pPopup, CvPopupInfo &in
 			if (!pUnit)
 				continue;
 
-			// Filtrer par propriï¿½taire si nï¿½cessaire
+			// Filtrer par propriétaire si nécessaire
 			if (pUnit->getOwner() == NO_PLAYER || pUnit->getOwner() == GC.getGame().getActivePlayer())
 				continue;
 
-			// Vï¿½rifie si lï¿½unitï¿½ peut dï¿½fendre contre lï¿½attaquant
+			// Vérifie si l’unité peut défendre contre l’attaquant
 			if (pUnit->canDefend(pPlot))
 			{
 				if (!pUnit->isInvisible(pAttacker->getTeam(), false))
@@ -3143,7 +3143,7 @@ bool CvDLLButtonPopup::launchConfirmAmbushPopup(CvPopup* pPopup, CvPopupInfo &in
 		}
 
 		int BtnId = 0;
-		//for each defender, create a button :
+		//for each defender, create a button : 
 		for (size_t i = 0; i < defenders.size(); ++i)
 		{
 			CvUnit* pDefender = defenders[i];

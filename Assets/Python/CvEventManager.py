@@ -2149,7 +2149,7 @@ class CvEventManager:
 		if self.GO_START_AS_MINORS:
 			CyTeam = GC.getTeam(iTeam)
 			bhasTech = CyTeam.isHasTech(GC.getInfoTypeForString("TECH_CONDUCT"))
-			if CyTeam.isMinorCiv() and (CyTeam.isOpenBordersTrading() or bhasTech):
+			if CyTeam.isMinorCiv() and (CyTeam.isOpenBordersTrading() or bhasTech):				
 				CyTeam.setIsMinorCiv(False)
 				GC.getMap().verifyUnitValidPlot()
 				# Message
@@ -2375,16 +2375,16 @@ class CvEventManager:
 				if CyUnit.isHasPromotion(iPromo):
 					CyCity.changeHasBuilding(iBuilding, True)
 
-			# # Give a free defender to the first city when it is built
-			# if iUnit == self.UNIT_BAND:
-			# 	CyPlayer = GC.getPlayer(iPlayer)
-			# 	if GC.getCivilizationInfo(CyPlayer.getCivilizationType()).getType() == "CIVILIZATION_NEANDERTHAL":
-			# 		iUnitTG = GC.getInfoTypeForString("UNIT_NEANDERTHAL_TRIBAL_GUARDIAN")
-			# 	else:
-			# 		iUnitTG = GC.getInfoTypeForString("UNIT_TRIBAL_GUARDIAN")
-			# 	CyUnitTG = CyPlayer.initUnit(iUnitTG, CyUnit.getX(), CyUnit.getY(), UnitAITypes.UNITAI_PROPERTY_CONTROL, DirectionTypes.DIRECTION_SOUTH)
-			# 	iExp = CyUnit.getExperience()
-			# 	CyUnitTG.setExperience(iExp)
+			# Give a free defender to the first city when it is built
+			if iUnit == self.UNIT_BAND:
+				CyPlayer = GC.getPlayer(iPlayer)
+				if GC.getCivilizationInfo(CyPlayer.getCivilizationType()).getType() == "CIVILIZATION_NEANDERTHAL":
+					iUnitTG = GC.getInfoTypeForString("UNIT_NEANDERTHAL_TRIBAL_GUARDIAN")
+				else:
+					iUnitTG = GC.getInfoTypeForString("UNIT_TRIBAL_GUARDIAN")
+				CyUnitTG = CyPlayer.initUnit(iUnitTG, CyUnit.getX(), CyUnit.getY(), UnitAITypes.UNITAI_PROPERTY_CONTROL, DirectionTypes.DIRECTION_SOUTH)
+				iExp = CyUnit.getExperience()
+				CyUnitTG.setExperience(iExp)
 		if iPop:
 			CyCity.changePopulation(iPop)
 			if self.GO_1_CITY_TILE_FOUNDING:

@@ -35265,7 +35265,7 @@ void CvUnit::doMerge()
 		pkMergedUnit->setAutoPromoting(pUnit1->isAutoPromoting());
 		pkMergedUnit->testPromotionReady();
 		pkMergedUnit->setName(pUnit1->getNameNoDesc());
-
+		
 		pkMergedUnit->AI_setUnitAIType(pUnit1->AI_getUnitAIType());
 		if (pUnit2->AI_getUnitAIType() == pUnit3->AI_getUnitAIType() && pkMergedUnit->AI_getUnitAIType() != pUnit2->AI_getUnitAIType())
 		{
@@ -36664,7 +36664,7 @@ void CvUnit::setBuildUpType(PromotionLineTypes ePromotionLine, MissionTypes eSle
 						{
 								const CvWString strUnitAIType = GC.getUnitAIInfo(AI_getUnitAIType()).getType();
 								CvWString szDesc = GC.getPromotionInfo(ePromotion).getDescription();
-								//const CvWString strCriteria = criteria.GetDescription();
+								//const CvWString strCriteria = criteria.GetDescription();								
 								logAiEvaluations(4,"    %S find better Eval (%d > %d) to buildup %S with %S, unit AI %S", GET_PLAYER(getOwner()).getCivilizationDescription(0), iValue, iBestValue, getName(0).GetCString(), szDesc.GetCString(), strUnitAIType.GetCString());
 						}
 						iBestValue = iValue;
@@ -38173,7 +38173,7 @@ bool CvUnit::doAmbush(bool bAssassinate)
 				{
 					pDefender = pPlot->getBestDefender(NO_PLAYER, getOwner(), this, true, true, false, bAssassinate);
 				}
-
+				
 				if (pDefender != NULL)
 				{
 					attackSamePlotSpecifiedUnit(pDefender);

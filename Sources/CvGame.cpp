@@ -9937,7 +9937,7 @@ void CvGame::doFlexibleDifficulty()
 				if (iTurns == 0)
 				{
 					iTurns = 50;
-				}
+				}				
 			}
 
 			logging::logMsg("C2C.log", "[Flexible Difficulty] (%d / %d) turns until next flexible difficulty check for Player: %S\n", iTimer, iTurns, playerX.getName());

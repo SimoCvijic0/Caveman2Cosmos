@@ -1,4 +1,4 @@
-// playerAI.cpp
+﻿// playerAI.cpp
 
 #include "CvGameCoreDLL.h"
 #include "CvArea.h"
@@ -570,7 +570,7 @@ void CvPlayerAI::AI_doTurnUnitsPre()
 
 
 
-	//Execute the army
+	//Execute the army 
 	FFreeListTrashArray<CvArmy>::iterator it;
 	for (it = m_armies.begin(); it != m_armies.end(); ++it)
 	{
@@ -734,7 +734,7 @@ void CvPlayerAI::AI_doTurnUnitsPost()
 		iUpgradeBudget /= 3;
 	}
 
-	LOG_BBAI_PLAYER(2, ("	%S calculates upgrade budget of %I64d from %I64d current gold, %I64d target", getCivilizationDescription(0), iUpgradeBudget, iStartingGold, iTargetGold));
+	LOG_BBAI_PLAYER(2, ("	%S calculates upgrade budget of %I64d from %I64d current gold, %I64d target", getCivilizationDescription(0), iUpgradeBudget, iStartingGold, iTargetGold));	
 
 	// Always willing to upgrade 1 unit if we have the money
 	iUpgradeBudget = std::max<int64_t>(iUpgradeBudget, 1);
@@ -1899,7 +1899,7 @@ void CvPlayerAI::AI_conquerCity(PlayerTypes eOldOwner, CvCity* pCity, bool bConq
 			}
 
 			LOG_BBAI_PLAYER(2, ("	Player %d (%S) has odds %d to raze city %S", getID(), getCivilizationDescription(0), iRazeValue, pCity->getName().GetCString()));
-
+			
 
 			if (iRazeValue > 0 && GC.getGame().getSorenRandNum(100, "AI Raze City") < iRazeValue)
 			{
@@ -3134,7 +3134,7 @@ int CvPlayerAI::AI_targetCityValue(const CvCity* pCity, bool bRandomize, bool bI
 
 	int iPopulation = ((pCity->getPopulation() * 5 * (50 + pCity->calculateCulturePercent(getID()))) / 100);
 
-	iValue += iPopulation;
+	iValue += iPopulation; 
 
 	/************************************************************************************************/
 	/* BETTER_BTS_AI_MOD					  06/30/10					 Mongoose & jdog5000	  */
@@ -11710,7 +11710,7 @@ int CvPlayerAI::AI_unitValue(UnitTypes eUnit, UnitAITypes eUnitAI, const CvArea*
 			{
 				iValue += iCombatValue;
 				//obsolete - for every 10 pts of combat value, make each move pt count for 1 more than a base 1 each.
-				//Try
+				//Try 
 				iValue += (kUnitInfo.getMoves()-1) * iCombatValue / 5;
 				//Combat weaknesses are very bad
 				for (int iI = 0; iI < GC.getNumTerrainInfos(); iI++)
@@ -27913,7 +27913,7 @@ int CvPlayerAI::AI_promotionValue(PromotionTypes ePromotion, UnitTypes eUnit, co
 		}
 	}
 
-	//#19 Effects
+	//#19 Effects 
 	iTemp = kPromotion.getCombatLimitChange();
 	if (iTemp != 0)
 	{
@@ -28679,7 +28679,7 @@ int CvPlayerAI::AI_promotionValue(PromotionTypes ePromotion, UnitTypes eUnit, co
 			iValue += 8;
 		}
 	}
-
+	
 	//#38 Effects for Promotions that give Amphib.
 	if (kPromotion.isAmphib())
 	{

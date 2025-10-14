@@ -2020,7 +2020,7 @@ protected:
 
 #ifdef CVARMY_BREAKSAVE
 	FFreeListTrashArray<CvArmy>							  m_armies;
-#endif
+#endif 
 
 	FFreeListTrashArray<EventTriggeredData> m_eventsTriggered;
 	CvEventMap m_mapEventsOccured;

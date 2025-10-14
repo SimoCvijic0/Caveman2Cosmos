@@ -133,7 +133,7 @@ public:
 	void AI_unitUpdate();
 
 	void AI_makeAssignWorkDirty();
-
+	
 /**
  * Assigns working plots and specialists for the city.
  * - Updates special yield multipliers.
@@ -143,7 +143,7 @@ public:
  * - Assigns unassigned population to plots or specialists.
  * - If automated, optimizes assignments for best yields.
  * - Updates UI if city is selected.
- */
+ */	
 	void AI_assignWorkingPlots();
 	void AI_updateAssignWork();
 
@@ -492,7 +492,7 @@ public:
 	int AI_getUnitCombatWeight(UnitCombatTypes eUnitCombat) const;
 
 #ifdef CVARMY_BREAKSAVE
-	void AI_formArmies();   // Nouvelle fonction de crï¿½ation des armï¿½es
+	void AI_formArmies();   // Nouvelle fonction de création des armées
 #endif
 
 	/**

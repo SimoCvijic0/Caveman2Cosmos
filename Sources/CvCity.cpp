@@ -12177,7 +12177,7 @@ int CvCity::getBuildingCommerceByBuilding(CommerceTypes eIndex, BuildingTypes eB
 
 		if (bFull)
 		{
-			// Toffer - These are cached separately, so should not be counted when caching m_aiBuildingCommerce through this function.
+			// Toffer - These are cached separately, so should not be counted when caching m_aiBuildingCommerce through this function.			
 			iCommerce += (kBuilding.getCommercePerPopChange(eIndex)
 				+ getBonusCommercePercentChanges(eIndex, eBuilding)
 				+ kTeam.getBuildingCommerceTechChange(eIndex, eBuilding)) / 100;
@@ -15803,7 +15803,7 @@ void CvCity::popOrder(int orderIndex, bool bFinish, bool bChoose, bool bResolveL
 			{
 				AI_trained(eTrainUnit, eTrainAIUnit);
 
-
+				
 				LOG_CITY_BLOCK(2, {
 					const CvWString szStringUnitAi = GC.getUnitAIInfo(eTrainAIUnit).getType();
 					logBBAI("      City %S builds unit %S for Type %S", getName().GetCString(), GC.getUnitInfo(eTrainUnit).getDescription(), szStringUnitAi.GetCString());
@@ -24019,12 +24019,12 @@ int CvCity::getPropertyNeed(PropertyTypes eProperty) const
 				{
 					iTarget = GC.getPropertyInfo(pProperty).getTargetLevel();
 				}
-				int iNeedori = iTarget - iCurrentValue;
+				int iNeedori = iTarget - iCurrentValue; 
 				int iNeed = iTarget - iCurrentValue;
 				CvWString szProperty = GC.getPropertyInfo(pProperty).getType();
 				int iAIPropertyWeight = GC.getPropertyInfo(pProperty).getAIWeight() / 50;
 				if (iAIPropertyWeight > 0) //Properties that are positive (EDU,TOURISM)
-				{
+				{ 
 					if (iTarget > iCurrentValue) //Still need to be better
 					{
 						iNeed = (iTarget - iCurrentValue) * iAIPropertyWeight;
@@ -24032,7 +24032,7 @@ int CvCity::getPropertyNeed(PropertyTypes eProperty) const
 					else
 					{
 						iNeed = -1;
-					}
+					}		
 				}
 				else
 				{

@@ -8503,7 +8503,7 @@
 		<Tag>TXT_KEY_BUG_OPT_ROMSETTINGS__FOGWARNBTURNS_LIST</Tag>
 		<English>0|1|2|3|4|5|10|-1</English>
 	</TEXT>
-
+	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_ROMSETTINGS__MINORCIVTECH_TEXT</Tag>
 		<English>Emancipation Tech</English>
@@ -8523,7 +8523,7 @@
 		<Spanish>The Emancipation Technology triggers a minor civilization’s upgrade to a major civilization. Default: ‘Code of Conduct’.</Spanish>
 		<Russian>The Emancipation Technology triggers a minor civilization’s upgrade to a major civilization. Default: ‘Code of Conduct’.</Russian>
 		<Polish>The Emancipation Technology triggers a minor civilization’s upgrade to a major civilization. Default: ‘Code of Conduct’.</Polish>
-	</TEXT>
+	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_ROMSETTINGS__MINORCIVTECH_LIST</Tag>
 		<English>TECH_CONDUCT|TECH_NEGOTIATION|TECH_WRITING</English>
@@ -8547,7 +8547,7 @@
 		<Spanish>Reduce the information shown on the Assassinate and Ambush selection buttons.</Spanish>
 		<Russian>Reduce the information shown on the Assassinate and Ambush selection buttons.</Russian>
 		<Polish>Reduce the information shown on the Assassinate and Ambush selection buttons.</Polish>
-	</TEXT>
+	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_ROMSETTINGS__ASSASSINATECHOICE_TEXT</Tag>
 		<English>Assassinat : Target choice</English>
@@ -8567,7 +8567,7 @@
 		<Spanish>Lets assassins pick one target to focus on from several available.</Spanish>
 		<Russian>Lets assassins pick one target to focus on from several available.</Russian>
 		<Polish>Lets assassins pick one target to focus on from several available.</Polish>
-	</TEXT>
+	</TEXT>		
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_ROMSETTINGS__USELANDMARKNAMES_HOVER</Tag>
 		<English>Cities will be named after nearby landmarks, instead of using the standard list of names. If no landmark is nearby, a standard name is used.</English>

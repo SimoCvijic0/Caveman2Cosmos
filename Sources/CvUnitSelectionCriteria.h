@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 
 #ifndef CIV4_UNIT_SELECTION_CRITERIA_H
 #define CIV4_UNIT_SELECTION_CRITERIA_H

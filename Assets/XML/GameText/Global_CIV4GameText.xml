@@ -574,7 +574,7 @@
 		<Polish>target: </Polish>
 		<Spanish>target: </Spanish>
 		<Russian>target: </Russian>
-	</TEXT>
+	</TEXT>	
 	<TEXT>
 		<Tag>TXT_ACO_ATTACKER</Tag>
 		<English>Attacker: </English>
@@ -584,7 +584,7 @@
 		<Polish>Attacker: </Polish>
 		<Spanish>Attacker: </Spanish>
 		<Russian>Attacker: </Russian>
-	</TEXT>
+	</TEXT>	
 	<TEXT>
 		<Tag>TXT_ACO_WITHDRAW</Tag>
 		<English>[COLOR_POSITIVE_TEXT]Withdraw[COLOR_REVERT]</English>
@@ -30936,6 +30936,6 @@ feindliche Einheit scrollen[COLOR_REVERT][\BOLD]Anzeige der Siegchance
 		<Tag>TXT_KEY_MOD_KILL_ANIMALS_DESC</Tag>
 		<English>All Green man's animals will be regenerated in a few turns</English>
 		<French>Tous les animaux de Dame Nature vont être régénérés dans quelques tours.</French>
-	</TEXT>
+	</TEXT>	
 </Civ4GameText>
 

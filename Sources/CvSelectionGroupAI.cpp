@@ -117,7 +117,7 @@ bool CvSelectionGroupAI::AI_update()
 
 	if (isForceUpdate())
 	{
-
+		
 		LOG_UNIT_BLOCK(4, {
 			UnitAITypes eUnitAi = this->getHeadUnit()->AI_getUnitAIType();
 			MissionAITypes eMissionAI = AI_getMissionAIType();
@@ -129,7 +129,7 @@ bool CvSelectionGroupAI::AI_update()
 				StrUnitName = this->getHeadUnit()->getName(0).GetCString();
 			}
 
-			logBBAI("Player %d Group ID %d, menï¿½ par %d %S of Type %S, at (%d, %d), Mission %S [stack size %d], Was fortified/BuildUp, Force to Awake...", getOwner(), m_iID, this->getHeadUnit()->getID(), StrUnitName.GetCString(), StrunitAIType.GetCString(), getX(), getY(), MissionInfos.GetCString(), getNumUnits());
+			logBBAI("Player %d Group ID %d, mené par %d %S of Type %S, at (%d, %d), Mission %S [stack size %d], Was fortified/BuildUp, Force to Awake...", getOwner(), m_iID, this->getHeadUnit()->getID(), StrUnitName.GetCString(), StrunitAIType.GetCString(), getX(), getY(), MissionInfos.GetCString(), getNumUnits());
 		});
 		clearMissionQueue(); // XXX ???
 		setActivityType(ACTIVITY_AWAKE);
@@ -201,7 +201,7 @@ bool CvSelectionGroupAI::AI_update()
 
 				pHeadUnit->finishMoves();
 			}
-
+			
 			else if (readyToMove())
 			{
 				FErrorMsg("splitting group");
@@ -860,7 +860,7 @@ int CvSelectionGroupAI::AI_compareStacks(const CvPlot* pPlot, StackCompare::flag
 		{
 			StrUnitName = pUnit->getName(0).GetCString();
 		}
-		logAiEvaluations(4,"Player %d Group ID %d Head ID %d, %S of Type %S, at (%d, %d), Evaluation of Combat Odds [stack size %d], Attack %d Defense %d, Ratio %d",
+		logAiEvaluations(4,"Player %d Group ID %d Head ID %d, %S of Type %S, at (%d, %d), Evaluation of Combat Odds [stack size %d], Attack %d Defense %d, Ratio %d", 
 			getOwner(), m_iID, pUnit->getID(), StrUnitName.GetCString(), StrunitAIType.GetCString(), pPlot->getX(), pPlot->getY(), getNumUnits(), iAttackStrength, defenderSum, compareRatio);
 	});
 

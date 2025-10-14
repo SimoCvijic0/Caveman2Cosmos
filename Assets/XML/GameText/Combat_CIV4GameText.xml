@@ -8658,7 +8658,7 @@
 			<Text>(Ère) Atomique</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
-		</French>
+		</French>		
 		<Italian>Era atomica</Italian>
 	</TEXT>
 	<TEXT>
@@ -9203,7 +9203,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_UNITCOMBAT_GUNSHIP</Tag>
 		<English>Gunship</English>
-		<French>Navire de guerre</French>
+		<French>Navire de guerre</French>		
 		<Italian>Unità elicottero d'assalto</Italian>
 	</TEXT>
 	<TEXT>

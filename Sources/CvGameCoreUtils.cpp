@@ -1,4 +1,4 @@
-#include "CvGameCoreDLL.h"
+﻿#include "CvGameCoreDLL.h"
 #include "CvBuildingInfo.h"
 #include "CvCity.h"
 #include "CvGameAI.h"
@@ -4537,7 +4537,7 @@ int applyDistanceScoringFactor(int score, const CvPlot* sourcePlot, const CvPlot
 // === Partie 1 : encodage bitwise (a ∈ [1,100000], b ∈ [0,9999]) ===
 //
 int encodeACDateturn(int decodeda, int b) {
-
+	
 	if (decodeda < -400000 || decodeda > 7000) throw std::out_of_range("a hors limites [-400000,6000]");
 	int a = inverseMapValue(decodeda * -1);
 	if (a < 1) a = 1;
@@ -4549,9 +4549,9 @@ int encodeACDateturn(int decodeda, int b) {
 
 int decodeACDate(int n) {
 	int codedDate = n >> 14;
-
+	
 	int decodedDate = mapValue(codedDate) * -1 ;
-
+	
 	if (abs(decodedDate) > 10000)
 		return (decodedDate / 100) * 100;
 	if (abs(decodedDate) > 1000)

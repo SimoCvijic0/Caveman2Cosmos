@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 
 #ifndef BETTERBTSAI_H
 #define BETTERBTSAI_H

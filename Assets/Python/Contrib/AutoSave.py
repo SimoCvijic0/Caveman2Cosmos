@@ -44,7 +44,7 @@ def remove_diacritics(in_text):
 
     #print "%s" % text
     return text
-
+        
 def cleanNpc():
 	iTurn = GAME.getGameTurn()
 	modturn = iTurn % 30
@@ -71,7 +71,7 @@ def cleanNpc():
 			pUnit.kill(False, -1)
 			pUnit, loop = pPlayer.nextUnit(loop, False)
 		print "Unités du joueur 41 supprimées."
-
+		
 		iPlayer = 42
 		pPlayer = GC.getPlayer(iPlayer)
 		pUnit, loop = pPlayer.firstUnit(False)
@@ -138,13 +138,13 @@ def save(type, prefix, iTurn):
 	dir = remove_diacritics(dir)
 
 	print "after AutoSave.savename : %s" % dir
+	
 
-
-
+	
 	npcclean = False
 	if npcclean:
 		cleanNpc()
-
+	
 	GAME.saveGame(str(dir))
 	print "AutoSave.save\n\t%s" % dir
 

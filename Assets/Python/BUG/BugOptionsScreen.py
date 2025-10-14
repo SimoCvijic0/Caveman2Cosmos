@@ -20,7 +20,7 @@ def clearAllTranslations(argsList=None):
 
 class BugOptionsScreen:
 	# BUG Mod Options Screen
-
+	
 	def __init__(self):
 		import BugOptions
 		self.iScreenHeight = 50

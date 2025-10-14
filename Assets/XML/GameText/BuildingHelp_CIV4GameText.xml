@@ -600,6 +600,7 @@
 		<German>[NEWLINE][ICON_BULLET]global %d1%% Kosten für:[SPACE]</German>
 		<Italian>[NEWLINE][ICON_BULLET]Modificatore costo nazionale [COLOR_HIGHLIGHT_TEXT]%d1%%[COLOR_REVERT] per gli edifici:[SPACE]</Italian>
 		<Russian>[NEWLINE][ICON_BULLET]Общегосударственное изменение цены на %d1%%:[SPACE]</Russian>
+		<!-- city screen hover on building unique culture -->
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDINGHELP_GLOBAL_MAINT</Tag>

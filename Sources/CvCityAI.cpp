@@ -1112,8 +1112,8 @@ void CvCityAI::AI_chooseProduction()
 		iNeededSpies *= 2;
 	}
 
-	int iMaxUnitSpending = AI_evaluateMaxUnitSpending();
-
+	int iMaxUnitSpending = AI_evaluateMaxUnitSpending(); 
+	
 	int iCarriers = player.AI_totalUnitAIs(UNITAI_CARRIER_SEA);
 
 	//Afforess reduced 12 -> 6, since AI rarely reaches this logic, Added exemption for MAD players
@@ -1149,7 +1149,7 @@ void CvCityAI::AI_chooseProduction()
 	}
 
 	int iProductionRank = findYieldRateRank(YIELD_PRODUCTION);
-
+		
 	LOG_CITY_BLOCK(3, {
 		logBBAI(
 			"\nPlayer %d (%S) - %S (pop %d):\n"
@@ -1783,7 +1783,7 @@ void CvCityAI::AI_chooseProduction()
 	}
 	m_iTempBuildPriority--;
 
-	//#10 Minimal escort defense for Settlers 	//TB Note: Moved escorts and settlers to almost the top priority IF it's possible and needed.  This should solve the complaints about settlers not being trained fast enough.
+	//#10 Minimal escort defense for Settlers 	//TB Note: Moved escorts and settlers to almost the top priority IF it's possible and needed.  This should solve the complaints about settlers not being trained fast enough.	
 	if (iMaxSettlers > 0 && !bInhibitUnits && iPlotSettlerCount > 0 && iPlotSettlerEscortCount < (iPlotSettlerCount * 4))
 	{
 		LOG_BBAI_CITY(2, ("City %S, Will Start to build Min escort defenders. For the moment : InArea : %d, Needed : %d", getName().GetCString(), iPlotSettlerEscortCount, iPlotSettlerCount * 4));
@@ -2175,7 +2175,7 @@ void CvCityAI::AI_chooseProduction()
 		const int iAttackNeeded = iNbMinimalAttackers + std::max(0, AI_neededDefenders() - (iPlotCityDefenderCount + iPlotOtherCityAICount)) + intSqrt(player.getNumCities()); //Try to add some attack units at minimum
 		const int iOwnedAttackers = player.AI_totalAreaUnitAIs(pArea, UNITAI_ATTACK);
 		LOG_BBAI_CITY(2, ("#23 City %S, Will Start to build mini Attack forces, due to Danger. For the moment : Owned : %d, Needed : %d", getName().GetCString(), iOwnedAttackers, iAttackNeeded));
-
+		
 		if (iOwnedAttackers < iAttackNeeded
 		&& AI_chooseUnitImmediate("minimal attack (danger)", UNITAI_ATTACK))
 		{
@@ -2249,7 +2249,7 @@ void CvCityAI::AI_chooseProduction()
 	//#25 If Focus Food, Food buildings
 	if (!bPrimaryArea && !bLandWar && (!isHuman() || AI_isEmphasizeYield(YIELD_FOOD)) && AI_chooseBuilding(BUILDINGFOCUS_FOOD, 20, 10 + 2 * iWarTroubleThreshold, isHuman() ? -1 : 50))
 	{
-		LOG_BBAI_CITY(2, ("      City %S uses choose BUILDINGFOCUS_FOOD 1", getName().GetCString()));
+		LOG_BBAI_CITY(2, ("      City %S uses choose BUILDINGFOCUS_FOOD 1", getName().GetCString()));		
 		return;
 	}
 
@@ -2320,7 +2320,7 @@ void CvCityAI::AI_chooseProduction()
 
 	m_iTempBuildPriority--;
 
-	//#29 Extra Workers for large city, if no danger
+	//#29 Extra Workers for large city, if no danger 
 	if (!bInhibitUnits && !bChooseWorker && iDangerValue < 7 && iWorkersInArea < iNeededWorkersInArea && (!bDefenseWar || iWarSuccessRatio >= -50) && iProductionRank < (player.getNumCities() + 1) / 2)
 	{
 		if (AI_chooseUnit("no danger large city extra worker", UNITAI_WORKER))
@@ -2337,7 +2337,7 @@ void CvCityAI::AI_chooseProduction()
 		m_iTempBuildPriority = LOW_PRIORITY_ESCORT_PRIORITY - 1;
 	}
 
-	//#30 Extra Sea Workers, if no danger
+	//#30 Extra Sea Workers, if no danger 
 	if ((m_iRequestedUnit <= MAX_REQUESTEDUNIT_PER_CITY) && !bInhibitUnits && !bWaterDanger && (!bDefenseWar || iWarSuccessRatio >= -30) && iNeededSeaWorkers > iExistingSeaWorkers && AI_chooseUnit("no danger extra sea worker", UNITAI_WORKER_SEA))
 	{
 		return;
@@ -2383,7 +2383,7 @@ void CvCityAI::AI_chooseProduction()
 
 		const int iAttackCityCount = player.AI_totalAreaUnitAIs(pArea, UNITAI_ATTACK_CITY);
 		const int iAttackCount = player.AI_totalAreaUnitAIs(pArea, UNITAI_ATTACK);
-		int iAttackCityTarget = 3 + iBuildUnitProb / 10;
+		int iAttackCityTarget = 3 + iBuildUnitProb / 10; 
 		int iAttackTarget = 3 + iBuildUnitProb / 10;
 
 		//Calvitix Boost if Warmonger (Conquest Victory > 35)
@@ -2434,7 +2434,7 @@ void CvCityAI::AI_chooseProduction()
 					return;
 				}
 			}
-			else if (iAttackCityCount < iAttackCityTarget)
+			else if (iAttackCityCount < iAttackCityTarget) 
 			{
 				if (iAttackCount < iAttackTarget)
 				{
@@ -2491,7 +2491,7 @@ void CvCityAI::AI_chooseProduction()
 	}
 
 	m_iTempBuildPriority--;
-
+	
 	//#34 Opportunistic wonder build (1)
 	if (iDangerValue < 6 && !hasActiveWorldWonder() && player.getNumCities() <= 3 && (!bLandWar || iWarSuccessRatio > 30))
 	{
@@ -2557,7 +2557,7 @@ void CvCityAI::AI_chooseProduction()
 	//#39 Projects
 	if (iDangerValue < 3 && !isHuman() && (!bLandWar || iWarSuccessRatio >= 30)	&& iProductionRank <= 1 + player.getNumCities() / 5	&& AI_chooseProject())
 	{
-		LOG_BBAI_CITY(3, ("#39      City %S uses choose project 1", getName().GetCString()));
+		LOG_BBAI_CITY(3, ("#39      City %S uses choose project 1", getName().GetCString()));	
 		return;
 	}
 
@@ -2801,7 +2801,7 @@ void CvCityAI::AI_chooseProduction()
 
 	m_iTempBuildPriority--;
 
-	//#55 Optional workers & Sea workers (5th), if no Workers in Area,
+	//#55 Optional workers & Sea workers (5th), if no Workers in Area, 
 	if (!bInhibitUnits && iDangerValue < 3 && iWorkersInArea == 0 && (isCapital() || iNeededWorkersInArea > 0 || (iNeededSeaWorkers > iExistingSeaWorkers)))
 	{
 		// Koshling - next section moved from quite a bit earlier to avoid not-needed-yet worker builds before we have checked basic economy builds
@@ -4114,7 +4114,7 @@ UnitTypes CvCityAI::AI_bestUnit(int& iBestUnitValue, int iNumSelectableTypes, Un
 						strUnitAIType = GC.getUnitAIInfo((UnitAITypes)iI).getType();
 						logAiEvaluations(2, "City %S, Better AI Unit chosen for %S, type %S, %S, unit final value %d, best value %d", getName().GetCString(), strUnitAIType.c_str(), strUnitType.c_str(), GC.getUnitInfo(eUnit).getDescription(), iUnitValue, iBestValue);
 					});
-
+					
 					iBestUnitValue = iUnitValue;
 				}
 			}
@@ -9161,7 +9161,7 @@ bool CvCityAI::AI_chooseProject()
 	if (eBestProject != NO_PROJECT)
 	{
 		pushOrder(ORDER_CREATE, eBestProject, -1, false, false, true);
-
+		
 		return true;
 	}
 
@@ -11794,7 +11794,7 @@ void CvCityAI::AI_updateWorkersNeededHere()
 	m_iWorkersNeeded = std::max(0, iWorkersNeeded - area()->getNumTrainAIUnits(getOwner(), UNITAI_WORKER));
 
 	FASSERT_NOT_NEGATIVE(m_iWorkersNeeded);
-	LOG_BBAI_CITY(3, ("Player %d, city: %S, workers have: %d, workers needed: %d", getOwner(), getName().GetCString(), getNumWorkers(), m_iWorkersNeeded));
+	LOG_BBAI_CITY(3, ("Player %d, city: %S, workers have: %d, workers needed: %d", getOwner(), getName().GetCString(), getNumWorkers(), m_iWorkersNeeded));	
 }
 
 
@@ -12731,7 +12731,7 @@ void CvCityAI::CalculateAllBuildingValues(int iFocusFlags)
 	const bool bLandWar = bDefense || pArea->getAreaAIType(eTeam) == AREAAI_OFFENSIVE || pArea->getAreaAIType(eTeam) == AREAAI_MASSING;
 	const bool bDanger = AI_isDanger();
 
-	LOG_EVALAI_CITY(3, (1,
+	LOG_EVALAI_CITY(3, (1, 
 			"      City %S CalculateAllBuildingValues for flags %08lx (already has %08lx)",
 			getName().GetCString(), iFocusFlags, cachedBuildingValues->m_iCachedFlags
 		));
@@ -14746,14 +14746,14 @@ bool CvCityAI::AI_choosePropertyControlBuildingAndUnit(int iTriggerPercentOfProp
 				//	Don't bother trying to build units for hopelessly out-of-control properties
 				//	or else we'll spam units endlessly in cases we cannot really control
 				int iLimit = 250 * ((1 + (int)player.getCurrentEra())/5);
-				int iAcceptanceLimit = 100 * ((1 + (int)player.getCurrentEra())/2); //Acceptable Value
+				int iAcceptanceLimit = 100 * ((1 + (int)player.getCurrentEra())/2); //Acceptable Value 
 				int iAcceptanceRate = iCurrentValue/100 * 5; //Accept a 5% rate increase
 				if (iTrainReluctance > 0)
 				{
 					iLimit /= iTrainReluctance;
 				}
 
-				//Calvitix : Evaluate the future evolution of the property, with actuel change, and estimate the number of turn to achieve goal
+				//Calvitix : Evaluate the future evolution of the property, with actuel change, and estimate the number of turn to achieve goal 
 				#define MIN_PROPERTY_TOTAL_TO_DEAL_WITH  -1000
 				bool isGettingBetter = false;
 				bool isGoodEnough = false;
@@ -14784,7 +14784,7 @@ bool CvCityAI::AI_choosePropertyControlBuildingAndUnit(int iTriggerPercentOfProp
 					logAiEvaluations(3, "City %S, step %d %%, property %S can be a problem in future, but not now. value(%d) change(%d)", getName().GetCString(), iTriggerPercentOfPropertyOpRange, szProperty.GetCString(), iCurrentValue, iCurrentChange);
 
 				}
-
+				
 				//Count the percent of Prop Control units in the total army. Maximal allowed : 20% (TODO set param depend on leader)
 				int iPropControlInArea = player.AI_totalAreaUnitAIs(pArea, UNITAI_PROPERTY_CONTROL);
 				int iUnitsInArea = player.getNumUnits();
