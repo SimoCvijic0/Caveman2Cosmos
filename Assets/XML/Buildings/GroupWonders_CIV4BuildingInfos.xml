@@ -2703,14 +2703,14 @@
 			</YieldModifiers>
 			<CommerceChanges>
 				<iCommerce>1</iCommerce>
-				<iCommerce>3</iCommerce>
-				<iCommerce>3</iCommerce>
+				<iCommerce>5</iCommerce>
+				<iCommerce>5</iCommerce>
 				<iCommerce>0</iCommerce>
 			</CommerceChanges>
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
-				<iCommerce>3</iCommerce>
-				<iCommerce>3</iCommerce>
+				<iCommerce>5</iCommerce>
+				<iCommerce>5</iCommerce>
 				<iCommerce>0</iCommerce>
 			</CommerceModifiers>
 			<bNeverCapture>1</bNeverCapture>
@@ -2796,6 +2796,7 @@
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
 			</CommerceModifiers>
+            <iPopulationgrowthratepercentage>-3</iPopulationgrowthratepercentage>
 			<bNeverCapture>1</bNeverCapture>
 			<bNukeImmune>1</bNukeImmune>
 			<fVisibilityPriority>0</fVisibilityPriority>
@@ -2824,59 +2825,59 @@
 			<UnitProductionModifiers>
 				<UnitProductionModifier>
 					<UnitType>UNIT_BRUTE</UnitType>
-					<iProductionModifier>10</iProductionModifier>
+					<iProductionModifier>20</iProductionModifier>
 				</UnitProductionModifier>
 				<UnitProductionModifier>
 					<UnitType>UNIT_STONE_THROWER</UnitType>
-					<iProductionModifier>10</iProductionModifier>
+					<iProductionModifier>20</iProductionModifier>
 				</UnitProductionModifier>
 				<UnitProductionModifier>
 					<UnitType>UNIT_CLUBMAN</UnitType>
-					<iProductionModifier>10</iProductionModifier>
+					<iProductionModifier>20</iProductionModifier>
 				</UnitProductionModifier>
 				<UnitProductionModifier>
 					<UnitType>UNIT_SPIKED_CLUBMAN</UnitType>
-					<iProductionModifier>10</iProductionModifier>
+					<iProductionModifier>20</iProductionModifier>
 				</UnitProductionModifier>
 				<UnitProductionModifier>
 					<UnitType>UNIT_STONE_SPEARMAN</UnitType>
-					<iProductionModifier>10</iProductionModifier>
+					<iProductionModifier>20</iProductionModifier>
 				</UnitProductionModifier>
 				<UnitProductionModifier>
 					<UnitType>UNIT_SLINGER</UnitType>
-					<iProductionModifier>10</iProductionModifier>
+					<iProductionModifier>20</iProductionModifier>
 				</UnitProductionModifier>
 				<UnitProductionModifier>
 					<UnitType>UNIT_STONE_AXEMAN</UnitType>
-					<iProductionModifier>10</iProductionModifier>
+					<iProductionModifier>20</iProductionModifier>
 				</UnitProductionModifier>
 				<UnitProductionModifier>
 					<UnitType>UNIT_STONE_MACEMAN</UnitType>
-					<iProductionModifier>10</iProductionModifier>
+					<iProductionModifier>20</iProductionModifier>
 				</UnitProductionModifier>
 				<UnitProductionModifier>
 					<UnitType>UNIT_ATLATL</UnitType>
-					<iProductionModifier>10</iProductionModifier>
+					<iProductionModifier>20</iProductionModifier>
 				</UnitProductionModifier>
 				<UnitProductionModifier>
 					<UnitType>UNIT_WOODEN_SPEARMAN</UnitType>
-					<iProductionModifier>10</iProductionModifier>
+					<iProductionModifier>20</iProductionModifier>
 				</UnitProductionModifier>
 				<UnitProductionModifier>
 					<UnitType>UNIT_OBSIDIAN_MACEMAN</UnitType>
-					<iProductionModifier>10</iProductionModifier>
+					<iProductionModifier>20</iProductionModifier>
 				</UnitProductionModifier>
 				<UnitProductionModifier>
 					<UnitType>UNIT_OBSIDIAN_SPEARMAN</UnitType>
-					<iProductionModifier>10</iProductionModifier>
+					<iProductionModifier>20</iProductionModifier>
 				</UnitProductionModifier>
 				<UnitProductionModifier>
 					<UnitType>UNIT_OBSIDIAN_SWORDSMAN</UnitType>
-					<iProductionModifier>10</iProductionModifier>
+					<iProductionModifier>20</iProductionModifier>
 				</UnitProductionModifier>
 				<UnitProductionModifier>
 					<UnitType>UNIT_OBSIDIAN_AXEMAN</UnitType>
-					<iProductionModifier>10</iProductionModifier>
+					<iProductionModifier>20</iProductionModifier>
 				</UnitProductionModifier>
 			</UnitProductionModifiers>
 			<iHurryCostModifier>100</iHurryCostModifier>
@@ -3040,23 +3041,23 @@
 			<UnitProductionModifiers>
 				<UnitProductionModifier>
 					<UnitType>UNIT_WISE_WOMAN</UnitType>
-					<iProductionModifier>10</iProductionModifier>
+					<iProductionModifier>20</iProductionModifier>
 				</UnitProductionModifier>
 				<UnitProductionModifier>
 					<UnitType>UNIT_HEALER</UnitType>
-					<iProductionModifier>10</iProductionModifier>
+					<iProductionModifier>20</iProductionModifier>
 				</UnitProductionModifier>
 				<UnitProductionModifier>
 					<UnitType>UNIT_WATCHER</UnitType>
-					<iProductionModifier>10</iProductionModifier>
+					<iProductionModifier>20</iProductionModifier>
 				</UnitProductionModifier>
 				<UnitProductionModifier>
 					<UnitType>UNIT_ENFORCERS</UnitType>
-					<iProductionModifier>10</iProductionModifier>
+					<iProductionModifier>20</iProductionModifier>
 				</UnitProductionModifier>
 				<UnitProductionModifier>
 					<UnitType>UNIT_STORY_TELLER</UnitType>
-					<iProductionModifier>10</iProductionModifier>
+					<iProductionModifier>20</iProductionModifier>
 				</UnitProductionModifier>
 			</UnitProductionModifiers>
 			<bNeverCapture>1</bNeverCapture>
@@ -3145,23 +3146,23 @@
 			<UnitProductionModifiers>
 				<UnitProductionModifier>
 					<UnitType>UNIT_EXCILE</UnitType>
-					<iProductionModifier>10</iProductionModifier>
+					<iProductionModifier>20</iProductionModifier>
 				</UnitProductionModifier>
 				<UnitProductionModifier>
 					<UnitType>UNIT_THIEF</UnitType>
-					<iProductionModifier>10</iProductionModifier>
+					<iProductionModifier>20</iProductionModifier>
 				</UnitProductionModifier>
 				<UnitProductionModifier>
 					<UnitType>UNIT_ROGUE</UnitType>
-					<iProductionModifier>10</iProductionModifier>
+					<iProductionModifier>20</iProductionModifier>
 				</UnitProductionModifier>
 				<UnitProductionModifier>
 					<UnitType>UNIT_AMBUSHER</UnitType>
-					<iProductionModifier>10</iProductionModifier>
+					<iProductionModifier>20</iProductionModifier>
 				</UnitProductionModifier>
 				<UnitProductionModifier>
 					<UnitType>UNIT_ASSASSIN</UnitType>
-					<iProductionModifier>10</iProductionModifier>
+					<iProductionModifier>20</iProductionModifier>
 				</UnitProductionModifier>
 			</UnitProductionModifiers>
 			<bNeverCapture>1</bNeverCapture>
@@ -3249,24 +3250,20 @@
 			</CommerceModifiers>
 			<UnitProductionModifiers>
 				<UnitProductionModifier>
-					<UnitType>UNIT_WANDERER</UnitType>
-					<iProductionModifier>10</iProductionModifier>
-				</UnitProductionModifier>
-				<UnitProductionModifier>
 					<UnitType>UNIT_CHASER</UnitType>
-					<iProductionModifier>10</iProductionModifier>
+					<iProductionModifier>20</iProductionModifier>
 				</UnitProductionModifier>
 				<UnitProductionModifier>
 					<UnitType>UNIT_SCOUT</UnitType>
-					<iProductionModifier>10</iProductionModifier>
+					<iProductionModifier>20</iProductionModifier>
 				</UnitProductionModifier>
 				<UnitProductionModifier>
 					<UnitType>UNIT_TRACKER</UnitType>
-					<iProductionModifier>10</iProductionModifier>
+					<iProductionModifier>20</iProductionModifier>
 				</UnitProductionModifier>
 				<UnitProductionModifier>
 					<UnitType>UNIT_HUNTER</UnitType>
-					<iProductionModifier>10</iProductionModifier>
+					<iProductionModifier>20</iProductionModifier>
 				</UnitProductionModifier>
 			</UnitProductionModifiers>
 			<FreePromoTypes>
@@ -3280,7 +3277,7 @@
 					</FreePromotionCondition>
 				</FreePromoType>
 				<FreePromoType>
-					<PromotionType>PROMOTION_HUNTING_STRIKE1</PromotionType>
+					<PromotionType>PROMOTION_HUNTING_SIGHT1</PromotionType>
 					<FreePromotionCondition>
 						<Has>
 							<GOMType>GOM_UNITCOMBAT</GOMType>
@@ -3365,7 +3362,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<bNukeImmune>1</bNukeImmune>
 			<fVisibilityPriority>0</fVisibilityPriority>
-			<ArtDefineTag>ART_DEF_BUILDING_LEADER_ANIMAL_HUT</ArtDefineTag>
+			<ArtDefineTag>ART_DEF_BUILDING_LEADER_WANDERER_SHELTER</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_TOOL</MovieDefineTag>
 		</BuildingInfo>
 
@@ -3428,7 +3425,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<bNukeImmune>1</bNukeImmune>
 			<fVisibilityPriority>0</fVisibilityPriority>
-			<ArtDefineTag>ART_DEF_BUILDING_LEADER_TRADER_HUT</ArtDefineTag>
+			<ArtDefineTag>ART_DEF_BUILDING_LEADER_WANDERER_SHELTER</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_TOOL</MovieDefineTag>
 		</BuildingInfo>
 
@@ -3498,7 +3495,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<bNukeImmune>1</bNukeImmune>
 			<fVisibilityPriority>0</fVisibilityPriority>
-			<ArtDefineTag>ART_DEF_BUILDING_LEADER_HEALER_HUT</ArtDefineTag>
+			<ArtDefineTag>ART_DEF_BUILDING_LEADER_WANDERER_SHELTER</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_TOOL</MovieDefineTag>
 		</BuildingInfo>
 
@@ -3564,7 +3561,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<bNukeImmune>1</bNukeImmune>
 			<fVisibilityPriority>0</fVisibilityPriority>
-			<ArtDefineTag>ART_DEF_BUILDING_LEADER_FISHERMAN_HUT</ArtDefineTag>
+			<ArtDefineTag>ART_DEF_BUILDING_LEADER_WANDERER_SHELTER</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_TOOL</MovieDefineTag>
 		</BuildingInfo>
 
@@ -3622,7 +3619,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<bNukeImmune>1</bNukeImmune>
 			<fVisibilityPriority>0</fVisibilityPriority>
-			<ArtDefineTag>ART_DEF_BUILDING_LEADER_THINKER_HUT</ArtDefineTag>
+			<ArtDefineTag>ART_DEF_BUILDING_LEADER_WANDERER_SHELTER</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_TOOL</MovieDefineTag>
 		</BuildingInfo>
 
@@ -3674,7 +3671,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<bNukeImmune>1</bNukeImmune>
 			<fVisibilityPriority>0</fVisibilityPriority>
-			<ArtDefineTag>ART_DEF_BUILDING_LEADER_CARPENTRY_HUT</ArtDefineTag>
+			<ArtDefineTag>ART_DEF_BUILDING_LEADER_WANDERER_SHELTER</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_TOOL</MovieDefineTag>
 		</BuildingInfo>
 
@@ -3726,7 +3723,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<bNukeImmune>1</bNukeImmune>
 			<fVisibilityPriority>0</fVisibilityPriority>
-			<ArtDefineTag>ART_DEF_BUILDING_LEADER_FOOD_STORAGE_HUT</ArtDefineTag>
+			<ArtDefineTag>ART_DEF_BUILDING_LEADER_WANDERER_SHELTER</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_FOOD</MovieDefineTag>
 		</BuildingInfo>
 
@@ -3778,7 +3775,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<bNukeImmune>1</bNukeImmune>
 			<fVisibilityPriority>0</fVisibilityPriority>
-			<ArtDefineTag>ART_DEF_BUILDING_LEADER_TREASURE_HUT</ArtDefineTag>
+			<ArtDefineTag>ART_DEF_BUILDING_LEADER_WANDERER_SHELTER</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_STORAGE</MovieDefineTag>
 		</BuildingInfo>
 
@@ -3871,7 +3868,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<bNukeImmune>1</bNukeImmune>
 			<fVisibilityPriority>0</fVisibilityPriority>
-			<ArtDefineTag>ART_DEF_BUILDING_LEADER_WARCHIEF_HUT</ArtDefineTag>
+			<ArtDefineTag>ART_DEF_BUILDING_LEADER_WANDERER_SHELTER</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_TROPHY</MovieDefineTag>
 		</BuildingInfo>
 
@@ -3938,7 +3935,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<bNukeImmune>1</bNukeImmune>
 			<fVisibilityPriority>0</fVisibilityPriority>
-			<ArtDefineTag>ART_DEF_BUILDING_LEADER_ORDER_HUT</ArtDefineTag>
+			<ArtDefineTag>ART_DEF_BUILDING_LEADER_WANDERER_SHELTER</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_TOOL</MovieDefineTag>
 		</BuildingInfo>
 
@@ -4012,7 +4009,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<bNukeImmune>1</bNukeImmune>
 			<fVisibilityPriority>0</fVisibilityPriority>
-			<ArtDefineTag>ART_DEF_BUILDING_LEADER_SPY_HUT</ArtDefineTag>
+			<ArtDefineTag>ART_DEF_BUILDING_LEADER_WANDERER_SHELTER</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_SECRET</MovieDefineTag>
 		</BuildingInfo>
 
@@ -4106,7 +4103,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<bNukeImmune>1</bNukeImmune>
 			<fVisibilityPriority>0</fVisibilityPriority>
-			<ArtDefineTag>ART_DEF_BUILDING_LEADER_HUNTER_HUT</ArtDefineTag>
+			<ArtDefineTag>ART_DEF_BUILDING_LEADER_WANDERER_SHELTER</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_WANDERER</MovieDefineTag>
 		</BuildingInfo>
 
@@ -4161,7 +4158,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<bNukeImmune>1</bNukeImmune>
 			<fVisibilityPriority>0</fVisibilityPriority>
-			<ArtDefineTag>ART_DEF_BUILDING_LEADER_FORTIFIED_HUT</ArtDefineTag>
+			<ArtDefineTag>ART_DEF_BUILDING_LEADER_WANDERER_SHELTER</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_WANDERER</MovieDefineTag>
 		</BuildingInfo>
 
@@ -4253,7 +4250,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<bNukeImmune>1</bNukeImmune>
 			<fVisibilityPriority>0</fVisibilityPriority>
-			<ArtDefineTag>ART_DEF_BUILDING_LEADER_MEGALITH_HUT</ArtDefineTag>
+			<ArtDefineTag>ART_DEF_BUILDING_LEADER_WANDERER_SHELTER</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_WANDERER</MovieDefineTag>
 		</BuildingInfo>
 
@@ -4310,7 +4307,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<bNukeImmune>1</bNukeImmune>
 			<fVisibilityPriority>0</fVisibilityPriority>
-			<ArtDefineTag>ART_DEF_BUILDING_LEADER_CULTURE_HUT</ArtDefineTag>
+			<ArtDefineTag>ART_DEF_BUILDING_LEADER_WANDERER_SHELTER</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_SAGE</MovieDefineTag>
 		</BuildingInfo>
 

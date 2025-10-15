@@ -920,7 +920,7 @@
             <iCombat>1</iCombat>
             <iXPValueAttack>4</iXPValueAttack>
             <iXPValueDefense>4</iXPValueDefense>
-            <iWithdrawalProb>10</iWithdrawalProb>
+            <iWithdrawalProb>20</iWithdrawalProb>
             <iEarlyWithdraw>50</iEarlyWithdraw>
             <iAnimalCombat>50</iAnimalCombat>
             <iAsset>2</iAsset>
@@ -972,7 +972,6 @@
             <Description>TXT_KEY_UNIT_SCOUT</Description>
             <Civilopedia>TXT_KEY_UNIT_SCOUT_PEDIA</Civilopedia>
             <Advisor>ADVISOR_GROWTH</Advisor>
-            <bBarbCoExist>1</bBarbCoExist>
             <bNoBadGoodies>1</bNoBadGoodies>
             <bPassage>1</bPassage>
             <bUpgradeAnywhere>1</bUpgradeAnywhere>
@@ -1008,7 +1007,7 @@
             <iCombat>2</iCombat>
             <iXPValueAttack>4</iXPValueAttack>
             <iXPValueDefense>4</iXPValueDefense>
-            <iWithdrawalProb>40</iWithdrawalProb>
+            <iWithdrawalProb>50</iWithdrawalProb>
             <iEarlyWithdraw>25</iEarlyWithdraw>
             <iAnimalCombat>25</iAnimalCombat>
             <iAsset>1</iAsset>
@@ -1056,7 +1055,6 @@
             <Description>TXT_KEY_UNIT_GUIDE</Description>
             <Civilopedia>TXT_KEY_UNIT_GUIDE_PEDIA</Civilopedia>
             <Advisor>ADVISOR_GROWTH</Advisor>
-            <bBarbCoExist>1</bBarbCoExist>
             <bNoBadGoodies>1</bNoBadGoodies>
             <bPassage>1</bPassage>
             <bUpgradeAnywhere>1</bUpgradeAnywhere>
@@ -1139,7 +1137,6 @@
             <Description>TXT_KEY_UNIT_EXPLORER</Description>
             <Civilopedia>TXT_KEY_UNIT_EXPLORER_PEDIA</Civilopedia>
             <Advisor>ADVISOR_GROWTH</Advisor>
-            <bBarbCoExist>1</bBarbCoExist>
             <bNoBadGoodies>1</bNoBadGoodies>
             <bPassage>1</bPassage>
             <bUpgradeAnywhere>1</bUpgradeAnywhere>
@@ -47081,7 +47078,7 @@
                                 <iYield>
                                     <Adapt>
                                         <ID>ADAPT_DEFAULT</ID>
-                                        <Constant>40</Constant>
+                                        <Constant>80</Constant>
                                     </Adapt>
                                 </iYield>
                             </Yields>

@@ -13361,7 +13361,7 @@
 				<TerrainType>TERRAIN_DUNES</TerrainType>
 				<TerrainType>TERRAIN_ICE</TerrainType>
 				<TerrainType>TERRAIN_LAKE_SHORE</TerrainType>
-				<TerrainType>TERRAIN_PEAK</TerrainType>
+				<TerrainType>TERRAIN_PEAK</TerrainType> // stai ne samo peak nego lakes i ocean i ostalo za birds
 				<TerrainType>TERRAIN_PERMAFROST</TerrainType>
 				<TerrainType>TERRAIN_JAGGED</TerrainType>
 				<TerrainType>TERRAIN_SALT_FLATS</TerrainType>

@@ -8665,7 +8665,6 @@
 			<iLinePriority>1</iLinePriority>
 			<OnGameOptions>
 				<GameOptionType>GAMEOPTION_COMBAT_HIDE_SEEK</GameOptionType>
-				<GameOptionType>GAMEOPTION_COMBAT_SIZE_MATTERS</GameOptionType>
 			</OnGameOptions>
 			<UnitCombats>
 				<UnitCombat>
@@ -8706,11 +8705,11 @@
 			<Description>TXT_KEY_PROMOTION_HUNTING_SIGHT2</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<PromotionPrereq>PROMOTION_HUNTING_SIGHT1</PromotionPrereq>
+            <PromotionPrereqOr1>PROMOTION_HUNTER2</PromotionPrereqOr1>
 			<PromotionLine>PROMOTIONLINE_HUNTING_SIGHT</PromotionLine>
 			<iLinePriority>2</iLinePriority>
 			<OnGameOptions>
 				<GameOptionType>GAMEOPTION_COMBAT_HIDE_SEEK</GameOptionType>
-				<GameOptionType>GAMEOPTION_COMBAT_SIZE_MATTERS</GameOptionType>
 			</OnGameOptions>
 			<UnitCombats>
 				<UnitCombat>
@@ -17066,6 +17065,12 @@
 					<iIntensity>1</iIntensity>
 				</VisibilityIntensityRangeChangeType>
 			</VisibilityIntensityRangeChangeTypes>
+            <VisibilityIntensityChangeTypes>
+                <VisibilityIntensityChangeType>
+                    <InvisibleType>INVISIBLE_CAMOUFLAGE</InvisibleType>
+                    <iIntensity>1</iIntensity>
+                </VisibilityIntensityChangeType>
+            </VisibilityIntensityChangeTypes>
 			<Button>Art/Buttons/Promotions/HawkEyes3Promotion.dds</Button>
 		</PromotionInfo>
 		<PromotionInfo>

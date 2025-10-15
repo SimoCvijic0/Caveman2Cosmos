@@ -42,6 +42,7 @@
             <Era>C2C_ERA_PREHISTORIC</Era>
             <iAsset>2</iAsset>
             <bTrade>1</bTrade>
+            <bWaterWork>1</bWaterWork>
             <bGoodyTech>1</bGoodyTech>
             <iGridX>1</iGridX>
             <iGridY>9</iGridY>
@@ -1515,7 +1516,6 @@
 			<iAsset>4</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
-			<bWaterWork>1</bWaterWork>
 			<iGridX>8</iGridX>
 			<iGridY>1</iGridY>
 			<Flavors>
