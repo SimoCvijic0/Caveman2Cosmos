@@ -48,12 +48,9 @@
 			<Description>TXT_KEY_BUILDING_FOLKLORE_REQUIREMENT</Description>
 			<Civilopedia>TXT_KEY_BUILDING_FOLKLORE_REQUIREMENT_PEDIA</Civilopedia>
 			<PrereqTech>TECH_LANGUAGE</PrereqTech>
-			<PrereqOrBuildings>
+			<PrereqBuilding>
 				<BuildingType>BUILDING_PALACE</BuildingType>
-				<BuildingType>BUILDING_STORYTELLER</BuildingType>
-				<BuildingType>BUILDING_SCHOOL_OF_SCRIBES</BuildingType>
-				<BuildingType>BUILDING_LIBRARY</BuildingType>
-			</PrereqOrBuildings>
+			</PrereqBuilding>
 			<bAutoBuild>1</bAutoBuild>
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_ENCLOSURE_AMPHIBIAN_POND</ArtDefineTag>
