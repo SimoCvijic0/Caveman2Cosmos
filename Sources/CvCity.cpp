@@ -11062,7 +11062,6 @@ int CvCity::getAdditionalExtraYieldByBuilding(YieldTypes eIndex, BuildingTypes e
 //		}
 //	}
 
-    //Murdermesa First if checks for resource duplicates (advanced_economy option), else unique resource only (old way)
 	for (int iI = 0; iI < GC.getNumBonusInfos(); ++iI)
     {
        if (eBuilding == (BuildingTypes)GC.getInfoTypeForString("BUILDING_STORAGE"))
