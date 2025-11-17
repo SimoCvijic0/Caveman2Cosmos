@@ -12096,7 +12096,7 @@ void CvPlayer::setTurnActive(bool bNewValue, bool bDoTurn)
 	PROFILE_FUNC();
 
 	bool bFinancialTrouble = false;
-
+	
 	if (m_bTurnActive != bNewValue)
 	{
 		m_bTurnActive = bNewValue;
