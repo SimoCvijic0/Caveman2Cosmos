@@ -31,23 +31,23 @@
 	<!-- Dexy - Surround and Destroy -->
 	<Define>
 		<DefineName>SAD_FACTOR_1</DefineName>
-		<iDefineIntVal>5</iDefineIntVal>
+		<iDefineIntVal>6</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>SAD_FACTOR_2</DefineName>
-		<iDefineIntVal>8</iDefineIntVal>
+		<iDefineIntVal>10</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>SAD_FACTOR_3</DefineName>
-		<iDefineIntVal>12</iDefineIntVal>
+		<iDefineIntVal>15</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>SAD_FACTOR_4</DefineName>
-		<iDefineIntVal>16</iDefineIntVal>
+		<iDefineIntVal>20</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>SAD_MAX_MODIFIER</DefineName>
-		<iDefineIntVal>55</iDefineIntVal>
+		<iDefineIntVal>60</iDefineIntVal>
 	</Define>
 	<!-- \Dexy - Surround and Destroy -->
 	<Define>
@@ -58,7 +58,7 @@
 	<Define>
 		<!-- Afforess: The divisor (or denominator) for the disbanded units gold. 1 will yield the full production cost. Has no effect if the above setting is disabled. -->
 		<DefineName>UNIT_GOLD_DISBAND_DIVISOR</DefineName>
-		<iDefineIntVal>10</iDefineIntVal>
+		<iDefineIntVal>4</iDefineIntVal>
 	</Define>
 	<Define>
 		<!-- Afforess: The number of turns that the Cut Loser's Game Option Checks -->

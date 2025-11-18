@@ -3,7 +3,7 @@
 	<UnitInfos>
 		<UnitInfo>
 			<Type>UNIT_CLOUD_DESTROYER</Type>
-			<iInstnceCostModifier>15</iInstnceCostModifier>
+			<iInstanceCostModifier>5</iInstanceCostModifier>
 			<Combat>UNITCOMBAT_BALLOON</Combat>
 			<SubCombatTypes>
 				<SubCombatType>UNITCOMBAT_COMBATANT</SubCombatType>
@@ -128,7 +128,7 @@
 		</UnitInfo>
 		<UnitInfo>
 			<Type>UNIT_NAUTILUS</Type>
-			<iInstanceCostModifir>15</iInstanceCostModifir>
+			<iInstanceCostModifier>5</iInstanceCostModifier>
 			<Combat>UNITCOMBAT_SUBMARINE</Combat>
 			<SubCombatTypes>
 				<SubCombatType>UNITCOMBAT_NAVAL_COMBATANT</SubCombatType>
@@ -270,7 +270,7 @@
 		</UnitInfo>
 		<UnitInfo>
 			<Type>UNIT_WAR_WHEEL</Type>
-			<iInstanceCostMoifier>15</iInstanceCostMoifier>
+			<iInstanceCostModifier>5</iInstanceCostModifier>
 			<Combat>UNITCOMBAT_RECON</Combat>
 			<SubCombatTypes>
 				<SubCombatType>UNITCOMBAT_WHEELED</SubCombatType>
@@ -363,7 +363,7 @@
 		</UnitInfo>
 		<UnitInfo>
 			<Type>UNIT_STEAM_TANK</Type>
-			<iInstanceCostModiier>15</iInstanceCostModiier>
+			<iInstanceCostModifier>5</iInstanceCostModifier>
 			<Combat>UNITCOMBAT_WHEELED</Combat>
 			<SubCombatTypes>
 				<SubCombatType>UNITCOMBAT_COMBATANT</SubCombatType>

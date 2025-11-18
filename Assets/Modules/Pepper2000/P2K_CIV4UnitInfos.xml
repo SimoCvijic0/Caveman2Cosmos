@@ -134,7 +134,7 @@
 				<BonusType>BONUS_ROCKET_FUEL</BonusType>
 			</PrereqBonuses>
 			<iCost>2006</iCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>11</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iCombat>30</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -282,7 +282,7 @@
 			<iCost>2435</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>11</iBaseUpkeep>
 			<iMoves>24</iMoves>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
@@ -378,7 +378,7 @@
 			<iCost>2540</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>11</iBaseUpkeep>
 			<iMoves>24</iMoves>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
@@ -480,7 +480,7 @@
 			<iCost>2645</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>11</iBaseUpkeep>
 			<iMoves>24</iMoves>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
@@ -595,7 +595,7 @@
 			<iCost>4850</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>11</iBaseUpkeep>
 			<iMoves>24</iMoves>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
@@ -686,7 +686,7 @@
 			<iCost>4850</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>11</iBaseUpkeep>
 			<iMoves>24</iMoves>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
@@ -792,7 +792,7 @@
 			<iCost>4850</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>11</iBaseUpkeep>
 			<iMoves>24</iMoves>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
@@ -906,7 +906,7 @@
 			<iCost>4850</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>11</iBaseUpkeep>
 			<iMoves>24</iMoves>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
@@ -1001,7 +1001,7 @@
 			<iCost>4850</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>11</iBaseUpkeep>
 			<iMoves>24</iMoves>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
@@ -1098,7 +1098,7 @@
 			<iCost>4850</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>11</iBaseUpkeep>
 			<iMoves>24</iMoves>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
@@ -1185,7 +1185,7 @@
 			<iCost>4850</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>11</iBaseUpkeep>
 			<iMoves>10</iMoves>
 			<iAsset>1</iAsset>
 			<iCombat>180</iCombat>
@@ -1238,7 +1238,7 @@
 			<iCost>4850</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>11</iBaseUpkeep>
 			<iMoves>6</iMoves>
 			<iAsset>1</iAsset>
 			<iCombat>120</iCombat>
@@ -1291,7 +1291,7 @@
 			<iCost>4850</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>11</iBaseUpkeep>
 			<iMoves>6</iMoves>
 			<iAsset>1</iAsset>
 			<iCombat>240</iCombat>
@@ -1344,7 +1344,7 @@
 			<iCost>4850</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>11</iBaseUpkeep>
 			<iMoves>3</iMoves>
 			<iAsset>1</iAsset>
 			<iCombat>360</iCombat>
@@ -1412,7 +1412,7 @@
 			<iCost>4850</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>11</iBaseUpkeep>
 			<iMoves>4</iMoves>
 			<iAsset>1</iAsset>
 			<iCombat>480</iCombat>
@@ -1491,7 +1491,7 @@
 			<iCost>4850</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>550</iAdvancedStartCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>11</iBaseUpkeep>
 			<iMoves>3</iMoves>
 			<iCombat>80</iCombat>
 			<iCombatLimit>100</iCombatLimit>
@@ -1572,7 +1572,7 @@
 			<iCost>4850</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>550</iAdvancedStartCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>11</iBaseUpkeep>
 			<iMoves>3</iMoves>
 			<iCombat>150</iCombat>
 			<iCombatLimit>100</iCombatLimit>
@@ -1659,7 +1659,7 @@
 			<iCost>4850</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>550</iAdvancedStartCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>11</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iCombat>130</iCombat>
 			<iCombatLimit>170</iCombatLimit>
@@ -1745,7 +1745,7 @@
 			<iCost>4850</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>550</iAdvancedStartCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>11</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iCombat>90</iCombat>
 			<iCombatLimit>100</iCombatLimit>
@@ -1831,7 +1831,7 @@
 			<iCost>4850</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>550</iAdvancedStartCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>11</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iCombat>110</iCombat>
 			<iCombatLimit>100</iCombatLimit>
@@ -1917,7 +1917,7 @@
 			<iCost>4850</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>550</iAdvancedStartCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>11</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iCombat>110</iCombat>
 			<iCombatLimit>100</iCombatLimit>
@@ -2000,7 +2000,7 @@
 			<iCost>4850</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>550</iAdvancedStartCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>11</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iCombat>130</iCombat>
 			<iCombatLimit>100</iCombatLimit>
@@ -2084,7 +2084,7 @@
 			<iCost>4850</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>550</iAdvancedStartCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>11</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iCombat>170</iCombat>
 			<iCombatLimit>100</iCombatLimit>
@@ -2408,7 +2408,7 @@
 			<iCost>4850</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>11</iBaseUpkeep>
 			<iMoves>2</iMoves>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
@@ -2462,7 +2462,7 @@
 			<iCost>3000</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>11</iBaseUpkeep>
 			<iMoves>2</iMoves>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>

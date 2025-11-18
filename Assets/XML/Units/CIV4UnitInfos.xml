@@ -47,7 +47,7 @@ Base XP gained when defending
 				<BonusType>BONUS_HEAVY_WATER</BonusType>
 			</PrereqBonuses>
 			<iCost>1681</iCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>6</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iNukeRange>1</iNukeRange>
 			<iAsset>5</iAsset>
@@ -110,7 +110,7 @@ Base XP gained when defending
 				<BonusType>BONUS_HEAVY_WATER</BonusType>
 			</PrereqBonuses>
 			<iCost>1350</iCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>6</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iNukeRange>0</iNukeRange>
 			<iAirRange>7</iAirRange>
@@ -175,7 +175,7 @@ Base XP gained when defending
 			</PrereqBonuses>
 			<iCost>1843</iCost>
 			<iAdvancedStartCost>150</iAdvancedStartCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>11</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iNukeRange>2</iNukeRange>
 			<iAsset>5</iAsset>
@@ -234,7 +234,7 @@ Base XP gained when defending
 				<BonusType>BONUS_HEAVY_WATER</BonusType>
 			</PrereqBonuses>
 			<iCost>1681</iCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>6</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iAirRange>4</iAirRange>
 			<iNukeRange>1</iNukeRange>
@@ -293,7 +293,7 @@ Base XP gained when defending
 			<BonusType>BONUS_URANIUM</BonusType>
 			<iCost>1600</iCost>
 			<iAdvancedStartCost>150</iAdvancedStartCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>6</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iAirRange>8</iAirRange>
 			<iNukeRange>1</iNukeRange>
@@ -353,7 +353,7 @@ Base XP gained when defending
 			<BonusType>BONUS_URANIUM</BonusType>
 			<iCost>2006</iCost>
 			<iAdvancedStartCost>150</iAdvancedStartCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>6</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iAirRange>16</iAirRange>
 			<iNukeRange>1</iNukeRange>
@@ -486,7 +486,7 @@ Base XP gained when defending
 			<PrereqTech>TECH_GENE_MANIPULATION</PrereqTech>
 			<iCost>2030</iCost>
 			<iAdvancedStartCost>120</iAdvancedStartCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>11</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iAirRange>-1</iAirRange>
 			<iNukeRange>0</iNukeRange>
@@ -549,7 +549,7 @@ Base XP gained when defending
 			<PrereqTech>TECH_DNA_COMPUTING</PrereqTech>
 			<iCost>5000</iCost>
 			<iAdvancedStartCost>260</iAdvancedStartCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>21</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iAirRange>-1</iAirRange>
 			<iNukeRange>0</iNukeRange>
@@ -617,7 +617,7 @@ Base XP gained when defending
 			<PrereqTech>TECH_FUSION</PrereqTech>
 			<iCost>4056</iCost>
 			<iAdvancedStartCost>500</iAdvancedStartCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>21</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iNukeRange>0</iNukeRange>
 			<iEvasionProbability>50</iEvasionProbability>
@@ -683,7 +683,7 @@ Base XP gained when defending
 			<PrereqTech>TECH_SHIELDING</PrereqTech>
 			<iCost>7381</iCost>
 			<iAdvancedStartCost>500</iAdvancedStartCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>33</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iNukeRange>1</iNukeRange>
 			<iEvasionProbability>75</iEvasionProbability>
@@ -743,7 +743,7 @@ Base XP gained when defending
 			<BonusType>BONUS_URANIUM</BonusType>
 			<iCost>5181</iCost>
 			<iAdvancedStartCost>1000</iAdvancedStartCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>26</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iNukeRange>3</iNukeRange>
 			<iEvasionProbability>50</iEvasionProbability>
@@ -805,7 +805,7 @@ Base XP gained when defending
 			</PrereqAndBuildings>
 			<PrereqTech>TECH_MIND_UPLOADING</PrereqTech>
 			<iCost>6200</iCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>6</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iNukeRange>0</iNukeRange>
 			<iAsset>5</iAsset>

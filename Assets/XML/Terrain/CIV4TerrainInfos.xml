@@ -5834,10 +5834,6 @@
 			<iBuildModifier>25</iBuildModifier>
 			<iCultureDistance>1</iCultureDistance> <!-- dll increases penalty 1 for missing: bBridgeBuilding, bCanFoundOnPeaks -->
 			<iMovement>1</iMovement>
-            <Yields>
-                <iYield>0</iYield>
-                <iYield>1</iYield>
-            </Yields>
 			<Button>Art/Interface\Buttons\WorldBuilder\Terrain_Hill.dds</Button>
 			<FootstepSounds>
 				<FootstepSound>

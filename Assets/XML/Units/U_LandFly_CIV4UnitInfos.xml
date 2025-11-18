@@ -79,7 +79,7 @@
 			<PrereqTech>TECH_AVIATION</PrereqTech>
 			<BonusType>BONUS_PETROLEUM_PRODUCTS</BonusType>
 			<iCost>1030</iCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>2</iBaseUpkeep>
 			<iMoves>4</iMoves>
 			<TerrainImpassableTypes>
 				<TerrainType>TERRAIN_SEA_TROPICAL</TerrainType>
@@ -222,7 +222,7 @@
 				<BonusType>BONUS_PETROLEUM_PRODUCTS</BonusType>
 			</PrereqBonuses>
 			<iCost>1280</iCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>2</iBaseUpkeep>
 			<iMoves>4</iMoves>
 			<TerrainImpassableTypes>
 				<TerrainType>TERRAIN_OCEAN</TerrainType>
@@ -365,7 +365,7 @@
 				<BonusType>BONUS_PETROLEUM_PRODUCTS</BonusType>
 			</PrereqBonuses>
 			<iCost>1475</iCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>3</iBaseUpkeep>
 			<iMoves>5</iMoves>
 			<TerrainImpassableTypes>
 				<TerrainType>TERRAIN_OCEAN</TerrainType>
@@ -508,7 +508,7 @@
 			</PrereqBonuses>
 			<iCost>1845</iCost>
 			<iAdvancedStartCost>150</iAdvancedStartCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>4</iBaseUpkeep>
 			<iMoves>6</iMoves>
 			<TerrainImpassableTypes>
 				<TerrainType>TERRAIN_OCEAN</TerrainType>
@@ -649,7 +649,7 @@
 				<BonusType>BONUS_PETROLEUM_PRODUCTS</BonusType>
 			</PrereqBonuses>
 			<iCost>2865</iCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>9</iBaseUpkeep>
 			<iMoves>6</iMoves>
 			<iCombat>115</iCombat>
 			<iXPValueAttack>3</iXPValueAttack>
@@ -792,7 +792,7 @@
 				<BonusType>BONUS_PETROLEUM_PRODUCTS</BonusType>
 			</PrereqBonuses>
 			<iCost>4300</iCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>14</iBaseUpkeep>
 			<iMoves>7</iMoves>
 			<iDropRange>20</iDropRange>
 			<iCombat>150</iCombat>
@@ -934,7 +934,7 @@
 			</PrereqBonuses>
 			<iCost>2865</iCost>
 			<iAdvancedStartCost>150</iAdvancedStartCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>5</iBaseUpkeep>
 			<iMoves>6</iMoves>
 			<TerrainImpassableTypes>
 				<TerrainType>TERRAIN_OCEAN</TerrainType>
@@ -1082,7 +1082,7 @@
 				</And>
 			</TrainCondition>
 			<iCost>4300</iCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>6</iBaseUpkeep>
 			<iMoves>6</iMoves>
 			<iCombat>155</iCombat>
 			<iXPValueAttack>3</iXPValueAttack>

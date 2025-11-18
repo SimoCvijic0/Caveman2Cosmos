@@ -1880,7 +1880,7 @@
 			<UnitCombatMods>
 				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-					<iUnitCombatMod>30</iUnitCombatMod>
+					<iUnitCombatMod>40</iUnitCombatMod>
 				</UnitCombatMod>
 			</UnitCombatMods>
 			<Button>Art/Interface/Buttons/Promotions/hunter2.dds</Button>
@@ -1902,7 +1902,7 @@
 			<UnitCombatMods>
 				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-					<iUnitCombatMod>40</iUnitCombatMod>
+					<iUnitCombatMod>55</iUnitCombatMod>
 				</UnitCombatMod>
 			</UnitCombatMods>
 			<Button>Art/Interface/Buttons/Promotions/hunter3.dds</Button>
@@ -10273,8 +10273,7 @@
 				<NotOnUnitCombatType>UNITCOMBAT_SUBMARINE</NotOnUnitCombatType>
 			</NotOnUnitCombatTypes>
 			<bImmuneToFirstStrikes>1</bImmuneToFirstStrikes>
-			<iCombatPercent>5</iCombatPercent>
-			<iAttackCombatModifierChange>-15</iAttackCombatModifierChange>
+            <iDefenseCombatModifierChange>5</iDefenseCombatModifierChange>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_EXPLORER</UnitCombatType>
@@ -15398,10 +15397,10 @@
 			<Type>PROMOTION_MIGHT1</Type>
 			<Description>TXT_KEY_PROMOTION_MIGHT1</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
-			<iLevelPrereq>10</iLevelPrereq>
+			<iLevelPrereq>3</iLevelPrereq>
 			<PromotionLine>PROMOTIONLINE_MIGHT</PromotionLine>
 			<iLinePriority>1</iLinePriority>
-			<iUpkeepModifier>50</iUpkeepModifier>
+			<iUpkeepModifier>5</iUpkeepModifier>
 			<iStrengthChange>1</iStrengthChange>
 			<NotOnUnitCombatTypes>
 				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
@@ -15453,8 +15452,8 @@
 			<TechPrereq>TECH_SEDENTARY_LIFESTYLE</TechPrereq>
 			<PromotionLine>PROMOTIONLINE_MIGHT</PromotionLine>
 			<iLinePriority>2</iLinePriority>
-			<iLevelPrereq>15</iLevelPrereq>
-			<iUpkeepModifier>50</iUpkeepModifier>
+			<iLevelPrereq>5</iLevelPrereq>
+			<iUpkeepModifier>5</iUpkeepModifier>
 			<iStrengthChange>1</iStrengthChange>
 			<NotOnUnitCombatTypes>
 				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
@@ -15502,8 +15501,8 @@
 			<TechPrereq>TECH_CLASSICAL_LIFESTYLE</TechPrereq>
 			<PromotionLine>PROMOTIONLINE_MIGHT</PromotionLine>
 			<iLinePriority>3</iLinePriority>
-			<iLevelPrereq>20</iLevelPrereq>
-			<iUpkeepModifier>50</iUpkeepModifier>
+			<iLevelPrereq>7</iLevelPrereq>
+			<iUpkeepModifier>5</iUpkeepModifier>
 			<iStrengthChange>2</iStrengthChange>
 			<NotOnUnitCombatTypes>
 				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
@@ -15547,8 +15546,8 @@
 			<TechPrereq>TECH_MEDIEVAL_LIFESTYLE</TechPrereq>
 			<PromotionLine>PROMOTIONLINE_MIGHT</PromotionLine>
 			<iLinePriority>4</iLinePriority>
-			<iLevelPrereq>25</iLevelPrereq>
-			<iUpkeepModifier>50</iUpkeepModifier>
+			<iLevelPrereq>9</iLevelPrereq>
+			<iUpkeepModifier>5</iUpkeepModifier>
 			<iStrengthChange>2</iStrengthChange>
 			<NotOnUnitCombatTypes>
 				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
@@ -15588,8 +15587,8 @@
 			<TechPrereq>TECH_RENAISSANCE_LIFESTYLE</TechPrereq>
 			<PromotionLine>PROMOTIONLINE_MIGHT</PromotionLine>
 			<iLinePriority>5</iLinePriority>
-			<iLevelPrereq>30</iLevelPrereq>
-			<iUpkeepModifier>100</iUpkeepModifier>
+			<iLevelPrereq>11</iLevelPrereq>
+			<iUpkeepModifier>10</iUpkeepModifier>
 			<iStrengthChange>3</iStrengthChange>
 			<NotOnUnitCombatTypes>
 				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
@@ -15625,8 +15624,8 @@
 			<TechPrereq>TECH_INDUSTRIAL_LIFESTYLE</TechPrereq>
 			<PromotionLine>PROMOTIONLINE_MIGHT</PromotionLine>
 			<iLinePriority>6</iLinePriority>
-			<iLevelPrereq>35</iLevelPrereq>
-			<iUpkeepModifier>100</iUpkeepModifier>
+			<iLevelPrereq>13</iLevelPrereq>
+			<iUpkeepModifier>10</iUpkeepModifier>
 			<iStrengthChange>4</iStrengthChange>
 			<NotOnUnitCombatTypes>
 				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
@@ -15662,8 +15661,8 @@
 			<TechPrereq>TECH_ATOMIC_LIFESTYLE</TechPrereq>
 			<PromotionLine>PROMOTIONLINE_MIGHT</PromotionLine>
 			<iLinePriority>7</iLinePriority>
-			<iLevelPrereq>40</iLevelPrereq>
-			<iUpkeepModifier>100</iUpkeepModifier>
+			<iLevelPrereq>15</iLevelPrereq>
+			<iUpkeepModifier>10</iUpkeepModifier>
 			<iStrengthChange>5</iStrengthChange>
 			<NotOnUnitCombatTypes>
 				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
@@ -15695,7 +15694,7 @@
 			<TechPrereq>TECH_INFORMATION_LIFESTYLE</TechPrereq>
 			<PromotionLine>PROMOTIONLINE_MIGHT</PromotionLine>
 			<iLinePriority>8</iLinePriority>
-			<iLevelPrereq>45</iLevelPrereq>
+			<iLevelPrereq>17</iLevelPrereq>
 			<iUpkeepModifier>10</iUpkeepModifier>
 			<iStrengthChange>7</iStrengthChange>
 			<NotOnUnitCombatTypes>
@@ -15728,7 +15727,7 @@
 			<TechPrereq>TECH_NANOTECH_LIFESTYLE</TechPrereq>
 			<PromotionLine>PROMOTIONLINE_MIGHT</PromotionLine>
 			<iLinePriority>9</iLinePriority>
-			<iLevelPrereq>50</iLevelPrereq>
+			<iLevelPrereq>19</iLevelPrereq>
 			<iUpkeepModifier>10</iUpkeepModifier>
 			<iStrengthChange>10</iStrengthChange>
 			<NotOnUnitCombatTypes>
@@ -15757,7 +15756,7 @@
 			<TechPrereq>TECH_TRANSHUMAN_LIFESTYLE</TechPrereq>
 			<PromotionLine>PROMOTIONLINE_MIGHT</PromotionLine>
 			<iLinePriority>10</iLinePriority>
-			<iLevelPrereq>60</iLevelPrereq>
+			<iLevelPrereq>21</iLevelPrereq>
 			<iUpkeepModifier>10</iUpkeepModifier>
 			<iStrengthChange>15</iStrengthChange>
 			<NotOnUnitCombatTypes>
@@ -15786,7 +15785,7 @@
 			<TechPrereq>TECH_GALACTIC_LIFESTYLE</TechPrereq>
 			<PromotionLine>PROMOTIONLINE_MIGHT</PromotionLine>
 			<iLinePriority>11</iLinePriority>
-			<iLevelPrereq>70</iLevelPrereq>
+			<iLevelPrereq>23</iLevelPrereq>
 			<iUpkeepModifier>10</iUpkeepModifier>
 			<iStrengthChange>20</iStrengthChange>
 			<NotOnUnitCombatTypes>
@@ -15811,7 +15810,7 @@
 			<TechPrereq>TECH_COSMIC_LIFESTYLE</TechPrereq>
 			<PromotionLine>PROMOTIONLINE_MIGHT</PromotionLine>
 			<iLinePriority>12</iLinePriority>
-			<iLevelPrereq>80</iLevelPrereq>
+			<iLevelPrereq>25</iLevelPrereq>
 			<iUpkeepModifier>10</iUpkeepModifier>
 			<iStrengthChange>25</iStrengthChange>
 			<NotOnUnitCombatTypes>
@@ -15836,7 +15835,7 @@
 			<TechPrereq>TECH_TRANSCENDENT_LIFESTYLE</TechPrereq>
 			<PromotionLine>PROMOTIONLINE_MIGHT</PromotionLine>
 			<iLinePriority>13</iLinePriority>
-			<iLevelPrereq>100</iLevelPrereq>
+			<iLevelPrereq>27</iLevelPrereq>
 			<iUpkeepModifier>10</iUpkeepModifier>
 			<iStrengthChange>30</iStrengthChange>
 			<NotOnUnitCombatTypes>
@@ -15871,8 +15870,8 @@
 					<iUnitCombatMod>5</iUnitCombatMod>
 				</UnitCombatMod>
 				<UnitCombatMod>
-					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-					<iUnitCombatMod>15</iUnitCombatMod>
+					<UnitCombatType>UNITCOMBAT_THROWING</UnitCombatType>
+					<iUnitCombatMod>5</iUnitCombatMod>
 				</UnitCombatMod>
 			</UnitCombatMods>
 			<Button>art/Sports/Buttons/Martial_Arts1.dds</Button>
@@ -15899,8 +15898,8 @@
 					<iUnitCombatMod>5</iUnitCombatMod>
 				</UnitCombatMod>
 				<UnitCombatMod>
-					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-					<iUnitCombatMod>15</iUnitCombatMod>
+					<UnitCombatType>UNITCOMBAT_THROWING</UnitCombatType>
+					<iUnitCombatMod>10</iUnitCombatMod>
 				</UnitCombatMod>
 			</UnitCombatMods>
 			<Button>art/Sports/Buttons/Martial_Arts2.dds</Button>
@@ -15930,8 +15929,8 @@
 					<iUnitCombatMod>5</iUnitCombatMod>
 				</UnitCombatMod>
 				<UnitCombatMod>
-					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-					<iUnitCombatMod>40</iUnitCombatMod>
+					<UnitCombatType>UNITCOMBAT_THROWING</UnitCombatType>
+					<iUnitCombatMod>10</iUnitCombatMod>
 				</UnitCombatMod>
 			</UnitCombatMods>
 			<Button>art/Sports/Buttons/Martial_Arts3.dds</Button>
@@ -17062,7 +17061,7 @@
 			<VisibilityIntensityRangeChangeTypes>
 				<VisibilityIntensityRangeChangeType>
 					<InvisibleType>INVISIBLE_CAMOUFLAGE</InvisibleType>
-					<iIntensity>1</iIntensity>
+					<iIntensity>2</iIntensity>
 				</VisibilityIntensityRangeChangeType>
 			</VisibilityIntensityRangeChangeTypes>
             <VisibilityIntensityChangeTypes>
@@ -24198,7 +24197,6 @@
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 			</UnitCombats>
-			<iStrengthChange>0</iStrengthChange>
 			<Button>Art/Buttons/Promotions/WayOfTheCentaurPromotion.dds</Button>
 		</PromotionInfo>
 		<PromotionInfo>
@@ -24243,7 +24241,6 @@
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 			</UnitCombats>
-			<iStrengthChange>0</iStrengthChange>
 			<Button>Art/Buttons/Promotions/WayOfTheFeatherPromotion.dds</Button>
 		</PromotionInfo>
 		<PromotionInfo>
@@ -24257,7 +24254,6 @@
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 			</UnitCombats>
-			<iStrengthChange>0</iStrengthChange>
 			<iCombatPercent>10</iCombatPercent>
 			<Button>Art/Buttons/Promotions/WayOfTheWavesPromotion.dds</Button>
 		</PromotionInfo>
@@ -24272,7 +24268,6 @@
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 			</UnitCombats>
-			<iStrengthChange>0</iStrengthChange>
 			<iCombatPercent>10</iCombatPercent>
 			<Button>Art/Buttons/Promotions/WayOfTheWindPromotion.dds</Button>
 		</PromotionInfo>
@@ -24287,7 +24282,6 @@
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 			</UnitCombats>
-			<iStrengthChange>0</iStrengthChange>
 			<iCombatPercent>10</iCombatPercent>
 			<Button>Art/Buttons/Promotions/WayOfTheWarriorPromotion.dds</Button>
 		</PromotionInfo>
@@ -24310,7 +24304,6 @@
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 			</UnitCombats>
-			<iStrengthChange>0</iStrengthChange>
 			<iCombatPercent>10</iCombatPercent>
 			<Button>Art/Buttons/Promotions/WayOfTheShadowsPromotion.dds</Button>
 		</PromotionInfo>
@@ -24826,7 +24819,6 @@
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 			</UnitCombats>
-			<iStrengthChange>0</iStrengthChange>
 			<iCombatPercent>10</iCombatPercent>
 			<iVisibilityChange>1</iVisibilityChange>
 			<Button>Art/Buttons/Promotions/InfluenceOfSaturnPromotion.dds</Button>
@@ -24842,7 +24834,6 @@
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 			</UnitCombats>
-			<iStrengthChange>0</iStrengthChange>
 			<iCombatPercent>10</iCombatPercent>
 			<iWithdrawalChange>10</iWithdrawalChange>
 			<Button>Art/Buttons/Promotions/InfluenceOfJupiterPromotion.dds</Button>
@@ -24858,7 +24849,6 @@
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 			</UnitCombats>
-			<iStrengthChange>0</iStrengthChange>
 			<iCombatPercent>10</iCombatPercent>
 			<PropertyManipulators>
 				<PropertySource>
@@ -24919,7 +24909,6 @@
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 			</UnitCombats>
-			<iStrengthChange>0</iStrengthChange>
 			<iCombatPercent>10</iCombatPercent>
 			<iExperiencePercent>20</iExperiencePercent>
 			<Button>Art/Buttons/Promotions/InfluenceOfTheSunPromotion.dds</Button>
@@ -24939,7 +24928,6 @@
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 			</UnitCombats>
-			<iStrengthChange>0</iStrengthChange>
 			<iCombatPercent>10</iCombatPercent>
 			<iCityDefense>10</iCityDefense>
 			<Button>Art/Buttons/Promotions/InfluenceOfVenusPromotion.dds</Button>
@@ -24955,12 +24943,11 @@
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 			</UnitCombats>
-			<iStrengthChange>0</iStrengthChange>
 			<iCombatPercent>10</iCombatPercent>
 			<iBombardRateChange>5</iBombardRateChange>
 			<Button>Art/Buttons/Promotions/InfluenceOfMercuryPromotion.dds</Button>
 		</PromotionInfo>
-		<!-- <PromotionInfo>
+		<PromotionInfo>
 			<Type>PROMOTION_BUILD_UP_SECURITY5</Type>
 			<Description>TXT_KEY_PROMOTION_BUILD_UP_SECURITY5</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
@@ -24971,6 +24958,6 @@
 			<iVisibilityChange>1</iVisibilityChange>
 			<iInterceptChange>5</iInterceptChange>
 			<Button>,Art/Interface/Buttons/Promotions/Security5BuildUp.dds</Button>
-		</PromotionInfo> -->
+		</PromotionInfo>
 	</PromotionInfos>
 </Civ4PromotionInfos>

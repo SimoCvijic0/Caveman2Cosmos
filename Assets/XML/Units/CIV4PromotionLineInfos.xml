@@ -2096,9 +2096,9 @@
 			<Type>PROMOTIONLINE_MIGHT</Type>
 			<Description>TXT_KEY_PROMOTIONLINE_MIGHT</Description>
 			<Button>Art/Buttons/Promotions/Might1Promotion.dds</Button>
-<!--			<OnGameOptions>-->
-<!--				<GameOptionType>GAMEOPTION_COMBAT_SIZE_MATTERS</GameOptionType>-->
-<!--			</OnGameOptions>-->
+			<OnGameOptions>
+				<GameOptionType>GAMEOPTION_COMBAT_SIZE_MATTERS</GameOptionType>
+			</OnGameOptions>
 			<NotOnUnitCombatTypes>
 				<NotOnUnitCombatType>UNITCOMBAT_PACIFIST</NotOnUnitCombatType>
 				<NotOnUnitCombatType>UNITCOMBAT_CIVILIAN</NotOnUnitCombatType>

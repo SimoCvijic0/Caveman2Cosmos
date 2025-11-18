@@ -815,8 +815,8 @@
 			<iGold>50</iGold>
 			<iUnitUpkeepPercent>100</iUnitUpkeepPercent>
 			<iMaxColonyMaintenance>200</iMaxColonyMaintenance>
-			<iDistanceMaintenancePercent>420</iDistanceMaintenancePercent>
-			<iNumCitiesMaintenancePercent>370</iNumCitiesMaintenancePercent>
+			<iDistanceMaintenancePercent>350</iDistanceMaintenancePercent>
+			<iNumCitiesMaintenancePercent>300</iNumCitiesMaintenancePercent>
 			<iColonyMaintenancePercent>200</iColonyMaintenancePercent>
 			<iCorporationMaintenancePercent>200</iCorporationMaintenancePercent>
 			<iCivicUpkeepPercent>200</iCivicUpkeepPercent>
@@ -869,7 +869,7 @@
 			<iUnownedTilesPerBarbarianCity>20</iUnownedTilesPerBarbarianCity>
 			<iBarbarianCityCreationTurnsElapsed>26</iBarbarianCityCreationTurnsElapsed>
 			<iBarbarianCityCreationProb>10</iBarbarianCityCreationProb>
-			<iBarbarianDefenders>20</iBarbarianDefenders>
+			<iBarbarianDefenders>10</iBarbarianDefenders>
 			<iStartingDefenseUnits>0</iStartingDefenseUnits>
 			<iStartingExploreUnits>0</iStartingExploreUnits>
 			<iAIDeclareWarProb>65</iAIDeclareWarProb>

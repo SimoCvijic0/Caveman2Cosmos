@@ -1099,7 +1099,7 @@
 			<iCost>170</iCost>
 			<iMoves>2</iMoves>
 			<iWorkRate>135</iWorkRate>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>3</iBaseUpkeep>
 			<iAsset>3</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -1184,7 +1184,7 @@
 			</UnitUpgrades>
 			<ObsoleteTech>TECH_SPEAR_MAKING</ObsoleteTech>
 			<iCost>62</iCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>5</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iCombat>4</iCombat>
 			<iXPValueAttack>2</iXPValueAttack>
@@ -1271,7 +1271,7 @@
 			</UnitUpgrades>
 			<ObsoleteTech>TECH_IRON_WORKING</ObsoleteTech>
 			<iCost>70</iCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>8</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iCombat>5</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -1358,7 +1358,7 @@
 			</UnitUpgrades>
 			<ObsoleteTech>TECH_IRON_WORKING</ObsoleteTech>
 			<iCost>92</iCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>12</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iCombat>6</iCombat>
 			<iXPValueAttack>2</iXPValueAttack>
@@ -1450,7 +1450,7 @@
 			</UnitUpgrades>
 			<ObsoleteTech>TECH_GUNPOWDER</ObsoleteTech>
 			<iCost>182</iCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>18</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iCombat>7</iCombat>
 			<iXPValueAttack>2</iXPValueAttack>
@@ -1538,7 +1538,7 @@
 			</PrereqBonuses>
 			<ObsoleteTech>TECH_GUNPOWDER</ObsoleteTech>
 			<iCost>315</iCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>25</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iCombat>8</iCombat>
 			<iXPValueAttack>2</iXPValueAttack>
@@ -2612,7 +2612,7 @@
 				</UnitCombatTarget>
 			</UnitCombatTargets>
 			<iCost>97</iCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>2</iBaseUpkeep>
 			<iMoves>2</iMoves>
 			<iCombat>5</iCombat>
 			<FlankingStrikesbyUnitCombat>
@@ -2749,7 +2749,7 @@
 					<iProductonModifier>15</iProductonModifier>
 				</BonusProductionModifier>
 			</BonusProductionModifiers>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>3</iBaseUpkeep>
 			<iMoves>2</iMoves>
 			<iCombat>10</iCombat>
 			<iCollateralDamageLimit>100</iCollateralDamageLimit>
@@ -2905,7 +2905,7 @@
 				</UnitCombatTarget>
 			</UnitCombatTargets>
 			<iCost>425</iCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>4</iBaseUpkeep>
 			<iMoves>2</iMoves>
 			<iCombat>20</iCombat>
 			<FlankingStrikesbyUnitCombat>
@@ -3059,7 +3059,7 @@
 				</UnitCombatTarget>
 			</UnitCombatTargets>
 			<iCost>800</iCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>5</iBaseUpkeep>
 			<iMoves>2</iMoves>
 			<iCombat>36</iCombat>
 			<FlankingStrikesbyUnitCombat>
@@ -3240,7 +3240,7 @@
 				</UnitCombatTarget>
 			</UnitCombatTargets>
 			<iCost>5300</iCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>7</iBaseUpkeep>
 			<iMoves>3</iMoves>
 			<iCombat>160</iCombat>
 			<FlankingStrikesbyUnitCombat>
