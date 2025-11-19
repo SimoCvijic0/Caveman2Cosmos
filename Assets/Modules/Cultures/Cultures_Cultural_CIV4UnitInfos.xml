@@ -1929,7 +1929,7 @@
 		</UnitInfo>
 		<UnitInfo>
 			<Type>UNIT_MALI_SKIRMISHER</Type>
-            <instanceCostModifier>15</instanceCostModifier>
+			<iInstanceCostModifier>5</iInstanceCostModifier>
             <iMaxPlayerInstances>5</iMaxPlayerInstances>
 			<Combat>UNITCOMBAT_THROWING</Combat>
 			<SubCombatTypes>
@@ -27464,7 +27464,7 @@
 				</UnitCombatDefender>
 			</UnitCombatDefenders>
 			<iCost>235</iCost>
-			<iBaseUpkeep>1</iBaseUpkeep>
+			<iBaseUpkeep>5</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iCombat>8</iCombat>
 			<iStealthStrikes>1</iStealthStrikes>

@@ -91,7 +91,7 @@
 	<Define>
 		<DefineName>IDW_EMERGENCY_DRAFT_STRENGTH</DefineName>
 		<!-- Militia starting health % when drafted -->
-		<iDefineIntVal>100</iDefineIntVal>
+		<iDefineIntVal>66</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>IDW_EMERGENCY_DRAFT_ANGER_MULTIPLIER</DefineName>

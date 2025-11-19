@@ -4,6 +4,7 @@
 		<UnitInfo>
 			<Type>UNIT_CLOCKWORK_GOLEM</Type>
 			<iInstanceCostModifier>5</iInstanceCostModifier>
+            <iMaxPlayerInstances>5</iMaxPlayerInstances>
 			<Combat>UNITCOMBAT_MELEE</Combat>
 			<SubCombatTypes>
 				<SubCombatType>UNITCOMBAT_COMBATANT</SubCombatType>
@@ -111,6 +112,7 @@
 		<UnitInfo>
 			<Type>UNIT_DAVINCI_TANK</Type>
 			<iInstanceCostModifier>5</iInstanceCostModifier>
+            <iMaxPlayerInstances>5</iMaxPlayerInstances>
 			<Combat>UNITCOMBAT_WHEELED</Combat>
 			<SubCombatTypes>
 				<SubCombatType>UNITCOMBAT_COMBATANT</SubCombatType>
@@ -200,6 +202,7 @@
 		<UnitInfo>
 			<Type>UNIT_ORNITHOPTER</Type>
 			<iInstanceCostModifier>5</iInstanceCostModifier>
+            <iMaxPlayerInstances>5</iMaxPlayerInstances>
 			<Combat>UNITCOMBAT_EARLY_FIGHTERS</Combat>
 			<SubCombatTypes>
 				<SubCombatType>UNITCOMBAT_COMBATANT</SubCombatType>
@@ -280,6 +283,7 @@
 		<UnitInfo>
 			<Type>UNIT_REPEATING_CROSSBOWMAN</Type>
 			<iInstanceCostModifier>5</iInstanceCostModifier>
+            <iMaxPlayerInstances>5</iMaxPlayerInstances>
 			<Combat>UNITCOMBAT_ARCHER</Combat>
 			<SubCombatTypes>
 				<SubCombatType>UNITCOMBAT_COMBATANT</SubCombatType>
@@ -377,6 +381,7 @@
 		<UnitInfo>
 			<Type>UNIT_ZEPHYR</Type>
 			<iInstanceCostModifier>5</iInstanceCostModifier>
+            <iMaxPlayerInstances>5</iMaxPlayerInstances>
 			<Combat>UNITCOMBAT_BALLOON</Combat>
 			<SubCombatTypes>
 				<SubCombatType>UNITCOMBAT_COMBATANT</SubCombatType>

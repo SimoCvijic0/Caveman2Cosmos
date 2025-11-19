@@ -41,7 +41,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>-50</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -142,7 +142,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -241,7 +241,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -343,7 +343,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -444,7 +444,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -545,7 +545,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -646,7 +646,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -738,7 +738,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -839,7 +839,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -933,7 +933,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -1032,7 +1032,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -1125,7 +1125,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -1219,7 +1219,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -1318,7 +1318,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -1410,7 +1410,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -1511,7 +1511,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -1597,7 +1597,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -1659,7 +1659,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -1721,7 +1721,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -1783,7 +1783,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -1863,7 +1863,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -1951,7 +1951,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -2054,7 +2054,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -2140,7 +2140,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -2202,7 +2202,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -2264,7 +2264,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -2326,7 +2326,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -2388,7 +2388,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -2450,7 +2450,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -2512,7 +2512,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -2587,7 +2587,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -2673,7 +2673,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -2735,7 +2735,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -2797,7 +2797,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -2859,7 +2859,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -2921,7 +2921,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -2983,7 +2983,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -3045,7 +3045,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -3107,7 +3107,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -3169,7 +3169,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -3231,7 +3231,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -3293,7 +3293,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -3355,7 +3355,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -3417,7 +3417,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -3479,7 +3479,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -3541,7 +3541,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -3603,7 +3603,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -3665,7 +3665,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -3727,7 +3727,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -3815,7 +3815,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -3901,7 +3901,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -3977,7 +3977,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -4063,7 +4063,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -4125,7 +4125,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -4187,7 +4187,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -4249,7 +4249,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -4311,7 +4311,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -4373,7 +4373,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -4435,7 +4435,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -4497,7 +4497,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -4559,7 +4559,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -4621,7 +4621,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -4683,7 +4683,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -4745,7 +4745,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -4807,7 +4807,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -4869,7 +4869,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -4931,7 +4931,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -4993,7 +4993,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -5056,7 +5056,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -5118,7 +5118,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -5180,7 +5180,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -5242,7 +5242,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -5304,7 +5304,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -5366,7 +5366,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -5428,7 +5428,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -5506,7 +5506,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -5592,7 +5592,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -5686,7 +5686,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -5772,7 +5772,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -5834,7 +5834,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -5896,7 +5896,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -5958,7 +5958,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -6020,7 +6020,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -6082,7 +6082,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -6144,7 +6144,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -6206,7 +6206,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -6268,7 +6268,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -6339,7 +6339,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -6425,7 +6425,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -6503,7 +6503,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -6600,7 +6600,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -6686,7 +6686,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -6748,7 +6748,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -6810,7 +6810,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -6872,7 +6872,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -6934,7 +6934,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -6996,7 +6996,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -7058,7 +7058,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -7120,7 +7120,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -7182,7 +7182,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -7244,7 +7244,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -7306,7 +7306,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -7368,7 +7368,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -7430,7 +7430,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -7507,7 +7507,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -7593,7 +7593,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -7665,7 +7665,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -7751,7 +7751,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -7813,7 +7813,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -7875,7 +7875,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -7937,7 +7937,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -7999,7 +7999,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -8074,7 +8074,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -8160,7 +8160,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -8222,7 +8222,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -8284,7 +8284,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -8346,7 +8346,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -8420,7 +8420,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -8506,7 +8506,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -8582,7 +8582,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -8668,7 +8668,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -8730,7 +8730,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -8792,7 +8792,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -8854,7 +8854,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -8916,7 +8916,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -8978,7 +8978,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -9040,7 +9040,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -9102,7 +9102,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -9164,7 +9164,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -9226,7 +9226,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -9288,7 +9288,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -9350,7 +9350,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -9412,7 +9412,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>
@@ -9474,7 +9474,7 @@
 					<TechType>TECH_LANGUAGE</TechType>
 					<CommercePercents>
 						<iCommercePercent>0</iCommercePercent>
-						<iCommercePercent>0</iCommercePercent>
+						<iCommercePercent>-60</iCommercePercent>
 						<iCommercePercent>10</iCommercePercent>
 					</CommercePercents>
 				</TechCommerceChange>

@@ -74,7 +74,7 @@
 				<BuildingType>BUILDING_ANIMAL_TRAINER_BEAR</BuildingType>
 			</PrereqOrBuildings>
 			<PrereqTech>TECH_MEGAFAUNA_DOMESTICATION</PrereqTech>
-			<iCost>106</iCost>
+			<iCost>94</iCost>
 			<iMoves>1</iMoves>
 			<iCombat>7</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -1745,6 +1745,7 @@
 		<UnitInfo>
 			<Type>UNIT_ZEBRA_ARCHER</Type>
 			<Combat>UNITCOMBAT_MOUNTED</Combat>
+            <iInstanceCostModifier>5</iInstanceCostModifier>
             <iMaxPlayerInstances>5</iMaxPlayerInstances>
 			<SubCombatTypes>
 				<SubCombatType>UNITCOMBAT_ARCHER</SubCombatType>
@@ -1892,6 +1893,7 @@
 		<UnitInfo>
 			<Type>UNIT_ZEBRA_CAVALRY</Type>
 			<Combat>UNITCOMBAT_MOUNTED</Combat>
+            <iInstanceCostModifier>5</iInstanceCostModifier>
             <iMaxPlayerInstances>5</iMaxPlayerInstances>
 			<SubCombatTypes>
 				<SubCombatType>UNITCOMBAT_GUN</SubCombatType>
@@ -2083,6 +2085,7 @@
 		<UnitInfo>
 			<Type>UNIT_ZEBRA_CHARIOT</Type>
 			<Combat>UNITCOMBAT_MOUNTED</Combat>
+            <iInstanceCostModifier>5</iInstanceCostModifier>
             <iMaxPlayerInstances>5</iMaxPlayerInstances>
 			<SubCombatTypes>
 				<SubCombatType>UNITCOMBAT_WHEELED</SubCombatType>
@@ -2199,6 +2202,7 @@
 		<UnitInfo>
 			<Type>UNIT_ZEBRA_CUIRASSIER</Type>
 			<Combat>UNITCOMBAT_MOUNTED</Combat>
+            <iInstanceCostModifier>5</iInstanceCostModifier>
             <iMaxPlayerInstances>5</iMaxPlayerInstances>
 			<SubCombatTypes>
 				<SubCombatType>UNITCOMBAT_GUN</SubCombatType>
@@ -2385,6 +2389,7 @@
 		<UnitInfo>
 			<Type>UNIT_ZEBRA_KNIGHT</Type>
 			<Combat>UNITCOMBAT_MOUNTED</Combat>
+            <iInstanceCostModifier>5</iInstanceCostModifier>
             <iMaxPlayerInstances>5</iMaxPlayerInstances>
 			<SubCombatTypes>
 				<SubCombatType>UNITCOMBAT_COMBATANT</SubCombatType>
@@ -2529,6 +2534,7 @@
 				</EnabledCivilizationType>
 			</EnabledCivilizationTypes>
 			<Combat>UNITCOMBAT_FELINE</Combat>
+            <iInstanceCostModifier>5</iInstanceCostModifier>
             <iMaxPlayerInstances>5</iMaxPlayerInstances>
 			<SubCombatTypes>
 				<SubCombatType>UNITCOMBAT_COMBATANT</SubCombatType>
@@ -2611,7 +2617,7 @@
 					<bUnitCombatTarget>1</bUnitCombatTarget>
 				</UnitCombatTarget>
 			</UnitCombatTargets>
-			<iCost>97</iCost>
+			<iCost>92</iCost>
 			<iBaseUpkeep>2</iBaseUpkeep>
 			<iMoves>2</iMoves>
 			<iCombat>5</iCombat>
@@ -2668,6 +2674,7 @@
 			<Description>TXT_KEY_UNIT_WARCAT</Description>
 			<Civilopedia>TXT_KEY_UNIT_WARCAT_PEDIA</Civilopedia>
 			<Combat>UNITCOMBAT_FELINE</Combat>
+            <iInstanceCostModifier>5</iInstanceCostModifier>
             <iMaxPlayerInstances>5</iMaxPlayerInstances>
 			<SubCombatTypes>
 				<SubCombatType>UNITCOMBAT_COMBATANT</SubCombatType>
@@ -2806,6 +2813,7 @@
 			<Type>UNIT_GUARDCAT</Type>
 			<Combat>UNITCOMBAT_FELINE</Combat>
             <iMaxPlayerInstances>5</iMaxPlayerInstances>
+            <iInstanceCostModifier>5</iInstanceCostModifier>
 			<SubCombatTypes>
 				<SubCombatType>UNITCOMBAT_COMBATANT</SubCombatType>
 				<SubCombatType>UNITCOMBAT_TAMED</SubCombatType>
@@ -2952,6 +2960,7 @@
 		<UnitInfo>
 			<Type>UNIT_POLICE_CAT</Type>
 			<Combat>UNITCOMBAT_FELINE</Combat>
+            <iInstanceCostModifier>5</iInstanceCostModifier>
             <iMaxPlayerInstances>5</iMaxPlayerInstances>
 			<SubCombatTypes>
 				<SubCombatType>UNITCOMBAT_LAW_ENFORCEMENT</SubCombatType>
@@ -3127,6 +3136,7 @@
 		<UnitInfo>
 			<Type>UNIT_FELINE_SUPERIOR</Type>
 			<Combat>UNITCOMBAT_FELINE</Combat>
+            <iInstanceCostModifier>5</iInstanceCostModifier>
             <iMaxPlayerInstances>5</iMaxPlayerInstances>
 			<SubCombatTypes>
 				<SubCombatType>UNITCOMBAT_LAW_ENFORCEMENT</SubCombatType>
@@ -3377,7 +3387,7 @@
 			</PrereqOrBuildings>
 			<PrereqTech>TECH_MEGAFAUNA_DOMESTICATION</PrereqTech>
 			<BonusType>BONUS_BISON</BonusType>
-			<iCost>108</iCost>
+			<iCost>94</iCost>
 			<iMoves>2</iMoves>
 			<iCombat>7</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -3500,7 +3510,7 @@
 				<BuildingType>BUILDING_ANIMAL_TRAINER_DEER</BuildingType>
 			</PrereqOrBuildings>
 			<PrereqTech>TECH_MEGAFAUNA_DOMESTICATION</PrereqTech>
-			<iCost>104</iCost>
+			<iCost>94</iCost>
 			<iMoves>2</iMoves>
 			<iCombat>6</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -5201,6 +5211,7 @@
 		<UnitInfo>
 			<Type>UNIT_LLAMA_RIDER</Type>
 			<Combat>UNITCOMBAT_MOUNTED</Combat>
+            <iInstanceCostModifier>5</iInstanceCostModifier>
             <iMaxPlayerInstances>5</iMaxPlayerInstances>
 			<SubCombatTypes>
 				<SubCombatType>UNITCOMBAT_COMBATANT</SubCombatType>
@@ -5354,6 +5365,7 @@
 		<UnitInfo>
 			<Type>UNIT_LLAMA_ARCHER</Type>
 			<Combat>UNITCOMBAT_MOUNTED</Combat>
+            <iInstanceCostModifier>5</iInstanceCostModifier>
             <iMaxPlayerInstances>5</iMaxPlayerInstances>
 			<SubCombatTypes>
 				<SubCombatType>UNITCOMBAT_ARCHER</SubCombatType>
