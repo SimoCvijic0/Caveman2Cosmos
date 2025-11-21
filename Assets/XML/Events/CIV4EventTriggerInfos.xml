@@ -7519,13 +7519,14 @@
 			</TriggerTexts>
 			<EventArt>Art/Event_Images/HappyHuntingEvent.dds</EventArt>
 			<iPercentGamesActive>100</iPercentGamesActive>
-			<iWeight>150</iWeight>
+			<iWeight>100</iWeight>
 			<iAngry>-1</iAngry>
 			<iUnhealthy>-1</iUnhealthy>
 			<iNumPlotsRequired>1</iNumPlotsRequired>
 			<bOwnPlot>1</bOwnPlot>
 			<FeaturesRequired>
 				<FeatureType>FEATURE_FOREST</FeatureType>
+				<FeatureType>FEATURE_FOREST_ANCIENT</FeatureType>
 			</FeaturesRequired>
 			<Events>
 				<Event>EVENT_HAPPY_HUNTING_1</Event>
@@ -7539,6 +7540,72 @@
 			</ObsoleteTechs>
 			<bRecurring>1</bRecurring>
 		</EventTriggerInfo>
+
+        <EventTriggerInfo>
+            <Type>EVENTTRIGGER_FISH_FOUND</Type>
+            <WorldNewsTexts>
+                <Text>TXT_KEY_EVENTTRIGGER_FISH_FOUND</Text>
+            </WorldNewsTexts>
+            <TriggerTexts>
+                <TriggerText>
+                    <Text>TXT_KEY_EVENT_TRIGGER_FISH_FOUND_1</Text>
+                    <Era>NONE</Era>
+                </TriggerText>
+            </TriggerTexts>
+<!--            <EventArt>Art/Event_Images/HappyHuntingEvent.dds</EventArt>-->
+            <iPercentGamesActive>100</iPercentGamesActive>
+            <iWeight>20</iWeight>
+            <iAngry>-1</iAngry>
+            <iUnhealthy>-1</iUnhealthy>
+            <iNumPlotsRequired>1</iNumPlotsRequired>
+            <bOwnPlot>1</bOwnPlot>
+            <TerrainsRequired>
+                <TerrainType>TERRAIN_COAST</TerrainType>
+                <TerrainType>TERRAIN_COAST_TROPICAL</TerrainType>
+                <TerrainType>TERRAIN_LAKE_SHORE</TerrainType>
+            </TerrainsRequired>
+            <Events>
+                <Event>EVENT_FISH_FOUND_1</Event>
+                <Event>EVENT_FISH_FOUND_2</Event>
+            </Events>
+            <OrPreReqs>
+                <PrereqTech>TECH_SCAVENGING</PrereqTech>
+            </OrPreReqs>
+            <bRecurring>1</bRecurring>
+        </EventTriggerInfo>
+
+        <EventTriggerInfo>
+            <Type>EVENTTRIGGER_WHALE_FOUND</Type>
+            <WorldNewsTexts>
+                <Text>TXT_KEY_EVENTTRIGGER_WHALE_FOUND</Text>
+            </WorldNewsTexts>
+            <TriggerTexts>
+                <TriggerText>
+                    <Text>TXT_KEY_EVENT_TRIGGER_WHALE_FOUND_1</Text>
+                    <Era>NONE</Era>
+                </TriggerText>
+            </TriggerTexts>
+<!--            <EventArt>Art/Event_Images/HappyHuntingEvent.dds</EventArt>-->
+            <iPercentGamesActive>100</iPercentGamesActive>
+            <iWeight>5</iWeight>
+            <iAngry>-1</iAngry>
+            <iUnhealthy>-1</iUnhealthy>
+            <iNumPlotsRequired>1</iNumPlotsRequired>
+            <bOwnPlot>1</bOwnPlot>
+            <TerrainsRequired>
+                <TerrainType>TERRAIN_COAST</TerrainType>
+                <TerrainType>TERRAIN_COAST_POLAR</TerrainType>
+                <TerrainType>TERRAIN_COAST_TROPICAL</TerrainType>
+            </TerrainsRequired>
+            <Events>
+                <Event>EVENT_WHALE_FOUND_1</Event>
+                <Event>EVENT_WHALE_FOUND_2</Event>
+            </Events>
+            <OrPreReqs>
+                <PrereqTech>TECH_SCAVENGING</PrereqTech>
+            </OrPreReqs>
+            <bRecurring>1</bRecurring>
+        </EventTriggerInfo>
 
 		<EventTriggerInfo>
 			<Type>EVENTTRIGGER_GREAT_STORY</Type>
@@ -10907,7 +10974,7 @@
 			</TriggerTexts>
 			<EventArt>Art/Event_Images/InfluenzaEvent.dds</EventArt>
 			<iPercentGamesActive>100</iPercentGamesActive>
-			<iWeight>40</iWeight>
+			<iWeight>30</iWeight>
 			<iMinPopulation>4</iMinPopulation>
 			<BuildingsRequired>
 				<Building>BUILDING_DISEASE_COMMON_COLD</Building>
@@ -10922,6 +10989,64 @@
 			<bPickCity>1</bPickCity>
 			<PythonCanDo>canTriggerInfluenza</PythonCanDo>
 		</EventTriggerInfo>
+
+        <EventTriggerInfo>
+            <Type>EVENTTRIGGER_INFLUENZA1</Type>
+            <WorldNewsTexts>
+                <Text>TXT_KEY_EVENTTRIGGER_INFLUENZA</Text>
+            </WorldNewsTexts>
+            <TriggerTexts>
+                <TriggerText>
+                    <Text>TXT_KEY_EVENT_TRIGGER_INFLUENZA_1</Text>
+                    <Era>NONE</Era>
+                </TriggerText>
+            </TriggerTexts>
+            <EventArt>Art/Event_Images/InfluenzaEvent.dds</EventArt>
+            <iPercentGamesActive>100</iPercentGamesActive>
+            <iWeight>30</iWeight>
+            <iMinPopulation>6</iMinPopulation>
+            <BuildingsRequired>
+                <Building>BUILDING_DISEASE_COMMON_COLD</Building>
+            </BuildingsRequired>
+            <iNumBuildings>1</iNumBuildings>
+            <bOwnPlot>1</bOwnPlot>
+            <Events>
+                <Event>EVENT_INFLUENZA_3</Event>
+                <Event>EVENT_INFLUENZA_4</Event>
+            </Events>
+            <bRecurring>1</bRecurring>
+            <bPickCity>1</bPickCity>
+            <PythonCanDo>canTriggerInfluenza</PythonCanDo>
+        </EventTriggerInfo>
+
+        <EventTriggerInfo>
+            <Type>EVENTTRIGGER_INFLUENZA2</Type>
+            <WorldNewsTexts>
+                <Text>TXT_KEY_EVENTTRIGGER_INFLUENZA</Text>
+            </WorldNewsTexts>
+            <TriggerTexts>
+                <TriggerText>
+                    <Text>TXT_KEY_EVENT_TRIGGER_INFLUENZA_1</Text>
+                    <Era>NONE</Era>
+                </TriggerText>
+            </TriggerTexts>
+            <EventArt>Art/Event_Images/InfluenzaEvent.dds</EventArt>
+            <iPercentGamesActive>100</iPercentGamesActive>
+            <iWeight>30</iWeight>
+            <iMinPopulation>8</iMinPopulation>
+            <BuildingsRequired>
+                <Building>BUILDING_DISEASE_COMMON_COLD</Building>
+            </BuildingsRequired>
+            <iNumBuildings>1</iNumBuildings>
+            <bOwnPlot>1</bOwnPlot>
+            <Events>
+                <Event>EVENT_INFLUENZA_5</Event>
+                <Event>EVENT_INFLUENZA_6</Event>
+            </Events>
+            <bRecurring>1</bRecurring>
+            <bPickCity>1</bPickCity>
+            <PythonCanDo>canTriggerInfluenza</PythonCanDo>
+        </EventTriggerInfo>
 
 		<EventTriggerInfo>
 			<Type>EVENTTRIGGER_ANTELOPE</Type>
