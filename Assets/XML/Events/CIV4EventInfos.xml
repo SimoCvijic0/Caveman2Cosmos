@@ -7460,6 +7460,7 @@
             <Description>TXT_KEY_EVENT_SMALL_EARTHQUAKE_1</Description>
             <bPickCity>1</bPickCity>
             <PythonCallback>doEarthquakeSmall</PythonCallback>
+            <PythonCanDo>canDoEarthquake</PythonCanDo>
             <Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
             <iAIValue>1</iAIValue>
         </EventInfo>
@@ -7469,6 +7470,7 @@
             <Description>TXT_KEY_EVENT_MEDIUM_EARTHQUAKE_1</Description>
             <bPickCity>1</bPickCity>
             <PythonCallback>doEarthquakeMedium</PythonCallback>
+            <PythonCanDo>canDoEarthquake</PythonCanDo>
             <Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
             <iAIValue>1</iAIValue>
         </EventInfo>
@@ -7478,6 +7480,7 @@
             <Description>TXT_KEY_EVENT_STRONG_EARTHQUAKE_1</Description>
             <bPickCity>1</bPickCity>
             <PythonCallback>doEarthquakeStrong</PythonCallback>
+            <PythonCanDo>canDoEarthquake</PythonCanDo>
             <Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
             <iAIValue>1</iAIValue>
         </EventInfo>
@@ -7487,6 +7490,7 @@
             <Description>TXT_KEY_EVENT_HUGE_EARTHQUAKE_1</Description>
             <bPickCity>1</bPickCity>
             <PythonCallback>doEarthquakeHuge</PythonCallback>
+            <PythonCanDo>canDoEarthquake</PythonCanDo>
             <Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
             <iAIValue>1</iAIValue>
         </EventInfo>
@@ -7496,6 +7500,7 @@
             <Description>TXT_KEY_EVENT_APOCALYPTIC_EARTHQUAKE_1</Description>
             <bPickCity>1</bPickCity>
             <PythonCallback>doEarthquakeApocalyptic</PythonCallback>
+            <PythonCanDo>canDoEarthquake</PythonCanDo>
             <Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
             <iAIValue>1</iAIValue>
         </EventInfo>

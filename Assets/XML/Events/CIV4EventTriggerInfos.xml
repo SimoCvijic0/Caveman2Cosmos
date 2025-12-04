@@ -13667,7 +13667,7 @@
             </TriggerTexts>
             <EventArt>Art/Event_Images/Earthquake.dds</EventArt>
             <iPercentGamesActive>100</iPercentGamesActive>
-            <iWeight>12</iWeight>
+            <iWeight>8</iWeight>
             <bPickCity>1</bPickCity>
             <iNumPlotsRequired>1</iNumPlotsRequired>
             <Events>
@@ -13692,7 +13692,7 @@
             </TriggerTexts>
             <EventArt>Art/Event_Images/Earthquake.dds</EventArt>
             <iPercentGamesActive>100</iPercentGamesActive>
-            <iWeight>9</iWeight>
+            <iWeight>6</iWeight>
             <bPickCity>1</bPickCity>
             <iNumPlotsRequired>1</iNumPlotsRequired>
             <Events>
@@ -13717,7 +13717,7 @@
             </TriggerTexts>
             <EventArt>Art/Event_Images/Earthquake.dds</EventArt>
             <iPercentGamesActive>100</iPercentGamesActive>
-            <iWeight>6</iWeight>
+            <iWeight>4</iWeight>
             <bPickCity>1</bPickCity>
             <iNumPlotsRequired>1</iNumPlotsRequired>
             <Events>
@@ -13742,7 +13742,7 @@
             </TriggerTexts>
             <EventArt>Art/Event_Images/Earthquake.dds</EventArt>
             <iPercentGamesActive>100</iPercentGamesActive>
-            <iWeight>3</iWeight>
+            <iWeight>2</iWeight>
             <bPickCity>1</bPickCity>
             <iNumPlotsRequired>1</iNumPlotsRequired>
             <Events>

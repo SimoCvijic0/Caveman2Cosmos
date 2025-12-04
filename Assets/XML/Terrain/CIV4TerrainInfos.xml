@@ -2327,8 +2327,8 @@
 			<iDefense>10</iDefense>
 			<iMovement>2</iMovement>
 			<Yields>
-				<iYield>2</iYield>
 				<iYield>1</iYield>
+				<iYield>2</iYield>
 			</Yields>
 			<Button>Art/Interface/Buttons/baseterrain/DuneAnchorGrass.dds</Button>
 			<FootstepSounds>

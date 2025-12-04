@@ -5123,6 +5123,11 @@ def doEarthquakeApocalyptic(data):
     popLossPercent = 25
     _doEarthquakeCore(data, minDestroy , maxDestroy, popLossPercent)
 
+def canDoEarthquake(argsList):
+    CyPlayer = GC.getPlayer(argsList[1].ePlayer)
+    iShelterBuilding = GC.getInfoTypeForString("TECH_SHELTER_BUILDING")
+    return GC.getTeam(CyPlayer.getTeam()).isHasTech(iShelterBuilding)
+
 def _doEarthquakeCore(argsList, minDestroy, maxDestroy, popLossPercent):
     data = argsList[1]
     CyPlayer = GC.getPlayer(data.ePlayer)
