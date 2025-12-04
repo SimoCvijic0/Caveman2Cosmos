@@ -57,6 +57,7 @@
 				</PropertySource>
 			</PropertyManipulators>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ANCIENT_WAY_OF_THE_CENTAUR</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -102,6 +103,7 @@
 			</PropertyManipulators>
 			<MovieDefineTag>ART_DEF_MOVIE_ANCIENT_WAY_OF_THE_CENTAUR</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ANCIENT_WAY_OF_THE_FEATHER</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -147,6 +149,7 @@
 			</PropertyManipulators>
 			<MovieDefineTag>ART_DEF_MOVIE_ANCIENT_WAY_OF_THE_FEATHER</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ANCIENT_WAY_OF_THE_FIST</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -192,6 +195,7 @@
 			</PropertyManipulators>
 			<MovieDefineTag>ART_DEF_MOVIE_ANCIENT_WAY_OF_THE_FIST</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ANCIENT_WAY_OF_THE_LEECH</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -236,6 +240,7 @@
 			</PropertyManipulators>
 			<MovieDefineTag>ART_DEF_MOVIE_ANCIENT_WAY_OF_THE_LEECH</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ANCIENT_WAY_OF_THE_SHADOWS</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -289,6 +294,7 @@
 			</PropertyManipulators>
 			<MovieDefineTag>ART_DEF_MOVIE_ANCIENT_WAY_OF_THE_SHADOWS</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ANCIENT_WAY_OF_THE_WARRIOR</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -334,6 +340,7 @@
 			</PropertyManipulators>
 			<MovieDefineTag>ART_DEF_MOVIE_ANCIENT_WAY_OF_THE_WARRIOR</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ANCIENT_WAY_OF_THE_WAVES</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -381,6 +388,7 @@
 			</PropertyManipulators>
 			<MovieDefineTag>ART_DEF_MOVIE_ANCIENT_WAY_OF_THE_WAVES</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ANCIENT_WAY_OF_THE_WILD</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -426,6 +434,7 @@
 			</PropertyManipulators>
 			<MovieDefineTag>ART_DEF_MOVIE_ANCIENT_WAY_OF_THE_WILD</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ANCIENT_WAY_OF_THE_WIND</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -471,6 +480,7 @@
 			</PropertyManipulators>
 			<MovieDefineTag>ART_DEF_MOVIE_ANCIENT_WAY_OF_THE_WIND</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ANCIENT_WAY_OF_THE_WOLF</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -518,6 +528,7 @@
 			</PropertyManipulators>
 			<MovieDefineTag>ART_DEF_MOVIE_ANCIENT_WAY_OF_THE_WOLF</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_PC_CAVE_OF_ALTAMIRA</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -563,6 +574,7 @@
 			<iConquestProb>100</iConquestProb>
 			<iHurryCostModifier>100</iHurryCostModifier>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ASTROLOGICAL_INFLUENCE_OF_AQUARIUS</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -616,6 +628,7 @@
 			</PropertyManipulators>
 			<MovieDefineTag>ART_DEF_MOVIE_ASTROLOGICAL_INFLUENCE_OF_AQUARIUS</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ASTROLOGICAL_INFLUENCE_OF_ARIES</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -669,6 +682,7 @@
 			</PropertyManipulators>
 			<MovieDefineTag>ART_DEF_MOVIE_ASTROLOGICAL_INFLUENCE_OF_ARIES</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ASTROLOGICAL_INFLUENCE_OF_CANCER</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -726,6 +740,7 @@
 			</PropertyManipulators>
 			<MovieDefineTag>ART_DEF_MOVIE_ASTROLOGICAL_INFLUENCE_OF_CANCER</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ASTROLOGICAL_INFLUENCE_OF_CAPRICORN</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -782,6 +797,7 @@
 			</PropertyManipulators>
 			<MovieDefineTag>ART_DEF_MOVIE_ASTROLOGICAL_INFLUENCE_OF_CAPRICORN</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ASTROLOGICAL_INFLUENCE_OF_GEMINI</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -838,6 +854,7 @@
 			</PropertyManipulators>
 			<MovieDefineTag>ART_DEF_MOVIE_ASTROLOGICAL_INFLUENCE_OF_GEMINI</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ASTROLOGICAL_INFLUENCE_OF_LEO</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -891,6 +908,7 @@
 			</PropertyManipulators>
 			<MovieDefineTag>ART_DEF_MOVIE_ASTROLOGICAL_INFLUENCE_OF_LEO</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ASTROLOGICAL_INFLUENCE_OF_LIBRA</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -948,6 +966,7 @@
 			</PropertyManipulators>
 			<MovieDefineTag>ART_DEF_MOVIE_ASTROLOGICAL_INFLUENCE_OF_LIBRA</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ASTROLOGICAL_INFLUENCE_OF_PISCES</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -1005,6 +1024,7 @@
 			</PropertyManipulators>
 			<MovieDefineTag>ART_DEF_MOVIE_ASTROLOGICAL_INFLUENCE_OF_PISCES</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ASTROLOGICAL_INFLUENCE_OF_SAGITTARIUS</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -1060,6 +1080,7 @@
 			</PropertyManipulators>
 			<MovieDefineTag>ART_DEF_MOVIE_ASTROLOGICAL_INFLUENCE_OF_SAGITTARIUS</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ASTROLOGICAL_INFLUENCE_OF_SCORPIO</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -1118,6 +1139,7 @@
 			</PropertyManipulators>
 			<MovieDefineTag>ART_DEF_MOVIE_ASTROLOGICAL_INFLUENCE_OF_SCORPIO</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ASTROLOGICAL_INFLUENCE_OF_TAURUS</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -1177,6 +1199,7 @@
 			</PropertyManipulators>
 			<MovieDefineTag>ART_DEF_MOVIE_ASTROLOGICAL_INFLUENCE_OF_TAURUS</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ASTROLOGICAL_INFLUENCE_OF_VIRGO</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -1230,6 +1253,7 @@
 			</PropertyManipulators>
 			<MovieDefineTag>ART_DEF_MOVIE_ASTROLOGICAL_INFLUENCE_OF_VIRGO</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_LL_BLACKWATER_DRAW</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -1269,6 +1293,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_LL_BLACKWATER_DRAW</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_BLACKWATER_DRAW</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_PC_BLOMBOS_CAVE</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -1315,6 +1340,7 @@
 			<iConquestProb>100</iConquestProb>
 			<iHurryCostModifier>100</iHurryCostModifier>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_PC_BLUEFISH_CAVES</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -1378,6 +1404,7 @@
 			<iConquestProb>100</iConquestProb>
 			<iHurryCostModifier>100</iHurryCostModifier>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_LL_CACTUS_HILL</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -1417,6 +1444,7 @@
 				</PropertySource>
 			</PropertyManipulators>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_DW_CHAMPAGNE</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -1464,6 +1492,7 @@
 			<iHurryCostModifier>250</iHurryCostModifier>
 			<bNukeImmune>1</bNukeImmune>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_PC_CHARLIE_LAKE_CAVE</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -1515,6 +1544,7 @@
 			<iConquestProb>100</iConquestProb>
 			<iHurryCostModifier>100</iHurryCostModifier>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_MA_EVELPIDON_MILITARY_ACADEMY</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -1571,6 +1601,7 @@
 				</PropertySource>
 			</PropertyManipulators>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EU_HARVARD_UNIVERSITY</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -1680,6 +1711,7 @@
 			</PropertyManipulators>
 			<MovieDefineTag>ART_DEF_MOVIE_HARVARD_UNIVERSITY</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EU_HEIDELBERG_UNIVERSITY</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -1759,6 +1791,7 @@
 				</PropertySource>
 			</PropertyManipulators>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_MA_IMPERIAL_NAVAL_ACADEMY</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -1815,6 +1848,7 @@
 				</PropertySource>
 			</PropertyManipulators>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EU_JAGIELLONIAN_UNIVERSITY</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -1922,6 +1956,7 @@
 				</PropertySource>
 			</PropertyManipulators>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_LL_KILGII_GWAAY</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -1962,6 +1997,7 @@
 				</PropertySource>
 			</PropertyManipulators>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_PC_KLASIES_RIVER_CAVES</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -2008,6 +2044,7 @@
 			<iConquestProb>100</iConquestProb>
 			<iHurryCostModifier>100</iHurryCostModifier>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_LL_MCCALLUM</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -2048,6 +2085,7 @@
 				</PropertySource>
 			</PropertyManipulators>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_LL_MEADOWCROFT_ROCKSHELTER</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -2089,6 +2127,7 @@
 				</PropertySource>
 			</PropertyManipulators>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_LL_MONTE_VERDE</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -2128,6 +2167,7 @@
 				</PropertySource>
 			</PropertyManipulators>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EU_MONTPELLIER_UNIVERSITY</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -2239,6 +2279,7 @@
 			</PropertyManipulators>
 			<MovieDefineTag>ART_DEF_MOVIE_MONTPELLIER_UNIVERSITY</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EU_OXFORD_UNIVERSITY</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -2350,6 +2391,7 @@
 				</PropertySource>
 			</PropertyManipulators>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_PC_PEDRA_FURADA</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -2413,6 +2455,7 @@
 			<iConquestProb>100</iConquestProb>
 			<iHurryCostModifier>100</iHurryCostModifier>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_MA_REPUBLIC_NAVAL_ACADEMY</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -4352,6 +4395,7 @@
 				</PropertySource>
 			</PropertyManipulators>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_MA_ROYAL_AIR_FORCE_ACADEMY</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -4408,6 +4452,7 @@
 				</PropertySource>
 			</PropertyManipulators>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EU_SORBONNE_UNIVERSITY</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -4515,6 +4560,7 @@
 				</PropertySource>
 			</PropertyManipulators>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EU_UNIVERSITY_OF_BARCELONA</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -4626,6 +4672,7 @@
 			</PropertyManipulators>
 			<MovieDefineTag>ART_DEF_MOVIE_UNIVERSITY_OF_BARCELONA</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EU_UNIVERSITY_OF_BASEL</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -4733,6 +4780,7 @@
 				</PropertySource>
 			</PropertyManipulators>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EU_UNIVERSITY_OF_BOLOGNA</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -4842,6 +4890,7 @@
 			</PropertyManipulators>
 			<MovieDefineTag>ART_DEF_MOVIE_UNIVERSITY_OF_BOLOGNA</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EU_UNIVERSITY_OF_CAMBRIDGE</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -4921,6 +4970,7 @@
 				</PropertySource>
 			</PropertyManipulators>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EU_UNIVERSITY_OF_COIMBRA</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -5032,6 +5082,7 @@
 			</PropertyManipulators>
 			<MovieDefineTag>ART_DEF_MOVIE_UNIVERSITY_OF_COIMBRA</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EU_UNIVERSITY_OF_EDINBURGH</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -5138,6 +5189,7 @@
 				</PropertySource>
 			</PropertyManipulators>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EU_UNIVERSITY_OF_MURCIA</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -5244,6 +5296,7 @@
 				</PropertySource>
 			</PropertyManipulators>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EU_UNIVERSITY_OF_PADUA</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -5323,6 +5376,7 @@
 				</PropertySource>
 			</PropertyManipulators>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EU_UNIVERSITY_OF_SALAMANCA</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -5432,6 +5486,7 @@
 			</PropertyManipulators>
 			<MovieDefineTag>ART_DEF_MOVIE_UNIVERSITY_OF_SALAMANCA</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_DW_VINTAGE_RED</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -5478,6 +5533,7 @@
 			<iConquestProb>100</iConquestProb>
 			<bNukeImmune>1</bNukeImmune>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_DW_VINTAGE_WHITE</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -5525,6 +5581,7 @@
 			<iHurryCostModifier>250</iHurryCostModifier>
 			<bNukeImmune>1</bNukeImmune>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_MA_WEST_POINT</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>

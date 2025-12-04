@@ -36,6 +36,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_ACADEMY</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_BUILDING_ACADEMY</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_SAFETY_AESOPS_FABLES</Type>
 			<MapCategoryTypes>
@@ -55,6 +56,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_SAFETY_AESOPS_FABLES</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ACHIEVEMENT_AGRICULTURAL</Type>
 			<SpecialBuildingType>SPECIALBUILDING_ACHIEVEMENT</SpecialBuildingType>
@@ -80,6 +82,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_ACHIEVEMENT_AGRICULTURAL</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_AGRICULTURAL_ACHIEVEMENT</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ORDINANCE_ALCOHOL_PROHIBITION</Type>
 			<MapCategoryTypes>
@@ -96,6 +99,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_ORDINANCE_ALCOHOL_PROHIBITION</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CORICANCHA</Type>
 			<Description>TXT_KEY_BUILDING_CORICANCHA</Description>
@@ -133,6 +137,7 @@
 			<iConquestProb>100</iConquestProb>
 			<bNukeImmune>1</bNukeImmune>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_ANIMAL_BURROW</Type>
 			<MapCategoryTypes>
@@ -158,6 +163,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_ANIMAL_BURROW</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_THE_ODINS_SANCTUARY</Type>
 			<Description>TXT_KEY_BUILDING_THE_ODINS_SANCTUARY</Description>
@@ -207,6 +213,7 @@
 				</UnitCombatFreeExperience>
 			</UnitCombatFreeExperiences>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_SHRINE_OF_BAB</Type>
 			<Description>TXT_KEY_BUILDING_SHRINE_OF_BAB</Description>
@@ -253,6 +260,7 @@
 				</SpecialistCount>
 			</SpecialistCounts>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_BELIEF_KARMA</Type>
 			<MapCategoryTypes>
@@ -278,6 +286,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_BELIEF_KARMA</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_BELIEF_REINCARNATION</Type>
 			<MapCategoryTypes>
@@ -304,6 +313,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_BELIEF_REINCARNATION</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_BELIEF_RESURRECTION</Type>
 			<MapCategoryTypes>
@@ -330,6 +340,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_BELIEF_RESURRECTION</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_DANCE_BIRD</Type>
 			<Description>TXT_KEY_BUILDING_DANCE_BIRD</Description>
@@ -415,6 +426,7 @@
 				</BuildingProductionModifier>
 			</BuildingProductionModifiers>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_BLOOD_DANCE</Type>
 			<MapCategoryTypes>
@@ -462,6 +474,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_BLOOD_DANCE</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_BONE_HUTS</Type>
 			<MapCategoryTypes>
@@ -498,6 +511,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_BONE_HUTS</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_THE_MAHABODHI</Type>
 			<MapCategoryTypes>
@@ -541,6 +555,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_THE_MAHABODHI</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_SHRINE_BUDDHIST</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CANAANITE_SHRINE</Type>
 			<Description>TXT_KEY_BUILDING_CANAANITE_SHRINE</Description>
@@ -584,6 +599,7 @@
 			</SpecialistCounts>
 			<ConstructSound>AS2D_BUILD_CANAANITE</ConstructSound>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_WORLDVIEW_CANNIBALISM_ACTIVE</Type>
 			<MapCategoryTypes>
@@ -625,6 +641,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_WORLDVIEW_CANNIBALISM_ACTIVE</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_GREAT_TEMPLE_TAY_NINH</Type>
 			<Description>TXT_KEY_BUILDING_GREAT_TEMPLE_TAY_NINH</Description>
@@ -658,6 +675,7 @@
 				</SpecialistCount>
 			</SpecialistCounts>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ORDINANCE_CARPOOL</Type>
 			<MapCategoryTypes>
@@ -688,6 +706,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_ORDINANCE_CARPOOL</ArtDefineTag>
 			<bPrereqPower>1</bPrereqPower>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ORDINANCE_EFFECT_CARPOOL</Type>
 			<MapCategoryTypes>
@@ -716,6 +735,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_ORDINANCE_CARPOOL</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_CAVE_DWELLING</Type>
 			<MapCategoryTypes>
@@ -755,6 +775,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_CAVE_DWELLING</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_CAVE_DWELLING</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_THE_CHURCH_OF_THE_NATIVITY</Type>
 			<MapCategoryTypes>
@@ -798,6 +819,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_THE_CHURCH_OF_THE_NATIVITY</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_SHRINE_CHRISTIAN</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CIVIC_BANDITRY</Type>
 			<MapCategoryTypes>
@@ -822,6 +844,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_CIVIC_BANDITRY</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CIVIC_BURN_TRASH</Type>
 			<MapCategoryTypes>
@@ -847,6 +870,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_CIVIC_BURN_TRASH</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CIVIC_CASTE</Type>
 			<MapCategoryTypes>
@@ -879,6 +903,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_CIVIC_CASTE</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CIVIC_DEMOCRACY</Type>
 			<MapCategoryTypes>
@@ -911,6 +936,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_CIVIC_DEMOCRACY</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CIVIC_EGALITARIAN</Type>
 			<MapCategoryTypes>
@@ -942,6 +968,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_CIVIC_EGALITARIAN</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CIVIC_FEUDAL</Type>
 			<MapCategoryTypes>
@@ -972,6 +999,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_CIVIC_FEUDAL</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CIVIC_FREE_MARKET</Type>
 			<MapCategoryTypes>
@@ -1004,6 +1032,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_CIVIC_FREE_MARKET</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CIVIC_MARTIAL_LAW</Type>
 			<MapCategoryTypes>
@@ -1035,6 +1064,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_CIVIC_MARTIAL_LAW</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CIVIC_MERCENARIES</Type>
 			<MapCategoryTypes>
@@ -1059,6 +1089,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_CIVIC_MERCENARIES</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CIVIC_MILITIA</Type>
 			<MapCategoryTypes>
@@ -1084,6 +1115,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_CIVIC_MILITIA</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CIVIC_MIND_CONTROL</Type>
 			<MapCategoryTypes>
@@ -1115,6 +1147,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_CIVIC_MIND_CONTROL</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CIVIC_POST_SCARCITY</Type>
 			<MapCategoryTypes>
@@ -1146,6 +1179,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_CIVIC_POST_SCARCITY</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CIVIC_REPUBLIC</Type>
 			<MapCategoryTypes>
@@ -1178,6 +1212,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_CIVIC_REPUBLIC</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ORDINANCE_CLEAN_AIR_ACT</Type>
 			<MapCategoryTypes>
@@ -1202,6 +1237,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_ORDINANCE_CLEAN_AIR_ACT</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ORDINANCE_EFFECT_CLEAN_AIR_ACT</Type>
 			<MapCategoryTypes>
@@ -1225,6 +1261,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_ORDINANCE_CLEAN_AIR_ACT</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ORDINANCE_CLEAN_WATER_ACT</Type>
 			<MapCategoryTypes>
@@ -1249,6 +1286,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_ORDINANCE_CLEAN_WATER_ACT</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ORDINANCE_EFFECT_CLEAN_WATER_ACT</Type>
 			<MapCategoryTypes>
@@ -1272,6 +1310,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_ORDINANCE_CLEAN_WATER_ACT</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_CLIFF_DWELLING</Type>
 			<MapCategoryTypes>
@@ -1310,6 +1349,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_CLIFF_DWELLING</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ACHIEVEMENT_COMMERCIAL</Type>
 			<SpecialBuildingType>SPECIALBUILDING_ACHIEVEMENT</SpecialBuildingType>
@@ -1337,6 +1377,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_ACHIEVEMENT_COMMERCIAL</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_COMMERCIAL_ACHIEVEMENT</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_THE_KONG_MIAO</Type>
 			<MapCategoryTypes>
@@ -1385,6 +1426,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_THE_KONG_MIAO</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_SHRINE_CONFUCIAN</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HQ_CEREAL_MILLS</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -1423,6 +1465,7 @@
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_CORPORATION_1</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HQ_SIDS_SUSHI_CO</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -1464,6 +1507,7 @@
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_CORPORATION_2</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HQ_STANDARD_ETHANOL</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -1502,6 +1546,7 @@
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_CORPORATION_3</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HQ_CREATIVE_CONSTRUCTIONS</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -1540,6 +1585,7 @@
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_CORPORATION_4</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HQ_MINING_INC</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -1578,6 +1624,7 @@
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_CORPORATION_5</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HQ_ALUMINUM_CO</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -1616,6 +1663,7 @@
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_CORPORATION_6</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HQ_CIVILIZED_JEWELERS_INC</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -1654,6 +1702,7 @@
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_CORPORATION_7</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HQ_ADVENTURE_TOURS</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -1692,6 +1741,7 @@
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_HQ_ADVENTURE_TOURS</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HQ_BULLSEYE</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -1730,6 +1780,7 @@
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_HQ_BULLSEYE</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HQ_BURGERWORLD</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -1768,6 +1819,7 @@
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_HQ_BURGERWORLD</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HQ_EMPERORS_CLOTHING</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -1806,6 +1858,7 @@
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_HQ_EMPERORS_CLOTHING</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HQ_EAST_WEST_TRADERS</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -1844,6 +1897,7 @@
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_HQ_EAST_WEST_TRADERS</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HQ_FASHION_HOUSE</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -1882,6 +1936,7 @@
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_HQ_FASHION_HOUSE</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HQ_MALLWART</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -1920,6 +1975,7 @@
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_HQ_MALLWART</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HQ_MAPSTER</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -1954,6 +2010,7 @@
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_HQ_MAPSTER</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HQ_BIG_MCDOWELLS</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -1992,6 +2049,7 @@
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_HQ_BIG_MCDOWELLS</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HQ_MILEHIGH_TRAVELS_INTERNATIONAL</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -2030,6 +2088,7 @@
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_HQ_MILEHIGH_TRAVELS_INTERNATIONAL</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HQ_MOBBY_MEATS_INTERNATIONAL</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -2068,6 +2127,7 @@
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_HQ_MOBBY_MEATS_INTERNATIONAL</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HQ_MOONBEAN_COFFEE</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -2106,6 +2166,7 @@
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_HQ_MOONBEAN_COFFEE</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HQ_RED_CURTAINS</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -2145,6 +2206,7 @@
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_HQ_RED_CURTAINS</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HQ_SAFARI_HUNTERS</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -2176,6 +2238,7 @@
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_HQ_SAFARI_HUNTERS</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HQ_ULTIMATE_SOLDIERS</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -2204,6 +2267,7 @@
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_HQ_ULTIMATE_SOLDIERS</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HQ_WONKA_CONFECTIONERIES</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -2242,6 +2306,7 @@
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_HQ_WONKA_CONFECTIONERIES</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_ANIMAL_ABUSE</Type>
 			<MapCategoryTypes>
@@ -2269,6 +2334,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_ARMED_COMMUNITIES</Type>
 			<MapCategoryTypes>
@@ -2304,6 +2370,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_ARSON</Type>
 			<MapCategoryTypes>
@@ -2342,6 +2409,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_ASIMOV_TAMPERING</Type>
 			<MapCategoryTypes>
@@ -2368,6 +2436,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_BANK_ROBBERY</Type>
 			<MapCategoryTypes>
@@ -2398,6 +2467,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_BLACKMAIL</Type>
 			<MapCategoryTypes>
@@ -2428,6 +2498,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_BLACK_MARKETS</Type>
 			<MapCategoryTypes>
@@ -2470,6 +2541,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_ILLEGAL_BRAINWASHING</Type>
 			<MapCategoryTypes>
@@ -2512,6 +2584,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_BRIBERY</Type>
 			<MapCategoryTypes>
@@ -2547,6 +2620,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_BURGLARY</Type>
 			<MapCategoryTypes>
@@ -2676,6 +2750,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_CAR_BOMBING</Type>
 			<MapCategoryTypes>
@@ -2715,6 +2790,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_CAR_THEFT</Type>
 			<MapCategoryTypes>
@@ -2746,6 +2822,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_CHILD_LABOR</Type>
 			<MapCategoryTypes>
@@ -2778,6 +2855,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_CORRUPTION</Type>
 			<MapCategoryTypes>
@@ -2816,6 +2894,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_COUNTERFEITING</Type>
 			<MapCategoryTypes>
@@ -2842,6 +2921,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_CYBERBULLYING</Type>
 			<MapCategoryTypes>
@@ -2857,6 +2937,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_CYBERWARFARE</Type>
 			<MapCategoryTypes>
@@ -2887,6 +2968,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_DOMESTIC_VIOLENCE</Type>
 			<MapCategoryTypes>
@@ -2909,6 +2991,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_DRUG_CARTELS</Type>
 			<MapCategoryTypes>
@@ -2947,6 +3030,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_DRUGS</Type>
 			<MapCategoryTypes>
@@ -2983,6 +3067,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_DRUNK_DRIVING</Type>
 			<MapCategoryTypes>
@@ -3006,6 +3091,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_ELDER_ABUSE</Type>
 			<MapCategoryTypes>
@@ -3029,6 +3115,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_EMBEZZLEMENT</Type>
 			<MapCategoryTypes>
@@ -3055,6 +3142,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_ONLINE_PIRACY</Type>
 			<MapCategoryTypes>
@@ -3083,6 +3171,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_EXTORTION</Type>
 			<MapCategoryTypes>
@@ -3113,6 +3202,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_FALSE_ACCUSATIONS</Type>
 			<MapCategoryTypes>
@@ -3134,6 +3224,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_FIGHTING</Type>
 			<MapCategoryTypes>
@@ -3163,6 +3254,7 @@
 			</PropertyManipulators>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_FORGERY</Type>
 			<MapCategoryTypes>
@@ -3186,6 +3278,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_GANGS</Type>
 			<MapCategoryTypes>
@@ -3225,6 +3318,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_GANG_WARFARE</Type>
 			<MapCategoryTypes>
@@ -3264,6 +3358,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_GENE_FORGERY</Type>
 			<MapCategoryTypes>
@@ -3288,6 +3383,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_GRAFFITI</Type>
 			<MapCategoryTypes>
@@ -3330,6 +3426,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_GUN_RAMPAGE</Type>
 			<MapCategoryTypes>
@@ -3362,6 +3459,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_HACKING</Type>
 			<MapCategoryTypes>
@@ -3390,6 +3488,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_HATE_CRIME</Type>
 			<MapCategoryTypes>
@@ -3424,6 +3523,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_HUMAN_TRAFFICKING</Type>
 			<MapCategoryTypes>
@@ -3461,6 +3561,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_IDENTITY_THEFT</Type>
 			<MapCategoryTypes>
@@ -3488,6 +3589,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_ILLEGAL_IMMIGRATION</Type>
 			<MapCategoryTypes>
@@ -3535,6 +3637,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_INSIDER_TRADING</Type>
 			<MapCategoryTypes>
@@ -3566,6 +3669,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_INSUBORDINATION</Type>
 			<MapCategoryTypes>
@@ -3582,6 +3686,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_INSURANCE_FRAUD</Type>
 			<MapCategoryTypes>
@@ -3608,6 +3713,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_INTERNET_FRAUD</Type>
 			<MapCategoryTypes>
@@ -3634,6 +3740,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_PRISON_BREAKOUTS</Type>
 			<MapCategoryTypes>
@@ -3672,6 +3779,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_KIDNAPPING</Type>
 			<MapCategoryTypes>
@@ -3701,6 +3809,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_LITTERING</Type>
 			<MapCategoryTypes>
@@ -3731,6 +3840,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_LOOTING</Type>
 			<MapCategoryTypes>
@@ -3778,6 +3888,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_LYING</Type>
 			<MapCategoryTypes>
@@ -3799,6 +3910,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_MALWARE</Type>
 			<MapCategoryTypes>
@@ -3829,6 +3941,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_MEDICAL_FRAUD</Type>
 			<MapCategoryTypes>
@@ -3864,6 +3977,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_MILITARY_DESERTION</Type>
 			<MapCategoryTypes>
@@ -3893,6 +4007,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_ORGANIZED_CRIME</Type>
 			<MapCategoryTypes>
@@ -3936,6 +4051,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_MONEY_LAUNDERING</Type>
 			<MapCategoryTypes>
@@ -3963,6 +4079,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_MUGGING</Type>
 			<MapCategoryTypes>
@@ -3998,6 +4115,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_MURDER</Type>
 			<MapCategoryTypes>
@@ -4031,6 +4149,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_ORGAN_TRAFFICKING</Type>
 			<MapCategoryTypes>
@@ -4060,6 +4179,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_PICKPOCKETING</Type>
 			<MapCategoryTypes>
@@ -4093,6 +4213,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_AIRCRAFT_HIJACKING</Type>
 			<MapCategoryTypes>
@@ -4130,6 +4251,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_POACHING</Type>
 			<MapCategoryTypes>
@@ -4168,6 +4290,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_PUBLIC_INTOXICATION</Type>
 			<MapCategoryTypes>
@@ -4195,6 +4318,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_RACKETEERING</Type>
 			<MapCategoryTypes>
@@ -4231,6 +4355,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_RAPE</Type>
 			<MapCategoryTypes>
@@ -4264,6 +4389,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_RIOTING</Type>
 			<MapCategoryTypes>
@@ -4306,6 +4432,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_SCHOOL_SHOOTINGS</Type>
 			<MapCategoryTypes>
@@ -4330,6 +4457,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_SECTARIAN_VIOLENCE</Type>
 			<MapCategoryTypes>
@@ -4370,6 +4498,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_SEXUAL_HARASSMENT</Type>
 			<MapCategoryTypes>
@@ -4391,6 +4520,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_SHOPLIFTING</Type>
 			<MapCategoryTypes>
@@ -4500,6 +4630,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_SOLICITING</Type>
 			<MapCategoryTypes>
@@ -4515,6 +4646,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_SPORTS_RIOTS</Type>
 			<MapCategoryTypes>
@@ -4541,6 +4673,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_TAX_EVASION</Type>
 			<MapCategoryTypes>
@@ -4561,6 +4694,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_TIMELINE_TAMPERING</Type>
 			<MapCategoryTypes>
@@ -4598,6 +4732,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_ENVIRONMENTAL_DUMPING</Type>
 			<MapCategoryTypes>
@@ -4640,6 +4775,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_TRESPASSING</Type>
 			<MapCategoryTypes>
@@ -4661,6 +4797,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_TRUANCY</Type>
 			<MapCategoryTypes>
@@ -4685,6 +4822,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_UNLICENSED_CLONING</Type>
 			<MapCategoryTypes>
@@ -4708,6 +4846,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_VIGILANTISM</Type>
 			<MapCategoryTypes>
@@ -4753,6 +4892,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_WEAPONS_TRAFFICKING</Type>
 			<MapCategoryTypes>
@@ -4788,6 +4928,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRIME_WELFARE_FRAUD</Type>
 			<MapCategoryTypes>
@@ -4826,6 +4967,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYCRIME</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ACHIEVEMENT_CULTURAL</Type>
 			<SpecialBuildingType>SPECIALBUILDING_ACHIEVEMENT</SpecialBuildingType>
@@ -4852,6 +4994,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_ACHIEVEMENT_CULTURAL</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_CULTURAL_ACHIEVEMENT</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EFFECT_DEPARTMENT_OF_FOREIGN_POLICY</Type>
 			<MapCategoryTypes>
@@ -4876,6 +5019,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_DEPARTMENT_OF_FOREIGN_POLICY</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_DISEASE_ANTHRAX</Type>
 			<MapCategoryTypes>
@@ -4907,6 +5051,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYDISEASE</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_DISEASE_BIRD_FLU</Type>
 			<MapCategoryTypes>
@@ -4938,6 +5083,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYDISEASE</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_DISEASE_CHOLERA</Type>
 			<MapCategoryTypes>
@@ -4975,6 +5121,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYDISEASE</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_DISEASE_COMMON_COLD</Type>
 			<MapCategoryTypes>
@@ -4993,6 +5140,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYDISEASE</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_DISEASE_DIPHTHERIA</Type>
 			<MapCategoryTypes>
@@ -5030,6 +5178,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYDISEASE</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_DISEASE_DYSENTERY</Type>
 			<MapCategoryTypes>
@@ -5067,6 +5216,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYDISEASE</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_DISEASE_SYPHILIS</Type>
 			<MapCategoryTypes>
@@ -5094,6 +5244,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYDISEASE</ArtDefineTag>
 		</BuildingInfo>
+
 		<!-- Should be given by python when butchering units.
 		<BuildingInfo>
 			<Type>BUILDING_DISEASE_KURU</Type>
@@ -5118,6 +5269,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYDISEASE</ArtDefineTag>
 		</BuildingInfo>
+
 		-->
 		<BuildingInfo>
 			<Type>BUILDING_DISEASE_LEPROSY</Type>
@@ -5146,6 +5298,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYDISEASE</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_DISEASE_MALARIA</Type>
 			<MapCategoryTypes>
@@ -5177,6 +5330,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYDISEASE</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_DISEASE_MEASLES</Type>
 			<MapCategoryTypes>
@@ -5204,6 +5358,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYDISEASE</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_DISEASE_BUBONIC_PLAGUE</Type>
 			<MapCategoryTypes>
@@ -5235,6 +5390,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYDISEASE</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_DISEASE_SCARLET_FEVER</Type>
 			<MapCategoryTypes>
@@ -5261,6 +5417,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYDISEASE</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_DISEASE_SCURVY</Type>
 			<MapCategoryTypes>
@@ -5286,6 +5443,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYDISEASE</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_DISEASE_SMALLPOX</Type>
 			<MapCategoryTypes>
@@ -5313,6 +5471,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYDISEASE</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_DISEASE_SWINE_FLU</Type>
 			<MapCategoryTypes>
@@ -5341,6 +5500,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYDISEASE</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_DISEASE_TYPHOID_FEVER</Type>
 			<MapCategoryTypes>
@@ -5378,6 +5538,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYDISEASE</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EFFECT_DISNEYLAND</Type>
 			<MapCategoryTypes>
@@ -5391,6 +5552,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_DISNEYLAND</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ORDINANCE_DRUG_PROHIBITION</Type>
 			<MapCategoryTypes>
@@ -5406,6 +5568,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_ORDINANCE_DRUG_PROHIBITION</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_NATURE_ANSWER</Type>
 			<Description>TXT_KEY_BUILDING_NATURE_ANSWER</Description>
@@ -5447,6 +5610,7 @@
 			</SpecialistCounts>
 			<ConstructSound>AS2D_BUILD_DRUID</ConstructSound>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EFFECT_GPS</Type>
 			<Description>TXT_KEY_BUILDING_EFFECT_GPS</Description>
@@ -5500,6 +5664,7 @@
 				</TechCommerceChange>
 			</TechCommerceChanges>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EFFECT_NATIONAL_ACADEMIC_DATABASE</Type>
 			<MapCategoryTypes>
@@ -5522,6 +5687,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_EFFECT_NATIONAL_ACADEMIC_DATABASE</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_THE_KARNAK_TEMPLE_COMPLEX</Type>
 			<MapCategoryTypes>
@@ -5569,6 +5735,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_THE_KARNAK_TEMPLE_COMPLEX</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_EGYPT_MYTH_SHRINE</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EFFECT_EMANCIPATION_PROCLAMATION</Type>
 			<Description>TXT_KEY_BUILDING_EFFECT_EMANCIPATION_PROCLAMATION</Description>
@@ -5620,6 +5787,7 @@
 			<iHealth>1</iHealth>
 			<iHappiness>1</iHappiness>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ORDINANCE_AUTOMOBILE_EMISSION_REDUCTION_ACT</Type>
 			<MapCategoryTypes>
@@ -5650,6 +5818,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_ORDINANCE_AUTOMOBILE_EMISSION_REDUCTION_ACT</ArtDefineTag>
 			<bPrereqPower>1</bPrereqPower>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ORDINANCE_EFFECT_AUTOMOBILE_EMISSION_REDUCTION_ACT</Type>
 			<MapCategoryTypes>
@@ -5674,6 +5843,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_ORDINANCE_AUTOMOBILE_EMISSION_REDUCTION_ACT</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ENHANCED_SPECIES</Type>
 			<MapCategoryTypes>
@@ -6197,6 +6367,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_ENHANCED_SPECIES</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ACHIEVEMENT_ENVIRONMENTAL</Type>
 			<SpecialBuildingType>SPECIALBUILDING_ACHIEVEMENT</SpecialBuildingType>
@@ -6221,6 +6392,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_ACHIEVEMENT_ENVIRONMENTAL</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_ENVIRONMENTAL_ACHIEVEMENT</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EFFECT_ACHIEVEMENT_ENVIRONMENTAL</Type>
 			<MapCategoryTypes>
@@ -6245,6 +6417,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_ACHIEVEMENT_ENVIRONMENTAL_EFFECT</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_UNAWARE</Type>
 			<MapCategoryTypes>
@@ -6305,6 +6478,7 @@
 				<BuildingType>BUILDING_EDUCATION_MINDLESS</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_FOOLISH</Type>
 			<MapCategoryTypes>
@@ -6367,6 +6541,7 @@
 				<BuildingType>BUILDING_EDUCATION_MINDLESS</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_SENSELESS</Type>
 			<MapCategoryTypes>
@@ -6428,6 +6603,7 @@
 				<BuildingType>BUILDING_EDUCATION_MINDLESS</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_ABSURD</Type>
 			<MapCategoryTypes>
@@ -6488,6 +6664,7 @@
 				<BuildingType>BUILDING_EDUCATION_MINDLESS</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_MORONIC</Type>
 			<MapCategoryTypes>
@@ -6547,6 +6724,7 @@
 				<BuildingType>BUILDING_EDUCATION_MINDLESS</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_FARCICAL</Type>
 			<MapCategoryTypes>
@@ -6605,6 +6783,7 @@
 				<BuildingType>BUILDING_EDUCATION_MINDLESS</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_DIMWITTED</Type>
 			<MapCategoryTypes>
@@ -6662,6 +6841,7 @@
 				<BuildingType>BUILDING_EDUCATION_MINDLESS</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_RIDICULOUS</Type>
 			<MapCategoryTypes>
@@ -6718,6 +6898,7 @@
 				<BuildingType>BUILDING_EDUCATION_MINDLESS</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_PREPOSTEROUS</Type>
 			<MapCategoryTypes>
@@ -6773,6 +6954,7 @@
 				<BuildingType>BUILDING_EDUCATION_MINDLESS</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_IDIOCRACY</Type>
 			<MapCategoryTypes>
@@ -6827,6 +7009,7 @@
 				<BuildingType>BUILDING_EDUCATION_MINDLESS</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_IGNORANCE</Type>
 			<MapCategoryTypes>
@@ -6880,6 +7063,7 @@
 				<BuildingType>BUILDING_EDUCATION_MINDLESS</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_BEWILDERED</Type>
 			<MapCategoryTypes>
@@ -6932,6 +7116,7 @@
 				<BuildingType>BUILDING_EDUCATION_MINDLESS</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_MINDLESS</Type>
 			<MapCategoryTypes>
@@ -6981,6 +7166,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYEDUCATION</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_BLISSFUL_IGNORANCE_1</Type>
 			<MapCategoryTypes>
@@ -7010,6 +7196,7 @@
 				<BuildingType>BUILDING_EDUCATION_BLISSFUL_IGNORANCE_13</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_BLISSFUL_IGNORANCE_2</Type>
 			<MapCategoryTypes>
@@ -7038,6 +7225,7 @@
 				<BuildingType>BUILDING_EDUCATION_BLISSFUL_IGNORANCE_13</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_BLISSFUL_IGNORANCE_3</Type>
 			<MapCategoryTypes>
@@ -7065,6 +7253,7 @@
 				<BuildingType>BUILDING_EDUCATION_BLISSFUL_IGNORANCE_13</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_BLISSFUL_IGNORANCE_4</Type>
 			<MapCategoryTypes>
@@ -7091,6 +7280,7 @@
 				<BuildingType>BUILDING_EDUCATION_BLISSFUL_IGNORANCE_13</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_BLISSFUL_IGNORANCE_5</Type>
 			<MapCategoryTypes>
@@ -7116,6 +7306,7 @@
 				<BuildingType>BUILDING_EDUCATION_BLISSFUL_IGNORANCE_13</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_BLISSFUL_IGNORANCE_6</Type>
 			<MapCategoryTypes>
@@ -7140,6 +7331,7 @@
 				<BuildingType>BUILDING_EDUCATION_BLISSFUL_IGNORANCE_13</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_BLISSFUL_IGNORANCE_7</Type>
 			<MapCategoryTypes>
@@ -7163,6 +7355,7 @@
 				<BuildingType>BUILDING_EDUCATION_BLISSFUL_IGNORANCE_13</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_BLISSFUL_IGNORANCE_8</Type>
 			<MapCategoryTypes>
@@ -7185,6 +7378,7 @@
 				<BuildingType>BUILDING_EDUCATION_BLISSFUL_IGNORANCE_13</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_BLISSFUL_IGNORANCE_9</Type>
 			<MapCategoryTypes>
@@ -7206,6 +7400,7 @@
 				<BuildingType>BUILDING_EDUCATION_BLISSFUL_IGNORANCE_13</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_BLISSFUL_IGNORANCE_10</Type>
 			<MapCategoryTypes>
@@ -7226,6 +7421,7 @@
 				<BuildingType>BUILDING_EDUCATION_BLISSFUL_IGNORANCE_13</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_BLISSFUL_IGNORANCE_11</Type>
 			<MapCategoryTypes>
@@ -7245,6 +7441,7 @@
 				<BuildingType>BUILDING_EDUCATION_BLISSFUL_IGNORANCE_13</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_BLISSFUL_IGNORANCE_12</Type>
 			<MapCategoryTypes>
@@ -7263,6 +7460,7 @@
 				<BuildingType>BUILDING_EDUCATION_BLISSFUL_IGNORANCE_13</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_BLISSFUL_IGNORANCE_13</Type>
 			<MapCategoryTypes>
@@ -7278,6 +7476,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYEDUCATION</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_ARGUMENTATIVE_AWARENESS_1</Type>
 			<MapCategoryTypes>
@@ -7307,6 +7506,7 @@
 				<BuildingType>BUILDING_EDUCATION_ARGUMENTATIVE_AWARENESS_13</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_ARGUMENTATIVE_AWARENESS_2</Type>
 			<MapCategoryTypes>
@@ -7335,6 +7535,7 @@
 				<BuildingType>BUILDING_EDUCATION_ARGUMENTATIVE_AWARENESS_13</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_ARGUMENTATIVE_AWARENESS_3</Type>
 			<MapCategoryTypes>
@@ -7362,6 +7563,7 @@
 				<BuildingType>BUILDING_EDUCATION_ARGUMENTATIVE_AWARENESS_13</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_ARGUMENTATIVE_AWARENESS_4</Type>
 			<MapCategoryTypes>
@@ -7388,6 +7590,7 @@
 				<BuildingType>BUILDING_EDUCATION_ARGUMENTATIVE_AWARENESS_13</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_ARGUMENTATIVE_AWARENESS_5</Type>
 			<MapCategoryTypes>
@@ -7413,6 +7616,7 @@
 				<BuildingType>BUILDING_EDUCATION_ARGUMENTATIVE_AWARENESS_13</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_ARGUMENTATIVE_AWARENESS_6</Type>
 			<MapCategoryTypes>
@@ -7437,6 +7641,7 @@
 				<BuildingType>BUILDING_EDUCATION_ARGUMENTATIVE_AWARENESS_13</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_ARGUMENTATIVE_AWARENESS_7</Type>
 			<MapCategoryTypes>
@@ -7460,6 +7665,7 @@
 				<BuildingType>BUILDING_EDUCATION_ARGUMENTATIVE_AWARENESS_13</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_ARGUMENTATIVE_AWARENESS_8</Type>
 			<MapCategoryTypes>
@@ -7482,6 +7688,7 @@
 				<BuildingType>BUILDING_EDUCATION_ARGUMENTATIVE_AWARENESS_13</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_ARGUMENTATIVE_AWARENESS_9</Type>
 			<MapCategoryTypes>
@@ -7503,6 +7710,7 @@
 				<BuildingType>BUILDING_EDUCATION_ARGUMENTATIVE_AWARENESS_13</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_ARGUMENTATIVE_AWARENESS_10</Type>
 			<MapCategoryTypes>
@@ -7523,6 +7731,7 @@
 				<BuildingType>BUILDING_EDUCATION_ARGUMENTATIVE_AWARENESS_13</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_ARGUMENTATIVE_AWARENESS_11</Type>
 			<MapCategoryTypes>
@@ -7542,6 +7751,7 @@
 				<BuildingType>BUILDING_EDUCATION_ARGUMENTATIVE_AWARENESS_13</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_ARGUMENTATIVE_AWARENESS_12</Type>
 			<MapCategoryTypes>
@@ -7560,6 +7770,7 @@
 				<BuildingType>BUILDING_EDUCATION_ARGUMENTATIVE_AWARENESS_13</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_ARGUMENTATIVE_AWARENESS_13</Type>
 			<MapCategoryTypes>
@@ -7575,6 +7786,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYEDUCATION</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_INTUITIVE</Type>
 			<MapCategoryTypes>
@@ -7635,6 +7847,7 @@
 				<BuildingType>BUILDING_EDUCATION_OMNISCIENCE</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_BRILLIANT</Type>
 			<MapCategoryTypes>
@@ -7697,6 +7910,7 @@
 				<BuildingType>BUILDING_EDUCATION_OMNISCIENCE</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_CULTIVATED</Type>
 			<MapCategoryTypes>
@@ -7758,6 +7972,7 @@
 				<BuildingType>BUILDING_EDUCATION_OMNISCIENCE</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_KNOWLEDGEABLE</Type>
 			<MapCategoryTypes>
@@ -7818,6 +8033,7 @@
 				<BuildingType>BUILDING_EDUCATION_OMNISCIENCE</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_ACUMEN</Type>
 			<MapCategoryTypes>
@@ -7877,6 +8093,7 @@
 				<BuildingType>BUILDING_EDUCATION_OMNISCIENCE</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_SCHOLARLY</Type>
 			<MapCategoryTypes>
@@ -7935,6 +8152,7 @@
 				<BuildingType>BUILDING_EDUCATION_OMNISCIENCE</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_ENLIGHTENED</Type>
 			<MapCategoryTypes>
@@ -7992,6 +8210,7 @@
 				<BuildingType>BUILDING_EDUCATION_OMNISCIENCE</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_COSMOPOLITAN</Type>
 			<MapCategoryTypes>
@@ -8048,6 +8267,7 @@
 				<BuildingType>BUILDING_EDUCATION_OMNISCIENCE</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_WUNDERKIND</Type>
 			<MapCategoryTypes>
@@ -8103,6 +8323,7 @@
 				<BuildingType>BUILDING_EDUCATION_OMNISCIENCE</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_MASTERMIND</Type>
 			<MapCategoryTypes>
@@ -8157,6 +8378,7 @@
 				<BuildingType>BUILDING_EDUCATION_OMNISCIENCE</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_GENIUS</Type>
 			<MapCategoryTypes>
@@ -8210,6 +8432,7 @@
 				<BuildingType>BUILDING_EDUCATION_OMNISCIENCE</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_WISE</Type>
 			<MapCategoryTypes>
@@ -8262,6 +8485,7 @@
 				<BuildingType>BUILDING_EDUCATION_OMNISCIENCE</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_OMNISCIENCE</Type>
 			<MapCategoryTypes>
@@ -8311,6 +8535,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYEDUCATION</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EFFECT_FERTILITY_FESTIVAL</Type>
 			<MapCategoryTypes>
@@ -8334,6 +8559,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_FERTILITY_FESTIVAL</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_FERTILITY_DANCE</Type>
 			<MapCategoryTypes>
@@ -8365,6 +8591,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_FERTILITY_DANCE</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ORDINANCE_FIRE_CODE</Type>
 			<MapCategoryTypes>
@@ -8402,6 +8629,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_ORDINANCE_FIRE_CODE</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_FIRE_DANCE</Type>
 			<MapCategoryTypes>
@@ -8445,6 +8673,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_FIRE_DANCE</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_DANCE_FOX</Type>
 			<Description>TXT_KEY_BUILDING_DANCE_FOX</Description>
@@ -8504,6 +8733,7 @@
 				</BuildingProductionModifier>
 			</BuildingProductionModifiers>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_FRATERNITY_HOUSE</Type>
 			<MapCategoryTypes>
@@ -8534,6 +8764,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_FRATERNITY_HOUSE</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ORDINANCE_GAMBLING_BAN</Type>
 			<MapCategoryTypes>
@@ -8549,6 +8780,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_ORDINANCE_GAMBLING_BAN</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_SAFETY_ALCATRAZ</Type>
 			<MapCategoryTypes>
@@ -8568,6 +8800,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_SAFETY_ALCATRAZ</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_SAFETY_MAXIMUM_SECURITY_PRISON</Type>
 			<MapCategoryTypes>
@@ -8591,6 +8824,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_SAFETY_MAXIMUM_SECURITY_PRISON</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_POWER_GORGE</Type>
 			<MapCategoryTypes>
@@ -8610,6 +8844,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_POWER_GORGE</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_SAFETY_NEIGHBORHOOD_WATCH</Type>
 			<MapCategoryTypes>
@@ -8635,6 +8870,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_SAFETY_NEIGHBORHOOD_WATCH</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_SAFETY_POLICE_ACADEMY</Type>
 			<MapCategoryTypes>
@@ -8654,6 +8890,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_SAFETY_POLICE_ACADEMY</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_SAFETY_YOUTH_CURFEW</Type>
 			<MapCategoryTypes>
@@ -8679,6 +8916,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_SAFETY_YOUTH_CURFEW</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_GRASS_HUTS</Type>
 			<MapCategoryTypes>
@@ -8715,6 +8953,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_GRASS_HUTS</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_SAFETY_GREAT_FIREWALL</Type>
 			<MapCategoryTypes>
@@ -8779,6 +9018,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_SAFETY_GREAT_FIREWALL</ArtDefineTag>
 			<bPrereqPower>1</bPrereqPower>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HEALTH_SPA</Type>
 			<MapCategoryTypes>
@@ -8811,6 +9051,7 @@
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_HEALTH_SPA</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_ANIMAL_HIDE_TENTS</Type>
 			<MapCategoryTypes>
@@ -8849,6 +9090,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_ANIMAL_HIDE_TENTS</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_THE_KASHI_VISHWANATH</Type>
 			<MapCategoryTypes>
@@ -8892,6 +9134,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_THE_KASHI_VISHWANATH</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_SHRINE_HINDU</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_HOGANS</Type>
 			<MapCategoryTypes>
@@ -8936,6 +9179,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_HOGANS</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_HOMELESS</Type>
 			<MapCategoryTypes>
@@ -8994,6 +9238,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_HOMELESS</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_VILLAS</Type>
 			<MapCategoryTypes>
@@ -9033,6 +9278,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_VILLAS</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_HOVELS</Type>
 			<MapCategoryTypes>
@@ -9066,6 +9312,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_HOVELS</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_DOMUS</Type>
 			<MapCategoryTypes>
@@ -9101,6 +9348,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_DOMUS</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_PALACES</Type>
 			<MapCategoryTypes>
@@ -9141,6 +9389,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_PALACES</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_SLUMS</Type>
 			<MapCategoryTypes>
@@ -9178,6 +9427,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_SLUMS</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_INSULAE</Type>
 			<MapCategoryTypes>
@@ -9215,6 +9465,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_INSULAE</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_MANORS</Type>
 			<MapCategoryTypes>
@@ -9253,6 +9504,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_MANORS</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_SHACKS</Type>
 			<MapCategoryTypes>
@@ -9285,6 +9537,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_SHACKS</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_COTTAGES</Type>
 			<MapCategoryTypes>
@@ -9319,6 +9572,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_COTTAGES</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_ESTATES</Type>
 			<MapCategoryTypes>
@@ -9358,6 +9612,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_ESTATES</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_SHANTY_TOWN</Type>
 			<MapCategoryTypes>
@@ -9394,6 +9649,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_SHANTY_TOWN</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_COMMONS</Type>
 			<MapCategoryTypes>
@@ -9430,6 +9686,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_COMMONS</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_PENTHOUSE_SUITES</Type>
 			<MapCategoryTypes>
@@ -9472,6 +9729,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_PENTHOUSE_SUITES</ArtDefineTag>
 			<bFreshWater>1</bFreshWater>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_PROJECTS</Type>
 			<MapCategoryTypes>
@@ -9519,6 +9777,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_PROJECTS</ArtDefineTag>
 			<bFreshWater>1</bFreshWater>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_HIGHRISES</Type>
 			<MapCategoryTypes>
@@ -9560,6 +9819,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_HIGHRISES</ArtDefineTag>
 			<bFreshWater>1</bFreshWater>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_MANSIONS</Type>
 			<MapCategoryTypes>
@@ -9597,6 +9857,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_MANSIONS</ArtDefineTag>
 			<bFreshWater>1</bFreshWater>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_BOONDOCKS</Type>
 			<MapCategoryTypes>
@@ -9631,6 +9892,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_BOONDOCKS</ArtDefineTag>
 			<bFreshWater>1</bFreshWater>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_SUBURBS</Type>
 			<MapCategoryTypes>
@@ -9667,6 +9929,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_SUBURBS</ArtDefineTag>
 			<bFreshWater>1</bFreshWater>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_CONDOMINIUMS</Type>
 			<MapCategoryTypes>
@@ -9704,6 +9967,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_CONDOMINIUMS</ArtDefineTag>
 			<bFreshWater>1</bFreshWater>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_GHETTOS</Type>
 			<MapCategoryTypes>
@@ -9740,6 +10004,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_GHETTOS</ArtDefineTag>
 			<bFreshWater>1</bFreshWater>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_APARTMENTS</Type>
 			<MapCategoryTypes>
@@ -9777,6 +10042,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_APARTMENTS</ArtDefineTag>
 			<bFreshWater>1</bFreshWater>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_HOLO_SUITES</Type>
 			<MapCategoryTypes>
@@ -9817,6 +10083,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_HOLO_SUITES</ArtDefineTag>
 			<bFreshWater>1</bFreshWater>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_HABITATION_PODS</Type>
 			<MapCategoryTypes>
@@ -9855,6 +10122,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_HABITATION_PODS</ArtDefineTag>
 			<bFreshWater>1</bFreshWater>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_HIGH_TECH_HIGHRISES</Type>
 			<MapCategoryTypes>
@@ -9894,6 +10162,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_HIGH_TECH_HIGHRISES</ArtDefineTag>
 			<bFreshWater>1</bFreshWater>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_CHATEAU</Type>
 			<MapCategoryTypes>
@@ -9932,6 +10201,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_CHATEAU</ArtDefineTag>
 			<bFreshWater>1</bFreshWater>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_DUGOUTS</Type>
 			<MapCategoryTypes>
@@ -9967,6 +10237,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_DUGOUTS</ArtDefineTag>
 			<bFreshWater>1</bFreshWater>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_SMART_HOMES</Type>
 			<MapCategoryTypes>
@@ -10004,6 +10275,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_SMART_HOMES</ArtDefineTag>
 			<bFreshWater>1</bFreshWater>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_HIGH_TECH_CONDOMINIUMS</Type>
 			<MapCategoryTypes>
@@ -10043,6 +10315,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_HIGH_TECH_CONDOMINIUMS</ArtDefineTag>
 			<bFreshWater>1</bFreshWater>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_INNER_CITY</Type>
 			<MapCategoryTypes>
@@ -10079,6 +10352,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_INNER_CITY</ArtDefineTag>
 			<bFreshWater>1</bFreshWater>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_HIGH_TECH_APARTMENTS</Type>
 			<MapCategoryTypes>
@@ -10117,6 +10391,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_HIGH_TECH_APARTMENTS</ArtDefineTag>
 			<bFreshWater>1</bFreshWater>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_ARCOLOGY_UPPER_CLASS</Type>
 			<MapCategoryTypes>
@@ -10159,6 +10434,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_ARCOLOGY_UPPER_CLASS</ArtDefineTag>
 			<bFreshWater>1</bFreshWater>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_ARCOLOGY_SLUMS</Type>
 			<MapCategoryTypes>
@@ -10199,6 +10475,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_ARCOLOGY_SLUMS</ArtDefineTag>
 			<bFreshWater>1</bFreshWater>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_ARCOLOGY_SUBURBS</Type>
 			<MapCategoryTypes>
@@ -10240,6 +10517,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_ARCOLOGY_SUBURBS</ArtDefineTag>
 			<bFreshWater>1</bFreshWater>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_WORLDVIEW_HUMAN_SACRIFICE_ACTIVE</Type>
 			<MapCategoryTypes>
@@ -10255,6 +10533,7 @@
 			</ReplacementBuildings>
 			<ArtDefineTag>ART_DEF_BUILDING_WORLDVIEW_HUMAN_SACRIFICE_ACTIVE</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_IGLOOS</Type>
 			<MapCategoryTypes>
@@ -10299,6 +10578,7 @@
 			<bCenterInCity>1</bCenterInCity>
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_IGLOOS</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ACHIEVEMENT_INDUSTRIAL</Type>
 			<SpecialBuildingType>SPECIALBUILDING_ACHIEVEMENT</SpecialBuildingType>
@@ -10325,6 +10605,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_ACHIEVEMENT_INDUSTRIAL</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_INDUSTRIAL_ACHIEVEMENT</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_THE_MASJID_AL_HARAM</Type>
 			<MapCategoryTypes>
@@ -10368,6 +10649,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_THE_MASJID_AL_HARAM</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_SHRINE_ISLAMIC</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_STATUE_OF_GOMATESHWARA</Type>
 			<Description>TXT_KEY_BUILDING_STATUE_OF_GOMATESHWARA</Description>
@@ -10410,6 +10692,7 @@
 				</SpecialistCount>
 			</SpecialistCounts>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_THE_TEMPLE_OF_SOLOMON</Type>
 			<MapCategoryTypes>
@@ -10456,6 +10739,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_THE_TEMPLE_OF_SOLOMON</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_SHRINE_JEWISH</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_KNOWLEDGE_BASE_ANCIENT</Type>
 			<MapCategoryTypes>
@@ -10497,6 +10781,7 @@
 				-->
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_KNOWLEDGE_BASE_CLASSICAL</Type>
 			<MapCategoryTypes>
@@ -10537,6 +10822,7 @@
 				-->
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_KNOWLEDGE_BASE_MEDIEVAL</Type>
 			<MapCategoryTypes>
@@ -10576,6 +10862,7 @@
 				-->
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_KNOWLEDGE_BASE_RENAISSANCE</Type>
 			<MapCategoryTypes>
@@ -10614,6 +10901,7 @@
 				-->
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_KNOWLEDGE_BASE_INDUSTRIAL</Type>
 			<MapCategoryTypes>
@@ -10651,6 +10939,7 @@
 			</ReplacementBuildings>
 			-->
 		</BuildingInfo>
+
 		<!--
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_KNOWLEDGE_BASE_MODERN</Type>
@@ -10686,6 +10975,7 @@
 				<BuildingType>BUILDING_EDUCATION_KNOWLEDGE_BASE_TRANSCENDENT</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_KNOWLEDGE_BASE_INFORMATION</Type>
 			<MapCategoryTypes>
@@ -10719,6 +11009,7 @@
 				<BuildingType>BUILDING_EDUCATION_KNOWLEDGE_BASE_TRANSCENDENT</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_KNOWLEDGE_BASE_NANOTECH</Type>
 			<MapCategoryTypes>
@@ -10751,6 +11042,7 @@
 				<BuildingType>BUILDING_EDUCATION_KNOWLEDGE_BASE_TRANSCENDENT</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_KNOWLEDGE_BASE_TRANSHUMAN</Type>
 			<MapCategoryTypes>
@@ -10782,6 +11074,7 @@
 				<BuildingType>BUILDING_EDUCATION_KNOWLEDGE_BASE_TRANSCENDENT</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_KNOWLEDGE_BASE_GALACTIC</Type>
 			<MapCategoryTypes>
@@ -10812,6 +11105,7 @@
 				<BuildingType>BUILDING_EDUCATION_KNOWLEDGE_BASE_TRANSCENDENT</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_KNOWLEDGE_BASE_COSMIC</Type>
 			<MapCategoryTypes>
@@ -10841,6 +11135,7 @@
 				<BuildingType>BUILDING_EDUCATION_KNOWLEDGE_BASE_TRANSCENDENT</BuildingType>
 			</ReplacementBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EDUCATION_KNOWLEDGE_BASE_TRANSCENDENT</Type>
 			<MapCategoryTypes>
@@ -10867,6 +11162,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYEDUCATION</ArtDefineTag>
 		</BuildingInfo>
+
 		-->
 		<BuildingInfo>
 			<Type>BUILDING_EFFECT_LASCAUX_CAVES</Type>
@@ -10914,6 +11210,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_LASCAUX_PAINTS</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EFFECT_LAUNCH_SITE</Type>
 			<Description>TXT_KEY_BUILDING_EFFECT_LAUNCH_SITE</Description>
@@ -10926,6 +11223,7 @@
 			</MapCategoryTypes>
 			<PrereqTech>TECH_ADVANCED_ROCKETRY</PrereqTech>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_LEAN_TOS</Type>
 			<MapCategoryTypes>
@@ -10951,6 +11249,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_LEAN_TOS</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_LONGHOUSE</Type>
 			<MapCategoryTypes>
@@ -11000,6 +11299,7 @@
 			<fVisibilityPriority>2.8</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_LONGHOUSE</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ACHIEVEMENT_MEDICAL</Type>
 			<SpecialBuildingType>SPECIALBUILDING_ACHIEVEMENT</SpecialBuildingType>
@@ -11024,6 +11324,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_MEDICAL_A</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_MEDICAL_A</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EFFECT_ACHIEVEMENT_MEDICAL</Type>
 			<MapCategoryTypes>
@@ -11043,6 +11344,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_EFFECT_ACHIEVEMENT_MEDICAL</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EFFECT_MEDICAL_DATABASE</Type>
 			<MapCategoryTypes>
@@ -11065,6 +11367,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_EFFECT_MEDICAL_DATABASE</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_MERCANTILISM_BONUS_GOLD</Type>
 			<MapCategoryTypes>
@@ -11092,6 +11395,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_MERCANTILISM_BONUS_GOLD</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_MERCANTILISM_BONUS_SILVER</Type>
 			<MapCategoryTypes>
@@ -11119,6 +11423,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_MERCANTILISM_BONUS_SILVER</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_TEOTIHUACAN</Type>
 			<MapCategoryTypes>
@@ -11171,6 +11476,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_TEOTIHUACAN</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_MESOAMERICAN_SHRINE</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_BABEL_TOWER</Type>
 			<Description>TXT_KEY_BUILDING_BABEL_TOWER</Description>
@@ -11203,6 +11509,7 @@
 			</CommerceChangeDoubleTimes>
 			<ConstructSound>AS2D_BUILD_MESOPOTAMIAN</ConstructSound>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_MILITARY_ACADEMY</Type>
 			<MapCategoryTypes>
@@ -11235,6 +11542,7 @@
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_MILITARY_ACADEMY</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ACHIEVEMENT_MILITARY</Type>
 			<SpecialBuildingType>SPECIALBUILDING_ACHIEVEMENT</SpecialBuildingType>
@@ -11258,6 +11566,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_ACHIEVEMENT_MILITARY</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_MILITARY_ACHIEVEMENT</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_MOON_DANCE</Type>
 			<MapCategoryTypes>
@@ -11289,6 +11598,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_MOON_DANCE</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_MORMAN_SHRINE</Type>
 			<Description>TXT_KEY_BUILDING_MORMAN_SHRINE</Description>
@@ -11332,6 +11642,7 @@
 			</SpecialistCounts>
 			<ConstructSound>AS2D_BUILD_MORMON</ConstructSound>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_MUD_HUTS</Type>
 			<MapCategoryTypes>
@@ -11373,6 +11684,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_MUD_HUTS</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_NATIONAL_ALCOHOL_PROHIBITION</Type>
 			<MapCategoryTypes>
@@ -11391,6 +11703,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_NATIONAL_ALCOHOL_PROHIBITION</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_NATIONAL_BELIEF_KARMA</Type>
 			<iMaxPlayerInstances>1</iMaxPlayerInstances>
@@ -11415,6 +11728,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_NATIONAL_BELIEF_KARMA</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_NATIONAL_BELIEF_REINCARNATION</Type>
 			<iMaxPlayerInstances>1</iMaxPlayerInstances>
@@ -11440,6 +11754,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_NATIONAL_BELIEF_REINCARNATION</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_NATIONAL_BELIEF_RESURRECTION</Type>
 			<iMaxPlayerInstances>1</iMaxPlayerInstances>
@@ -11468,6 +11783,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_NATIONAL_BELIEF_RESURRECTION</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_NATIONAL_DRUG_PROHIBITION</Type>
 			<MapCategoryTypes>
@@ -11486,6 +11802,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_NATIONAL_DRUG_PROHIBITION</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_NATIONAL_GAMBLING_BAN</Type>
 			<MapCategoryTypes>
@@ -11504,6 +11821,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_NATIONAL_GAMBLING_BAN</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_NATIONAL_PROSTITUTION_BAN</Type>
 			<MapCategoryTypes>
@@ -11522,6 +11840,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_NATIONAL_PROSTITUTION_BAN</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ORDINANCE_NATIONAL_SMOKING_PROHIBITION</Type>
 			<MapCategoryTypes>
@@ -11545,6 +11864,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_ORDINANCE_NATIONAL_SMOKING_PROHIBITION</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_THE_NATIONAL_STANDARD_OF_MEASUREMENT</Type>
 			<iMaxPlayerInstances>1</iMaxPlayerInstances>
@@ -11577,6 +11897,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_THE_NATIONAL_STANDARD_OF_MEASUREMENT</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_NATIONAL_STANDARD_OF_MEASUREMENT</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_NATURE_DANCE</Type>
 			<MapCategoryTypes>
@@ -11614,6 +11935,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_NATURE_DANCE</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ORDINANCE_NEIGHBORHOOD_WATCH</Type>
 			<MapCategoryTypes>
@@ -11650,6 +11972,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_ORDINANCE_NEIGHBORHOOD_WATCH</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_OLDOINYO_NGAI</Type>
 			<Description>TXT_KEY_BUILDING_OLDOINYO_NGAI</Description>
@@ -11687,6 +12010,7 @@
 			</ReligionChanges>
 			<ConstructSound>AS2D_BUILD_CONFUCIAN</ConstructSound>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_RELIC_OLD_CITY_WALLS</Type>
 			<Description>TXT_KEY_BUILDING_RELIC_OLD_CITY_WALLS</Description>
@@ -11710,6 +12034,7 @@
 			<iConquestProb>80</iConquestProb>
 			<ArtDefineTag>ART_DEF_BUILDING_RELIC_OLD_CITY_WALLS</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_PESTS_ANTS</Type>
 			<MapCategoryTypes>
@@ -11729,6 +12054,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PESTS_ANTS</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_PESTS_APHIDS</Type>
 			<MapCategoryTypes>
@@ -11762,6 +12088,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PESTS_APHIDS</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_PESTS_BED_BUGS</Type>
 			<MapCategoryTypes>
@@ -11786,6 +12113,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PESTS_BED_BUGS</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_PESTS_COCKROACHES</Type>
 			<MapCategoryTypes>
@@ -11815,6 +12143,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PESTS_COCKROACHES</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_PESTS_CROWS</Type>
 			<MapCategoryTypes>
@@ -11851,6 +12180,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PESTS_CROWS</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_PESTS_FLEAS</Type>
 			<MapCategoryTypes>
@@ -11879,6 +12209,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PESTS_FLEAS</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_PESTS_FLIES</Type>
 			<MapCategoryTypes>
@@ -11912,6 +12243,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PESTS_FLIES</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_PESTS_GOPHERS</Type>
 			<MapCategoryTypes>
@@ -11937,6 +12269,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PESTS_GOPHERS</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_PESTS_LICE</Type>
 			<MapCategoryTypes>
@@ -11961,6 +12294,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PESTS_LICE</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_PESTS_LOCUST</Type>
 			<MapCategoryTypes>
@@ -11984,6 +12318,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PESTS_LOCUST</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_PESTS_MOSQUITOES</Type>
 			<MapCategoryTypes>
@@ -12026,6 +12361,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PESTS_MOSQUITOES</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_PESTS_MOTHS</Type>
 			<MapCategoryTypes>
@@ -12054,6 +12390,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PESTS_MOTHS</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_PESTS_PIGEONS</Type>
 			<MapCategoryTypes>
@@ -12079,6 +12416,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PESTS_PIGEONS</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_PESTS_RACCOONS</Type>
 			<MapCategoryTypes>
@@ -12106,6 +12444,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PESTS_RACCOONS</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_PESTS_RATS</Type>
 			<MapCategoryTypes>
@@ -12146,6 +12485,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PESTS_RATS</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_PESTS_SEAGULLS</Type>
 			<MapCategoryTypes>
@@ -12178,6 +12518,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PESTS_SEAGULLS</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_PESTS_SLUGS</Type>
 			<MapCategoryTypes>
@@ -12205,6 +12546,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PESTS_SLUGS</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_PESTS_TERMITES</Type>
 			<MapCategoryTypes>
@@ -12230,6 +12572,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PESTS_TERMITES</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_PESTS_TICKS</Type>
 			<MapCategoryTypes>
@@ -12258,6 +12601,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PESTS_TICKS</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_PESTS_WASPS</Type>
 			<MapCategoryTypes>
@@ -12275,6 +12619,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PESTS_WASPS</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ACHIEVEMENT_POLITICAL</Type>
 			<SpecialBuildingType>SPECIALBUILDING_ACHIEVEMENT</SpecialBuildingType>
@@ -12303,6 +12648,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_ACHIEVEMENT_POLITICAL</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_POLITICAL_ACHIEVEMENT</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_POLLUTION_ACID_RAIN</Type>
 			<MapCategoryTypes>
@@ -12334,6 +12680,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYPOLLUTION</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_POLLUTION_BLACKENED_SKIES</Type>
 			<MapCategoryTypes>
@@ -12373,6 +12720,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYPOLLUTION</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_POLLUTION_MINOR_COASTAL_POLLUTION</Type>
 			<MapCategoryTypes>
@@ -12409,6 +12757,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYWATERPOLLUTION</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_POLLUTION_MODERATE_COASTAL_POLLUTION</Type>
 			<MapCategoryTypes>
@@ -12445,6 +12794,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYWATERPOLLUTION</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_POLLUTION_MAJOR_COASTAL_POLLUTION</Type>
 			<MapCategoryTypes>
@@ -12481,6 +12831,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYWATERPOLLUTION</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_POLLUTION_MINOR_GLOBAL_WARMING</Type>
 			<MapCategoryTypes>
@@ -12509,6 +12860,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYPOLLUTION</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_POLLUTION_MODERATE_GLOBAL_WARMING</Type>
 			<MapCategoryTypes>
@@ -12537,6 +12889,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYPOLLUTION</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_POLLUTION_MAJOR_GLOBAL_WARMING</Type>
 			<MapCategoryTypes>
@@ -12566,6 +12919,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYPOLLUTION</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_POLLUTION_MINOR_GROUNDWATER_POLLUTION</Type>
 			<MapCategoryTypes>
@@ -12596,6 +12950,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYWATERPOLLUTION</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_POLLUTION_MODERATE_GROUNDWATER_POLLUTION</Type>
 			<MapCategoryTypes>
@@ -12626,6 +12981,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYWATERPOLLUTION</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_POLLUTION_MAJOR_GROUNDWATER_POLLUTION</Type>
 			<MapCategoryTypes>
@@ -12657,6 +13013,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYWATERPOLLUTION</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_POLLUTION_MINOR_OZONE_DEPLETION</Type>
 			<MapCategoryTypes>
@@ -12690,6 +13047,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYPOLLUTION</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_POLLUTION_MODERATE_OZONE_DEPLETION</Type>
 			<MapCategoryTypes>
@@ -12723,6 +13081,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYPOLLUTION</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_POLLUTION_MAJOR_OZONE_DEPLETION</Type>
 			<MapCategoryTypes>
@@ -12756,6 +13115,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYPOLLUTION</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_POLLUTION_RED_TIDE</Type>
 			<MapCategoryTypes>
@@ -12792,6 +13152,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYWATERPOLLUTION</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_POLLUTION_REEF_BLEACHING</Type>
 			<MapCategoryTypes>
@@ -12820,6 +13181,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYWATERPOLLUTION</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_POLLUTION_MINOR_RIVER_POLLUTION</Type>
 			<MapCategoryTypes>
@@ -12851,6 +13213,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYWATERPOLLUTION</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_POLLUTION_MODERATE_RIVER_POLLUTION</Type>
 			<MapCategoryTypes>
@@ -12882,6 +13245,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYWATERPOLLUTION</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_POLLUTION_MAJOR_RIVER_POLLUTION</Type>
 			<MapCategoryTypes>
@@ -12913,6 +13277,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYWATERPOLLUTION</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_POLLUTION_LIGHT_SMOG</Type>
 			<MapCategoryTypes>
@@ -12943,6 +13308,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYPOLLUTION</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_POLLUTION_MODERATE_SMOG</Type>
 			<MapCategoryTypes>
@@ -12973,6 +13339,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYPOLLUTION</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_POLLUTION_HEAVY_SMOG</Type>
 			<MapCategoryTypes>
@@ -13004,6 +13371,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYPOLLUTION</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_POLLUTION_TOXIC_ATMOSPHERE</Type>
 			<MapCategoryTypes>
@@ -13043,6 +13411,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYPOLLUTION</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_POLLUTION_TOXIC_HYDROSPHERE</Type>
 			<MapCategoryTypes>
@@ -13082,6 +13451,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYWATERPOLLUTION</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ORDINANCE_PROSTITUTION_BAN</Type>
 			<MapCategoryTypes>
@@ -13098,6 +13468,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_ORDINANCE_PROSTITUTION_BAN</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_PUEBLOS</Type>
 			<MapCategoryTypes>
@@ -13142,6 +13513,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_PUEBLOS</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_RAIN_DANCE</Type>
 			<MapCategoryTypes>
@@ -13170,6 +13542,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_RAIN_DANCE</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ARKONA</Type>
 			<Description>TXT_KEY_BUILDING_ARKONA</Description>
@@ -13213,6 +13586,7 @@
 			</SpecialistCounts>
 			<ConstructSound>AS2D_BUILD_RODNOVERY</ConstructSound>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ROUTE_66_TERMINUS</Type>
 			<MapCategoryTypes>
@@ -13230,6 +13604,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_ROUTE_66_TERMINUS</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ACHIEVEMENT_SAFETY</Type>
 			<SpecialBuildingType>SPECIALBUILDING_ACHIEVEMENT</SpecialBuildingType>
@@ -13253,6 +13628,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_SAFETY_A</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_SAFETY_A</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EFFECT_ACHIEVEMENT_SAFETY</Type>
 			<MapCategoryTypes>
@@ -13279,6 +13655,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_EFFECT_ACHIEVEMENT_SAFETY</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_SAFETY_NATIONAL_LEGAL_DATABASE</Type>
 			<MapCategoryTypes>
@@ -13304,6 +13681,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_SAFETY_NATIONAL_LEGAL_DATABASE</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_SAFETY_ORBITAL_PRISON</Type>
 			<MapCategoryTypes>
@@ -13338,6 +13716,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_SAFETY_ORBITAL_PRISON</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ACHIEVEMENT_SCIENTIFIC</Type>
 			<SpecialBuildingType>SPECIALBUILDING_ACHIEVEMENT</SpecialBuildingType>
@@ -13364,6 +13743,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_ACHIEVEMENT_SCIENTIFIC</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_SCIENTIFIC_ACHIEVEMENT</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_SCIENTOLOGY_SEDE</Type>
 			<Description>TXT_KEY_BUILDING_SCIENTOLOGY_SEDE</Description>
@@ -13401,6 +13781,7 @@
 			</ReligionChanges>
 			<ConstructSound>AS2D_BUILD_BUDDHIST</ConstructSound>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_SCOTLAND_YARD</Type>
 			<iMaxPlayerInstances>1</iMaxPlayerInstances>
@@ -13446,6 +13827,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_SCOTLAND_YARD</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_SCOTLAND_YARD</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ACHIEVEMENT_SEAFARING</Type>
 			<SpecialBuildingType>SPECIALBUILDING_ACHIEVEMENT</SpecialBuildingType>
@@ -13479,6 +13861,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_ACHIEVEMENT_SEAFARING</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_SEAFARING_ACHIEVEMENT</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_SPIRITS_ANSWER</Type>
 			<Description>TXT_KEY_BUILDING_SPIRITS_ANSWER</Description>
@@ -13522,6 +13905,7 @@
 			</SpecialistCounts>
 			<ConstructSound>AS2D_BUILD_SHAMAN</ConstructSound>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_THE_ISE_JINGU</Type>
 			<Description>TXT_KEY_BUILDING_THE_ISE_JINGU</Description>
@@ -13560,6 +13944,7 @@
 			</ReligionChanges>
 			<ConstructSound>SND_BUILD_SHINTO</ConstructSound>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ORDINANCE_COMMUTER_SHUTTLE_SERVICE</Type>
 			<MapCategoryTypes>
@@ -13590,6 +13975,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_ORDINANCE_COMMUTER_SHUTTLE_SERVICE</ArtDefineTag>
 			<bPrereqPower>1</bPrereqPower>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ORDINANCE_EFFECT_COMMUTER_SHUTTLE_SERVICE</Type>
 			<MapCategoryTypes>
@@ -13618,6 +14004,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_ORDINANCE_COMMUTER_SHUTTLE_SERVICE</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_THE_GOLDEN_TEMPLE</Type>
 			<Description>TXT_KEY_BUILDING_THE_GOLDEN_TEMPLE</Description>
@@ -13666,6 +14053,7 @@
 				</BonusProductionModifier>
 			</BonusProductionModifiers>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_WORLDVIEW_SLAVERY_ACTIVE</Type>
 			<EnabledCivilizationTypes>
@@ -13857,6 +14245,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_WORLDVIEW_SLAVERY</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_WORLDVIEW_SLAVERY_ZOROASTRIANISM_I</Type>
 			<MapCategoryTypes>
@@ -13878,6 +14267,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_SLAVERY_BAD_ZORO</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_WORLDVIEW_SLAVERY_ZOROASTRIANISM_II</Type>
 			<MapCategoryTypes>
@@ -13899,6 +14289,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_SLAVERY_BAD_ZORO</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_SLAVE_COMPOUND</Type>
 			<EnabledCivilizationTypes>
@@ -13936,6 +14327,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_SLAVE_MARKET</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_SLAVE_COMPOUND_COMMERCE</Type>
 			<MapCategoryTypes>
@@ -13968,6 +14360,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_SLAVE_COMPOUND_COMMERCE</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_SLAVE_COMPOUND_CRIME_PREVENTION</Type>
 			<MapCategoryTypes>
@@ -14022,6 +14415,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_SLAVE_COMPOUND_CRIME_PREVENTION</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_SLAVE_COMPOUND_ENTERTAINMENT</Type>
 			<MapCategoryTypes>
@@ -14070,6 +14464,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_SLAVE_COMPOUND_ENTERTAINMENT</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_SLAVE_COMPOUND_FOOD</Type>
 			<MapCategoryTypes>
@@ -14100,6 +14495,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_SLAVE_COMPOUND_FOOD</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_SLAVE_COMPOUND_MILITARY_SUPPORT</Type>
 			<EnabledCivilizationTypes>
@@ -14138,6 +14534,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_SLAVE_COMPOUND_MILITARY</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_SLAVE_COMPOUND_INDUSTRY</Type>
 			<EnabledCivilizationTypes>
@@ -14174,6 +14571,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_SLAVE_COMPOUND_INDUSTRY</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_SLAVE_COMPOUND_SANITATION</Type>
 			<MapCategoryTypes>
@@ -14219,6 +14617,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_SLAVE_COMPOUND_SANITATION</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ORDINANCE_SMOKE_DETECTOR</Type>
 			<MapCategoryTypes>
@@ -14256,6 +14655,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_ORDINANCE_SMOKE_DETECTOR</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ORDINANCE_SMOKING_PROHIBITION</Type>
 			<MapCategoryTypes>
@@ -14279,6 +14679,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_ORDINANCE_SMOKING_PROHIBITION</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_SORORITY_HOUSE</Type>
 			<MapCategoryTypes>
@@ -14309,6 +14710,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_SORORITY_HOUSE</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_SPY_NETWORK</Type>
 			<iMaxPlayerInstances>1</iMaxPlayerInstances>
@@ -14394,6 +14796,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_SPY_NETWORK</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_SPY_NETWORK</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_THE_STATUE_OF_ZEUS</Type>
 			<MapCategoryTypes>
@@ -14439,6 +14842,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_THE_STATUE_OF_ZEUS</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_STATUE_OF_ZEUS</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_STILT_HUTS</Type>
 			<MapCategoryTypes>
@@ -14476,6 +14880,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_STILT_HUTS</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_STONE_HUTS</Type>
 			<MapCategoryTypes>
@@ -14508,6 +14913,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_STONE_HUTS</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_THE_DAI_MIAO</Type>
 			<MapCategoryTypes>
@@ -14551,6 +14957,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_THE_DAI_MIAO</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_SHRINE_TAOIST</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_KHAN_TENGRI</Type>
 			<Description>TXT_KEY_BUILDING_KHAN_TENGRI</Description>
@@ -14582,6 +14989,7 @@
 			</CommerceChangeDoubleTimes>
 			<ConstructSound>AS2D_BUILD_SIBERIAN</ConstructSound>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_TIPIS</Type>
 			<MapCategoryTypes>
@@ -14628,6 +15036,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_TIPIS</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ORDINANCE_TIRE_RECYCLING_PROGRAM</Type>
 			<MapCategoryTypes>
@@ -14653,6 +15062,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_ORDINANCE_TIRE_RECYCLING_PROGRAM</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ORDINANCE_EFFECT_TIRE_RECYCLING_PROGRAM</Type>
 			<MapCategoryTypes>
@@ -14676,6 +15086,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_ORDINANCE_TIRE_RECYCLING_PROGRAM</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ACHIEVEMENT_TOURISTIC</Type>
 			<SpecialBuildingType>SPECIALBUILDING_ACHIEVEMENT</SpecialBuildingType>
@@ -14700,6 +15111,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_TOURISM_A</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_TOURISM_A</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EFFECT_ACHIEVEMENT_TOURISM</Type>
 			<MapCategoryTypes>
@@ -14719,6 +15131,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_ACHIEVEMENT_TOURISM_EFFECT</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_TOURISM_LEVEL_1</Type>
 			<MapCategoryTypes>
@@ -14759,6 +15172,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYTOURISM</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_TOURISM_LEVEL_10</Type>
 			<MapCategoryTypes>
@@ -14801,6 +15215,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYTOURISM</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_TOURISM_LEVEL_2</Type>
 			<MapCategoryTypes>
@@ -14841,6 +15256,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYTOURISM</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_TOURISM_LEVEL_3</Type>
 			<MapCategoryTypes>
@@ -14881,6 +15297,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYTOURISM</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_TOURISM_LEVEL_4</Type>
 			<MapCategoryTypes>
@@ -14921,6 +15338,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYTOURISM</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_TOURISM_LEVEL_5</Type>
 			<MapCategoryTypes>
@@ -14961,6 +15379,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYTOURISM</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_TOURISM_LEVEL_6</Type>
 			<MapCategoryTypes>
@@ -15001,6 +15420,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYTOURISM</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_TOURISM_LEVEL_7</Type>
 			<MapCategoryTypes>
@@ -15041,6 +15461,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYTOURISM</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_TOURISM_LEVEL_8</Type>
 			<MapCategoryTypes>
@@ -15081,6 +15502,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYTOURISM</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_TOURISM_LEVEL_9</Type>
 			<MapCategoryTypes>
@@ -15121,6 +15543,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_PROPERTYTOURISM</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_TRADITION_ARCHERY</Type>
 			<iMaxPlayerInstances>1</iMaxPlayerInstances>
@@ -15153,6 +15576,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_EFFECT_TRADITION_ARCHERY</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_TRADITION_ARCHERY</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EFFECT_TRADITION_ARCHERY</Type>
 			<MapCategoryTypes>
@@ -15179,6 +15603,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_EFFECT_TRADITION_ARCHERY</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_TRADITION_AESTHETIC_APPRECIATION</Type>
 			<iMaxPlayerInstances>1</iMaxPlayerInstances>
@@ -15202,6 +15627,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_TRADITION_AESTHETIC_APPRECIATION</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_TRADITION_ASTHETIC_APPRECIATION</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EFFECT_TRADITION_AESTHETIC_APPRECIATION</Type>
 			<MapCategoryTypes>
@@ -15233,6 +15659,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_TRADITION_AESTHETIC_APPRECIATION</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_TRADITION_WORK_ETHIC</Type>
 			<iMaxPlayerInstances>1</iMaxPlayerInstances>
@@ -15261,6 +15688,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_TRADITION_SSTAR</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_TRADITION_WORK_ETHIC</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_EFFECT_TRADITION_WORK_ETHIC</Type>
 			<MapCategoryTypes>
@@ -15280,6 +15708,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_TRADITION</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_TRAILER_PARK</Type>
 			<MapCategoryTypes>
@@ -15310,6 +15739,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_TRAILER_PARK</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_TREEHOUSES</Type>
 			<MapCategoryTypes>
@@ -15368,6 +15798,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_TREEHOUSES</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_TREE_HOLLOW</Type>
 			<MapCategoryTypes>
@@ -15416,6 +15847,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_TREE_HOLLOW</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_UNIVERSAL_HEALTH_CARE</Type>
 			<iMaxPlayerInstances>1</iMaxPlayerInstances>
@@ -15442,6 +15874,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_UNIVERSAL_HEALTH_CARE</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_UNIVERSAL_HEALTH_CARE</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ASSASSINS_DEN_UNSANCTIONED</Type>
 			<MapCategoryTypes>
@@ -15473,6 +15906,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_ASSASSINS_DEN</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_THIEVES_HIDEOUT_UNSANCTIONED</Type>
 			<MapCategoryTypes>
@@ -15496,6 +15930,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_THIEVES_HIDEOUT</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ROGUES_HIDEOUT_UNSANCTIONED</Type>
 			<MapCategoryTypes>
@@ -15519,6 +15954,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_THIEVES_HIDEOUT</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_BURGLARS_HIDEOUT_UNSANCTIONED</Type>
 			<MapCategoryTypes>
@@ -15542,6 +15978,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_THIEVES_HIDEOUT</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_BLACK_HAT_HIDEOUT_UNSANCTIONED</Type>
 			<MapCategoryTypes>
@@ -15573,6 +16010,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_BLACK_HAT_HIDEOUT</ArtDefineTag>
 			<bPrereqPower>1</bPrereqPower>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CONSPIRATORS_HIDEOUT_UNSANCTIONED</Type>
 			<MapCategoryTypes>
@@ -15604,6 +16042,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_CONSPIRATORS_HIDEOUT</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_LOAN_SHARK_UNSANCTIONED</Type>
 			<MapCategoryTypes>
@@ -15625,6 +16064,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_LOAN_SHARK</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_MOB_STOREFRONT_UNSANCTIONED</Type>
 			<MapCategoryTypes>
@@ -15670,6 +16110,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_MOB_STOREFRONT</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_MOTORCYCLE_CLUB_UNSANCTIONED</Type>
 			<MapCategoryTypes>
@@ -15699,6 +16140,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_MOTORCYCLE_CLUB</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_VALLEY_OF_THE_KINGS</Type>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -15748,6 +16190,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_VALLEY_OF_THE_KINGS</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_VALLEY_KINGS</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_THE_TOMB_OF_ANSYEN_BON</Type>
 			<Description>TXT_KEY_BUILDING_THE_TOMB_OF_ANSYEN_BON</Description>
@@ -15785,6 +16228,7 @@
 			</SpecialistCounts>
 			<ConstructSound>AS2D_BUILD_VOODOO</ConstructSound>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_WAR_DANCE</Type>
 			<MapCategoryTypes>
@@ -15816,6 +16260,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_WAR_DANCE</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_BARK_HUTS</Type>
 			<MapCategoryTypes>
@@ -15865,6 +16310,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_BARK_HUTS</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_WORLDVIEW_CANNIBALISM</Type>
 			<MapCategoryTypes>
@@ -15886,6 +16332,7 @@
 			<ConstructSound>AS2D_BUILD_SLAVE_MARKET</ConstructSound>
 			<ArtDefineTag>ART_DEF_BUILDING_WORLDVIEW_CANNIBALISM</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_WORLDVIEW_HUMAN_SACRIFICE</Type>
 			<MapCategoryTypes>
@@ -15908,6 +16355,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_WORLDVIEW_HUMAN_SACRIFICE</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_WORLDVIEW_SLAVERY</Type>
 			<EnabledCivilizationTypes>
@@ -16012,6 +16460,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_WORLDVIEW_SLAVERY</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_PATTAKY_OF_OLODUMARE</Type>
 			<Description>TXT_KEY_BUILDING_PATTAKY_OF_OLODUMARE</Description>
@@ -16049,6 +16498,7 @@
 			</ReligionChanges>
 			<ConstructSound>AS2D_BUILD_CHRISTIAN</ConstructSound>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ORDINANCE_YOUTH_CURFEW</Type>
 			<MapCategoryTypes>
@@ -16085,6 +16535,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_ORDINANCE_YOUTH_CURFEW</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HOUSING_YURTS</Type>
 			<MapCategoryTypes>
@@ -16131,6 +16582,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_YURTS</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_PIR_E_SABZ</Type>
 			<MapCategoryTypes>

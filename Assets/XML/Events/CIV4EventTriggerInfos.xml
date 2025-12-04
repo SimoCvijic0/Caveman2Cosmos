@@ -13673,6 +13673,9 @@
             <Events>
                 <Event>EVENT_SMALL_EARTHQUAKE_1</Event>
             </Events>
+            <AndPreReqs>
+				<PrereqTech>TECH_SHELTER_BUILDING</PrereqTech>
+			</AndPreReqs>
             <bRecurring>1</bRecurring>
         </EventTriggerInfo>
 
@@ -13695,6 +13698,9 @@
             <Events>
                 <Event>EVENT_MEDIUM_EARTHQUAKE_1</Event>
             </Events>
+            <AndPreReqs>
+				<PrereqTech>TECH_SHELTER_BUILDING</PrereqTech>
+			</AndPreReqs>
             <bRecurring>1</bRecurring>
         </EventTriggerInfo>
 
@@ -13717,6 +13723,9 @@
             <Events>
                 <Event>EVENT_STRONG_EARTHQUAKE_1</Event>
             </Events>
+            <AndPreReqs>
+				<PrereqTech>TECH_SHELTER_BUILDING</PrereqTech>
+			</AndPreReqs>
             <bRecurring>1</bRecurring>
         </EventTriggerInfo>
 
@@ -13739,6 +13748,9 @@
             <Events>
                 <Event>EVENT_HUGE_EARTHQUAKE_1</Event>
             </Events>
+            <AndPreReqs>
+				<PrereqTech>TECH_SHELTER_BUILDING</PrereqTech>
+			</AndPreReqs>
             <bRecurring>1</bRecurring>
         </EventTriggerInfo>
 
@@ -13761,6 +13773,9 @@
             <Events>
                 <Event>EVENT_APOCALYPTIC_EARTHQUAKE_1</Event>
             </Events>
+            <AndPreReqs>
+				<PrereqTech>TECH_SHELTER_BUILDING</PrereqTech>
+			</AndPreReqs>
             <bRecurring>1</bRecurring>
         </EventTriggerInfo>
 

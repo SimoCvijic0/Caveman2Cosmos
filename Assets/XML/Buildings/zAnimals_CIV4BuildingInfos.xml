@@ -40,6 +40,7 @@
 			<iAsset>2</iAsset>
 			<ArtDefineTag>ART_DEF_BUILDING_ENCLOSURE_AMPHIBIAN_POND</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_FOLKLORE_REQUIREMENT</Type>
 			<MapCategoryTypes>
@@ -58,6 +59,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_ENCLOSURE_AMPHIBIAN_POND</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ANIMAL_TAMER_COMPLEX</Type>
 			<MapCategoryTypes>
@@ -94,6 +96,7 @@
 			</Flavors>
 			<ArtDefineTag>ART_DEF_BUILDING_ANIMAL_TAMER_COMPLEX</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_MILITARY_STANDARD_ANIMAL_MASCOT</Type>
 			<MapCategoryTypes>
@@ -123,6 +126,7 @@
 			<iConquestProb>25</iConquestProb>
 			<ArtDefineTag>ART_DEF_BUILDING_MILITARY_STANDARD_ANIMAL_MASCOT</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_MILITARY_STANDARD_CANINES</Type>
 			<MapCategoryTypes>
@@ -181,6 +185,7 @@
 			<iConquestProb>25</iConquestProb>
 			<ArtDefineTag>ART_DEF_BUILDING_MILITARY_STANDARD_ANIMAL_MASCOT</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_MILITARY_STANDARD_WORKERS</Type>
 			<MapCategoryTypes>
@@ -221,6 +226,7 @@
 			<iConquestProb>25</iConquestProb>
 			<ArtDefineTag>ART_DEF_BUILDING_MILITARY_STANDARD_ANIMAL_MASCOT</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ENCLOSURE_BAD_BOYS</Type>
 			<MapCategoryTypes>
@@ -262,6 +268,7 @@
 			<iConquestProb>25</iConquestProb>
 			<ArtDefineTag>ART_DEF_BUILDING_ENCLOSURE_BAD_BOYS</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ENCLOSURE_BEAR</Type>
 			<MapCategoryTypes>
@@ -313,6 +320,7 @@
 			<iConquestProb>25</iConquestProb>
 			<ArtDefineTag>ART_DEF_BUILDING_CAVEBEAR_CAGE</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ENCLOSURE_BIG_CAT</Type>
 			<MapCategoryTypes>
@@ -368,6 +376,7 @@
 			<iConquestProb>25</iConquestProb>
 			<ArtDefineTag>ART_DEF_BUILDING_LION_CAGE</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ENCLOSURE_BIRD</Type>
 			<MapCategoryTypes>
@@ -433,6 +442,7 @@
 			<iConquestProb>25</iConquestProb>
 			<ArtDefineTag>ART_DEF_BUILDING_ENCLOSURE_BIRD</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HERD_BISON</Type>
 			<MapCategoryTypes>
@@ -462,6 +472,7 @@
 			<iConquestProb>75</iConquestProb>
 			<ArtDefineTag>ART_DEF_BUILDING_HERD_BISON</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CARNIVAL_BOXING_KANGAROO</Type>
 			<MapCategoryTypes>
@@ -493,6 +504,7 @@
 			<iConquestProb>25</iConquestProb>
 			<ArtDefineTag>ART_DEF_BUILDING_CARNIVAL_BOXING_KANGAROO</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HERD_BUFFALO</Type>
 			<MapCategoryTypes>
@@ -516,6 +528,7 @@
 			<iConquestProb>75</iConquestProb>
 			<ArtDefineTag>ART_DEF_BUILDING_HERD_BUFFALO</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ANIMAL_TRAINER_BUFFALO</Type>
 			<EnabledCivilizationTypes>
@@ -563,6 +576,7 @@
 			<iConquestProb>75</iConquestProb>
 			<ArtDefineTag>ART_DEF_BUILDING_ANIMAL_TRAINER_BUFFALO</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HERD_CAMEL</Type>
 			<MapCategoryTypes>
@@ -594,6 +608,7 @@
 			<iConquestProb>75</iConquestProb>
 			<ArtDefineTag>ART_DEF_BUILDING_HERD_CAMEL</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CARNIVAL</Type>
 			<MapCategoryTypes>
@@ -665,6 +680,7 @@
 			<fVisibilityPriority>10</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_CARNIVAL</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_REMAINS_CAVE_BEAR</Type>
 			<MapCategoryTypes>
@@ -720,6 +736,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_REMAINS_CAVE_BEAR</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_REMAINS_CAVE_LION</Type>
 			<MapCategoryTypes>
@@ -778,6 +795,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_REMAINS_CAVE_LION</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CENTER_FOR_CEPHALOPOD_STUDIES</Type>
 			<MapCategoryTypes>
@@ -822,6 +840,7 @@
 			<iAsset>3</iAsset>
 			<ArtDefineTag>ART_DEF_BUILDING_CENTER_FOR_CEPHALOPOD_STUDIES</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CENTER_FOR_WHALE_STUDIES</Type>
 			<MapCategoryTypes>
@@ -866,6 +885,7 @@
 			<iAsset>3</iAsset>
 			<ArtDefineTag>ART_DEF_BUILDING_CENTER_FOR_WHALE_STUDIES</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_COASTAL_FISH_FARM</Type>
 			<MapCategoryTypes>
@@ -930,6 +950,7 @@
 			<iConquestProb>25</iConquestProb>
 			<ArtDefineTag>ART_DEF_BUILDING_COASTAL_FISH_FARM</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HERD_COW</Type>
 			<MapCategoryTypes>
@@ -960,6 +981,7 @@
 			<iConquestProb>75</iConquestProb>
 			<ArtDefineTag>ART_DEF_BUILDING_HERD_COW</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CRAB_NETS</Type>
 			<MapCategoryTypes>
@@ -999,6 +1021,7 @@
 			<iConquestProb>25</iConquestProb>
 			<ArtDefineTag>ART_DEF_BUILDING_CRAB_NETS</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CARNIVAL_DANCING_BEAR</Type>
 			<MapCategoryTypes>
@@ -1028,6 +1051,7 @@
 			<iConquestProb>25</iConquestProb>
 			<ArtDefineTag>ART_DEF_BUILDING_CARNIVAL_DANCING_BEAR</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HERD_DEER</Type>
 			<MapCategoryTypes>
@@ -1057,6 +1081,7 @@
 			<iConquestProb>75</iConquestProb>
 			<ArtDefineTag>ART_DEF_BUILDING_HERD_DEER</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_DOG_KENNELS</Type>
 			<EnabledCivilizationTypes>
@@ -1112,6 +1137,7 @@
 			</Flavors>
 			<ArtDefineTag>ART_DEF_BUILDING_DOG</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HERD_DONKEY</Type>
 			<MapCategoryTypes>
@@ -1143,6 +1169,7 @@
 			<iConquestProb>75</iConquestProb>
 			<ArtDefineTag>ART_DEF_BUILDING_HERD_DONKEY</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_FLOCKS_OF_DUCK</Type>
 			<Description>TXT_KEY_BUILDING_FLOCKS_OF_DUCK</Description>
@@ -1178,6 +1205,7 @@
 				<BuildingType>BUILDING_MEAT_INDUSTRY_CONGLOMERATE</BuildingType>
 			</PrereqOrBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_REMAINS_GIANT_RHINOCEROS</Type>
 			<MapCategoryTypes>
@@ -1233,6 +1261,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_REMAINS_GIANT_RHINOCEROS</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HERD_ELEPHANT</Type>
 			<MapCategoryTypes>
@@ -1262,6 +1291,7 @@
 			<iConquestProb>75</iConquestProb>
 			<ArtDefineTag>ART_DEF_BUILDING_HERD_ELEPHANT</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ENCLOSURE_EXOTIC_HERBIVORE</Type>
 			<MapCategoryTypes>
@@ -1326,6 +1356,7 @@
 			<iConquestProb>25</iConquestProb>
 			<ArtDefineTag>ART_DEF_BUILDING_ENCLOSURE_EXOTIC_HERBIVORE</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_FEATHER_WORKER</Type>
 			<MapCategoryTypes>
@@ -1357,6 +1388,7 @@
 			<iConquestProb>20</iConquestProb>
 			<ArtDefineTag>ART_DEF_BUILDING_FEATHER_WORKER</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_FISH_PENS</Type>
 			<MapCategoryTypes>
@@ -1418,6 +1450,7 @@
 			<iConquestProb>75</iConquestProb>
 			<ArtDefineTag>ART_DEF_BUILDING_FISH_PENS</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_FUR_FARM</Type>
 			<MapCategoryTypes>
@@ -1458,6 +1491,7 @@
 			<iAsset>2</iAsset>
 			<ArtDefineTag>ART_DEF_BUILDING_FUR_FARM</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_REMAINS_GLYPTODON</Type>
 			<MapCategoryTypes>
@@ -1513,6 +1547,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_FOLKLORE_GLYPTODON</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HERD_GOAT</Type>
 			<MapCategoryTypes>
@@ -1537,6 +1572,7 @@
 			<iConquestProb>75</iConquestProb>
 			<ArtDefineTag>ART_DEF_BUILDING_HERD_GOAT</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_GOVERNORS_MENAGERIE</Type>
 			<MapCategoryTypes>
@@ -1570,6 +1606,7 @@
 			<iConquestProb>25</iConquestProb>
 			<ArtDefineTag>ART_DEF_BUILDING_GOVERNORS_MENAGERIE</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_GOVERNORS_PETS</Type>
 			<EnabledCivilizationTypes>
@@ -1601,6 +1638,7 @@
 			<iConquestProb>25</iConquestProb>
 			<ArtDefineTag>ART_DEF_BUILDING_GOVERNORS_PETS</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_REMAINS_HAASTS_EAGLE</Type>
 			<MapCategoryTypes>
@@ -1656,6 +1694,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_REMAINS_HAASTS_EAGLE</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HAWKING_HUT</Type>
 			<MapCategoryTypes>
@@ -1691,6 +1730,7 @@
 			<iAsset>1</iAsset>
 			<ArtDefineTag>ART_DEF_BUILDING_HAWKING_HUT_HUT</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HERD_HORSE</Type>
 			<Description>TXT_KEY_BUILDING_HERD_HORSE</Description>
@@ -1721,6 +1761,7 @@
 			</YieldChanges>
 			<ConstructSound>SND_AMB_HORSE_COBBLESTONES</ConstructSound>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HERD_LLAMA</Type>
 			<MapCategoryTypes>
@@ -1750,6 +1791,7 @@
 			<iConquestProb>75</iConquestProb>
 			<ArtDefineTag>ART_DEF_BUILDING_HERD_LLAMA</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_MARINE_INSTITUTE</Type>
 			<MapCategoryTypes>
@@ -1786,6 +1828,7 @@
 			<iAsset>2</iAsset>
 			<ArtDefineTag>ART_DEF_BUILDING_MARINE_INSTITUTE</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ENCLOSURE_MARSUPIAL</Type>
 			<Description>TXT_KEY_BUILDING_ENCLOSURE_MARSUPIAL</Description>
@@ -1836,6 +1879,7 @@
 				</TechCommerceChange>
 			</TechCommerceChanges>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_MASTER_HUNTER</Type>
 			<Description>TXT_KEY_BUILDING_MASTER_HUNTER</Description>
@@ -1969,6 +2013,7 @@
 			<iPower>4</iPower>
 			<iConquestProb>25</iConquestProb>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_MASTER_HUNTER_TRADITION</Type>
 			<Description>TXT_KEY_BUILDING_MASTER_HUNTER_TRADITION</Description>
@@ -2118,6 +2163,7 @@
 			</PropertyManipulators>
 			<iConquestProb>100</iConquestProb>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_MASTER_SEA_HUNTER</Type>
 			<Description>TXT_KEY_BUILDING_MASTER_SEA_HUNTER</Description>
@@ -2151,6 +2197,7 @@
 				</UnitCombatFreeExperience>
 			</UnitCombatFreeExperiences>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_REMAINS_MOA</Type>
 			<MapCategoryTypes>
@@ -2206,6 +2253,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_REMAINS_MOA</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ANIMAL_TRAINER_DONKEY</Type>
 			<Description>TXT_KEY_BUILDING_ANIMAL_TRAINER_DONKEY</Description>
@@ -2245,6 +2293,7 @@
 				</Flavor>
 			</Flavors>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HERD_MUSKOX</Type>
 			<Description>TXT_KEY_BUILDING_HERD_MUSKOX</Description>
@@ -2271,6 +2320,7 @@
 			</YieldChanges>
 			<ConstructSound>SND_AMB_HORSE_COBBLESTONES</ConstructSound>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_NAVAL_STANDARD_ANIMAL_MASCOT</Type>
 			<Description>TXT_KEY_BUILDING_NAVAL_STANDARD_ANIMAL_MASCOT</Description>
@@ -2307,6 +2357,7 @@
 				</UnitCombatFreeExperience>
 			</UnitCombatFreeExperiences>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ENCLOSURE_NOCTURNAL</Type>
 			<Description>TXT_KEY_BUILDING_ENCLOSURE_NOCTURNAL</Description>
@@ -2346,6 +2397,7 @@
 				<iCommerce>2</iCommerce>
 			</CommerceChanges>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_REMAINS_DIRE_WOLF</Type>
 			<MapCategoryTypes>
@@ -2404,6 +2456,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_REMAINS_DIRE_WOLF</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_REMAINS_GROUND_SLOTH</Type>
 			<MapCategoryTypes>
@@ -2459,6 +2512,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_REMAINS_GROUND_SLOTH</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_REMAINS_MAMMOTH</Type>
 			<Description>TXT_KEY_BUILDING_REMAINS_MAMMOTH</Description>
@@ -2511,6 +2565,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_REMAINS_MAMMOTH</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_FLOCKS_OF_PEACOCK</Type>
 			<Description>TXT_KEY_BUILDING_FLOCKS_OF_PEACOCK</Description>
@@ -2549,6 +2604,7 @@
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<ConstructSound>AS2D_BUILD_BARRACKS</ConstructSound>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HERD_PIG</Type>
 			<Description>TXT_KEY_BUILDING_HERD_PIG</Description>
@@ -2579,6 +2635,7 @@
 			</YieldChanges>
 			<ConstructSound>SND_AMB_HORSE_COBBLESTONES</ConstructSound>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HERD_POULTRY</Type>
 			<Description>TXT_KEY_BUILDING_HERD_POULTRY</Description>
@@ -2619,6 +2676,7 @@
 			</YieldChanges>
 			<ConstructSound>SND_AMB_HORSE_COBBLESTONES</ConstructSound>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ENCLOSURE_PRIMATE</Type>
 			<Description>TXT_KEY_BUILDING_ENCLOSURE_PRIMATE</Description>
@@ -2680,6 +2738,7 @@
 				</TechCommerceChange>
 			</TechCommerceChanges>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_REMAINS_PROCOPTODON</Type>
 			<MapCategoryTypes>
@@ -2739,6 +2798,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_REMAINS_PROCOPTODON</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HERD_RATITE</Type>
 			<SpecialBuildingType>SPECIALBUILDING_PUNK_MEGAFAUNA</SpecialBuildingType>
@@ -2764,6 +2824,7 @@
 			</YieldChanges>
 			<ConstructSound>SND_AMB_HORSE_COBBLESTONES</ConstructSound>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ENCLOSURE_REPTILE</Type>
 			<Description>TXT_KEY_BUILDING_ENCLOSURE_REPTILE</Description>
@@ -2804,6 +2865,7 @@
 				</TechCommerceChange>
 			</TechCommerceChanges>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ENCLOSURE_RODENT</Type>
 			<Description>TXT_KEY_BUILDING_ENCLOSURE_RODENT</Description>
@@ -2844,6 +2906,7 @@
 				</TechCommerceChange>
 			</TechCommerceChanges>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HERD_KANGAROO</Type>
 			<Description>TXT_KEY_BUILDING_HERD_KANGAROO</Description>
@@ -2873,6 +2936,7 @@
 			<iConquestProb>75</iConquestProb>
 			<ConstructSound>SND_AMB_HORSE_COBBLESTONES</ConstructSound>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_REMAINS_SABRETOOTH</Type>
 			<MapCategoryTypes>
@@ -2928,6 +2992,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_FOLKLORE_SABRETOOTH</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CENTER_FOR_SHARK_STUDIES</Type>
 			<Description>TXT_KEY_BUILDING_CENTER_FOR_SHARK_STUDIES</Description>
@@ -2973,6 +3038,7 @@
 				</PropertySource>
 			</PropertyManipulators>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ENCLOSURE_SEAL</Type>
 			<Description>TXT_KEY_BUILDING_ENCLOSURE_SEAL</Description>
@@ -3011,6 +3077,7 @@
 				</UnitCombatFreeExperience>
 			</UnitCombatFreeExperiences>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_HERD_SHEEP</Type>
 			<MapCategoryTypes>
@@ -3041,6 +3108,7 @@
 			<iConquestProb>75</iConquestProb>
 			<ArtDefineTag>ART_DEF_BUILDING_HERD_SHEEP</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_SNAKE_CHARMER</Type>
 			<EnabledCivilizationTypes>
@@ -3086,6 +3154,7 @@
 			<iConquestProb>75</iConquestProb>
 			<ArtDefineTag>ART_DEF_BUILDING_SNAKE_CHARMER</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_SNAKE_PIT</Type>
 			<EnabledCivilizationTypes>
@@ -3121,6 +3190,7 @@
 			<iConquestProb>25</iConquestProb>
 			<ArtDefineTag>ART_DEF_BUILDING_SNAKE_PIT</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_REMAINS_THYLACINE</Type>
 			<MapCategoryTypes>
@@ -3180,6 +3250,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_REMAINS_THYLACINE</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_SHELL_WORKERS_HUT</Type>
 			<MapCategoryTypes>
@@ -3209,6 +3280,7 @@
 			<iAsset>1</iAsset>
 			<ArtDefineTag>ART_DEF_BUILDING_SHELL_WORKERS_HUT</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_TRADITION_HUNTER</Type>
 			<EnabledCivilizationTypes>
@@ -3235,6 +3307,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_TRADITION_HUNTER</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_TRADITION_HUNTER</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_TRADITION_NAVAL_MASCOT</Type>
 			<MapCategoryTypes>
@@ -3255,6 +3328,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_TRADITION_NAVAL_MASCOT</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_TRADITION_NAVAL_TOTEM</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_TRADITION_SEA_HUNTING</Type>
 			<EnabledCivilizationTypes>
@@ -3281,6 +3355,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_TRADITION_SEA_HUNTING</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_TRADITION_SEA_HUNTING</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_TRADITION_MILITARY_STANDARD_MASCOT</Type>
 			<MapCategoryTypes>
@@ -3302,6 +3377,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_TRADITION_ANIMAL_TOTEM</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_TRADITION_TOTEM</MovieDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_CARNIVAL_TRAINED_SEAL</Type>
 			<MapCategoryTypes>
@@ -3334,6 +3410,7 @@
 			<iConquestProb>25</iConquestProb>
 			<ArtDefineTag>ART_DEF_BUILDING_CARNIVAL_TRAINED_SEAL</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_FLOCKS_OF_TURKEY</Type>
 			<Description>TXT_KEY_BUILDING_FLOCKS_OF_TURKEY</Description>
@@ -3377,6 +3454,7 @@
 				<BuildingType>BUILDING_MEAT_INDUSTRY_CONGLOMERATE</BuildingType>
 			</PrereqOrBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ENCLOSURE_WALRUS</Type>
 			<Description>TXT_KEY_BUILDING_ENCLOSURE_WALRUS</Description>
@@ -3415,6 +3493,7 @@
 				<BuildingType>BUILDING_ZOO</BuildingType>
 			</PrereqOrBuildings>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_ENCLOSURE_WOLF</Type>
 			<MapCategoryTypes>
@@ -3466,6 +3545,7 @@
 			<iConquestProb>25</iConquestProb>
 			<ArtDefineTag>ART_DEF_BUILDING_WOLF_PEN</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_WONDERS_OF_THE_DEEP</Type>
 			<MapCategoryTypes>
@@ -3490,6 +3570,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_WONDERS_OF_THE_DEEP</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_PRESENCE_OF_CORAL</Type>
 			<MapCategoryTypes>
@@ -3530,6 +3611,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_CREATION_MYTH</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_PRESENCE_OF_CRATER</Type>
 			<MapCategoryTypes>
@@ -3558,6 +3640,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_CREATION_MYTH</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_PRESENCE_OF_METAL</Type>
 			<MapCategoryTypes>
@@ -3582,6 +3665,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_CREATION_MYTH</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_PRESENCE_OF_OASIS</Type>
 			<MapCategoryTypes>
@@ -3602,6 +3686,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_CREATION_MYTH</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_PRESENCE_OF_LANDFORM</Type>
 			<MapCategoryTypes>
@@ -3694,6 +3779,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_CREATION_MYTH</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_PRESENCE_OF_REEF</Type>
 			<MapCategoryTypes>
@@ -3722,6 +3808,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_CREATION_MYTH</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_PRESENCE_OF_VOLCANO</Type>
 			<MapCategoryTypes>
@@ -3762,6 +3849,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_CREATION_MYTH</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_PRESENCE_OF_SEA</Type>
 			<MapCategoryTypes>
@@ -3777,6 +3865,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_CREATION_MYTH</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_PRESENCE_OF_EARTH</Type>
 			<MapCategoryTypes>
@@ -3801,6 +3890,7 @@
 			<bNukeImmune>1</bNukeImmune>
 			<ArtDefineTag>ART_DEF_BUILDING_CREATION_MYTH</ArtDefineTag>
 		</BuildingInfo>
+
 		<BuildingInfo>
 			<Type>BUILDING_PRESENCE_OF_FIRE</Type>
 			<MapCategoryTypes>
