@@ -27015,6 +27015,8 @@
 		</UnitInfo>
 		<UnitInfo>
 			<Type>UNIT_TRIBAL_GUARDIAN</Type>
+            <iMaxPlayerInstances>1</iMaxPlayerInstances>
+            <bUnlimitedException>1</bUnlimitedException>
             <Special>SPECIALUNIT_PEOPLE</Special>
 			<Description>TXT_KEY_UNIT_TRIBAL_GUARDIAN</Description>
 			<Civilopedia>TXT_KEY_UNIT_TRIBAL_GUARDIAN_PEDIA</Civilopedia>

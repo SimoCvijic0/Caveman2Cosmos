@@ -6530,8 +6530,8 @@
 				<BuildingType>BUILDING_LEADER_SECRET_SHELTER</BuildingType>
 			</ReplacementBuildings>
 			<YieldChanges>
-				<iYield>2</iYield>
-				<iYield>2</iYield>
+				<iYield>3</iYield>
+				<iYield>3</iYield>
 				<iYield>0</iYield>
 			</YieldChanges>
 			<CommerceChanges>

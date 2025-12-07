@@ -2569,8 +2569,8 @@
 				<BuildingType>BUILDING_LEADER_FORTIFIED_HUT</BuildingType>
 			</ReplacementBuildings>
 			<YieldChanges>
-				<iYield>2</iYield>
-				<iYield>4</iYield>
+				<iYield>3</iYield>
+				<iYield>5</iYield>
 				<iYield>0</iYield>
 			</YieldChanges>
 			<YieldModifiers>
@@ -2652,8 +2652,8 @@
 			<iHappiness>1</iHappiness>
 			<iHealth>1</iHealth>
 			<YieldChanges>
-				<iYield>4</iYield>
-				<iYield>2</iYield>
+				<iYield>5</iYield>
+				<iYield>3</iYield>
 				<iYield>0</iYield>
 			</YieldChanges>
 			<YieldModifiers>
@@ -2675,6 +2675,7 @@
 			</CommerceModifiers>
 			<bNeverCapture>1</bNeverCapture>
 			<bNukeImmune>1</bNukeImmune>
+            <iPopulationgrowthratepercentage>-3</iPopulationgrowthratepercentage>
 			<fVisibilityPriority>0</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_LEADER_FOOD_SHELTER</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_FOOD</MovieDefineTag>
@@ -2735,8 +2736,8 @@
 			<iHappiness>1</iHappiness>
 			<iHealth>1</iHealth>
 			<YieldChanges>
-				<iYield>2</iYield>
-				<iYield>2</iYield>
+				<iYield>3</iYield>
+				<iYield>3</iYield>
 				<iYield>0</iYield>
 			</YieldChanges>
 			<YieldModifiers>
@@ -2746,14 +2747,14 @@
 			</YieldModifiers>
 			<CommerceChanges>
 				<iCommerce>1</iCommerce>
-				<iCommerce>5</iCommerce>
-				<iCommerce>5</iCommerce>
+				<iCommerce>4</iCommerce>
+				<iCommerce>4</iCommerce>
 				<iCommerce>0</iCommerce>
 			</CommerceChanges>
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
-				<iCommerce>5</iCommerce>
-				<iCommerce>5</iCommerce>
+				<iCommerce>4</iCommerce>
+				<iCommerce>4</iCommerce>
 				<iCommerce>0</iCommerce>
 			</CommerceModifiers>
 			<bNeverCapture>1</bNeverCapture>
@@ -2818,8 +2819,8 @@
 			<iHappiness>1</iHappiness>
 			<iHealth>1</iHealth>
 			<YieldChanges>
-				<iYield>2</iYield>
-				<iYield>2</iYield>
+				<iYield>3</iYield>
+				<iYield>3</iYield>
 				<iYield>0</iYield>
 			</YieldChanges>
 			<YieldModifiers>
@@ -2839,7 +2840,6 @@
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
 			</CommerceModifiers>
-            <iPopulationgrowthratepercentage>-3</iPopulationgrowthratepercentage>
 			<bNeverCapture>1</bNeverCapture>
 			<bNukeImmune>1</bNukeImmune>
 			<fVisibilityPriority>0</fVisibilityPriority>
@@ -2960,8 +2960,8 @@
 			<iHappiness>1</iHappiness>
 			<iHealth>1</iHealth>
 			<YieldChanges>
-				<iYield>2</iYield>
-				<iYield>2</iYield>
+				<iYield>3</iYield>
+				<iYield>3</iYield>
 				<iYield>0</iYield>
 			</YieldChanges>
 			<YieldModifiers>
@@ -3043,8 +3043,8 @@
 			<iHappiness>2</iHappiness>
 			<iHealth>2</iHealth>
 			<YieldChanges>
-				<iYield>2</iYield>
-				<iYield>2</iYield>
+				<iYield>3</iYield>
+				<iYield>3</iYield>
 				<iYield>0</iYield>
 			</YieldChanges>
 			<YieldModifiers>
@@ -3068,17 +3068,17 @@
 				<PropertySource>
 					<PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>
 					<PropertyType>PROPERTY_CRIME</PropertyType>
-					<iAmountPerTurn>-4</iAmountPerTurn>
+					<iAmountPerTurn>-5</iAmountPerTurn>
 				</PropertySource>
 				<PropertySource>
 					<PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>
 					<PropertyType>PROPERTY_EDUCATION</PropertyType>
-					<iAmountPerTurn>4</iAmountPerTurn>
+					<iAmountPerTurn>5</iAmountPerTurn>
 				</PropertySource>
 				<PropertySource>
 					<PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>
 					<PropertyType>PROPERTY_DISEASE</PropertyType>
-					<iAmountPerTurn>-4</iAmountPerTurn>
+					<iAmountPerTurn>-5</iAmountPerTurn>
 				</PropertySource>
 			</PropertyManipulators>
 			<UnitProductionModifiers>
@@ -3165,8 +3165,8 @@
 			<iHappiness>1</iHappiness>
 			<iHealth>1</iHealth>
 			<YieldChanges>
-				<iYield>2</iYield>
-				<iYield>2</iYield>
+				<iYield>3</iYield>
+				<iYield>3</iYield>
 				<iYield>0</iYield>
 			</YieldChanges>
 			<YieldModifiers>
@@ -3184,7 +3184,7 @@
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>3</iCommerce>
+				<iCommerce>5</iCommerce>
 			</CommerceModifiers>
 			<UnitProductionModifiers>
 				<UnitProductionModifier>
@@ -3270,8 +3270,8 @@
 			<iHappiness>1</iHappiness>
 			<iHealth>1</iHealth>
 			<YieldChanges>
-				<iYield>2</iYield>
-				<iYield>2</iYield>
+				<iYield>3</iYield>
+				<iYield>3</iYield>
 				<iYield>0</iYield>
 			</YieldChanges>
 			<YieldModifiers>
@@ -3359,8 +3359,8 @@
 			<iHappiness>1</iHappiness>
 			<iHealth>1</iHealth>
 			<YieldChanges>
-				<iYield>2</iYield>
-				<iYield>2</iYield>
+				<iYield>3</iYield>
+				<iYield>3</iYield>
 				<iYield>0</iYield>
 			</YieldChanges>
 			<YieldModifiers>
@@ -3383,23 +3383,23 @@
 			<UnitProductionModifiers>
 				<UnitProductionModifier>
 					<UnitType>UNIT_TRAINEDDOG</UnitType>
-					<iProductionModifier>10</iProductionModifier>
+					<iProductionModifier>20</iProductionModifier>
 				</UnitProductionModifier>
 				<UnitProductionModifier>
 					<UnitType>UNIT_HORSEMAN</UnitType>
-					<iProductionModifier>5</iProductionModifier>
+					<iProductionModifier>10</iProductionModifier>
 				</UnitProductionModifier>
 				<UnitProductionModifier>
 					<UnitType>UNIT_CAMEL_RIDER</UnitType>
-					<iProductionModifier>5</iProductionModifier>
+					<iProductionModifier>10</iProductionModifier>
 				</UnitProductionModifier>
 				<UnitProductionModifier>
 					<UnitType>UNIT_ELEPHANT_RIDER</UnitType>
-					<iProductionModifier>5</iProductionModifier>
+					<iProductionModifier>10</iProductionModifier>
 				</UnitProductionModifier>
 				<UnitProductionModifier>
 					<UnitType>UNIT_LLAMA_RIDER</UnitType>
-					<iProductionModifier>5</iProductionModifier>
+					<iProductionModifier>10</iProductionModifier>
 				</UnitProductionModifier>
 			</UnitProductionModifiers>
 			<bNeverCapture>1</bNeverCapture>
@@ -3432,8 +3432,8 @@
 			<iHappiness>1</iHappiness>
 			<iHealth>1</iHealth>
 			<YieldChanges>
-				<iYield>2</iYield>
-				<iYield>2</iYield>
+				<iYield>3</iYield>
+				<iYield>3</iYield>
 				<iYield>0</iYield>
 			</YieldChanges>
 			<YieldModifiers>
@@ -3454,15 +3454,15 @@
 				<iCommerce>0</iCommerce>
 			</CommerceModifiers>
 			<iTradeRoutes>1</iTradeRoutes>
-			<iTradeRouteModifier>10</iTradeRouteModifier>
+			<iTradeRouteModifier>20</iTradeRouteModifier>
 			<UnitProductionModifiers>
 				<UnitProductionModifier>
 					<UnitType>UNIT_EARLY_MERCHANT_C2C</UnitType>
-					<iProductionModifier>10</iProductionModifier>
+					<iProductionModifier>20</iProductionModifier>
 				</UnitProductionModifier>
 				<UnitProductionModifier>
 					<UnitType>UNIT_EARLY_FOOD_MERCHANT_C2C</UnitType>
-					<iProductionModifier>10</iProductionModifier>
+					<iProductionModifier>20</iProductionModifier>
 				</UnitProductionModifier>
 			</UnitProductionModifiers>
 			<bNeverCapture>1</bNeverCapture>
@@ -3495,8 +3495,8 @@
 			<iHappiness>1</iHappiness>
 			<iHealth>3</iHealth>
 			<YieldChanges>
-				<iYield>2</iYield>
-				<iYield>2</iYield>
+				<iYield>3</iYield>
+				<iYield>3</iYield>
 				<iYield>0</iYield>
 			</YieldChanges>
 			<YieldModifiers>
@@ -3526,7 +3526,7 @@
 			<UnitProductionModifiers>
 				<UnitProductionModifier>
 					<UnitType>UNIT_HEALER</UnitType>
-					<iProductionModifier>15</iProductionModifier>
+					<iProductionModifier>20</iProductionModifier>
 				</UnitProductionModifier>
 			</UnitProductionModifiers>
 			<HealUnitCombatTypes>
@@ -3565,8 +3565,8 @@
 			<iHappiness>1</iHappiness>
 			<iHealth>1</iHealth>
 			<YieldChanges>
-				<iYield>2</iYield>
-				<iYield>2</iYield>
+				<iYield>3</iYield>
+				<iYield>3</iYield>
 				<iYield>0</iYield>
 			</YieldChanges>
 			<YieldModifiers>
@@ -3631,8 +3631,8 @@
 			<iHappiness>1</iHappiness>
 			<iHealth>1</iHealth>
 			<YieldChanges>
-				<iYield>2</iYield>
-				<iYield>2</iYield>
+				<iYield>3</iYield>
+				<iYield>3</iYield>
 				<iYield>0</iYield>
 			</YieldChanges>
 			<YieldModifiers>
@@ -3690,8 +3690,8 @@
 			<iHappiness>1</iHappiness>
 			<iHealth>1</iHealth>
 			<YieldChanges>
-				<iYield>2</iYield>
-				<iYield>4</iYield>
+				<iYield>3</iYield>
+				<iYield>5</iYield>
 				<iYield>0</iYield>
 			</YieldChanges>
 			<YieldModifiers>
@@ -3741,8 +3741,8 @@
 			<iHappiness>1</iHappiness>
 			<iHealth>1</iHealth>
 			<YieldChanges>
-				<iYield>4</iYield>
-				<iYield>2</iYield>
+				<iYield>5</iYield>
+				<iYield>3</iYield>
 				<iYield>0</iYield>
 			</YieldChanges>
 			<YieldModifiers>
@@ -3793,8 +3793,8 @@
 			<iHappiness>0</iHappiness>
 			<iHealth>1</iHealth>
 			<YieldChanges>
-				<iYield>2</iYield>
-				<iYield>2</iYield>
+				<iYield>3</iYield>
+				<iYield>3</iYield>
 				<iYield>0</iYield>
 			</YieldChanges>
 			<YieldModifiers>
@@ -3887,8 +3887,8 @@
 			<iHappiness>1</iHappiness>
 			<iHealth>1</iHealth>
 			<YieldChanges>
-				<iYield>2</iYield>
-				<iYield>2</iYield>
+				<iYield>3</iYield>
+				<iYield>3</iYield>
 				<iYield>0</iYield>
 			</YieldChanges>
 			<YieldModifiers>
@@ -3938,8 +3938,8 @@
 			<iHappiness>1</iHappiness>
 			<iHealth>1</iHealth>
 			<YieldChanges>
-				<iYield>2</iYield>
-				<iYield>2</iYield>
+				<iYield>3</iYield>
+				<iYield>3</iYield>
 				<iYield>0</iYield>
 			</YieldChanges>
 			<YieldModifiers>
@@ -3969,7 +3969,7 @@
 			<UnitProductionModifiers>
 				<UnitProductionModifier>
 					<UnitType>UNIT_ENFORCERS</UnitType>
-					<iProductionModifier>15</iProductionModifier>
+					<iProductionModifier>20</iProductionModifier>
 				</UnitProductionModifier>
 			</UnitProductionModifiers>
 			<iInvestigation>10</iInvestigation>
@@ -4005,8 +4005,8 @@
 			<iHappiness>1</iHappiness>
 			<iHealth>1</iHealth>
 			<YieldChanges>
-				<iYield>2</iYield>
-				<iYield>2</iYield>
+				<iYield>3</iYield>
+				<iYield>3</iYield>
 				<iYield>0</iYield>
 			</YieldChanges>
 			<YieldModifiers>
@@ -4079,8 +4079,8 @@
 			<iHappiness>1</iHappiness>
 			<iHealth>1</iHealth>
 			<YieldChanges>
-				<iYield>2</iYield>
-				<iYield>2</iYield>
+				<iYield>3</iYield>
+				<iYield>3</iYield>
 				<iYield>0</iYield>
 			</YieldChanges>
 			<YieldModifiers>
@@ -4111,7 +4111,7 @@
 				</UnitProductionModifier>
 				<UnitProductionModifier>
 					<UnitType>UNIT_HUNTER</UnitType>
-					<iProductionModifier>15</iProductionModifier>
+					<iProductionModifier>20</iProductionModifier>
 				</UnitProductionModifier>
 			</UnitProductionModifiers>
 			<FreePromoTypes>
@@ -4173,8 +4173,8 @@
 			<iHappiness>1</iHappiness>
 			<iHealth>1</iHealth>
 			<YieldChanges>
-				<iYield>2</iYield>
-				<iYield>2</iYield>
+				<iYield>3</iYield>
+				<iYield>3</iYield>
 				<iYield>0</iYield>
 			</YieldChanges>
 			<YieldModifiers>
@@ -4252,35 +4252,35 @@
 			<GlobalBuildingProductionModifiers>
 				<BuildingProductionModifier>
 					<BuildingType>BUILDING_GOBEKLI_TEPE</BuildingType>
-					<iProductionModifier>20</iProductionModifier>
+					<iProductionModifier>30</iProductionModifier>
 				</BuildingProductionModifier>
 				<BuildingProductionModifier>
 					<BuildingType>BUILDING_HAAMONGA_A_MAUI</BuildingType>
-					<iProductionModifier>20</iProductionModifier>
+					<iProductionModifier>30</iProductionModifier>
 				</BuildingProductionModifier>
 				<BuildingProductionModifier>
 					<BuildingType>BUILDING_HILL_OF_TARA</BuildingType>
-					<iProductionModifier>20</iProductionModifier>
+					<iProductionModifier>30</iProductionModifier>
 				</BuildingProductionModifier>
 				<BuildingProductionModifier>
 					<BuildingType>BUILDING_MOAI_STATUES</BuildingType>
-					<iProductionModifier>20</iProductionModifier>
+					<iProductionModifier>30</iProductionModifier>
 				</BuildingProductionModifier>
 				<BuildingProductionModifier>
 					<BuildingType>BUILDING_STONE_HENGE</BuildingType>
-					<iProductionModifier>20</iProductionModifier>
+					<iProductionModifier>30</iProductionModifier>
 				</BuildingProductionModifier>
 				<BuildingProductionModifier>
 					<BuildingType>BUILDING_LIBRARY_OF_NINEVEH</BuildingType>
-					<iProductionModifier>20</iProductionModifier>
+					<iProductionModifier>30</iProductionModifier>
 				</BuildingProductionModifier>
 				<BuildingProductionModifier>
 					<BuildingType>BUILDING_CLEOPATRAS_NEEDLE</BuildingType>
-					<iProductionModifier>20</iProductionModifier>
+					<iProductionModifier>30</iProductionModifier>
 				</BuildingProductionModifier>
 				<BuildingProductionModifier>
 					<BuildingType>BUILDING_GREAT_BATH_OF_MOHENJO_DARO</BuildingType>
-					<iProductionModifier>20</iProductionModifier>
+					<iProductionModifier>30</iProductionModifier>
 				</BuildingProductionModifier>
 			</GlobalBuildingProductionModifiers>
 			<SpecialistCounts>
@@ -4317,11 +4317,11 @@
 			<iCostComplexityModifier>1</iCostComplexityModifier>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
-			<iHappiness>1</iHappiness>
+			<iHappiness>2</iHappiness>
 			<iHealth>1</iHealth>
 			<YieldChanges>
-				<iYield>2</iYield>
-				<iYield>2</iYield>
+				<iYield>3</iYield>
+				<iYield>3</iYield>
 				<iYield>0</iYield>
 			</YieldChanges>
 			<YieldModifiers>
@@ -4338,13 +4338,13 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>5</iCommerce>
+				<iCommerce>10</iCommerce>
 				<iCommerce>0</iCommerce>
 			</CommerceModifiers>
 			<UnitProductionModifiers>
 				<UnitProductionModifier>
 					<UnitType>UNIT_STORY_TELLER</UnitType>
-					<iProductionModifier>15</iProductionModifier>
+					<iProductionModifier>20</iProductionModifier>
 				</UnitProductionModifier>
 			</UnitProductionModifiers>
 			<bNeverCapture>1</bNeverCapture>
