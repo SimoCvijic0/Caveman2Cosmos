@@ -52,11 +52,11 @@
 			<FlankingStrikes>
 				<FlankingStrike>
 					<UnitType>UNIT_CATAPULT</UnitType>
-					<iFlankingStrength>80</iFlankingStrength>
+					<iFlankingStrength>100</iFlankingStrength>
 				</FlankingStrike>
 				<FlankingStrike>
 					<UnitType>UNIT_TREBUCHET</UnitType>
-					<iFlankingStrength>80</iFlankingStrength>
+					<iFlankingStrength>100</iFlankingStrength>
 				</FlankingStrike>
 			</FlankingStrikes>
 			<UnitAIs>
@@ -74,7 +74,7 @@
 				<BuildingType>BUILDING_ANIMAL_TRAINER_BEAR</BuildingType>
 			</PrereqOrBuildings>
 			<PrereqTech>TECH_MEGAFAUNA_DOMESTICATION</PrereqTech>
-			<iCost>94</iCost>
+			<iCost>169</iCost>
 			<iMoves>1</iMoves>
 			<iCombat>7</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -290,7 +290,7 @@
 			<UnitUpgrades>
 				<UnitType>UNIT_WAR_MAMMOTH</UnitType>
 			</UnitUpgrades>
-			<iCost>135</iCost>
+			<iCost>250</iCost>
 			<iMoves>1</iMoves>
 			<iCombat>9</iCombat>
 			<iXPValueAttack>2</iXPValueAttack>
@@ -645,7 +645,7 @@
 			<UnitUpgrades>
 				<UnitType>UNIT_BOMBARD_MAMMOTH</UnitType>
 			</UnitUpgrades>
-			<iCost>375</iCost>
+			<iCost>475</iCost>
 			<iMoves>1</iMoves>
 			<iCombat>15</iCombat>
 			<iXPValueAttack>2</iXPValueAttack>
@@ -768,7 +768,7 @@
 				<PrereqTech>TECH_MEGAFAUNA_DOMESTICATION</PrereqTech>
 			</TechTypes>
 			<BonusType>BONUS_MAMMOTH</BonusType>
-			<iCost>255</iCost>
+			<iCost>495</iCost>
 			<iMoves>1</iMoves>
 			<iCombat>10</iCombat>
 			<iXPValueAttack>2</iXPValueAttack>
@@ -908,7 +908,7 @@
 					</Has>
 				</And>
 			</TrainCondition>
-			<iCost>500</iCost>
+			<iCost>550</iCost>
 			<iMoves>1</iMoves>
 			<iCombat>23</iCombat>
 			<iXPValueAttack>2</iXPValueAttack>
@@ -1270,7 +1270,7 @@
 				<UnitType>UNIT_MAPINGUARI_OBSIDIAN</UnitType>
 			</UnitUpgrades>
 			<ObsoleteTech>TECH_IRON_WORKING</ObsoleteTech>
-			<iCost>70</iCost>
+			<iCost>76</iCost>
 			<iBaseUpkeep>8</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iCombat>5</iCombat>
@@ -1357,7 +1357,7 @@
 				<UnitType>UNIT_MAPINGUARI</UnitType>
 			</UnitUpgrades>
 			<ObsoleteTech>TECH_IRON_WORKING</ObsoleteTech>
-			<iCost>92</iCost>
+			<iCost>99</iCost>
 			<iBaseUpkeep>12</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iCombat>6</iCombat>
@@ -1717,7 +1717,7 @@
 				<BuildingType>BUILDING_EFFECT_HERITAGE_RHINOS</BuildingType>
 			</PrereqOrBuildings>
 			<PrereqTech>TECH_MEGAFAUNA_DOMESTICATION</PrereqTech>
-			<iCost>104</iCost>
+			<iCost>138</iCost>
 			<iMoves>1</iMoves>
 			<iCombat>5</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -2617,7 +2617,7 @@
 					<bUnitCombatTarget>1</bUnitCombatTarget>
 				</UnitCombatTarget>
 			</UnitCombatTargets>
-			<iCost>92</iCost>
+			<iCost>132</iCost>
 			<iBaseUpkeep>2</iBaseUpkeep>
 			<iMoves>2</iMoves>
 			<iCombat>5</iCombat>
@@ -3364,11 +3364,11 @@
 			<FlankingStrikes>
 				<FlankingStrike>
 					<UnitType>UNIT_CATAPULT</UnitType>
-					<iFlankingStrength>30</iFlankingStrength>
+					<iFlankingStrength>100</iFlankingStrength>
 				</FlankingStrike>
 				<FlankingStrike>
 					<UnitType>UNIT_TREBUCHET</UnitType>
-					<iFlankingStrength>30</iFlankingStrength>
+					<iFlankingStrength>100</iFlankingStrength>
 				</FlankingStrike>
 			</FlankingStrikes>
 			<UnitAIs>
@@ -3387,7 +3387,7 @@
 			</PrereqOrBuildings>
 			<PrereqTech>TECH_MEGAFAUNA_DOMESTICATION</PrereqTech>
 			<BonusType>BONUS_BISON</BonusType>
-			<iCost>94</iCost>
+			<iCost>169</iCost>
 			<iMoves>2</iMoves>
 			<iCombat>7</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -3415,19 +3415,19 @@
 			<UnitAttackMods>
 				<UnitAttackMod>
 					<UnitType>UNIT_ELEPHANT_RIDER</UnitType>
-					<iModifier>20</iModifier>
+					<iModifier>15</iModifier>
 				</UnitAttackMod>
 				<UnitAttackMod>
 					<UnitType>UNIT_WAR_ELEPHANT</UnitType>
-					<iModifier>20</iModifier>
+					<iModifier>10</iModifier>
 				</UnitAttackMod>
 				<UnitAttackMod>
 					<UnitType>UNIT_TRAINED_MAMMOTH</UnitType>
-					<iModifier>20</iModifier>
+					<iModifier>15</iModifier>
 				</UnitAttackMod>
 				<UnitAttackMod>
 					<UnitType>UNIT_WAR_MAMMOTH</UnitType>
-					<iModifier>20</iModifier>
+					<iModifier>10</iModifier>
 				</UnitAttackMod>
 			</UnitAttackMods>
 			<iAsset>3</iAsset>
@@ -3514,7 +3514,7 @@
             <TechTypes>
                 <PrereqTech>TECH_ARCHERY</PrereqTech>
             </TechTypes>
-			<iCost>111</iCost>
+			<iCost>155</iCost>
 			<iMoves>2</iMoves>
 			<iCombat>6</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -3528,35 +3528,35 @@
 			<TerrainAttacks>
 				<TerrainAttack>
 					<TerrainType>TERRAIN_GRASSLAND</TerrainType>
-					<iTerrainAttack>20</iTerrainAttack>
+					<iTerrainAttack>25</iTerrainAttack>
 				</TerrainAttack>
 				<TerrainAttack>
 					<TerrainType>TERRAIN_PLAINS</TerrainType>
-					<iTerrainAttack>20</iTerrainAttack>
+					<iTerrainAttack>25</iTerrainAttack>
 				</TerrainAttack>
 				<TerrainAttack>
 					<TerrainType>TERRAIN_TAIGA</TerrainType>
-					<iTerrainAttack>20</iTerrainAttack>
+					<iTerrainAttack>25</iTerrainAttack>
 				</TerrainAttack>
 			</TerrainAttacks>
 			<FeatureAttacks>
 				<FeatureAttack>
 					<FeatureType>FEATURE_FOREST</FeatureType>
-					<iFeatureAttack>25</iFeatureAttack>
+					<iFeatureAttack>-25</iFeatureAttack>
 				</FeatureAttack>
 				<FeatureAttack>
 					<FeatureType>FEATURE_JUNGLE</FeatureType>
-					<iFeatureAttack>-20</iFeatureAttack>
+					<iFeatureAttack>-25</iFeatureAttack>
 				</FeatureAttack>
 				<FeatureAttack>
 					<FeatureType>FEATURE_SWAMP</FeatureType>
-					<iFeatureAttack>-20</iFeatureAttack>
+					<iFeatureAttack>-25</iFeatureAttack>
 				</FeatureAttack>
 			</FeatureAttacks>
 			<UnitCombatMods>
 				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-					<iUnitCombatMod>20</iUnitCombatMod>
+					<iUnitCombatMod>25</iUnitCombatMod>
 				</UnitCombatMod>
 			</UnitCombatMods>
             <BonusProductionModifiers>
@@ -5252,11 +5252,11 @@
 			<FlankingStrikes>
 				<FlankingStrike>
 					<UnitType>UNIT_CATAPULT</UnitType>
-					<iFlankingStrength>20</iFlankingStrength>
+					<iFlankingStrength>50</iFlankingStrength>
 				</FlankingStrike>
 				<FlankingStrike>
 					<UnitType>UNIT_TREBUCHET</UnitType>
-					<iFlankingStrength>20</iFlankingStrength>
+					<iFlankingStrength>50</iFlankingStrength>
 				</FlankingStrike>
 			</FlankingStrikes>
 			<UnitAIs>
@@ -5281,7 +5281,7 @@
 				<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
 				<iUnitCombatMod>20</iUnitCombatMod>
 			</UnitCombatMod>
-			<iCost>100</iCost>
+			<iCost>125</iCost>
 			<iMoves>2</iMoves>
 			<iCombat>5</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -5294,23 +5294,23 @@
 			<TerrainAttacks>
 				<TerrainAttack>
 					<TerrainType>TERRAIN_SCRUB</TerrainType>
-					<iTerrainAttack>30</iTerrainAttack>
+					<iTerrainAttack>25</iTerrainAttack>
 				</TerrainAttack>
 				<TerrainAttack>
 					<TerrainType>TERRAIN_ROCKY</TerrainType>
-					<iTerrainAttack>30</iTerrainAttack>
+					<iTerrainAttack>25</iTerrainAttack>
 				</TerrainAttack>
 				<TerrainAttack>
 					<TerrainType>TERRAIN_BADLAND</TerrainType>
-					<iTerrainAttack>30</iTerrainAttack>
+					<iTerrainAttack>25</iTerrainAttack>
 				</TerrainAttack>
 				<TerrainAttack>
 					<TerrainType>TERRAIN_JAGGED</TerrainType>
-					<iTerrainAttack>30</iTerrainAttack>
+					<iTerrainAttack>25</iTerrainAttack>
 				</TerrainAttack>
 				<TerrainAttack>
 					<TerrainType>TERRAIN_PEAK</TerrainType>
-					<iTerrainAttack>30</iTerrainAttack>
+					<iTerrainAttack>25</iTerrainAttack>
 				</TerrainAttack>
 			</TerrainAttacks>
 			<FeatureAttacks>

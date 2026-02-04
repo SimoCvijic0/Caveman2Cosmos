@@ -84,6 +84,9 @@
 				<BuildingType>BUILDING_ANIMAL_TRAINER_HORSE</BuildingType>
 				<BuildingType>BUILDING_ANIMAL_TRAINER_ELEPHANT</BuildingType>
 			</PrereqOrBuildings>
+            <CommerceChanges>
+                <iCommerce>-5</iCommerce>
+            </CommerceChanges>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
@@ -210,7 +213,7 @@
 				<Type>HERITAGE_FOLKLORE_ANTEATER</Type>
 				<Type>HERITAGE_FOLKLORE_BEAVER</Type>
 			</PrereqOrHeritage>
-			<iCost>70</iCost>
+			<iCost>72</iCost>
 			<iCostSizeModifier>0</iCostSizeModifier>
 			<iCostCountModifier>2</iCostCountModifier>
 			<iCostMaterialsModifier>0</iCostMaterialsModifier>
@@ -550,13 +553,13 @@
 				<BuildingType>BUILDING_INDUSTRIAL_FARMS</BuildingType>
 				<BuildingType>BUILDING_MEAT_INDUSTRY_CONGLOMERATE</BuildingType>
 			</PrereqOrBuildings>
-			<iCost>92</iCost>
+			<iCost>134</iCost>
 			<iCostSizeModifier>1</iCostSizeModifier>
 			<iCostCountModifier>1</iCostCountModifier>
 			<iCostMaterialsModifier>1</iCostMaterialsModifier>
 			<iCostComplexityModifier>1</iCostComplexityModifier>
 			<CommerceChanges>
-				<iCommerce>1</iCommerce>
+				<iCommerce>-1</iCommerce>
 			</CommerceChanges>
 			<iAsset>2</iAsset>
 			<Flavors>
@@ -1102,6 +1105,9 @@
 				<BuildingType>BUILDING_REPET</BuildingType>
 			</PrereqOrBuildings>
 			<iCost>92</iCost>
+            <CommerceChanges>
+                <iCommerce>-1</iCommerce>
+            </CommerceChanges>
 			<iCostSizeModifier>2</iCostSizeModifier>
 			<iCostCountModifier>0</iCostCountModifier>
 			<iCostMaterialsModifier>1</iCostMaterialsModifier>
@@ -1181,7 +1187,7 @@
 			</MapCategoryTypes>
 			<iAsset>2</iAsset>
 			<iPower>2</iPower>
-			<iCost>184</iCost>
+			<iCost>250</iCost>
 			<iCostSizeModifier>0</iCostSizeModifier>
 			<iCostCountModifier>2</iCostCountModifier>
 			<iCostMaterialsModifier>0</iCostMaterialsModifier>
@@ -1191,12 +1197,9 @@
 			<bNeverCapture>1</bNeverCapture>
 			<YieldChanges>
 				<iYield>1</iYield>
+				<iYield>0</iYield>
+				<iYield>1</iYield>
 			</YieldChanges>
-			<CommerceChanges>
-				<iCommerce>0</iCommerce>
-				<iCommerce>0</iCommerce>
-				<iCommerce>1</iCommerce>
-			</CommerceChanges>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<ConstructSound>AS2D_BUILD_BARRACKS</ConstructSound>
 			<PrereqOrBuildings>
@@ -1380,8 +1383,13 @@
 				<BuildingType>BUILDING_INDUSTRIAL_FARMS</BuildingType>
 				<BuildingType>BUILDING_MEAT_INDUSTRY_CONGLOMERATE</BuildingType>
 			</ReplacementBuildings>
+            <YieldChanges>
+                <iYield>0</iYield>
+                <iYield>0</iYield>
+                <iYield>1</iYield>
+            </YieldChanges>
 			<CommerceChanges>
-				<iCommerce>1</iCommerce>
+				<iCommerce>0</iCommerce>
 				<iCommerce>1</iCommerce>
 			</CommerceChanges>
 			<iAsset>1</iAsset>
@@ -1477,8 +1485,13 @@
 			<iCostMaterialsModifier>1</iCostMaterialsModifier>
 			<iCostComplexityModifier>1</iCostComplexityModifier>
 			<ObsoleteTech>TECH_VERTICAL_FLIGHT</ObsoleteTech>
+            <YieldChanges>
+                <iYield>0</iYield>
+                <iYield>0</iYield>
+                <iYield>1</iYield>
+            </YieldChanges>
 			<CommerceChanges>
-				<iCommerce>1</iCommerce>
+				<iCommerce>0</iCommerce>
 				<iCommerce>2</iCommerce>
 				<iCommerce>3</iCommerce>
 			</CommerceChanges>
@@ -1622,7 +1635,7 @@
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<FreeStartEra>C2C_ERA_ANCIENT</FreeStartEra>
 			<PrereqTech>TECH_CHIEFDOM</PrereqTech>
-			<iCost>120</iCost>
+			<iCost>126</iCost>
 			<iCostSizeModifier>1</iCostSizeModifier>
 			<iCostCountModifier>0</iCostCountModifier>
 			<iCostMaterialsModifier>1</iCostMaterialsModifier>
@@ -2026,9 +2039,11 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<FreeStartEra>C2C_ERA_ANCIENT</FreeStartEra>
-			<CommerceChanges>
-				<iCommerce>2</iCommerce>
-			</CommerceChanges>
+            <YieldChanges>
+                <iYield>0</iYield>
+                <iYield>0</iYield>
+                <iYield>2</iYield>
+            </YieldChanges>
 			<bApplyFreePromotionOnMove>1</bApplyFreePromotionOnMove>
 			<FreePromoTypes>
 				<FreePromoType>
@@ -2261,7 +2276,7 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_ANIMAL_TRAINER_DONKEY</ArtDefineTag>
 			<PrereqTech>TECH_EQUINE_DOMESTICATION</PrereqTech>
-			<iCost>92</iCost>
+			<iCost>134</iCost>
 			<iCostSizeModifier>1</iCostSizeModifier>
 			<iCostCountModifier>1</iCostCountModifier>
 			<iCostMaterialsModifier>1</iCostMaterialsModifier>
@@ -2272,10 +2287,7 @@
 			<iConquestProb>25</iConquestProb>
 			<iAsset>2</iAsset>
 			<CommerceChanges>
-				<iCommerce>0</iCommerce>
-				<iCommerce>0</iCommerce>
-				<iCommerce>0</iCommerce>
-				<iCommerce>1</iCommerce>
+				<iCommerce>-1</iCommerce>
 			</CommerceChanges>
 			<ConstructSound>AS2D_BUILD_GRANARY</ConstructSound>
 			<PrereqOrBuildings>
@@ -2586,21 +2598,18 @@
 			<PrereqInCityBuildings>
 				<BuildingType>BUILDING_FOLKLORE_PEACOCK</BuildingType>
 			</PrereqInCityBuildings>
-			<iCost>184</iCost>
+			<iCost>250</iCost>
 			<iCostSizeModifier>1</iCostSizeModifier>
 			<iCostCountModifier>1</iCostCountModifier>
 			<iCostMaterialsModifier>0</iCostMaterialsModifier>
 			<iCostComplexityModifier>0</iCostComplexityModifier>
 			<FreeBuilding>BUILDING_FLOCKS_OF_PEACOCK</FreeBuilding>
 			<bNeverCapture>1</bNeverCapture>
-			<YieldChanges>
-				<iYield>1</iYield>
-			</YieldChanges>
-			<CommerceChanges>
-				<iCommerce>0</iCommerce>
-				<iCommerce>0</iCommerce>
-				<iCommerce>1</iCommerce>
-			</CommerceChanges>
+            <YieldChanges>
+                <iYield>1</iYield>
+                <iYield>0</iYield>
+                <iYield>1</iYield>
+            </YieldChanges>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<ConstructSound>AS2D_BUILD_BARRACKS</ConstructSound>
 		</BuildingInfo>
@@ -2649,7 +2658,7 @@
 				<BuildingType>BUILDING_FOLKLORE_WILD_TURKEY</BuildingType>
 				<BuildingType>BUILDING_FOLKLORE_DUCK</BuildingType>
 			</PrereqOrBuildings>
-			<iCost>184</iCost>
+			<iCost>250</iCost>
 			<iCostSizeModifier>1</iCostSizeModifier>
 			<iCostCountModifier>1</iCostCountModifier>
 			<iCostMaterialsModifier>0</iCostMaterialsModifier>
@@ -3431,21 +3440,18 @@
 			<PrereqInCityBuildings>
 				<BuildingType>BUILDING_FOLKLORE_WILD_TURKEY</BuildingType>
 			</PrereqInCityBuildings>
-			<iCost>184</iCost>
+			<iCost>250</iCost>
 			<iCostSizeModifier>1</iCostSizeModifier>
 			<iCostCountModifier>1</iCostCountModifier>
 			<iCostMaterialsModifier>0</iCostMaterialsModifier>
 			<iCostComplexityModifier>0</iCostComplexityModifier>
 			<FreeBuilding>BUILDING_FLOCKS_OF_TURKEY</FreeBuilding>
 			<bNeverCapture>1</bNeverCapture>
-			<YieldChanges>
-				<iYield>1</iYield>
-			</YieldChanges>
-			<CommerceChanges>
-				<iCommerce>0</iCommerce>
-				<iCommerce>0</iCommerce>
-				<iCommerce>1</iCommerce>
-			</CommerceChanges>
+            <YieldChanges>
+                <iYield>1</iYield>
+                <iYield>0</iYield>
+                <iYield>1</iYield>
+            </YieldChanges>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<ConstructSound>AS2D_BUILD_BARRACKS</ConstructSound>
 			<PrereqOrBuildings>
