@@ -6630,6 +6630,11 @@
 			<bCapital>1</bCapital>
 			<bGovernmentCenter>1</bGovernmentCenter>
 			<iMaintenanceModifier>-10</iMaintenanceModifier>
+            <YieldChanges>
+                <iYield>3</iYield>
+                <iYield>3</iYield>
+                <iYield>3</iYield>
+            </YieldChanges>
 			<YieldModifiers>
 				<iYield>5</iYield>
 				<iYield>5</iYield>
@@ -8666,5 +8671,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_WORLD_BANK</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_WORLD_BANK</MovieDefineTag>
 		</BuildingInfo>
+
 	</BuildingInfos>
 </Civ4BuildingInfos>

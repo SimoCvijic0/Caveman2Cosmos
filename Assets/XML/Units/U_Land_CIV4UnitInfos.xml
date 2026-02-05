@@ -7856,7 +7856,7 @@
 			<SupersedingUnits>
 <!--				<UnitType>UNIT_NEANDERTHAL_STONE_AGE_SPEARMAN</UnitType>-->
 			</SupersedingUnits>
-			<iCost>42</iCost>
+			<iCost>43</iCost>
 			<iBaseUpkeep>1</iBaseUpkeep>
 			<iMoves>1</iMoves>
 			<iCombat>4</iCombat>
@@ -41764,7 +41764,6 @@
 			<PrereqTech>TECH_HERBALISM</PrereqTech>
 			<PrereqOrBuildings>
 				<BuildingType>BUILDING_WILD_HERBS_GATHERER</BuildingType>
-				<BuildingType>BUILDING_ANCIENT_CUSTOMS</BuildingType>
 			</PrereqOrBuildings>
 			<UnitUpgrades>
 				<UnitType>UNIT_HEALER</UnitType>

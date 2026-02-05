@@ -16452,5 +16452,28 @@
 			<bPickCity>1</bPickCity>
 		</EventTriggerInfo>
 
+		<!-- @SAVEBREAK - Delete -->
+		<EventTriggerInfo>
+			<Type>EVENTTRIGGER_FOREST_NEW_2</Type>
+		</EventTriggerInfo>
+		<EventTriggerInfo>
+			<Type>EVENTTRIGGER_MOTHER_LODE</Type>
+		</EventTriggerInfo>
+		<EventTriggerInfo>
+			<Type>EVENTTRIGGER_WASHED_OUT</Type>
+		</EventTriggerInfo>
+		<EventTriggerInfo>
+			<Type>EVENTTRIGGER_SANDSTORM</Type>
+		</EventTriggerInfo>
+		<EventTriggerInfo>
+			<Type>EVENTTRIGGER_BLIZZARD</Type>
+		</EventTriggerInfo>
+		<EventTriggerInfo>
+			<Type>EVENTTRIGGER_BONUS_TAX</Type>
+		</EventTriggerInfo>
+        <EventTriggerInfo>
+            <Type>EVENTTRIGGER_TORNADO</Type>
+        </EventTriggerInfo>
+		<!-- !SAVEBREAK -->
 	</EventTriggerInfos>
 </Civ4EventTriggerInfos>

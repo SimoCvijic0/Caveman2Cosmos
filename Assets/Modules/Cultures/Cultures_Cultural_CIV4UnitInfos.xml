@@ -6243,7 +6243,7 @@
 			<iCost>67</iCost>
 			<iBaseUpkeep>1</iBaseUpkeep>
 			<iMoves>1</iMoves>
-			<iCombat>6</iCombat>
+			<iCombat>7</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
 			<iXPValueDefense>3</iXPValueDefense>
 			<iPursuit>15</iPursuit>
@@ -6348,7 +6348,7 @@
 			<iCost>67</iCost>
 			<iBaseUpkeep>1</iBaseUpkeep>
 			<iMoves>2</iMoves>
-			<iCombat>6</iCombat>
+			<iCombat>7</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
 			<iXPValueDefense>3</iXPValueDefense>
 			<iPursuit>15</iPursuit>
@@ -6944,7 +6944,7 @@
 			<iCost>55</iCost>
 			<iBaseUpkeep>1</iBaseUpkeep>
 			<iMoves>1</iMoves>
-			<iCombat>4</iCombat>
+			<iCombat>5</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
 			<iXPValueDefense>3</iXPValueDefense>
             <iChanceFirstStrikes>1</iChanceFirstStrikes>
@@ -7053,7 +7053,7 @@
 			<iCost>75</iCost>
 			<iBaseUpkeep>1</iBaseUpkeep>
 			<iMoves>1</iMoves>
-			<iCombat>5</iCombat>
+			<iCombat>6</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
 			<iXPValueDefense>3</iXPValueDefense>
 			<iChanceFirstStrikes>1</iChanceFirstStrikes>
@@ -18872,7 +18872,7 @@
 			<iCost>67</iCost>
 			<iBaseUpkeep>1</iBaseUpkeep>
 			<iMoves>1</iMoves>
-			<iCombat>6</iCombat>
+			<iCombat>7</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
 			<iXPValueDefense>3</iXPValueDefense>
 			<iCityAttack>20</iCityAttack>
@@ -20165,7 +20165,7 @@
 			<iCost>67</iCost>
 			<iBaseUpkeep>1</iBaseUpkeep>
 			<iMoves>1</iMoves>
-			<iCombat>6</iCombat>
+			<iCombat>7</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
 			<iXPValueDefense>3</iXPValueDefense>
 			<iCityAttack>20</iCityAttack>

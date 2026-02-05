@@ -15361,9 +15361,6 @@
 			<iCostMaterialsModifier>0</iCostMaterialsModifier>
 			<iCostComplexityModifier>2</iCostComplexityModifier>
 			<ObsoleteTech>TECH_DIRECT_MERCHANDISING</ObsoleteTech>
-			<CommerceChanges>
-				<iCommerce>10</iCommerce>
-			</CommerceChanges>
 			<YieldChanges>
 				<iYield>0</iYield>
 				<iYield>0</iYield>
