@@ -2488,7 +2488,7 @@ def getGreedUnit(CyPlayer, CyPlot):
 	iBestUnit = -1
 	for iUnit in xrange(GC.getNumUnitInfos()):
 		CvUnitInfo = GC.getUnitInfo(iUnit)
-		if CvUnitInfo.getMaxGlobalInstances() + 1 or CvUnitInfo.getMaxPlayerInstances() + 1:
+		if CvUnitInfo.getMaxGlobalInstances() != -1 or CvUnitInfo.getMaxPlayerInstances() != -1:
 			continue
 		if CvUnitInfo.getDomainType() == DomainTypes.DOMAIN_LAND and CyPlayer.canTrain(iUnit, False, False):
 			if CvUnitInfo.getPrereqAndBonus() == iBonus or iBonus in CvUnitInfo.getPrereqOrBonuses():
@@ -4753,21 +4753,25 @@ def canTriggerSailingFounded(argsList):
 ######## Chariotry founded ############
 
 def canTriggerChariotryFounded(argsList):
-	ePlayer = argsList[1]
-	iCity = argsList[2]
+    iStable = GC.getInfoTypeForString("BUILDING_STABLE")
+    ePlayer = argsList[1]
+    iCity = argsList[2]
 
-	city = GC.getPlayer(ePlayer).getCity(iCity)
+    city = GC.getPlayer(ePlayer).getCity(iCity)
 
-	if city is None:
-		return False
+    if city is None:
+        return False
 
-	if city.plot().getLatitude() <= 0:
-		return False
+    if city.plot().getLatitude() <= 0:
+        return False
 
-	if city.getNumBonuses(GC.getInfoTypeForString("BONUS_HORSE")) < 1:
-		return False
+    if city.getNumBonuses(GC.getInfoTypeForString("BONUS_HORSE")) < 1:
+        return False
 
-	return True
+    if city.hasBuilding(iStable):
+        return False
+
+    return True
 
 ######## MERCENARIES ANCIENT ###########
 
@@ -5034,6 +5038,8 @@ def applyMercenariesMedieval2(argsList):
 		CyUnit.setName("Mercenary Warrior")
 		iCount -= 1
 
+######## CHARIOTRY ###########
+
 ######## EARTHQUAKE ###########
 
 def getHelpEarthquake1(argsList):
@@ -5123,11 +5129,6 @@ def doEarthquakeApocalyptic(data):
     popLossPercent = 25
     _doEarthquakeCore(data, minDestroy , maxDestroy, popLossPercent)
 
-def canDoEarthquake(argsList):
-    CyPlayer = GC.getPlayer(argsList[1].ePlayer)
-    iShelterBuilding = GC.getInfoTypeForString("TECH_SHELTER_BUILDING")
-    return GC.getTeam(CyPlayer.getTeam()).isHasTech(iShelterBuilding)
-
 def _doEarthquakeCore(argsList, minDestroy, maxDestroy, popLossPercent):
     data = argsList[1]
     CyPlayer = GC.getPlayer(data.ePlayer)
@@ -5190,12 +5191,12 @@ def _doEarthquakeCore(argsList, minDestroy, maxDestroy, popLossPercent):
         if popLossPercent > 0:
             currentPop = CyCity.getPopulation()
             if currentPop > 1: # only apply if city has more than 1 pop
-                popLoss = max(1, int(currentPop * popLossPercent / 100))
+                popLoss = int(currentPop * popLossPercent / 100)
 
                 # don’t kill the city—make sure at least 1 pop survives
-                popLoss = min(popLoss, currentPop - 1)
-
-                CyCity.changePopulation(-popLoss)
+                if popLoss >= 1:
+                    popLoss = min(popLoss, currentPop - 1)
+                    CyCity.changePopulation(-popLoss)
 
 
 ####### Assassin Discovered #######
@@ -6055,6 +6056,8 @@ def triggerNewWorldCities(argsList):
 		iBestStrength = 0
 		for iUnit in xrange(iNumUnits):
 			CvUnitInfo = GC.getUnitInfo(iUnit)
+			if CvUnitInfo.getMaxGlobalInstances() != -1 or CvUnitInfo.getMaxPlayerInstances() != -1:
+				continue
 			if CvUnitInfo.getDomainType() != DomainTypes.DOMAIN_LAND or CvUnitInfo.getCombat() <= iBestStrength:
 				continue
 			if CyCity.canTrain(iUnit, False, False, False, False):
@@ -6837,37 +6840,37 @@ def getHelpGlobalWarming(argsList):
 	return TRNSLTR.getText("TXT_KEY_EVENT_GLOBAL_WARMING_1_HELP",())
 
 ######## TORNADO ###########
-def canDoTornado(argsList):
-	EventTriggeredData = argsList[0]
-
-	CyPlot = GC.getMap().plot(EventTriggeredData.iPlotX, EventTriggeredData.iPlotY)
-	if CyPlot.isCity():
-		return 0
-
-	iLatitude = CyPlot.getLatitude()
-	if iLatitude < 50 and 30 < iLatitude:
-		return 1
-
-	iRandom = GAME.getSorenRandNum(101, "Random Plot") # 0 <-> 100
-	if iLatitude < 60 and 20 < iLatitude:
-		if iRandom < 20:
-			return 1
-	elif iRandom < 5:
-		return 1
-	return 0
-
-def doTornado(argsList):
-	EventTriggeredData = argsList[1]
-	x, y = EventTriggeredData.iPlotX, EventTriggeredData.iPlotY
-	CyPlot = GC.getMap().plot(x, y)
-	if 50 > GAME.getSorenRandNum(101, "Random Plot"):
-		CyPlot.setImprovementType(-1)
-
-	if 25 > GAME.getSorenRandNum(101, "Random Plot"):
-		CyPlot.setRouteType(-1)
-
-	for pUnit in CyPlot.units():
-		pUnit.setImmobileTimer(1)
+# def canDoTornado(argsList):
+# 	EventTriggeredData = argsList[0]
+#
+# 	CyPlot = GC.getMap().plot(EventTriggeredData.iPlotX, EventTriggeredData.iPlotY)
+# 	if CyPlot.isCity():
+# 		return 0
+#
+# 	iLatitude = CyPlot.getLatitude()
+# 	if iLatitude < 50 and 30 < iLatitude:
+# 		return 1
+#
+# 	iRandom = GAME.getSorenRandNum(101, "Random Plot") # 0 <-> 100
+# 	if iLatitude < 60 and 20 < iLatitude:
+# 		if iRandom < 20:
+# 			return 1
+# 	elif iRandom < 5:
+# 		return 1
+# 	return 0
+#
+# def doTornado(argsList):
+# 	EventTriggeredData = argsList[1]
+# 	x, y = EventTriggeredData.iPlotX, EventTriggeredData.iPlotY
+# 	CyPlot = GC.getMap().plot(x, y)
+# 	if 50 > GAME.getSorenRandNum(101, "Random Plot"):
+# 		CyPlot.setImprovementType(-1)
+#
+# 	if 25 > GAME.getSorenRandNum(101, "Random Plot"):
+# 		CyPlot.setRouteType(-1)
+#
+# 	for pUnit in CyPlot.units():
+# 		pUnit.setImmobileTimer(1)
 
 ######## Native Good 1 -- lost resources ###########
 def canApplyNativegood1(argsList):

@@ -498,9 +498,16 @@
 		</EventInfo>
 
 		<EventInfo>
+			<Type>EVENT_FOREST_FIRE_END</Type>
+			<FeatureType>FEATURE_FOREST_BURNT</FeatureType>
+			<iFeatureChange>1</iFeatureChange>
+			<iAIValue>1</iAIValue>
+		</EventInfo>
+
+		<EventInfo>
 			<Type>EVENT_FOREST_MASSIVE_WILDFIRE_1</Type>
 			<Description>TXT_KEY_EVENT_FOREST_MASSIVE_WILDFIRE_1</Description>
-			<iGold>-25</iGold>
+			<iGold>-35</iGold>
 			<bGameSpeedScale>1</bGameSpeedScale>
             <FeatureType>FEATURE_FOREST</FeatureType>
             <iFeatureChange>-1</iFeatureChange>
@@ -510,7 +517,7 @@
 					<iEventChance>85</iEventChance>
 				</EventChance>
 				<EventChance>
-					<Event>EVENT_FOREST_FIRE_END</Event>
+					<Event>EVENT_FOREST_BURNED</Event>
 					<iEventChance>10</iEventChance>
 				</EventChance>
 				<EventChance>
@@ -525,7 +532,7 @@
 		<EventInfo>
 			<Type>EVENT_FOREST_MASSIVE_WILDFIRE_2</Type>
 			<Description>TXT_KEY_EVENT_FOREST_MASSIVE_WILDFIRE_2</Description>
-			<iGold>-10</iGold>
+			<iGold>-15</iGold>
 			<bGameSpeedScale>1</bGameSpeedScale>
 			<FeatureType>FEATURE_FOREST</FeatureType>
 			<iFeatureChange>-1</iFeatureChange>
@@ -534,6 +541,8 @@
                     <Event>EVENT_FOREST_FIRE_END</Event>
                     <iEventChance>70</iEventChance>
                 </EventChance>
+            </AdditionalEvents>
+			<AdditionalEvents>
 				<EventChance>
 					<Event>EVENT_WILDFIRE_CATCHES_CITY</Event>
 					<iEventChance>30</iEventChance>
@@ -550,11 +559,9 @@
 			<iHurryAnger>3</iHurryAnger>
 			<FeatureType>FEATURE_FOREST</FeatureType>
 			<iFeatureChange>-1</iFeatureChange>
+			<FeatureType>FEATURE_FOREST_BURNT</FeatureType>
+			<iFeatureChange>1</iFeatureChange>
 			<AdditionalEvents>
-                <EventChance>
-                    <Event>EVENT_FOREST_FIRE_END</Event>
-                    <iEventChance>40</iEventChance>
-                </EventChance>
 				<EventChance>
 					<Event>EVENT_WILDFIRE_CATCHES_CITY</Event>
 					<iEventChance>60</iEventChance>
@@ -565,33 +572,29 @@
 		</EventInfo>
 
 		<EventInfo>
+			<Type>EVENT_FOREST_WILDFIRE_SAVED</Type>
+			<Description>TXT_KEY_EVENT_WILDFIRE_2</Description>
+            <FeatureType>FEATURE_FOREST</FeatureType>
+            <iFeatureChange>1</iFeatureChange>
+		</EventInfo>
+
+		<EventInfo>
+			<Type>EVENT_FOREST_BURNED</Type>
+			<Description>TXT_KEY_EVENT_WILDFIRE_3</Description>
+			<FeatureType>FEATURE_FOREST_BURNT</FeatureType>
+			<iFeatureChange>1</iFeatureChange>
+		</EventInfo>
+
+		<EventInfo>
 			<Type>EVENT_WILDFIRE_CATCHES_CITY</Type>
 			<Description>TXT_KEY_EVENT_WILDFIRE_1</Description>
-            <AdditionalEvents>
-                <EventChance>
-                    <Event>EVENT_FOREST_FIRE_END</Event>
-                    <iEventChance>100</iEventChance>
-                </EventChance>
-            </AdditionalEvents>
 			<bPickCity>1</bPickCity>
 			<PythonCallback>doWildFire</PythonCallback>
+            <FeatureType>FEATURE_FOREST_BURNT</FeatureType>
+            <iFeatureChange>1</iFeatureChange>
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
 			<PythonHelp>getHelpWildFire</PythonHelp>
 		</EventInfo>
-
-        <EventInfo>
-            <Type>EVENT_FOREST_FIRE_END</Type>
-            <FeatureType>FEATURE_FOREST_BURNT</FeatureType>
-            <iFeatureChange>1</iFeatureChange>
-            <iAIValue>1</iAIValue>
-        </EventInfo>
-
-        <EventInfo>
-            <Type>EVENT_FOREST_WILDFIRE_SAVED</Type>
-            <Description>TXT_KEY_EVENT_WILDFIRE_2</Description>
-            <FeatureType>FEATURE_FOREST</FeatureType>
-            <iFeatureChange>1</iFeatureChange>
-        </EventInfo>
 
 		<EventInfo>
 			<Type>EVENT_FOREST_NEW_1</Type>
@@ -2889,13 +2892,13 @@
 			<Type>EVENT_MONEY_CHANGERS_1</Type>
 			<Description>TXT_KEY_EVENT_MONEY_CHANGERS_1</Description>
 			<bPickCity>1</bPickCity>
-			<BuildingExtraCommerces>
-				<BuildingExtraCommerce>
-					<Building>BUILDING_MARKET</Building>
-					<CommerceType>COMMERCE_GOLD</CommerceType>
-					<iExtraCommerce>2</iExtraCommerce>
-				</BuildingExtraCommerce>
-			</BuildingExtraCommerces>
+            <BuildingExtraYields>
+                <BuildingExtraYield>
+                    <Building>BUILDING_MARKET</Building>
+                    <YieldType>YIELD_COMMERCE</YieldType>
+                    <iExtraYield>2</iExtraYield>
+                </BuildingExtraYield>
+            </BuildingExtraYields>
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
 			<iAIValue>1</iAIValue>
 		</EventInfo>
@@ -4334,28 +4337,28 @@
 			<Type>EVENT_HARBORMASTER_DONE_2</Type>
 			<Description>TXT_KEY_EVENT_HARBORMASTER_DONE_2</Description>
 			<bGlobal>1</bGlobal>
-			<BuildingExtraCommerces>
-				<BuildingExtraCommerce>
-					<Building>BUILDING_HARBOR</Building>
-					<CommerceType>COMMERCE_GOLD</CommerceType>
-					<iExtraCommerce>2</iExtraCommerce>
-				</BuildingExtraCommerce>
-				<BuildingExtraCommerce>
-					<Building>BUILDING_PORT</Building>
-					<CommerceType>COMMERCE_GOLD</CommerceType>
-					<iExtraCommerce>2</iExtraCommerce>
-				</BuildingExtraCommerce>
-				<BuildingExtraCommerce>
-					<Building>BUILDING_COMMERCIAL_PORT</Building>
-					<CommerceType>COMMERCE_GOLD</CommerceType>
-					<iExtraCommerce>2</iExtraCommerce>
-				</BuildingExtraCommerce>
-				<BuildingExtraCommerce>
-					<Building>BUILDING_INTERNATIONAL_PORT</Building>
-					<CommerceType>COMMERCE_GOLD</CommerceType>
-					<iExtraCommerce>2</iExtraCommerce>
-				</BuildingExtraCommerce>
-			</BuildingExtraCommerces>
+            <BuildingExtraYields>
+                <BuildingExtraYield>
+                    <Building>BUILDING_HARBOR</Building>
+                    <YieldType>YIELD_COMMERCE</YieldType>
+                    <iExtraYield>2</iExtraYield>
+                </BuildingExtraYield>
+                <BuildingExtraYield>
+                    <Building>BUILDING_PORT</Building>
+                    <YieldType>YIELD_COMMERCE</YieldType>
+                    <iExtraYield>2</iExtraYield>
+                </BuildingExtraYield>
+                <BuildingExtraYield>
+                    <Building>BUILDING_COMMERCIAL_PORT</Building>
+                    <YieldType>YIELD_COMMERCE</YieldType>
+                    <iExtraYield>2</iExtraYield>
+                </BuildingExtraYield>
+                <BuildingExtraYield>
+                    <Building>BUILDING_INTERNATIONAL_PORT</Building>
+                    <YieldType>YIELD_COMMERCE</YieldType>
+                    <iExtraYield>2</iExtraYield>
+                </BuildingExtraYield>
+            </BuildingExtraYields>
 			<ClearEvents>
 				<EventChance>
 					<Event>EVENT_HARBORMASTER_1</Event>
@@ -4729,18 +4732,18 @@
 			<Type>EVENT_MIRACLE_1</Type>
 			<Description>TXT_KEY_EVENT_MIRACLE_1</Description>
 			<bPickCity>1</bPickCity>
-			<BuildingExtraCommerces>
-				<BuildingExtraCommerce>
-					<Building>BUILDING_WALLS</Building>
-					<CommerceType>COMMERCE_GOLD</CommerceType>
-					<iExtraCommerce>2</iExtraCommerce>
-				</BuildingExtraCommerce>
-				<BuildingExtraCommerce>
-					<Building>BUILDING_HIGH_WALLS</Building>
-					<CommerceType>COMMERCE_GOLD</CommerceType>
-					<iExtraCommerce>2</iExtraCommerce>
-				</BuildingExtraCommerce>
-			</BuildingExtraCommerces>
+            <BuildingExtraYields>
+                <BuildingExtraYield>
+                    <Building>BUILDING_WALLS</Building>
+                    <YieldType>YIELD_COMMERCE</YieldType>
+                    <iExtraYield>2</iExtraYield>
+                </BuildingExtraYield>
+                <BuildingExtraYield>
+                    <Building>BUILDING_HIGH_WALLS</Building>
+                    <YieldType>YIELD_COMMERCE</YieldType>
+                    <iExtraYield>2</iExtraYield>
+                </BuildingExtraYield>
+            </BuildingExtraYields>
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
 			<iAIValue>1</iAIValue>
 		</EventInfo>
@@ -4760,13 +4763,13 @@
 			<Type>EVENT_ESTEEMED_PLAYWRIGHT_1</Type>
 			<Description>TXT_KEY_EVENT_ESTEEMED_PLAYWRIGHT_1</Description>
 			<bPickCity>1</bPickCity>
-			<BuildingExtraCommerces>
-				<BuildingExtraCommerce>
-					<Building>BUILDING_THEATRE</Building>
-					<CommerceType>COMMERCE_GOLD</CommerceType>
-					<iExtraCommerce>4</iExtraCommerce>
-				</BuildingExtraCommerce>
-			</BuildingExtraCommerces>
+            <BuildingExtraYields>
+                <BuildingExtraYield>
+                    <Building>BUILDING_THEATRE</Building>
+                    <YieldType>YIELD_COMMERCE</YieldType>
+                    <iExtraYield>4</iExtraYield>
+                </BuildingExtraYield>
+            </BuildingExtraYields>
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
 			<iAIValue>1</iAIValue>
 		</EventInfo>
@@ -4950,23 +4953,23 @@
 			<Type>EVENT_CHILLY_FLIGHT_1</Type>
 			<Description>TXT_KEY_EVENT_CHILLY_FLIGHT_1</Description>
 			<bPickCity>1</bPickCity>
-			<BuildingExtraCommerces>
-				<BuildingExtraCommerce>
-					<Building>BUILDING_AIRFIELD</Building>
-					<CommerceType>COMMERCE_GOLD</CommerceType>
-					<iExtraCommerce>3</iExtraCommerce>
-				</BuildingExtraCommerce>
-				<BuildingExtraCommerce>
-					<Building>BUILDING_AIRPORT</Building>
-					<CommerceType>COMMERCE_GOLD</CommerceType>
-					<iExtraCommerce>3</iExtraCommerce>
-				</BuildingExtraCommerce>
-				<BuildingExtraCommerce>
-					<Building>BUILDING_COMMERCIAL_AIRPORT</Building>
-					<CommerceType>COMMERCE_GOLD</CommerceType>
-					<iExtraCommerce>3</iExtraCommerce>
-				</BuildingExtraCommerce>
-			</BuildingExtraCommerces>
+            <BuildingExtraYields>
+                <BuildingExtraYield>
+                    <Building>BUILDING_AIRFIELD</Building>
+                    <YieldType>YIELD_COMMERCE</YieldType>
+                    <iExtraYield>3</iExtraYield>
+                </BuildingExtraYield>
+                <BuildingExtraYield>
+                    <Building>BUILDING_AIRPORT</Building>
+                    <YieldType>YIELD_COMMERCE</YieldType>
+                    <iExtraYield>3</iExtraYield>
+                </BuildingExtraYield>
+                <BuildingExtraYield>
+                    <Building>BUILDING_COMMERCIAL_AIRPORT</Building>
+                    <YieldType>YIELD_COMMERCE</YieldType>
+                    <iExtraYield>3</iExtraYield>
+                </BuildingExtraYield>
+            </BuildingExtraYields>
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
 			<iAIValue>1</iAIValue>
 		</EventInfo>
@@ -6883,13 +6886,13 @@
 		<EventInfo>
 			<Type>EVENT_ALTERNATIVE_ENERGY_DONE_2</Type>
 			<Description>TXT_KEY_EVENT_ALTERNATIVE_ENERGY_DONE_2</Description>
-			<BuildingExtraCommerces>
-				<BuildingExtraCommerce>
-					<Building>BUILDING_HYDRO_PLANT</Building>
-					<CommerceType>COMMERCE_GOLD</CommerceType>
-					<iExtraCommerce>12</iExtraCommerce>
-				</BuildingExtraCommerce>
-			</BuildingExtraCommerces>
+            <BuildingExtraYields>
+                <BuildingExtraYield>
+                    <Building>BUILDING_HYDRO_PLANT</Building>
+                    <YieldType>YIELD_COMMERCE</YieldType>
+                    <iExtraYield>12</iExtraYield>
+                </BuildingExtraYield>
+            </BuildingExtraYields>
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
 			<iAIValue>1</iAIValue>
 		</EventInfo>
@@ -6897,13 +6900,13 @@
 		<EventInfo>
 			<Type>EVENT_ALTERNATIVE_ENERGY_DONE_3</Type>
 			<Description>TXT_KEY_EVENT_ALTERNATIVE_ENERGY_DONE_3</Description>
-			<BuildingExtraCommerces>
-				<BuildingExtraCommerce>
-					<Building>BUILDING_NUCLEAR_PLANT</Building>
-					<CommerceType>COMMERCE_GOLD</CommerceType>
-					<iExtraCommerce>12</iExtraCommerce>
-				</BuildingExtraCommerce>
-			</BuildingExtraCommerces>
+            <BuildingExtraYields>
+                <BuildingExtraYield>
+                    <Building>BUILDING_NUCLEAR_PLANT</Building>
+                    <YieldType>YIELD_COMMERCE</YieldType>
+                    <iExtraYield>12</iExtraYield>
+                </BuildingExtraYield>
+            </BuildingExtraYields>
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
 			<iAIValue>1</iAIValue>
 		</EventInfo>
@@ -7557,13 +7560,8 @@
 			<bPickCity>1</bPickCity>
 			<iGold>-400</iGold>
 			<bGameSpeedScale>1</bGameSpeedScale>
-			<BuildingExtraCommerces>
-				<BuildingExtraCommerce>
-					<Building>BUILDING_STABLE</Building>
-					<CommerceType>COMMERCE_GOLD</CommerceType>
-					<iExtraCommerce>3</iExtraCommerce>
-				</BuildingExtraCommerce>
-			</BuildingExtraCommerces>
+            <Building>BUILDING_STABLE</Building>
+            <iBuildingChange>1</iBuildingChange>
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
 			<iAIValue>1</iAIValue>
 		</EventInfo>
@@ -7730,13 +7728,13 @@
 			<Type>EVENT_TANNERY_GLUE_1</Type>
 			<Description>TXT_KEY_EVENT_TANNERY_GLUE_1</Description>
 			<bPickCity>1</bPickCity>
-			<BuildingExtraCommerces>
-				<BuildingExtraCommerce>
-					<Building>BUILDING_TANNERY</Building>
-					<CommerceType>COMMERCE_GOLD</CommerceType>
-					<iExtraCommerce>2</iExtraCommerce>
-				</BuildingExtraCommerce>
-			</BuildingExtraCommerces>
+            <BuildingExtraYields>
+                <BuildingExtraYield>
+                    <Building>BUILDING_TANNERY</Building>
+                    <YieldType>YIELD_COMMERCE</YieldType>
+                    <iExtraYield>2</iExtraYield>
+                </BuildingExtraYield>
+            </BuildingExtraYields>
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
 			<iAIValue>1</iAIValue>
 		</EventInfo>
@@ -7747,13 +7745,13 @@
 			<bPickCity>1</bPickCity>
 			<iGold>-250</iGold>
 			<bGameSpeedScale>1</bGameSpeedScale>
-			<BuildingExtraCommerces>
-				<BuildingExtraCommerce>
-					<Building>BUILDING_TANNERY</Building>
-					<CommerceType>COMMERCE_GOLD</CommerceType>
-					<iExtraCommerce>3</iExtraCommerce>
-				</BuildingExtraCommerce>
-			</BuildingExtraCommerces>
+            <BuildingExtraYields>
+                <BuildingExtraYield>
+                    <Building>BUILDING_TANNERY</Building>
+                    <YieldType>YIELD_COMMERCE</YieldType>
+                    <iExtraYield>3</iExtraYield>
+                </BuildingExtraYield>
+            </BuildingExtraYields>
 			<BuildingExtraYields>
 				<BuildingExtraYield>
 					<Building>BUILDING_RIVER_PORT</Building>
@@ -7953,13 +7951,13 @@
 			<Description>TXT_KEY_EVENT_TREASURY_PLUNDERED_1</Description>
 			<bPickCity>1</bPickCity>
 			<iGold>-1000</iGold>
-			<BuildingExtraCommerces>
-				<BuildingExtraCommerce>
-					<Building>BUILDING_TREASURY</Building>
-					<CommerceType>COMMERCE_GOLD</CommerceType>
-					<iExtraCommerce>2</iExtraCommerce>
-				</BuildingExtraCommerce>
-			</BuildingExtraCommerces>
+            <BuildingExtraYields>
+                <BuildingExtraYield>
+                    <Building>BUILDING_TREASURY</Building>
+                    <YieldType>YIELD_COMMERCE</YieldType>
+                    <iExtraYield>2</iExtraYield>
+                </BuildingExtraYield>
+            </BuildingExtraYields>
 			<iHappy>-5</iHappy>
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
 			<iAIValue>1</iAIValue>
@@ -8493,13 +8491,13 @@
 			<Type>EVENT_GREAT_MONUMENTS_1</Type>
 			<Description>TXT_KEY_EVENT_GREAT_MONUMENTS_1</Description>
 			<bPickCity>1</bPickCity>
-			<BuildingExtraCommerces>
-				<BuildingExtraCommerce>
-					<Building>BUILDING_MONUMENT</Building>
-					<CommerceType>COMMERCE_GOLD</CommerceType>
-					<iExtraCommerce>2</iExtraCommerce>
-				</BuildingExtraCommerce>
-			</BuildingExtraCommerces>
+            <BuildingExtraYields>
+                <BuildingExtraYield>
+                    <Building>BUILDING_MONUMENT</Building>
+                    <YieldType>YIELD_COMMERCE</YieldType>
+                    <iExtraYield>2</iExtraYield>
+                </BuildingExtraYield>
+            </BuildingExtraYields>
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
 			<iAIValue>1</iAIValue>
 		</EventInfo>
@@ -8510,13 +8508,13 @@
 			<bPickCity>1</bPickCity>
 			<iGold>-3000</iGold>
 			<bGameSpeedScale>1</bGameSpeedScale>
-			<BuildingExtraCommerces>
-				<BuildingExtraCommerce>
-					<Building>BUILDING_MONUMENT</Building>
-					<CommerceType>COMMERCE_GOLD</CommerceType>
-					<iExtraCommerce>6</iExtraCommerce>
-				</BuildingExtraCommerce>
-			</BuildingExtraCommerces>
+            <BuildingExtraYields>
+                <BuildingExtraYield>
+                    <Building>BUILDING_MONUMENT</Building>
+                    <YieldType>YIELD_COMMERCE</YieldType>
+                    <iExtraYield>6</iExtraYield>
+                </BuildingExtraYield>
+            </BuildingExtraYields>
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
 			<iAIValue>1</iAIValue>
 		</EventInfo>
@@ -8973,23 +8971,23 @@
 			<Type>EVENT_GOOD_HARBOR_1</Type>
 			<Description>TXT_KEY_EVENT_GOOD_HARBOR_1</Description>
 			<bPickCity>1</bPickCity>
-			<BuildingExtraCommerces>
-				<BuildingExtraCommerce>
-					<Building>BUILDING_PORT</Building>
-					<CommerceType>COMMERCE_GOLD</CommerceType>
-					<iExtraCommerce>2</iExtraCommerce>
-				</BuildingExtraCommerce>
-				<BuildingExtraCommerce>
-					<Building>BUILDING_HARBOR</Building>
-					<CommerceType>COMMERCE_GOLD</CommerceType>
-					<iExtraCommerce>3</iExtraCommerce>
-				</BuildingExtraCommerce>
-				<BuildingExtraCommerce>
-					<Building>BUILDING_COMMERCIAL_PORT</Building>
-					<CommerceType>COMMERCE_GOLD</CommerceType>
-					<iExtraCommerce>4</iExtraCommerce>
-				</BuildingExtraCommerce>
-			</BuildingExtraCommerces>
+            <BuildingExtraYields>
+                <BuildingExtraYield>
+                    <Building>BUILDING_PORT</Building>
+                    <YieldType>YIELD_COMMERCE</YieldType>
+                    <iExtraYield>2</iExtraYield>
+                </BuildingExtraYield>
+                <BuildingExtraYield>
+                    <Building>BUILDING_HARBOR</Building>
+                    <YieldType>YIELD_COMMERCE</YieldType>
+                    <iExtraYield>3</iExtraYield>
+                </BuildingExtraYield>
+                <BuildingExtraYield>
+                    <Building>BUILDING_COMMERCIAL_PORT</Building>
+                    <YieldType>YIELD_COMMERCE</YieldType>
+                    <iExtraYield>4</iExtraYield>
+                </BuildingExtraYield>
+            </BuildingExtraYields>
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
 			<iAIValue>1</iAIValue>
 		</EventInfo>
@@ -8999,23 +8997,23 @@
 			<Description>TXT_KEY_EVENT_GOOD_HARBOR_2</Description>
 			<bPickCity>1</bPickCity>
 			<iGold>-5000</iGold>
-			<BuildingExtraCommerces>
-				<BuildingExtraCommerce>
-					<Building>BUILDING_PORT</Building>
-					<CommerceType>COMMERCE_GOLD</CommerceType>
-					<iExtraCommerce>3</iExtraCommerce>
-				</BuildingExtraCommerce>
-				<BuildingExtraCommerce>
-					<Building>BUILDING_HARBOR</Building>
-					<CommerceType>COMMERCE_GOLD</CommerceType>
-					<iExtraCommerce>4</iExtraCommerce>
-				</BuildingExtraCommerce>
-				<BuildingExtraCommerce>
-					<Building>BUILDING_COMMERCIAL_PORT</Building>
-					<CommerceType>COMMERCE_GOLD</CommerceType>
-					<iExtraCommerce>5</iExtraCommerce>
-				</BuildingExtraCommerce>
-			</BuildingExtraCommerces>
+            <BuildingExtraYields>
+                <BuildingExtraYield>
+                    <Building>BUILDING_PORT</Building>
+                    <YieldType>YIELD_COMMERCE</YieldType>
+                    <iExtraYield>3</iExtraYield>
+                </BuildingExtraYield>
+                <BuildingExtraYield>
+                    <Building>BUILDING_HARBOR</Building>
+                    <YieldType>YIELD_COMMERCE</YieldType>
+                    <iExtraYield>4</iExtraYield>
+                </BuildingExtraYield>
+                <BuildingExtraYield>
+                    <Building>BUILDING_COMMERCIAL_PORT</Building>
+                    <YieldType>YIELD_COMMERCE</YieldType>
+                    <iExtraYield>5</iExtraYield>
+                </BuildingExtraYield>
+            </BuildingExtraYields>
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
 			<iAIValue>2</iAIValue>
 		</EventInfo>
