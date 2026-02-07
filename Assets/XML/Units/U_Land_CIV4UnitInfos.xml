@@ -15111,6 +15111,7 @@
 			<bNoDefensiveBonus>1</bNoDefensiveBonus>
 			<UnitUpgrades>
 				<UnitType>UNIT_WAR_ELEPHANT</UnitType>
+<!--				<UnitType>UNIT_NEANDERTHAL_ELEPHANT_RIDER</UnitType>-->
 			</UnitUpgrades>
 			<UnitAIs>
 				<UnitAI>
