@@ -1626,6 +1626,10 @@
 		<Spanish>Todas las casillas de agua de ciudades</Spanish>
 		<Russian>Водные клетки всех городов</Russian>
 	</TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_BUILDINGHELP_IMPROVEMENT_ALL_CITIES</Tag>
+        <English> (all cities)</English>
+    </TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDINGHELP_WITH_POWER</Tag>
 		<English>[SPACE]with Power ([ICON_POWER])</English>

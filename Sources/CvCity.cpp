@@ -706,6 +706,7 @@ void CvCity::reset(int iID, PlayerTypes eOwner, int iX, int iY, bool bConstructo
 	m_bonusDefenseChanges.clear();
 	m_terrainYieldChanges.clear();
 	m_plotYieldChanges.clear();
+	m_improvementYieldChanges.clear();
 	m_Properties.clear();
 	m_aPropertySpawns.clear();
 	m_buildingHappinessFromTech.clear();
@@ -4959,6 +4960,16 @@ void CvCity::processBuilding(const BuildingTypes eBuilding, const int iChange, c
 		}
 		changePlotYieldChanges(pair.first, yields);
 	}
+	foreach_(const ImprovementArray& pair, kBuilding.getImprovementYieldChanges())
+    {
+        YieldArray yields;
+
+        for (int iI = 0; iI < NUM_YIELD_TYPES; iI++)
+        {
+            yields[iI] = iChange * pair.second[iI];
+        }
+        changeImprovementYieldChanges(pair.first, yields);
+    }
 
 	foreach_(const UnitCombatModifier2& modifier, kBuilding.getUnitCombatFreeExperience())
 	{
@@ -10744,6 +10755,68 @@ int CvCity::getPlotYieldChange(const PlotTypes ePlot, const YieldTypes eYield) c
 }
 
 
+void CvCity::changeImprovementYieldChanges(const ImprovementTypes eImprovement, const YieldArray& yields)
+{
+	PROFILE_EXTRA_FUNC();
+	FASSERT_BOUNDS(0, GC.getNumImprovementInfos(), eImprovement);
+	{
+		bool bNoChange = true;
+		for (int iI = 0; iI < NUM_YIELD_TYPES; iI++)
+		{
+			if (yields[iI] != 0)
+			{
+				bNoChange = false;
+				break;
+			}
+		}
+		if (bNoChange)
+		{
+			FErrorMsg("Redundant function call");
+			return;
+		}
+	}
+	std::map<short, YieldArray>::const_iterator itr = m_improvementYieldChanges.find((short)eImprovement);
+
+	if (itr == m_improvementYieldChanges.end())
+	{
+		for (int iI = 0; iI < NUM_YIELD_TYPES; iI++)
+		{
+			if (yields[iI] != 0)
+			{
+				m_improvementYieldChanges.insert(std::make_pair((short)eImprovement, yields));
+				break;
+			}
+		}
+	}
+	else
+	{
+		bool bEmpty = true;
+
+		for (int iI = 0; iI < NUM_YIELD_TYPES; iI++)
+		{
+			m_improvementYieldChanges[itr->first][iI] += yields[iI];
+
+			if (bEmpty && m_improvementYieldChanges[itr->first][iI] != 0)
+			{
+				bEmpty = false;
+			}
+		}
+		if (bEmpty)
+		{
+			m_improvementYieldChanges.erase(itr->first);
+		}
+	}
+	updateYield();
+}
+
+int CvCity::getImprovementYieldChange(const ImprovementTypes eImprovement, const YieldTypes eYield) const
+{
+	FASSERT_BOUNDS(0, GC.getNumImprovementInfos(), eImprovement);
+	std::map<short, YieldArray>::const_iterator itr = m_improvementYieldChanges.find((short)eImprovement);
+	return itr != m_improvementYieldChanges.end() ? itr->second[eYield] : 0;
+}
+
+
 int CvCity::getYieldChangeAt(const CvPlot* pPlot, const YieldTypes eYield) const
 {
 	int iYield = (
@@ -10755,6 +10828,11 @@ int CvCity::getYieldChangeAt(const CvPlot* pPlot, const YieldTypes eYield) const
 	{
 		iYield += getRiverPlotYield(eYield);
 	}
+	const ImprovementTypes eImprovement = pPlot->getImprovementType();
+    if (eImprovement != NO_IMPROVEMENT)
+    {
+        iYield += getImprovementYieldChange(eImprovement, eYield);
+    }
 	return iYield;
 }
 
@@ -17512,6 +17590,19 @@ void CvCity::read(FDataStreamBase* pStream)
 				m_terrainYieldChanges.insert(std::make_pair(iType, yields));
 			}
 		}
+
+		WRAPPER_READ_DECORATED(wrapper, "CvCity", &iSize, "ImprovementYieldChangesSize");
+        while (iSize-- > 0)
+        {
+            WRAPPER_READ_DECORATED(wrapper, "CvCity", &iType, "ImprovementYieldChangesType");
+            WRAPPER_READ_ARRAY_DECORATED(wrapper, "CvCity", NUM_YIELD_TYPES, yields.elems, "ImprovementYieldChanges");
+            iType = static_cast<short>(wrapper.getNewClassEnumValue(REMAPPED_CLASS_TYPE_IMPROVEMENTS, iType, true));
+
+            if (iType > -1)
+            {
+                m_improvementYieldChanges.insert(std::make_pair(iType, yields));
+            }
+        }
 	}
 	WRAPPER_READ_OBJECT_END(wrapper);
 	//Example of how to skip an unneeded element
@@ -17986,6 +18077,14 @@ void CvCity::write(FDataStreamBase* pStream)
 			WRAPPER_WRITE_DECORATED(wrapper, "CvCity", it->first, "TerrainYieldChangesType");
 			WRAPPER_WRITE_ARRAY_DECORATED(wrapper, "CvCity", NUM_YIELD_TYPES, it->second.elems, "TerrainYieldChanges");
 		}
+
+		// Improvements
+        WRAPPER_WRITE_DECORATED(wrapper, "CvCity", (short)m_improvementYieldChanges.size(), "ImprovementYieldChangesSize");
+        for (std::map<short, YieldArray>::const_iterator it = m_improvementYieldChanges.begin(), itEnd = m_improvementYieldChanges.end(); it != itEnd; ++it)
+        {
+            WRAPPER_WRITE_DECORATED(wrapper, "CvCity", it->first, "ImprovementYieldChangesType");
+            WRAPPER_WRITE_ARRAY_DECORATED(wrapper, "CvCity", NUM_YIELD_TYPES, it->second.elems, "ImprovementYieldChanges");
+        }
 	}
 	WRAPPER_WRITE_OBJECT_END(wrapper);
 }
@@ -22142,6 +22241,7 @@ void CvCity::clearModifierTotals()
 
 	m_terrainYieldChanges.clear();
 	m_plotYieldChanges.clear();
+	m_improvementYieldChanges.clear();
 
 	//m_Properties.clear();
 	m_aPropertySpawns.clear();

@@ -17,6 +17,7 @@
 #include "CvBonusInfo.h"
 #include "CvGameAI.h"
 #include "CvGlobals.h"
+#include "CvImprovementInfo.h"
 #include "CvInfoUtil.h"
 #include "CvXMLLoadUtility.h"
 #include "CheckSum.h"
@@ -871,6 +872,40 @@ const python::list CvBuildingInfo::cyGetPlotYieldChanges() const
 	return pyList;
 }
 
+const python::list CvBuildingInfo::cyGetImprovementYieldChanges() const
+{
+	PROFILE_EXTRA_FUNC();
+	python::list pyList = python::list();
+
+	foreach_(const ImprovementArray& pChange, m_aImprovementYieldChanges)
+	{
+		for (int i = 0; i < NUM_YIELD_TYPES; i++)
+		{
+			const int iValue = pChange.second[i];
+			if (iValue != 0)
+				pyList.append(GenericTrippleInt((int)pChange.first, i, iValue));
+		}
+	}
+	return pyList;
+}
+
+const python::list CvBuildingInfo::cyGetGlobalImprovementYieldChanges() const
+{
+	PROFILE_EXTRA_FUNC();
+	python::list pyList = python::list();
+
+	foreach_(const ImprovementArray& pChange, m_aGlobalImprovementYieldChanges)
+	{
+		for (int i = 0; i < NUM_YIELD_TYPES; i++)
+		{
+			const int iValue = pChange.second[i];
+			if (iValue != 0)
+				pyList.append(GenericTrippleInt((int)pChange.first, i, iValue));
+		}
+	}
+	return pyList;
+}
+
 const python::list CvBuildingInfo::cyGetFreePromoTypes() const
 {
 	PROFILE_EXTRA_FUNC();
@@ -1421,10 +1456,56 @@ namespace CvBuildingInternal
 	}
 }
 
+namespace
+{
+	// Transitive set of an improvement plus everything it upgrades into (ImprovementUpgrade +
+	// AlternativeImprovementUpgradeTypes), guarded against cycles. Walks downstream only.
+	void collectImprovementUpgradeClosure(ImprovementTypes eImprovement, std::vector<ImprovementTypes>& aChain)
+	{
+		if (eImprovement == NO_IMPROVEMENT
+		|| std::find(aChain.begin(), aChain.end(), eImprovement) != aChain.end())
+		{
+			return;
+		}
+		aChain.push_back(eImprovement);
+
+		const CvImprovementInfo& kInfo = GC.getImprovementInfo(eImprovement);
+		collectImprovementUpgradeClosure(kInfo.getImprovementUpgrade(), aChain);
+		for (int i = 0; i < kInfo.getNumAlternativeImprovementUpgradeTypes(); ++i)
+		{
+			collectImprovementUpgradeClosure((ImprovementTypes)kInfo.getAlternativeImprovementUpgradeType(i), aChain);
+		}
+	}
+
+	// A building bonus listed for a base improvement should follow that tile as it upgrades.
+	// Fold each base entry's yields onto every downstream improvement in its upgrade chain, so
+	// the city/player accumulation, AI valuation and help text all see the full set unchanged.
+	void expandImprovementYieldsAlongUpgradeChain(IDValueMap<ImprovementTypes, YieldArray>& kMap)
+	{
+		const std::vector<std::pair<ImprovementTypes, YieldArray> > aBase(kMap.begin(), kMap.end());
+		for (std::vector<std::pair<ImprovementTypes, YieldArray> >::const_iterator it = aBase.begin(), itEnd = aBase.end(); it != itEnd; ++it)
+		{
+			std::vector<ImprovementTypes> aChain;
+			collectImprovementUpgradeClosure(it->first, aChain);
+			for (std::vector<ImprovementTypes>::const_iterator itc = aChain.begin(), itcEnd = aChain.end(); itc != itcEnd; ++itc)
+			{
+				if (*itc != it->first)
+				{
+					kMap.addArrayValue(*itc, it->second);
+				}
+			}
+		}
+	}
+}
 
 void CvBuildingInfo::doPostLoadCaching(uint32_t iThis)
 {
 	PROFILE_EXTRA_FUNC();
+
+	// Make improvement-yield bonuses follow their target tile through its upgrade chain.
+    expandImprovementYieldsAlongUpgradeChain(m_aImprovementYieldChanges);
+    expandImprovementYieldsAlongUpgradeChain(m_aGlobalImprovementYieldChanges);
+
 	int iCount = getNumReplacementBuilding();
 	if (iCount > 0)
 	{
@@ -1896,6 +1977,8 @@ void CvBuildingInfo::getCheckSum(uint32_t& iSum) const
 	CheckSumC(iSum, m_techCommerceModifiers);
 	CheckSumC(iSum, m_aTerrainYieldChanges);
 	CheckSumC(iSum, m_aPlotYieldChanges);
+	CheckSumC(iSum, m_aImprovementYieldChanges);
+    CheckSumC(iSum, m_aGlobalImprovementYieldChanges);
 }
 
 void CvBuildingInfo::getDataMembers(CvInfoUtil& util)
@@ -3112,6 +3195,8 @@ bool CvBuildingInfo::read(CvXMLLoadUtility* pXML)
 	m_techCommerceModifiers.readPairedArrays(pXML, L"TechCommerceModifiers", L"PrereqTech", L"TechCommerce");
 	m_aTerrainYieldChanges.readPairedArrays(pXML, L"TerrainYieldChanges", L"TerrainType", L"YieldChanges");
 	m_aPlotYieldChanges.readPairedArrays(pXML, L"PlotYieldChanges", L"PlotType", L"Yields");
+	m_aImprovementYieldChanges.readPairedArrays(pXML, L"ImprovementYieldChanges", L"ImprovementType", L"YieldChanges");
+    m_aGlobalImprovementYieldChanges.readPairedArrays(pXML, L"GlobalImprovementYieldChanges", L"ImprovementType", L"YieldChanges");
 
 	return true;
 }
@@ -4106,6 +4191,8 @@ void CvBuildingInfo::copyNonDefaults(CvBuildingInfo* pClassInfo)
 	m_techCommerceModifiers.copyNonDefaults(pClassInfo->getTechCommerceModifiers());
 	m_aTerrainYieldChanges.copyNonDefaults(pClassInfo->getTerrainYieldChanges());
 	m_aPlotYieldChanges.copyNonDefaults(pClassInfo->getPlotYieldChanges());
+	m_aImprovementYieldChanges.copyNonDefaults(pClassInfo->getImprovementYieldChanges());
+    m_aGlobalImprovementYieldChanges.copyNonDefaults(pClassInfo->getGlobalImprovementYieldChanges());
 }
 
 bool CvBuildingInfo::isNewCityFree(const CvGameObject* pObject) const

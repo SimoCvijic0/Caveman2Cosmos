@@ -3222,6 +3222,17 @@
 			<Type>BUILDING_AGROFOREST</Type>
 			<Description>TXT_KEY_BUILDING_AGROFOREST</Description>
 			<Civilopedia>TXT_KEY_BUILDING_AGROFOREST_PEDIA</Civilopedia>
+			<!-- Yield-parity (wood line): replaces Lumber Mill + Lumber Camp; carries their Lumbermill bonus forward and gives more. -->
+			<ImprovementYieldChanges>
+				<ImprovementYieldChange>
+					<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
+					<YieldChanges>
+						<iYield>0</iYield>
+						<iYield>3</iYield>
+						<iYield>0</iYield>
+					</YieldChanges>
+				</ImprovementYieldChange>
+			</ImprovementYieldChanges>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_AGROFOREST</ArtDefineTag>
 			<fVisibilityPriority>1</fVisibilityPriority>
@@ -12845,6 +12856,17 @@
 			<Type>BUILDING_BAKERY</Type>
 			<Description>TXT_KEY_BUILDING_BAKERY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_BAKERY_PEDIA</Civilopedia>
+			<!-- Yield-parity (farm line): Bakery makes Farms worth +1 food in this city. -->
+			<ImprovementYieldChanges>
+				<ImprovementYieldChange>
+					<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
+					<YieldChanges>
+						<iYield>1</iYield>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+					</YieldChanges>
+				</ImprovementYieldChange>
+			</ImprovementYieldChanges>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_BAKERY</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_GRANARY</ConstructSound>
@@ -24217,6 +24239,17 @@
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_CARPENTER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_CARPENTER_PEDIA</Civilopedia>
+			<!-- Yield-parity: Carpenter makes Lumbermills worth +1 production in this city. -->
+			<ImprovementYieldChanges>
+				<ImprovementYieldChange>
+					<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
+					<YieldChanges>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+						<iYield>0</iYield>
+					</YieldChanges>
+				</ImprovementYieldChange>
+			</ImprovementYieldChanges>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CARPENTER</ArtDefineTag>
 			<MapCategoryTypes>
@@ -26243,6 +26276,17 @@
 			<Type>BUILDING_CHARCOAL_BURNER</Type>
 			<Description>TXT_KEY_BUILDING_CHARCOAL_BURNER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_CHARCOAL_BURNER_PEDIA</Civilopedia>
+			<!-- Yield-parity (wood line): Charcoal Burner makes Lumbermills worth +1 production in this city. -->
+			<ImprovementYieldChanges>
+				<ImprovementYieldChange>
+					<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
+					<YieldChanges>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+						<iYield>0</iYield>
+					</YieldChanges>
+				</ImprovementYieldChange>
+			</ImprovementYieldChanges>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CHARCOAL_BURNER</ArtDefineTag>
 			<MapCategoryTypes>
@@ -32485,6 +32529,17 @@
 			<Type>BUILDING_COOPER</Type>
 			<Description>TXT_KEY_BUILDING_COOPER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_COOPER_PEDIA</Civilopedia>
+			<!-- Yield-parity (wood line): Cooper works timber, making Lumbermills worth +1 production in this city. -->
+			<ImprovementYieldChanges>
+				<ImprovementYieldChange>
+					<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
+					<YieldChanges>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+						<iYield>0</iYield>
+					</YieldChanges>
+				</ImprovementYieldChange>
+			</ImprovementYieldChanges>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_COOPER</ArtDefineTag>
 			<fVisibilityPriority>1</fVisibilityPriority>
@@ -39177,6 +39232,17 @@
 			<Type>BUILDING_DONKEY_MILL</Type>
 			<Description>TXT_KEY_BUILDING_DONKEY_MILL</Description>
 			<Civilopedia>TXT_KEY_BUILDING_DONKEY_MILL_PEDIA</Civilopedia>
+			<!-- Yield-parity (farm line): Donkey Mill grinds grain, making Farms worth +1 food in this city. -->
+			<ImprovementYieldChanges>
+				<ImprovementYieldChange>
+					<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
+					<YieldChanges>
+						<iYield>1</iYield>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+					</YieldChanges>
+				</ImprovementYieldChange>
+			</ImprovementYieldChanges>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_DONKEY_MILL</ArtDefineTag>
 			<MapCategoryTypes>
@@ -46235,6 +46301,17 @@
 			<Type>BUILDING_FACTORY</Type>
 			<Description>TXT_KEY_BUILDING_FACTORY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_FACTORY_PEDIA</Civilopedia>
+			<!-- Yield-parity: Factory makes Workshops worth +1 production in this city. -->
+			<ImprovementYieldChanges>
+				<ImprovementYieldChange>
+					<ImprovementType>IMPROVEMENT_WORKSHOP</ImprovementType>
+					<YieldChanges>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+						<iYield>0</iYield>
+					</YieldChanges>
+				</ImprovementYieldChange>
+			</ImprovementYieldChanges>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_FACTORY</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_FACTORY</ConstructSound>
@@ -50173,6 +50250,18 @@
 			<Type>BUILDING_FOOD_MANUFACTURING_DISTRICT</Type>
 			<Description>TXT_KEY_BUILDING_FOOD_MANUFACTURING_DISTRICT</Description>
 			<Civilopedia>TXT_KEY_BUILDING_FOOD_MANUFACTURING_DISTRICT_PEDIA</Civilopedia>
+			<!-- Yield-parity (farm line): terminal of the grain-mill chain; replaces Modern Mill,
+			     so it carries that bonus forward and gives more (higher tier = more). -->
+			<ImprovementYieldChanges>
+				<ImprovementYieldChange>
+					<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
+					<YieldChanges>
+						<iYield>6</iYield>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+					</YieldChanges>
+				</ImprovementYieldChange>
+			</ImprovementYieldChanges>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_FOOD_MANUFACTURING_DISTRICT</ArtDefineTag>
 			<fVisibilityPriority>1</fVisibilityPriority>
@@ -50713,6 +50802,17 @@
 				</Has>
 			</NewCityFree>
 			<iHealth>-1</iHealth>
+			<!-- Sample: Forge grants +1 production to Mines worked by this city (building->improvement yield). Adjust/remove as desired. -->
+			<ImprovementYieldChanges>
+				<ImprovementYieldChange>
+					<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+					<YieldChanges>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+						<iYield>0</iYield>
+					</YieldChanges>
+				</ImprovementYieldChange>
+			</ImprovementYieldChanges>
 			<YieldModifiers>
 				<iYield>0</iYield>
 				<iYield>15</iYield>
@@ -51474,6 +51574,17 @@
 			<Type>BUILDING_FOUNDRY</Type>
 			<Description>TXT_KEY_BUILDING_FOUNDRY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_FOUNDRY_PEDIA</Civilopedia>
+			<!-- Yield-parity (mine line): replaces Forge; carries its Mine bonus forward and gives more. -->
+			<ImprovementYieldChanges>
+				<ImprovementYieldChange>
+					<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+					<YieldChanges>
+						<iYield>0</iYield>
+						<iYield>2</iYield>
+						<iYield>0</iYield>
+					</YieldChanges>
+				</ImprovementYieldChange>
+			</ImprovementYieldChanges>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_FOUNDRY</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_FORGE</ConstructSound>
@@ -52269,6 +52380,17 @@
 			<Type>BUILDING_FURNITURE_MAKER</Type>
 			<Description>TXT_KEY_BUILDING_FURNITURE_MAKER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_FURNITURE_MAKER_PEDIA</Civilopedia>
+			<!-- Yield-parity (wood line): Furniture Maker makes Lumbermills worth +1 production in this city. -->
+			<ImprovementYieldChanges>
+				<ImprovementYieldChange>
+					<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
+					<YieldChanges>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+						<iYield>0</iYield>
+					</YieldChanges>
+				</ImprovementYieldChange>
+			</ImprovementYieldChanges>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_FURNITURE_MAKER</ArtDefineTag>
 			<MapCategoryTypes>
@@ -53716,6 +53838,17 @@
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_GRAIN_GATHERER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_GRAIN_GATHERER_PEDIA</Civilopedia>
+			<!-- Yield-parity (farm line): Grain Gatherer makes Farms worth +1 food in this city. -->
+			<ImprovementYieldChanges>
+				<ImprovementYieldChange>
+					<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
+					<YieldChanges>
+						<iYield>1</iYield>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+					</YieldChanges>
+				</ImprovementYieldChange>
+			</ImprovementYieldChanges>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_GRAIN_GATHERER</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_COMMUNITY_GARDEN</ConstructSound>
@@ -56790,6 +56923,17 @@
 			<Type>BUILDING_GRANARY</Type>
 			<Description>TXT_KEY_BUILDING_GRANARY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_GRANARY_PEDIA</Civilopedia>
+			<!-- Yield-parity: Granary makes Farms worth +1 food in this city. -->
+			<ImprovementYieldChanges>
+				<ImprovementYieldChange>
+					<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
+					<YieldChanges>
+						<iYield>1</iYield>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+					</YieldChanges>
+				</ImprovementYieldChange>
+			</ImprovementYieldChanges>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_GRANARY</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_GRANARY</ConstructSound>
@@ -73504,6 +73648,17 @@
 			<Type>BUILDING_LUMBER_MILL</Type>
 			<Description>TXT_KEY_BUILDING_LUMBER_MILL</Description>
 			<Civilopedia>TXT_KEY_BUILDING_LUMBER_MILL_PEDIA</Civilopedia>
+			<!-- Yield-parity (wood line): Lumber Mill makes Lumbermills worth +1 production in this city. -->
+			<ImprovementYieldChanges>
+				<ImprovementYieldChange>
+					<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
+					<YieldChanges>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+						<iYield>0</iYield>
+					</YieldChanges>
+				</ImprovementYieldChange>
+			</ImprovementYieldChanges>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_LUMBER_MILL</ArtDefineTag>
 			<MapCategoryTypes>
@@ -73562,6 +73717,17 @@
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_LUMBER_CAMP</Description>
 			<Civilopedia>TXT_KEY_BUILDING_LUMBER_CAMP_PEDIA</Civilopedia>
+			<!-- Yield-parity (wood line): Lumber Camp makes Lumbermills worth +1 production in this city. -->
+			<ImprovementYieldChanges>
+				<ImprovementYieldChange>
+					<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
+					<YieldChanges>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+						<iYield>0</iYield>
+					</YieldChanges>
+				</ImprovementYieldChange>
+			</ImprovementYieldChanges>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_LUMBER_CAMP</ArtDefineTag>
 			<MapCategoryTypes>
@@ -79042,6 +79208,17 @@
 			<Type>BUILDING_METALS_MEGACOMPLEX</Type>
 			<Description>TXT_KEY_BUILDING_METALS_MEGACOMPLEX</Description>
 			<Civilopedia>TXT_KEY_BUILDING_METALS_MEGACOMPLEX_PEDIA</Civilopedia>
+			<!-- Yield-parity (mine line): terminal; replaces Forge/Foundry, carries Mine bonus forward and gives more. -->
+			<ImprovementYieldChanges>
+				<ImprovementYieldChange>
+					<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+					<YieldChanges>
+						<iYield>0</iYield>
+						<iYield>3</iYield>
+						<iYield>0</iYield>
+					</YieldChanges>
+				</ImprovementYieldChange>
+			</ImprovementYieldChanges>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_METALS_MEGACOMPLEX</ArtDefineTag>
 			<fVisibilityPriority>1</fVisibilityPriority>
@@ -82385,6 +82562,17 @@
 			<Type>BUILDING_MODERN_GRANARY</Type>
 			<Description>TXT_KEY_BUILDING_MODERN_GRANARY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_GRANARY_PEDIA</Civilopedia>
+			<!-- Yield-parity (farm line): replaces Granary; carries its Farm bonus forward and gives more. -->
+			<ImprovementYieldChanges>
+				<ImprovementYieldChange>
+					<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
+					<YieldChanges>
+						<iYield>2</iYield>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+					</YieldChanges>
+				</ImprovementYieldChange>
+			</ImprovementYieldChanges>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MODERN_GRANARY</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_GRANARY</ConstructSound>
@@ -82458,6 +82646,19 @@
 			<Type>BUILDING_MODERN_MILL</Type>
 			<Description>TXT_KEY_BUILDING_MODERN_MILL</Description>
 			<Civilopedia>TXT_KEY_BUILDING_MODERN_MILL_PEDIA</Civilopedia>
+			<!-- Yield-parity (farm line): Modern Mill REPLACES the coexisting mid-tier mills
+			     (Watermill, Windmill, Donkey Mill, Oxen Mill = +4 food stacked), so it carries
+			     that cumulative forward and gives a bit more (higher tier = more). -->
+			<ImprovementYieldChanges>
+				<ImprovementYieldChange>
+					<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
+					<YieldChanges>
+						<iYield>5</iYield>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+					</YieldChanges>
+				</ImprovementYieldChange>
+			</ImprovementYieldChanges>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MODERN_MILL</ArtDefineTag>
 			<MapCategoryTypes>
@@ -92965,6 +93166,17 @@
 			<Type>BUILDING_OXEN_MILL</Type>
 			<Description>TXT_KEY_BUILDING_OXEN_MILL</Description>
 			<Civilopedia>TXT_KEY_BUILDING_OXEN_MILL_PEDIA</Civilopedia>
+			<!-- Yield-parity (farm line): Oxen Mill grinds grain, making Farms worth +1 food in this city. -->
+			<ImprovementYieldChanges>
+				<ImprovementYieldChange>
+					<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
+					<YieldChanges>
+						<iYield>1</iYield>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+					</YieldChanges>
+				</ImprovementYieldChange>
+			</ImprovementYieldChanges>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_OXEN_MILL</ArtDefineTag>
 			<MapCategoryTypes>
@@ -101842,6 +102054,17 @@
 			<Type>BUILDING_QUERN</Type>
 			<Description>TXT_KEY_BUILDING_QUERN</Description>
 			<Civilopedia>TXT_KEY_BUILDING_QUERN_PEDIA</Civilopedia>
+			<!-- Yield-parity (farm line): Quern grinds grain, making Farms worth +1 food in this city. -->
+			<ImprovementYieldChanges>
+				<ImprovementYieldChange>
+					<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
+					<YieldChanges>
+						<iYield>1</iYield>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+					</YieldChanges>
+				</ImprovementYieldChange>
+			</ImprovementYieldChanges>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_QUERN</ArtDefineTag>
 			<MapCategoryTypes>
@@ -111715,6 +111938,17 @@
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_SHIPWRIGHT</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SHIPWRIGHT_PEDIA</Civilopedia>
+			<!-- Yield-parity (wood line): Shipwright consumes timber, making Lumbermills worth +1 production in this city. -->
+			<ImprovementYieldChanges>
+				<ImprovementYieldChange>
+					<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
+					<YieldChanges>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+						<iYield>0</iYield>
+					</YieldChanges>
+				</ImprovementYieldChange>
+			</ImprovementYieldChanges>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_SHIPWRIGHT</ArtDefineTag>
 			<MapCategoryTypes>
@@ -114331,6 +114565,17 @@
 			<Type>BUILDING_SMOKEHOUSE</Type>
 			<Description>TXT_KEY_BUILDING_SMOKEHOUSE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SMOKEHOUSE_PEDIA</Civilopedia>
+			<!-- Yield-parity: Smokehouse makes Pastures worth +1 food in this city. -->
+			<ImprovementYieldChanges>
+				<ImprovementYieldChange>
+					<ImprovementType>IMPROVEMENT_PASTURE</ImprovementType>
+					<YieldChanges>
+						<iYield>1</iYield>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+					</YieldChanges>
+				</ImprovementYieldChange>
+			</ImprovementYieldChanges>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_SMOKEHOUSE</ArtDefineTag>
 			<MapCategoryTypes>
@@ -132098,6 +132343,17 @@
 			<Type>BUILDING_WATERMILL</Type>
 			<Description>TXT_KEY_BUILDING_WATERMILL</Description>
 			<Civilopedia>TXT_KEY_BUILDING_WATERMILL_PEDIA</Civilopedia>
+			<!-- Yield-parity (farm line): Watermill grinds grain, making Farms worth +1 food in this city. -->
+			<ImprovementYieldChanges>
+				<ImprovementYieldChange>
+					<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
+					<YieldChanges>
+						<iYield>1</iYield>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+					</YieldChanges>
+				</ImprovementYieldChange>
+			</ImprovementYieldChanges>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_WATERMILL</ArtDefineTag>
 			<MapCategoryTypes>
@@ -132746,6 +133002,17 @@
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_WEAVER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_WEAVER_PEDIA</Civilopedia>
+			<!-- Yield-parity: Weaver makes Plantations worth +1 commerce in this city. -->
+			<ImprovementYieldChanges>
+				<ImprovementYieldChange>
+					<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+					<YieldChanges>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</YieldChanges>
+				</ImprovementYieldChange>
+			</ImprovementYieldChanges>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_WEAVER</ArtDefineTag>
 			<fVisibilityPriority>1</fVisibilityPriority>
@@ -133460,6 +133727,17 @@
 			<Type>BUILDING_WINDMILL</Type>
 			<Description>TXT_KEY_BUILDING_WINDMILL</Description>
 			<Civilopedia>TXT_KEY_BUILDING_WINDMILL_PEDIA</Civilopedia>
+			<!-- Yield-parity (farm line): Windmill grinds grain, making Farms worth +1 food in this city. -->
+			<ImprovementYieldChanges>
+				<ImprovementYieldChange>
+					<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
+					<YieldChanges>
+						<iYield>1</iYield>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+					</YieldChanges>
+				</ImprovementYieldChange>
+			</ImprovementYieldChanges>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_WINDMILL</ArtDefineTag>
 			<MapCategoryTypes>
@@ -133656,6 +133934,17 @@
 			<Type>BUILDING_WINERY</Type>
 			<Description>TXT_KEY_BUILDING_WINERY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_WINERY_PEDIA</Civilopedia>
+			<!-- Yield-parity: Winery makes Winery tiles worth +1 commerce in this city. -->
+			<ImprovementYieldChanges>
+				<ImprovementYieldChange>
+					<ImprovementType>IMPROVEMENT_WINERY</ImprovementType>
+					<YieldChanges>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</YieldChanges>
+				</ImprovementYieldChange>
+			</ImprovementYieldChanges>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_WINERY</ArtDefineTag>
 			<MapCategoryTypes>
