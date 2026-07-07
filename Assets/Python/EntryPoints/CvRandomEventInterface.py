@@ -6026,7 +6026,7 @@ def triggerNewWorldCities(argsList):
 	iNumUnits = GC.getNumUnitInfos()
 	MAP = GC.getMap()
 	while iNeededCities > 0:
-		iBestValue = 0
+		iBestValue = -1
 		pBestPlot = None
 		for CyPlot in MAP.plots():
 			if not CyPlot.isWater() and CyPlot.isCoastal() and CyPlayer.canFound(CyPlot.getX(), CyPlot.getY()):
@@ -6035,15 +6035,13 @@ def triggerNewWorldCities(argsList):
 					pBestPlot = CyPlot
 					iBestValue = iValue
 		if pBestPlot is None:
-			raise "Error in TriggerNewWorldCities - No City Created!"
-			return
+			break
 
 		CyPlayer.found(pBestPlot.getX(), pBestPlot.getY())
 
 		CyCity = pBestPlot.getPlotCity()
 		if not CyCity:
-			raise "Error in TriggerNewWorldCities - No City Created!"
-			return
+			break
 
 		if iEvent == GC.getInfoTypeForString("EVENT_NEW_WORLD_2"):
 			CyCity.changePopulation(1)

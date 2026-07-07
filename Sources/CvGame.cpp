@@ -5795,30 +5795,32 @@ void CvGame::addGreatPersonBornName(const CvWString& szName)
 void CvGame::doTurn()
 {
 	PROFILE_BEGIN("CvGame::doTurn()",DOTURN1);
+	PERF_SCOPE("CvGame::doTurn", -1);
 
 	// Capture a snapshot of every plot's state at the start of the turn so the
     // BuildEvaluation.log entries that follow can be cross-referenced against
     // a frozen view of the world the AI saw when it made each decision. One
     // file per turn (PlotSnapshot_turn_t<N>.csv) -- complements the one-off
     // "start" / "load" / "regen" snapshots from onFinalInitialized.
-    writePlotSnapshot("turn");
-
-	writeRealtimeLogMetadata(false);
+    { PERF_SCOPE("game.writePlotSnapshot", -1); writePlotSnapshot("turn"); }
 
 	// END OF TURN
-	CvEventReporter::getInstance().beginGameTurn( getGameTurn() );
+	{ PERF_SCOPE("game.py.beginGameTurn", -1); CvEventReporter::getInstance().beginGameTurn( getGameTurn() ); }
 
-	doUpdateCacheOnTurn();
+	{ PERF_SCOPE("game.doUpdateCacheOnTurn", -1); doUpdateCacheOnTurn(); }
 
-	updateScore();
+	{ PERF_SCOPE("game.updateScore", -1); updateScore(); }
 
-	doDeals();
+	{ PERF_SCOPE("game.doDeals", -1); doDeals(); }
 
-	for (int iI = 0; iI < MAX_TEAMS; iI++)
 	{
-		if (GET_TEAM((TeamTypes)iI).isAlive())
+		PERF_SCOPE("game.teamDoTurn", -1);
+		for (int iI = 0; iI < MAX_TEAMS; iI++)
 		{
-			GET_TEAM((TeamTypes)iI).doTurn();
+			if (GET_TEAM((TeamTypes)iI).isAlive())
+			{
+				GET_TEAM((TeamTypes)iI).doTurn();
+			}
 		}
 	}
 
@@ -5831,7 +5833,7 @@ void CvGame::doTurn()
 			// solve property system
 			m_PropertySolver.doTurn();
 
-			map->doTurn();
+			{ PERF_SCOPE("game.mapDoTurn", -1); map->doTurn(); }
 
 			if (map->getType() != MAP_EARTH)
 			{
@@ -5846,43 +5848,52 @@ void CvGame::doTurn()
 		}
 	}
 
-	createBarbarianCities(false);
-	if (isOption(GAMEOPTION_BARBARIAN_NEANDERTHAL_CITIES))
 	{
-		createBarbarianCities(true);
-	}
-	createBarbarianUnits();
+        PERF_SCOPE("game.barbarians", -1);
+        createBarbarianCities(false);
+        if (isOption(GAMEOPTION_BARBARIAN_NEANDERTHAL_CITIES))
+        {
+            createBarbarianCities(true);
+        }
+        createBarbarianUnits();
+    }
 
-	if (getElapsedGameTurns() > GC.getGameSpeedInfo(getGameSpeedType()).getGameTurnInfo(getStartEra()).iNumGameTurnsPerIncrement/80)
 	{
-		for (int iI = MAX_PC_PLAYERS; iI < MAX_PLAYERS; iI++)
-		{
-			if (GET_PLAYER((PlayerTypes)iI).isAlive())
-			{
-				doSpawns((PlayerTypes)iI);
-			}
-		}
-	}
+        PERF_SCOPE("game.doSpawns", -1);
+        if (getElapsedGameTurns() > GC.getGameSpeedInfo(getGameSpeedType()).getGameTurnInfo(getStartEra()).iNumGameTurnsPerIncrement/80)
+        {
+            for (int iI = MAX_PC_PLAYERS; iI < MAX_PLAYERS; iI++)
+            {
+                if (GET_PLAYER((PlayerTypes)iI).isAlive())
+                {
+                    doSpawns((PlayerTypes)iI);
+                }
+            }
+        }
+    }
 #ifdef GLOBAL_WARMING
-	doGlobalWarming();
+	{ PERF_SCOPE("game.doGlobalWarming", -1); doGlobalWarming(); }
 #endif
 
-	doHeadquarters();
+	{ PERF_SCOPE("game.doHeadquarters", -1); doHeadquarters(); }
 
-	doDiploVote();
+	{ PERF_SCOPE("game.doDiploVote", -1); doDiploVote(); }
 
 	// Recalculate vision on load (a stickytape - can't find where it's skewing visibility counts)
 	//Hopefully won't create a noteable delay but it may
 	//disabled when debugging only - units should now be tracking and staying within a range of 0-1 for number of positive updates - negative updates.
 	//TBVIS
-	for (int iJ = 0; iJ < GC.getMap().numPlots(); iJ++)
 	{
-		CvPlot* pLoopPlot = GC.getMap().plotByIndex(iJ);
-		pLoopPlot->clearVisibilityCounts();
-	}
-	GC.getMap().updateSight(true, false);
+        PERF_SCOPE("doTurn.visibilityRebuild", -1);
+        for (int iJ = 0; iJ < GC.getMap().numPlots(); iJ++)
+        {
+            CvPlot* pLoopPlot = GC.getMap().plotByIndex(iJ);
+            pLoopPlot->clearVisibilityCounts();
+        }
+        GC.getMap().updateSight(true, false);
+    }
 
-	CvEventReporter::getInstance().preEndGameTurn(getGameTurn());
+	{ PERF_SCOPE("game.py.preEndGameTurn", -1); CvEventReporter::getInstance().preEndGameTurn(getGameTurn()); }
 
 	gDLL->getInterfaceIFace()->setEndTurnMessage(false);
 	gDLL->getInterfaceIFace()->setHasMovedUnit(false);
@@ -5901,7 +5912,7 @@ void CvGame::doTurn()
 			changeAIAutoPlay((PlayerTypes)n, -1);
 		}
 	}
-	CvEventReporter::getInstance().endGameTurn(getGameTurn());
+	{ PERF_SCOPE("game.py.endGameTurn", -1); CvEventReporter::getInstance().endGameTurn(getGameTurn()); }
 	incrementGameTurn();
 	incrementElapsedGameTurns();
 
@@ -5956,20 +5967,26 @@ void CvGame::doTurn()
 			}
 		}
 	}
-	doIncreasingDifficulty();
-	doFlexibleDifficulty();
-	doFinalFive();
-	doHightoLow();
+	{
+		PERF_SCOPE("game.difficulty", -1);
+		doIncreasingDifficulty();
+		doFlexibleDifficulty();
+		doFinalFive();
+		doHightoLow();
+	}
 	for (int iI = 0; iI < MAX_PLAYERS; iI++)
 	{
 		setPreviousRequest((PlayerTypes)iI, false);
 	}
-	doFoundCorporations();
+	{ PERF_SCOPE("game.doFoundCorporations", -1); doFoundCorporations(); }
 
-	testVictory();
+	{ PERF_SCOPE("game.testVictory", -1); testVictory(); }
 
-	gDLL->getEngineIFace()->SetDirty(GlobePartialTexture_DIRTY_BIT, true);
-	gDLL->getEngineIFace()->DoTurn();
+	{
+		PERF_SCOPE("game.engineDoTurn", -1);
+		gDLL->getEngineIFace()->SetDirty(GlobePartialTexture_DIRTY_BIT, true);
+		gDLL->getEngineIFace()->DoTurn();
+	}
 
 	PROFILE_END(DOTURN1);
 
@@ -5982,7 +5999,7 @@ void CvGame::doTurn()
 	}
 
 	stopProfilingDLL(true);
-	gDLL->getEngineIFace()->AutoSave();
+	{ PERF_SCOPE("game.autoSave", -1); gDLL->getEngineIFace()->AutoSave(); }
 
 #ifdef MEMTRACK
 	//MemTrack::TrackListMemoryUsage(); // total
