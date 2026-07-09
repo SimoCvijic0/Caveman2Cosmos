@@ -5313,14 +5313,17 @@ int CvPlayerAI::AI_techValue(TechTypes eTech, int iPathLength, bool bIgnoreCost,
 
 	if (!isHumanPlayer() && iValue > 0)
 	{
-		const int iFlavorContribution = AI_getFlavorValue((FlavorTypes)iJ) * kTech.getFlavorValue(iJ) * 20;
-        iValue += iFlavorContribution;
-        if (iFlavorContribution != 0)
-        {
-            logDecisionAI(3, "[DAI/tech/cand] player=%d tech=%S flavor=%s contrib=%d running=%d",
-                getID(), kTech.getDescription(), GC.getFlavorTypes((FlavorTypes)iJ).c_str(),
-                iFlavorContribution, iValue);
-        }
+		for (int iJ = 0; iJ < GC.getNumFlavorTypes(); iJ++)
+		{
+			const int iFlavorContribution = AI_getFlavorValue((FlavorTypes)iJ) * kTech.getFlavorValue(iJ) * 20;
+			iValue += iFlavorContribution;
+			if (iFlavorContribution != 0)
+			{
+				logDecisionAI(3, "[DAI/tech/cand] player=%d tech=%S flavor=%s contrib=%d running=%d",
+					getID(), kTech.getDescription(), GC.getFlavorTypes((FlavorTypes)iJ).c_str(),
+					iFlavorContribution, iValue);
+			}
+		}
 	}
 
 	if (kTech.isRepeat())
