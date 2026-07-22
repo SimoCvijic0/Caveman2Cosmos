@@ -14608,6 +14608,7 @@ bool CvCityAI::AI_choosePropertyControlBuildingAndUnit(int iTriggerPercentOfProp
 				int iCurrentPercent = ((iCurrentValue - iOperationRangeMin) * 100) / (iOperationRangeMax - iOperationRangeMin);
 
 				int iEval = getPropertyNeed(eProperty);
+				const int iRawNeed = iEval; // unscaled need, kept for the turns-to-goal estimate below
 				int iTrainReluctance = GC.getPropertyInfo(eProperty).getTrainReluctance();
 				int iCheck = iTriggerPercentOfPropertyOpRange;
 				iEval /= iCheck;
@@ -14631,6 +14632,28 @@ bool CvCityAI::AI_choosePropertyControlBuildingAndUnit(int iTriggerPercentOfProp
 				{	//First Test : If getting better (Change < 0).
 					//For Education, its the opposite
 					isGettingBetter = true;
+				}
+
+				// Fix isGoodEnough veto never firing in the property-control production gate
+				//
+				// isGoodEnough was declared, logged, and checked below, but nothing ever set it
+				// to true -- it was permanently false, so this veto could never skip production
+				// even when the property was already improving fast enough on its own.
+				// iAcceptanceLimit/iAcceptanceRate were computed right above for exactly this
+				// (per the "evaluate the future evolution... estimate the number of turns to
+				// achieve goal" comment) but were never read. Complete the check: the property's
+				// own trend counts as "good enough" without training/building anything more if
+				// either (a) it is already changing at least as fast as iAcceptanceRate per turn,
+				// or (b) at the current rate it will close the remaining gap (iRawNeed) within
+				// iAcceptanceLimit turns.
+				if (isGettingBetter && iCurrentChange != 0)
+				{
+					const int iAbsChange = std::abs(iCurrentChange);
+					if (iAbsChange >= iAcceptanceRate
+					|| (iAcceptanceLimit > 0 && std::abs(iRawNeed) / iAbsChange <= iAcceptanceLimit))
+					{
+						isGoodEnough = true;
+					}
 				}
 
 				//Count the percent of Prop Control units in the total army. Maximal allowed : 20% (TODO set param depend on leader)

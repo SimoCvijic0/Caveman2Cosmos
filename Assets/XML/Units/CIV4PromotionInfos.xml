@@ -12442,6 +12442,7 @@
 				<GameOptionType>GAMEOPTION_COMBAT_SIZE_MATTERS</GameOptionType>
 			</OnGameOptions>
 			<NotOnUnitCombatTypes>
+				<NotOnUnitCombatType>UNITCOMBAT_CAPTIVE</NotOnUnitCombatType>
 				<NotOnUnitCombatType>UNITCOMBAT_PACIFIST</NotOnUnitCombatType>
 				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
 			</NotOnUnitCombatTypes>
@@ -12464,6 +12465,7 @@
 				<GameOptionType>GAMEOPTION_COMBAT_SIZE_MATTERS</GameOptionType>
 			</OnGameOptions>
 			<NotOnUnitCombatTypes>
+				<NotOnUnitCombatType>UNITCOMBAT_CAPTIVE</NotOnUnitCombatType>
 				<NotOnUnitCombatType>UNITCOMBAT_PACIFIST</NotOnUnitCombatType>
 				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
 			</NotOnUnitCombatTypes>
@@ -12487,6 +12489,7 @@
 				<GameOptionType>GAMEOPTION_COMBAT_SIZE_MATTERS</GameOptionType>
 			</OnGameOptions>
 			<NotOnUnitCombatTypes>
+				<NotOnUnitCombatType>UNITCOMBAT_CAPTIVE</NotOnUnitCombatType>
 				<NotOnUnitCombatType>UNITCOMBAT_PACIFIST</NotOnUnitCombatType>
 				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
 			</NotOnUnitCombatTypes>
@@ -12510,6 +12513,7 @@
 				<GameOptionType>GAMEOPTION_COMBAT_SIZE_MATTERS</GameOptionType>
 			</OnGameOptions>
 			<NotOnUnitCombatTypes>
+				<NotOnUnitCombatType>UNITCOMBAT_CAPTIVE</NotOnUnitCombatType>
 				<NotOnUnitCombatType>UNITCOMBAT_PACIFIST</NotOnUnitCombatType>
 				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
 			</NotOnUnitCombatTypes>
@@ -12533,6 +12537,7 @@
 				<GameOptionType>GAMEOPTION_COMBAT_SIZE_MATTERS</GameOptionType>
 			</OnGameOptions>
 			<NotOnUnitCombatTypes>
+				<NotOnUnitCombatType>UNITCOMBAT_CAPTIVE</NotOnUnitCombatType>
 				<NotOnUnitCombatType>UNITCOMBAT_PACIFIST</NotOnUnitCombatType>
 			</NotOnUnitCombatTypes>
 			<iLevelPrereq>4</iLevelPrereq>
@@ -12555,6 +12560,7 @@
 				<GameOptionType>GAMEOPTION_COMBAT_SIZE_MATTERS</GameOptionType>
 			</OnGameOptions>
 			<NotOnUnitCombatTypes>
+				<NotOnUnitCombatType>UNITCOMBAT_CAPTIVE</NotOnUnitCombatType>
 				<NotOnUnitCombatType>UNITCOMBAT_PACIFIST</NotOnUnitCombatType>
 				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
 			</NotOnUnitCombatTypes>
@@ -12578,6 +12584,7 @@
 				<GameOptionType>GAMEOPTION_COMBAT_SIZE_MATTERS</GameOptionType>
 			</OnGameOptions>
 			<NotOnUnitCombatTypes>
+				<NotOnUnitCombatType>UNITCOMBAT_CAPTIVE</NotOnUnitCombatType>
 				<NotOnUnitCombatType>UNITCOMBAT_PACIFIST</NotOnUnitCombatType>
 				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
 			</NotOnUnitCombatTypes>
@@ -12601,6 +12608,7 @@
 				<GameOptionType>GAMEOPTION_COMBAT_SIZE_MATTERS</GameOptionType>
 			</OnGameOptions>
 			<NotOnUnitCombatTypes>
+				<NotOnUnitCombatType>UNITCOMBAT_CAPTIVE</NotOnUnitCombatType>
 				<NotOnUnitCombatType>UNITCOMBAT_PACIFIST</NotOnUnitCombatType>
 				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
 			</NotOnUnitCombatTypes>
@@ -12624,6 +12632,7 @@
 				<GameOptionType>GAMEOPTION_COMBAT_SIZE_MATTERS</GameOptionType>
 			</OnGameOptions>
 			<NotOnUnitCombatTypes>
+				<NotOnUnitCombatType>UNITCOMBAT_CAPTIVE</NotOnUnitCombatType>
 				<NotOnUnitCombatType>UNITCOMBAT_PACIFIST</NotOnUnitCombatType>
 				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
 			</NotOnUnitCombatTypes>
@@ -12647,6 +12656,7 @@
 				<GameOptionType>GAMEOPTION_COMBAT_SIZE_MATTERS</GameOptionType>
 			</OnGameOptions>
 			<NotOnUnitCombatTypes>
+				<NotOnUnitCombatType>UNITCOMBAT_CAPTIVE</NotOnUnitCombatType>
 				<NotOnUnitCombatType>UNITCOMBAT_PACIFIST</NotOnUnitCombatType>
 				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
 			</NotOnUnitCombatTypes>
@@ -12670,6 +12680,7 @@
 				<GameOptionType>GAMEOPTION_COMBAT_SIZE_MATTERS</GameOptionType>
 			</OnGameOptions>
 			<NotOnUnitCombatTypes>
+				<NotOnUnitCombatType>UNITCOMBAT_CAPTIVE</NotOnUnitCombatType>
 				<NotOnUnitCombatType>UNITCOMBAT_PACIFIST</NotOnUnitCombatType>
 				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
 			</NotOnUnitCombatTypes>
@@ -12692,6 +12703,7 @@
 				<GameOptionType>GAMEOPTION_COMBAT_SIZE_MATTERS</GameOptionType>
 			</OnGameOptions>
 			<NotOnUnitCombatTypes>
+				<NotOnUnitCombatType>UNITCOMBAT_CAPTIVE</NotOnUnitCombatType>
 				<NotOnUnitCombatType>UNITCOMBAT_PACIFIST</NotOnUnitCombatType>
 				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
 			</NotOnUnitCombatTypes>
@@ -12714,6 +12726,7 @@
 				<GameOptionType>GAMEOPTION_COMBAT_SIZE_MATTERS</GameOptionType>
 			</OnGameOptions>
 			<NotOnUnitCombatTypes>
+				<NotOnUnitCombatType>UNITCOMBAT_CAPTIVE</NotOnUnitCombatType>
 				<NotOnUnitCombatType>UNITCOMBAT_PACIFIST</NotOnUnitCombatType>
 				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
 			</NotOnUnitCombatTypes>
@@ -12736,6 +12749,7 @@
 				<GameOptionType>GAMEOPTION_COMBAT_SIZE_MATTERS</GameOptionType>
 			</OnGameOptions>
 			<NotOnUnitCombatTypes>
+				<NotOnUnitCombatType>UNITCOMBAT_CAPTIVE</NotOnUnitCombatType>
 				<NotOnUnitCombatType>UNITCOMBAT_PACIFIST</NotOnUnitCombatType>
 				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
 			</NotOnUnitCombatTypes>
@@ -12758,6 +12772,7 @@
 				<GameOptionType>GAMEOPTION_COMBAT_SIZE_MATTERS</GameOptionType>
 			</OnGameOptions>
 			<NotOnUnitCombatTypes>
+				<NotOnUnitCombatType>UNITCOMBAT_CAPTIVE</NotOnUnitCombatType>
 				<NotOnUnitCombatType>UNITCOMBAT_PACIFIST</NotOnUnitCombatType>
 				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
 			</NotOnUnitCombatTypes>
@@ -12780,6 +12795,7 @@
 				<GameOptionType>GAMEOPTION_COMBAT_SIZE_MATTERS</GameOptionType>
 			</OnGameOptions>
 			<NotOnUnitCombatTypes>
+				<NotOnUnitCombatType>UNITCOMBAT_CAPTIVE</NotOnUnitCombatType>
 				<NotOnUnitCombatType>UNITCOMBAT_PACIFIST</NotOnUnitCombatType>
 				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
 			</NotOnUnitCombatTypes>
@@ -12802,6 +12818,7 @@
 				<GameOptionType>GAMEOPTION_COMBAT_SIZE_MATTERS</GameOptionType>
 			</OnGameOptions>
 			<NotOnUnitCombatTypes>
+				<NotOnUnitCombatType>UNITCOMBAT_CAPTIVE</NotOnUnitCombatType>
 				<NotOnUnitCombatType>UNITCOMBAT_PACIFIST</NotOnUnitCombatType>
 				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
 			</NotOnUnitCombatTypes>
@@ -12824,6 +12841,7 @@
 				<GameOptionType>GAMEOPTION_COMBAT_SIZE_MATTERS</GameOptionType>
 			</OnGameOptions>
 			<NotOnUnitCombatTypes>
+				<NotOnUnitCombatType>UNITCOMBAT_CAPTIVE</NotOnUnitCombatType>
 				<NotOnUnitCombatType>UNITCOMBAT_PACIFIST</NotOnUnitCombatType>
 				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
 			</NotOnUnitCombatTypes>
@@ -12846,6 +12864,7 @@
 				<GameOptionType>GAMEOPTION_COMBAT_SIZE_MATTERS</GameOptionType>
 			</OnGameOptions>
 			<NotOnUnitCombatTypes>
+				<NotOnUnitCombatType>UNITCOMBAT_CAPTIVE</NotOnUnitCombatType>
 				<NotOnUnitCombatType>UNITCOMBAT_PACIFIST</NotOnUnitCombatType>
 				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
 			</NotOnUnitCombatTypes>
@@ -12868,6 +12887,7 @@
 				<GameOptionType>GAMEOPTION_COMBAT_SIZE_MATTERS</GameOptionType>
 			</OnGameOptions>
 			<NotOnUnitCombatTypes>
+				<NotOnUnitCombatType>UNITCOMBAT_CAPTIVE</NotOnUnitCombatType>
 				<NotOnUnitCombatType>UNITCOMBAT_PACIFIST</NotOnUnitCombatType>
 				<NotOnUnitCombatType>UNITCOMBAT_ANIMAL</NotOnUnitCombatType>
 			</NotOnUnitCombatTypes>

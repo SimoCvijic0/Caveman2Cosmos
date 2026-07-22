@@ -5809,36 +5809,54 @@ int CvPlayerAI::AI_techUnitValue(TechTypes eTech, int iPathLength, bool& bEnable
 					iUnitValue += 800;
 					break;
 
+				// Fix missing breaks letting 8 unrelated UNITAI cases cascade together
+				//
+				// unitX.getDefaultUnitAIType() is a single value, so only one of these
+				// cases should ever fire. Without break, landing on e.g. UNITAI_HEALER
+				// fell through HEALER_SEA/PROPERTY_CONTROL/PROPERTY_CONTROL_SEA/
+				// INVESTIGATOR/INFILTRATOR/ESCORT/SEE_INVISIBLE too, stacking all of
+				// their bonuses onto a plain healer. Every other case in this switch
+				// already has its own break; this cascade was never marked as
+				// intentional fallthrough (cf. the "// Drop through" comments used
+				// elsewhere in this file when that's actually the intent).
 				case UNITAI_HEALER:
 					iUnitValue += 200;
 					iMilitaryValue += 200;
+					break;
 
 				case UNITAI_HEALER_SEA:
 					iUnitValue += 200;
 					iMilitaryValue += 200;
+					break;
 
 				case UNITAI_PROPERTY_CONTROL:
 					iUnitValue += 400;
 					iMilitaryValue += 50;
+					break;
 
 				case UNITAI_PROPERTY_CONTROL_SEA:
 					iUnitValue += 350;
 					iMilitaryValue += 50;
+					break;
 
 				case UNITAI_INVESTIGATOR:
 					iUnitValue += 400;
+					break;
 
 				case UNITAI_INFILTRATOR:
 					iUnitValue += 200;
 					iMilitaryValue += 75;
+					break;
 
 				case UNITAI_ESCORT:
 					iUnitValue += 100;
 					iMilitaryValue += 400;
+					break;
 
 				case UNITAI_SEE_INVISIBLE:
 					iUnitValue += 400;
 					iMilitaryValue += 100;
+					break;
 
 				case UNITAI_ATTACK:
 					iMilitaryValue += ((bWarPlan) ? 600 : 300);

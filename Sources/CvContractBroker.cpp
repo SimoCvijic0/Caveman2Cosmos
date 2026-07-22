@@ -962,7 +962,14 @@ advertisingUnit* CvContractBroker::findBestUnit(const workRequest& request, bool
 			{
 				int	iValue = 1;
 
-				if ((request.eUnitFlags & WORKER_UNITCAPABILITIES) == 0 || (request.eUnitFlags & HEALER_UNITCAPABILITIES) == 0)
+				// Fix inverted operator making the worker/healer flat-value scoring dead
+				//
+				// This meant "not a worker request AND not a healer request", so it needs
+				// && (De Morgan's law), not ||. With ||, one of the two ==0 checks is true
+				// for every real request (a request never sets both flags at once), so
+				// this branch ran unconditionally and the bIsWorker/bIsHealer flat-100
+				// scoring below could never be reached.
+				if ((request.eUnitFlags & WORKER_UNITCAPABILITIES) == 0 && (request.eUnitFlags & HEALER_UNITCAPABILITIES) == 0)
 				{
 					if (request.eAIType == NO_UNITAI || unitX->AI_getUnitAIType() == request.eAIType)
 					{

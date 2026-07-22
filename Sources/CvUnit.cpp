@@ -3939,7 +3939,7 @@ void CvUnit::updateCombat(CvUnit* pSelectedDefender, bool bSamePlot, bool bSteal
 				const bool bAdvance = !bSamePlot && canAdvance(pPlot, pDefender->canDefend() && !pDefender->isDead() && pDefender->plot() == pPlot);
 
 				//TBMaybeproblem - should this come before the generation of the captive which takes place above at the add outcome step?
-				if (bAdvance && !isNoCapture())
+				if (bAdvance && !isNoCapture() && !isAnimal())
 				{
 					pDefender->setCapturingPlayer(getOwner());
 					pDefender->setCapturingUnit(this);
@@ -5292,7 +5292,8 @@ void CvUnit::move(CvPlot* pPlot, bool bShow)
 			gDLL->getInterfaceIFace()->playGeneralSound("AS3D_UN_BIRDS_SCATTER", pPlot->getPoint());
 		}
 	}
-	if((pPlot->getOwner() != getOwner() || !pPlot->isOwned() ) && !(GET_PLAYER(getOwner()).isNPC()))
+	if((pPlot->getOwner() != getOwner() || !pPlot->isOwned() ) && !(GET_PLAYER(getOwner()).isNPC())
+	&& !isHasUnitCombat((UnitCombatTypes)GC.getInfoTypeForString("UNITCOMBAT_CAPTIVE")))
 	{
 		changeExperience100(10, 500);
 		changeExperience100(1, 2000);
@@ -6484,7 +6485,10 @@ int CvUnit::healRate(const CvPlot* pPlot, bool bHealCheck) const
 	if (pHealUnit != NULL && bHealCheck)
 	{
 		pHealUnit->changeHealSupportUsed(1);
-		pHealUnit->changeExperience100((10));
+		if (!pHealUnit->isHasUnitCombat((UnitCombatTypes)GC.getInfoTypeForString("UNITCOMBAT_CAPTIVE")))
+		{
+			pHealUnit->changeExperience100((10));
+		}
 	}
 
 	if (!hasNoSelfHeal())
@@ -6596,7 +6600,10 @@ int CvUnit::getHealRateAsType(const CvPlot* pPlot, bool bHealCheck, UnitCombatTy
 	if (pHealUnit != NULL && bHealCheck)
 	{
 		pHealUnit->changeHealSupportUsed(1);
-		pHealUnit->changeExperience100(10 / m_pUnitInfo->getNumHealAsTypes());
+		if (!pHealUnit->isHasUnitCombat((UnitCombatTypes)GC.getInfoTypeForString("UNITCOMBAT_CAPTIVE")))
+		{
+			pHealUnit->changeExperience100(10 / m_pUnitInfo->getNumHealAsTypes());
+		}
 	}
 	iTotalHeal += iBestHeal;
 
@@ -10755,7 +10762,7 @@ CvCity* CvUnit::getUpgradeCity(bool bSearch) const
 	{
 		const UnitTypes eUnitX = (UnitTypes)iUnitX;
 
-		if (upgradeAvailable(m_eUnitType, eUnitX) && kPlayer.canTrain(eUnitX)
+		if (upgradeAvailable(m_eUnitType, eUnitX) && kPlayer.canTrain(eUnitX, false, false, false, false, m_eUnitType)
 		&& kPlayer.AI_unitValue(eUnitX, eUnitAI, pArea) > iCurrentValue)
 		{
 			int iSearchValue;
@@ -10789,7 +10796,7 @@ CvCity* CvUnit::getUpgradeCity(UnitTypes eUnit, bool bSearch, int* iSearchValue)
 {
 	PROFILE_FUNC();
 
-	if (eUnit == NO_UNIT || !upgradeAvailable(m_eUnitType, eUnit) || !GET_PLAYER(getOwner()).canTrain(eUnit, false, false, true))
+	if (eUnit == NO_UNIT || !upgradeAvailable(m_eUnitType, eUnit) || !GET_PLAYER(getOwner()).canTrain(eUnit, false, false, true, false, m_eUnitType))
 	{
 		return NULL;
 	}
@@ -10855,7 +10862,7 @@ CvCity* CvUnit::getUpgradeCity(UnitTypes eUnit, bool bSearch, int* iSearchValue)
 					CvArea* pCityArea = bCoastalOnly ? pLoopCity->waterArea() : pLoopCity->area();
 
 					// Toffer, units should not be compelled to travel between areas just to get an upgrade.
-					if ((bIgnoreDistance || pMyArea == pCityArea) && pLoopCity->canTrain(eUnit, false, false, true))
+					if ((bIgnoreDistance || pMyArea == pCityArea) && pLoopCity->canTrain(eUnit, false, false, true, false, false, m_eUnitType))
 					{
 						// if we do not care about distance, then the first match will do
 						if (bIgnoreDistance)
@@ -10890,7 +10897,7 @@ CvCity* CvUnit::getUpgradeCity(UnitTypes eUnit, bool bSearch, int* iSearchValue)
 		CvCity* pClosestCity = GC.getMap().findCity(getX(), getY(), NO_PLAYER, getTeam(), true, bCoastalOnly);
 
 		// If we can train, then return this city (otherwise it will return NULL)
-		if (pClosestCity != NULL && pClosestCity->canTrain(eUnit, false, false, true))
+		if (pClosestCity != NULL && pClosestCity->canTrain(eUnit, false, false, true, false, false, m_eUnitType))
 		{
 			// did not search, always return 1 for search value
 			iBestValue = 1;
@@ -14150,7 +14157,7 @@ void CvUnit::setXY(int iX, int iY, bool bGroup, bool bUpdate, bool bShow, bool b
 					else if (!unitX->canDefend(pNewPlot) && !unitX->isInvisible(getTeam(), false) && !unitX->isCargo())
 					{
 						//TB NOTE: This is where units that can't defend themselves are auto-captured IF the unit has a defined capture tag and cannot defend.
-						if (!isNoCapture() && NO_UNIT != unitX->getUnitInfo().getUnitCaptureType())
+						if (!isNoCapture() && !isAnimal() && NO_UNIT != unitX->getUnitInfo().getUnitCaptureType())
 						{
 							if (isHiddenNationality() || unitX->isHiddenNationality())
 							{
@@ -24993,7 +25000,9 @@ bool CvUnit::hurryFood()
 
 bool CvUnit::sleepForEspionage()
 {
-	if (!canSleep() || !canEspionage(plot(), true) || getFortifyTurns() == GC.getMAX_FORTIFY_TURNS())
+	// Note: can't use canSleep() here, its isWaiting() check would always fail:
+	// the group's activity is already set to ACTIVITY_SLEEP by the time this runs.
+	if (isFortifyable() || !canEspionage(plot(), true) || getFortifyTurns() == GC.getMAX_FORTIFY_TURNS())
 	{
 		return false;
 	}
@@ -31672,7 +31681,7 @@ void CvUnit::doTrapTrigger(CvUnit* pUnit, bool bImmune)
 
 bool CvUnit::doTrapDisable(CvUnit* pUnit)
 {
-	if (!pUnit->isNoCapture() && m_pUnitInfo->getUnitCaptureType() != NO_UNIT)
+	if (!pUnit->isNoCapture() && !pUnit->isAnimal() && m_pUnitInfo->getUnitCaptureType() != NO_UNIT)
 	{
 		setCapturingPlayer(pUnit->getOwner());
 		setCapturingUnit(pUnit);

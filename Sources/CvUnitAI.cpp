@@ -26679,7 +26679,11 @@ void CvUnitAI::AI_borderPatrol()
 {
 	PROFILE_FUNC();
 
-	if (AI_returnToBorders())
+	// A Blitz unit that already attacked this turn and can still attack again shouldn't be
+	// snapped back home before it gets to use its remaining attacks -- defer the border-snap
+	// until it truly has no more attacks left (isMadeAttack() && canAttackNow() is only true
+	// while a Blitz unit's attack sequence is still in progress).
+	if (!(isMadeAttack() && canAttackNow()) && AI_returnToBorders())
 	{
 		return;
 	}

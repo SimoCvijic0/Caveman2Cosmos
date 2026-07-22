@@ -6050,7 +6050,7 @@ void CvPlayer::receiveGoody(CvPlot* pPlot, GoodyTypes eGoody, CvUnit* pUnit)
 		}
 	}
 
-	if (pUnit)
+	if (pUnit && !pUnit->isHasUnitCombat((UnitCombatTypes)GC.getInfoTypeForString("UNITCOMBAT_CAPTIVE")))
 	{
 		pUnit->changeExperience(GC.getGoodyInfo(eGoody).getExperience());
 	}
@@ -6346,7 +6346,7 @@ void CvPlayer::found(int iX, int iY, CvUnit *pUnit)
 }
 
 
-bool CvPlayer::canTrain(UnitTypes eUnit, bool bContinue, bool bTestVisible, bool bIgnoreCost, bool bPropertySpawn) const
+bool CvPlayer::canTrain(UnitTypes eUnit, bool bContinue, bool bTestVisible, bool bIgnoreCost, bool bPropertySpawn, UnitTypes eUpgradeFromUnit) const
 {
 	PROFILE_FUNC();
 
@@ -6419,7 +6419,7 @@ bool CvPlayer::canTrain(UnitTypes eUnit, bool bContinue, bool bTestVisible, bool
 			}
 		}
 
-		if (GC.getGame().isUnitMaxedOut(eUnit) || isUnitMaxedOut(eUnit))
+		if (GC.getGame().isUnitMaxedOut(eUnit) || isUnitMaxedOut(eUnit, 0, eUpgradeFromUnit))
 		{
 			return false;
 		}
@@ -6455,7 +6455,7 @@ bool CvPlayer::canTrain(UnitTypes eUnit, bool bContinue, bool bTestVisible, bool
 		if (!bPropertySpawn)
 		{
 			if (GC.getGame().isUnitMaxedOut(eUnit, GET_TEAM(getTeam()).getUnitMaking(eUnit) - bContinue)
-			|| isUnitMaxedOut(eUnit, getUnitMaking(eUnit) - bContinue))
+			|| isUnitMaxedOut(eUnit, getUnitMaking(eUnit) - bContinue, eUpgradeFromUnit))
 			{
 				return false;
 			}
@@ -13522,7 +13522,7 @@ void CvPlayer::changeFeatureHappiness(FeatureTypes eIndex, int iChange, bool bLi
 /********************************************************************************/
 
 
-bool CvPlayer::isUnitMaxedOut(const UnitTypes eIndex, const int iExtra) const
+bool CvPlayer::isUnitMaxedOut(const UnitTypes eIndex, const int iExtra, const UnitTypes eExcludeUnit) const
 {
 	FASSERT_BOUNDS(0, GC.getNumUnitInfos(), eIndex);
 
@@ -13557,13 +13557,33 @@ bool CvPlayer::isUnitMaxedOut(const UnitTypes eIndex, const int iExtra) const
    	}
    }
 
+   // Units linked via UnitUpgrades (e.g. Tribal Guardian -> Palace Guard -> Kings Guard) share a
+   // single pool instead of being capped per tier - otherwise the old tier doesn't count against
+   // the new tier's cap, letting you train a second copy instead of upgrading the first one, and
+   // then the upgrade itself gets blocked because the new tier looks "full".
+   int iChainCount = 0;
+   foreach_(const UnitTypes eChainUnit, getUnitUpgradeChainGroup(eIndex))
+   {
+   	if (isNationalUnit(eChainUnit))
+   	{
+   		iChainCount += getUnitCount(eChainUnit);
+   	}
+   }
+
    // Check against the ACTUAL (era-scaled) cap, not the raw base. Exceeding it slightly is
    // still possible via non-training acquisition (upgrade/capture), so this is a soft signal.
-   FAssertMsg(iMaxUnits == 0 || getUnitCount(eIndex) <= iMaxUnits,
-       CvString::format("getUnitCount=%d exceeds era-scaled cap=%d for %s",
-       getUnitCount(eIndex), iMaxUnits, GC.getUnitInfo(eIndex).getType()).c_str());
+   FAssertMsg(iMaxUnits == 0 || iChainCount <= iMaxUnits,
+       CvString::format("chain unit count=%d exceeds era-scaled cap=%d for %s",
+       iChainCount, iMaxUnits, GC.getUnitInfo(eIndex).getType()).c_str());
 
-   return (getUnitCount(eIndex) + iExtra) >= iMaxUnits;
+   // eExcludeUnit is the unit being upgraded FROM - it's about to be consumed by the upgrade, so
+   // it shouldn't count against the pool it's upgrading into.
+   if (eExcludeUnit != NO_UNIT && isNationalUnit(eExcludeUnit))
+   {
+   	iChainCount = std::max(0, iChainCount - 1);
+   }
+
+   return (iChainCount + iExtra) >= iMaxUnits;
 }
 
 
