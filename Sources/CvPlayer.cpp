@@ -4638,6 +4638,25 @@ int CvPlayer::countUnimprovedBonuses(const CvArea* pArea, const CvPlot* pFromPlo
 
 		if (eNonObsoleteBonus == NO_BONUS)
 		{
+			// No bonus here, but a feature-only improvement (e.g. harvesting kelp/sea grass)
+			// can still be worth sending a worker for - otherwise water tiles that never carry
+			// a bonus resource would never register any need for sea workers at all.
+			if (pLoopPlot->isWater() && pLoopPlot->getFeatureType() != NO_FEATURE && pLoopPlot->getImprovementType() == NO_IMPROVEMENT
+			&& (!pFromPlot || gDLL->getFAStarIFace()->GeneratePath(&GC.getBorderFinder(), pFromPlot->getX(), pFromPlot->getY(), pLoopPlot->getX(), pLoopPlot->getY(), false, getID(), true)))
+			{
+				for (int iJ = 0; iJ < GC.getNumBuildInfos(); iJ++)
+				{
+					const BuildTypes eBuild = (BuildTypes) iJ;
+					const ImprovementTypes eBuildImprovement = GC.getBuildInfo(eBuild).getImprovement();
+
+					if (eBuildImprovement != NO_IMPROVEMENT
+					&& GC.getImprovementInfo(eBuildImprovement).isRequiresFeature()
+					&& canBuild(pLoopPlot, eBuild))
+					{
+						iCount++;
+					}
+				}
+			}
 			continue;
 		}
 		const ImprovementTypes eImprovement = pLoopPlot->getImprovementType();

@@ -277,7 +277,7 @@ public:
 	bool hurryOverflow(HurryTypes eHurry, int* iProduction, int* iGold, bool bCountThisTurn = false) const;
 
 	UnitTypes getConscriptUnit() const;
-	CvUnit* initConscriptedUnit();
+	CvUnit* initConscriptedUnit(UnitTypes eConscriptUnit = NO_UNIT);
 	int getConscriptPopulation() const;
 	int flatConscriptAngerLength() const;
 	bool canConscript(bool bOnCapture = false) const;

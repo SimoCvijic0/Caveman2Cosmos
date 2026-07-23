@@ -4219,9 +4219,12 @@ bool CvCity::canConscript(bool bOnCapture) const
 	return true;
 }
 
-CvUnit* CvCity::initConscriptedUnit()
+CvUnit* CvCity::initConscriptedUnit(UnitTypes eConscriptUnit)
 {
-	const UnitTypes eConscriptUnit = getConscriptUnit();
+	if (NO_UNIT == eConscriptUnit)
+	{
+		eConscriptUnit = getConscriptUnit();
+	}
 	if (NO_UNIT == eConscriptUnit)
 	{
 		return NULL;
@@ -4270,6 +4273,11 @@ void CvCity::conscript(bool bOnCapture)
 	{
 		return;
 	}
+	// Resolve the unit to draft before any state (population, anger, draft count) changes -
+	// initConscriptedUnit() used to re-resolve this itself after those changes, which could
+	// silently pick a different (or no) unit than what canConscript() just validated, spending
+	// the population for nothing.
+	const UnitTypes eConscriptUnit = getConscriptUnit();
 	const int iNumConscripts = getConscriptPopulation();
 	const int iAngerLength = flatConscriptAngerLength();
 	changePopulation(-1);
@@ -4284,7 +4292,7 @@ void CvCity::conscript(bool bOnCapture)
 
 	for (int i = 0; i < iNumConscripts; i++)
 	{
-		CvUnit* pUnit = initConscriptedUnit();
+		CvUnit* pUnit = initConscriptedUnit(eConscriptUnit);
 		FAssertMsg(pUnit != NULL, "pUnit expected to be assigned (not NULL)");
 
 	}
@@ -19577,7 +19585,10 @@ void CvCity::getBuildQueue(std::vector<std::string>& astrQueue) const
 // ------ BEGIN InfluenceDrivenWar -------------------------------
 void CvCity::emergencyConscript()
 {
-	if (getConscriptUnit() == NO_UNIT)
+	// Resolve once, before population/anger change state that could otherwise cause a second
+	// getConscriptUnit() call to return something different (or NO_UNIT).
+	const UnitTypes eConscriptUnit = getConscriptUnit();
+	if (eConscriptUnit == NO_UNIT)
 	{
 		return;
 	}
@@ -19588,7 +19599,6 @@ void CvCity::emergencyConscript()
 	changeConscriptAngerTimer(flatConscriptAngerLength() * GC.getIDW_EMERGENCY_DRAFT_ANGER_MULTIPLIER() / 100);
 	changePopulation(-1);
 
-	const UnitTypes eConscriptUnit = getConscriptUnit();
 	UnitAITypes eCityAI;
 
 	if (GET_PLAYER(getOwner()).AI_unitValue(eConscriptUnit, UNITAI_CITY_DEFENSE, area()) > 0)
@@ -23240,6 +23250,7 @@ int CvCity::getInvestigationTotal(bool bActual) const
 	if (pPlot != NULL)
 	{
 		CvUnit* pBestUnit = NULL;
+		std::vector<CvUnit*> apInvestigators;
 		foreach_(CvUnit* pLoopUnit, pPlot->units())
 		{
 			if (pLoopUnit->getOwner() == getOwner())
@@ -23255,6 +23266,7 @@ int CvCity::getInvestigationTotal(bool bActual) const
 				{
 					iAssistance++;
 					iFivePercentAssistance += iUnitInvestigation;
+					apInvestigators.push_back(pLoopUnit);
 				}
 			}
 		}
@@ -23262,7 +23274,11 @@ int CvCity::getInvestigationTotal(bool bActual) const
 		{
 			iAssistance--;//To remove the bonus one would give itself.
 			iFivePercentAssistance -= iBestUnitInvestigation;
-			pBestUnit->changeExperience100(5);
+			// Share XP among every investigator that contributed, not just the best one.
+			foreach_(CvUnit* pInvestigator, apInvestigators)
+			{
+				pInvestigator->changeExperience100(5);
+			}
 		}
 	}
 	iFivePercentAssistance /= 20;

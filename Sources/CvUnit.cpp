@@ -2351,6 +2351,7 @@ void CvUnit::resolveCombat(CvUnit* pDefender, CvPlot* pPlot, CvBattleDefinition&
 		iAttackerCombatRoll = GC.getGame().getSorenRandNum(GC.getCOMBAT_DIE_SIDES(), "AttackerCombatRoll");
 		WithdrawalRollResult = GC.getGame().getSorenRandNum(100, "Withdrawal");
 		DefenderWithdrawalRollResult = GC.getGame().getSorenRandNum(100, "DefenderWithdrawal");
+		PursuitRollResult = GC.getGame().getSorenRandNum(100, "Pursuit");
 		//Breakdown attack round?  If so we make the damage the defender would be dealt 0 and the chance of the attcker
 		//hitting absolute so as to get through all normal checks to roll the chance for damaging the defenses while the
 		//unit really does not engage in any counterattack against the defender.
@@ -2547,8 +2548,14 @@ void CvUnit::resolveCombat(CvUnit* pDefender, CvPlot* pPlot, CvBattleDefinition&
 				{
 					if (!bNoFurtherDamagetoDefender)
 					{
+						int iAppliedDefenderDamage = iDefenderDamage;
+						const int iDefenderCombatLimit = combatLimit(pDefender);
+						if (iDefenderCombatLimit < pDefender->getMaxHP())
+						{
+							iAppliedDefenderDamage = std::min(iAppliedDefenderDamage, std::max(0, iDefenderCombatLimit - pDefender->getDamage()));
+						}
 						m_combatResult.bDefenderInjured = true;
-						pDefender->changeDamage(iDefenderDamage, getOwner());
+						pDefender->changeDamage(iAppliedDefenderDamage, getOwner());
 					}
 				}
 				//TB Combat Mods (Afflict) end

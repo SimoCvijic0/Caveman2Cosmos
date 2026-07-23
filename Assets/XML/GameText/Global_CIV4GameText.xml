@@ -15803,6 +15803,10 @@
 		<Russian>[COLOR_NEGATIVE_TEXT]Âû íå ìîæåòå ïðèçâàòü áîëüøå þíèòîâ íà ýòîì õîäó[COLOR_REVERT]</Russian>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_MISC_NO_CONSCRIPT_UNIT_AVAILABLE</Tag>
+		<English>[COLOR_NEGATIVE_TEXT]No unit currently available in this city can be drafted[COLOR_REVERT]</English>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_MISC_NO_PALACE_PENALTY</Tag>
 		<English>No Palace Penalty</English>
 		<French>Aucune pénalité de palais</French>
