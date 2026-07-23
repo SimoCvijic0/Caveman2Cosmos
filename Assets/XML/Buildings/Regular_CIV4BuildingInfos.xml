@@ -4228,6 +4228,12 @@
 			<Civilopedia>TXT_KEY_BUILDING_ALPHAGENDER_PEDIA</Civilopedia>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_ALPHA_MALE</ArtDefineTag>
+			<Properties>
+				<Property>
+					<PropertyType>PROPERTY_FLAMMABILITY</PropertyType>
+					<iPropertyValue>300</iPropertyValue>
+				</Property>
+			</Properties>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>

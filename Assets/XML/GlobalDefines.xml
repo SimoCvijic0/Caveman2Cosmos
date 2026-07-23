@@ -1165,6 +1165,34 @@
 		<iDefineIntVal>8</iDefineIntVal>
 	</Define>
 	<Define>
+		<DefineName>FIRE_EVENT_RAND</DefineName>
+		<iDefineIntVal>1000</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>FIRE_MIN_FLAMMABILITY</DefineName>
+		<iDefineIntVal>5</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>FIRE_MAJOR_FLAMMABILITY</DefineName>
+		<iDefineIntVal>50</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>FIRE_CATASTROPHIC_FLAMMABILITY</DefineName>
+		<iDefineIntVal>100</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>FIRE_MAJOR_CHANCE_PERCENT</DefineName>
+		<iDefineIntVal>30</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>FIRE_CATASTROPHIC_CHANCE_PERCENT</DefineName>
+		<iDefineIntVal>15</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>FIRE_EFFECT_DURATION_TURNS</DefineName>
+		<iDefineIntVal>3</iDefineIntVal>
+	</Define>
+	<Define>
 		<DefineName>PLOT_SIZE</DefineName>
 		<fDefineFloatVal>180.0</fDefineFloatVal>
 	</Define>
